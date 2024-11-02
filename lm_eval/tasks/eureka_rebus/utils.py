@@ -1,5 +1,17 @@
 import re
 
+def doc_to_text_debug(doc) -> str:
+    word_guesses = "\n".join("- [Edificio religioso] = "+d for d in doc['word_guesses'].split(";"))
+    sol_words = "\n".join("11 = "+w for w in doc["solution_words"].split(";"))
+    PROMPT_TEMPLATE = f"""
+    Rimanda il seguente testo una sola volta senza modifiche:
+    {word_guesses}
+    Prima lettura: {doc['first_pass']},
+    {sol_words},
+    Soluzione: {doc['solution']},
+    """
+    return PROMPT_TEMPLATE
+
 def doc_to_text(doc) -> str:
     verbalized_rebus = doc["verbalized_rebus"]
     solution_key = doc["solution_key"]
@@ -120,34 +132,6 @@ def doc_to_text_hints(doc) -> str:
 def doc_to_target(doc):
   return  ""
 
-#def list_fewshot_samples() -> list[dict]:
-#    return [
-##        {
-#            "verbalized_rebus": "AC [Un mollusco nell'insalata di mare] GLI [Lo è l'operaio che lavora in cantiere] S TO [Soldati da trincea]",
-#            "solution_key": "11 2 10",
-#            "few_shot": "1",
-#        },
-#        {
-#            "verbalized_rebus": "[Edificio religioso] G [Lo fa doppio l'opportunista] NP [Poco cortese, severo] NZ [Parente... molto lontana]",
-#            "solution_key": "3 1 6 3 8 2",
-#            "few_shot": "1",
-#        },
-#    ]
-
-#def list_fewshot_samples_hints() -> list[dict]:
-#  return [
- #   {
- #     "verbalized_rebus": "AC [Un mollusco nell'insalata di mare (5)] GLI [Lo è l'operaio che lavora in cantiere (5)] S TO [Soldati da trincea (5)]",
- #     "solution_key": "11 2 10",
-#      "few_shot": "1",
-#    },
-#    {
-#      "verbalized_rebus": "[Edificio religioso (6)] G [Lo fa doppio l'opportunista (5)] NP [Poco cortese, severo (4)] NZ [Parente... molto lontana (3)]",
-#      "solution_key": "3 1 6 3 8 2",
-#      "few_shot": "1",
-#    },
-#  ]
-
 def process_results(doc, results):
   # doc: original doc
   # results[0]: string output of the model
@@ -212,52 +196,45 @@ def process_results(doc, results):
             "solution": Ev areva daam ore,
         }]
     """
-    def get_value_or_empty(list: list, item_idx: int):
-        if len(list) > item_idx:
-            return list[item_idx]
-        return ""
+    
+    ## DEBUG to test with faulty model generation
+    #if len(parsed_generation["word_guesses"]) == 0:
+    #  parsed_generation["word_guesses"] = gold_fields["word_guesses"][:-2] + "kw"
+    #if len(parsed_generation["first_pass"]) == 0:
+    #  parsed_generation["first_pass"] = " ".join(gold_fields["first_pass"].split(" ")[:-2]) + " unic P"
+    ###
 
-    def get_flat_wordlists(field: str, gold: list[dict[str, str]], pred: list[dict[str, str]]) -> float:
-        gold_nested = list(d[field].split(";") if isinstance(d[field], str) else [] for d in gold)
-        pred_nested = list(d[field].split(";") if isinstance(d[field], str) else [] for d in pred)
-        gold_flat = [item for sublist in gold_nested for item in sublist]
-        # Flatten and ensure to keep entries aligned with gold if the number of words is mismatching
-        pred_flat = [
-            get_value_or_empty(pred_nested[entry_idx], item_idx) for entry_idx, entry in enumerate(gold_nested)
-            for item_idx, _ in enumerate(entry)
-        ]
-        assert len(gold_flat) == len(pred_flat)
-        return gold_flat, pred_flat
+    def get_flat_wordlists(field: str, gold: dict[str, str], pred: dict[str, str]) -> float:
+        gold_flat = list(gold[field].split(";") if isinstance(gold[field], str) else [])
+        pred_flat = list(pred[field].split(";") if isinstance(pred[field], str) else [])
+        #assert len(gold_flat) == len(pred_flat[:len(gold_flat)])
+        return gold_flat, pred_flat[:len(gold_flat)]
 
-    def get_words_accuracy(field: str, gold: list[dict[str, str]], pred: list[dict[str, str]]) -> float:
+    def get_words_accuracy(field: str, gold: dict[str, str], pred: dict[str, str]) -> float:
         gold_flat, pred_flat = get_flat_wordlists(field, gold, pred)
         matches = [int(g.lower() == p.lower()) for g, p in zip(gold_flat, pred_flat)]
         return round(sum(matches) / len(matches), 4)
 
-    def get_fulltext_accuracy(field: str, gold: list[dict[str, str]], pred: list[dict[str, str]]) -> float:
-        matches = [
-            int(pred_dic[field].lower() == gold_dic[field].lower()) 
-            for pred_dic, gold_dic in zip(pred, gold)
-        ]
-        return round(sum(matches) / len(matches))
+    def get_fulltext_accuracy(field: str, gold: dict[str, str], pred: dict[str, str]) -> float:
+        return int(pred[field].lower() == gold[field].lower()) 
 
     gold_solution_words_flat, pred_solution_words_flat = get_flat_wordlists("solution_words", gold_fields, parsed_generation)
     solution_length_matches = [int(len(g) == len(p)) for g, p in zip(gold_solution_words_flat, pred_solution_words_flat)]
     
     try:
-      word_guesses_accuracy = get_words_accuracy("word_guesses", gold_fields, parsed_generation),
+      word_guesses_accuracy = get_words_accuracy("word_guesses", gold_fields, parsed_generation)
     except:
       word_guesses_accuracy = 0
     try:
-      first_pass_accuracy= get_fulltext_accuracy("first_pass", gold_fields, parsed_generation),
+      first_pass_accuracy= get_fulltext_accuracy("first_pass", gold_fields, parsed_generation)
     except:
       first_pass_accuracy = 0
     try:
-      solution_words_accuracy= get_words_accuracy("solution_words", gold_fields, parsed_generation),
+      solution_words_accuracy= get_words_accuracy("solution_words", gold_fields, parsed_generation)
     except:
       solution_words_accuracy = 0
     try:
-      solution_words_lengths_accuracy= round(sum(solution_length_matches) / len(solution_length_matches), 4),
+      solution_words_lengths_accuracy= round(sum(solution_length_matches) / len(solution_length_matches), 4)
     except:
       solution_words_lengths_accuracy = 0
     try:
