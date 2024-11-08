@@ -12,3 +12,7 @@ def doc_to_text(doc) -> str:
   doc_to_text += f"\n{Answer_concatenated}"
   doc_to_text += f"\n**La tua scelta**\n"
   return doc_to_text
+
+def preprocess_dataset(dataset: datasets.Dataset) -> datasets.Dataset:
+    dataset = dataset.select([i for i in range(4)])      # selecting 4 rows for DEBUG
+    return dataset

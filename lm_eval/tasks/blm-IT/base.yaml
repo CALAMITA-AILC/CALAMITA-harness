@@ -6,6 +6,7 @@ dataset_name: null
 doc_to_text: !function utils.doc_to_text
 doc_to_choice: ["A", "B", "C", "D", "E", "F", "G", "H"]
 doc_to_target: Correct_option
+process_docs: !function utils.preprocess_dataset
 training_split: null
 validation_split: null
 test_split: test
