@@ -1,3 +1,9 @@
+from sklearn.metrics import f1_score
+import datasets
+import re
+import numpy as np
+from sklearn.preprocessing import MultiLabelBinarizer
+
 def doc_to_text(doc) -> str:
   Context_concatenated= doc['Context_concatenated']
   Answer_concatenated = doc['Answer_concatenated']
@@ -16,3 +22,21 @@ def doc_to_text(doc) -> str:
 def preprocess_dataset(dataset):
     dataset = dataset.select([i for i in range(4)])      # selecting 4 rows for DEBUG
     return dataset
+
+
+# Funzioni passthrough per le metriche f1 da fare con aggregazione
+def f1_score(input):
+    return input
+##
+
+def f1_score_func(y_true, y_pred):
+    return f1_score(y_true, y_pred, average='macro')
+
+# Funzioni di aggregazione che vengono richiamate direttamente dallo YAML [PER IL PROBLEMA BINARIO]
+def f1_score_agg(dati):
+    print(dati)
+    #correct_answers = np.array(["".join(sublist[0]) for sublist in dati])
+    #generations = np.array([extract_first_prem_conc(sublist[1][0]) for sublist in dati])
+    #print (correct_answers)
+    #print (generations)
+    return 1 #f1_score_func(correct_answers,generations)
