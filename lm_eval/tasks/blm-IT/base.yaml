@@ -13,6 +13,6 @@ test_split: test
 output_type: multiple_choice
 metric_list:
   - metric: !function utils.f1_score
-  aggregation: !function utils.f1_score_agg
+    aggregation: !function utils.f1_score_agg
 metadata:
   version: 1.0
