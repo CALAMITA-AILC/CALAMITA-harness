@@ -13,5 +13,6 @@ test_split: test
 output_type: multiple_choice
 metric_list:
   - metric: f1
+  average: weighted
 metadata:
   version: 1.0
