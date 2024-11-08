@@ -36,6 +36,10 @@ def f1_score_func(y_true, y_pred):
 def f1_score_agg(dati):
     correct_answers = np.array(["".join(sublist[0]) for sublist in dati])
     generations = np.array(["".join(sublist[1][0]) for sublist in dati])
+    print()
+    print()
     print (correct_answers)
     print (generations)
+    print()
+    print()
     return f1_score_func(correct_answers,generations)
