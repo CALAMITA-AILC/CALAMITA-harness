@@ -34,6 +34,7 @@ def f1_score_func(y_true, y_pred):
 
 # Funzioni di aggregazione che vengono richiamate direttamente dallo YAML [PER IL PROBLEMA BINARIO]
 def f1_score_agg(dati):
+    print()
     print(dati)
     #correct_answers = np.array(["".join(sublist[0]) for sublist in dati])
     #generations = np.array([extract_first_prem_conc(sublist[1][0]) for sublist in dati])
