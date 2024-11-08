@@ -20,7 +20,7 @@ def doc_to_text(doc) -> str:
   return doc_to_text
 
 def preprocess_dataset(dataset):
-    dataset = dataset.select([i for i in range(4)])      # selecting 4 rows for DEBUG
+    dataset = dataset.select([i for i in range(1)])      # selecting 4 rows for DEBUG
     return dataset
 
 
