@@ -7,6 +7,7 @@ import unicodedata
 import re
 from evaluate import load
 from rouge_score import rouge_scorer
+import traceback 
 ROUGE_SCORER = None
 BERT_SCORER = None
 #      METRIC_LIST = ["harmonicRougeBertScore", "rougeL", "bertScore"]
@@ -35,6 +36,7 @@ def process_results_gen(doc, results):
         else:
             rouge_bert_result=0
     except:
+            traceback.print_exc() 
             rouge_bert_result=0
             rouge_result=0
             bert_result=0

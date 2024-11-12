@@ -5,7 +5,7 @@ import re
 import string
 from collections.abc import Iterable
 from typing import List
-
+from scipy.stats import pearsonr
 import numpy as np
 import sacrebleu
 
@@ -19,8 +19,14 @@ eval_logger = logging.getLogger("lm-eval")
 @register_aggregation("bypass")
 def bypass_agg(arr):
     return 999
-
-
+# BEGIN OF CALAMITA AGGREGATION FUNCTIONS
+@register_aggregation("pearson")
+def pearson(items):
+    unzipped_list = list(zip(*items))
+    golds = unzipped_list[0]
+    preds = unzipped_list[1]
+    return pearsonr(golds, preds)[0]
+# END OF CALAMITA AGGREGATION FUNCTIONS
 @register_aggregation("mean")
 def mean(arr):
     return sum(arr) / len(arr)
@@ -29,7 +35,6 @@ def mean(arr):
 @register_aggregation("median")
 def median(arr):
     return arr[len(arr) // 2]
-
 
 # Certain metrics must be calculated across all documents in a benchmark.
 # We use them as aggregation metrics, paired with no-op passthrough metric fns.
@@ -168,7 +173,14 @@ def acc_norm_fn(items):  # This is a passthrough function
 def acc_mutual_info_fn(items):  # This is a passthrough function
     return items
 
-
+@register_metric(
+    metric="pearson",
+    higher_is_better=True,
+    output_type="multiple_choice",
+    aggregation="pearson",
+)
+def pearson_fn(items):  # This is a passthrough function
+    return items
 ### the code used in the `exact_match_hf_evaluate` function is ported from
 ### https://github.com/huggingface/evaluate/blob/main/metrics/exact_match/exact_match.py
 ### which is under the apache license.

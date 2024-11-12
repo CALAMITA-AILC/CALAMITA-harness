@@ -2,7 +2,7 @@ task: gfg_task_1_2
 dataset_path: json
 dataset_name: null
 dataset_kwargs:
-  data_files: /path/to/data
+  data_files: ../private_data/gfg/GFL-it.jsonl
 test_split: train
 output_type: generate_until
 process_docs: !function utils.process_docs

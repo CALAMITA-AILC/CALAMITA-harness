@@ -11,6 +11,8 @@ Descrizione dei valori:
 3 - La parola è neutra (e.g. un cane tra tanti)
 4 - La parola è lievemente astratta (e.g. un cane è un animale da compagnia)
 5 - La parola è estremamente astratta (e.g. il cane è un mammifero)
+
+Rispondi esclusivamente con il numero scelto senza aggiungere nessuna spiegazione
 """
         prompt = prompt.format(parola=doc["target_token"], frase=doc["text"])
         doc["prompt"] = prompt
@@ -36,6 +38,8 @@ Descrizione dei valori:
 3 - La parola è neutra (e.g. un cane tra tanti)
 4 - La parola è lievemente inclusiva (e.g. un cane è un animale da compagnia)
 5 - La parola è estremamente inclusiva (e.g. il cane è un mammifero)
+
+Rispondi esclusivamente con il numero scelto senza aggiungere nessuna spiegazione
 """
         prompt = prompt.format(parola=doc["target_token"], frase=doc["text"])
         doc["prompt"] = prompt
@@ -48,5 +52,26 @@ Descrizione dei valori:
 
     return ds.map(_helper) # returns back a datasets.Dataset object
 
+'''
+def pearson(input):
+    #a passthrough function for aggregate metrics
+    return input
+def pearson_agg(input):
+    debug_=True
+    from scipy.stats import pearsonr
+    golds = ["".join(sublist[0]) for sublist in input]
+    preds = [sublist[1][0] for sublist in input]
+    if debug_:
+        print("Etichette: \n")
+        print(golds)
+        print("Previsioni: \n")
+        print(preds)
+    #unzipped_list = list(zip(*items))
+    #golds = doc["label"] #PER GPUCCE: IMPORTANTE CONTROLLARE SE È LA LABEL DESIDERATA
+    #preds = generated[0]
+    return pearsonr(golds, preds)[0]
+    
+    #return {"pearson": result}
 # def list_fewshot_samples():
 #     return {}
+'''

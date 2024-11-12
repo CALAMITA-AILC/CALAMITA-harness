@@ -1,7 +1,7 @@
-task: gfg_task_2_1
+task: gfg_task_2_1 
 dataset_path: json
 dataset_kwargs:
-  data_files: /path/to/data
+  data_files: ../private_data/gfg/GFL-it.jsonl
 dataset_name: main
 test_split: train
 output_type: generate_until

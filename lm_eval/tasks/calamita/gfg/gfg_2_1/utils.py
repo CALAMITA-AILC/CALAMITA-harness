@@ -18,7 +18,8 @@ PROMPT_TEMPLATE = """Riformula la seguente frase utilizzando un linguaggio neutr
 [Genere marcato]: {sentence}"""
 
 
-def get_label(entry):
+'''def get_label(entry):
+    *Funzione non più necessaria
     columns = ["list_spans", "rewritten_texts_generico", "rewritten_texts_sovraesteso"]
     if len(entry[columns[0]]) == 0: #list_span empty
         return None
@@ -27,11 +28,19 @@ def get_label(entry):
             return 1 #gendered
         else:
             return 0 #neutral
-
+'''
 
 def process_docs(dataset: datasets.Dataset):
-    dataset = dataset.map(lambda x: {"sentence": PROMPT_TEMPLATE.format(sentence=x["text"]), "label": get_label(x)})
+    file_log=open('gfg.log','a')
+    dataset = dataset.map(lambda x: {"sentence": PROMPT_TEMPLATE.format(sentence=x["text"])})
+    file_log.write(f"Dataset originale {len(dataset)}\n")
     dataset = dataset.filter(lambda x: x["label"] is not None)
+    file_log.write(f"Dataset senza null {len(dataset)}\n")
+    dataset = dataset.filter(lambda x: x["label"] != '')
+    file_log.write(f"Dataset senza null v2 {len(dataset)}\n")
+    dataset = dataset.filter(lambda x: int(x["label"]) != 1)
+    file_log.write(f"Dataset senza null e label!=1 {len(dataset)}\n")
+    file_log.close()
     return dataset
 
 
@@ -68,7 +77,7 @@ def acc_gente(predictions, references):
 
     new_label = torch.argmax(probs, dim=1).item()
      
-    if int(references[0]) == new_label:
+    if 0 == new_label:
         return 1
     else:
         return 0

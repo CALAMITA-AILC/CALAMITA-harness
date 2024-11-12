@@ -3,7 +3,7 @@ tag:
 dataset_path: json
 dataset_name: null
 dataset_kwargs:
-  data_files: lm_eval/tasks/ita-sense/with_translation/test-it-ft.data.gen.jsonl
+  data_files: ../private_data/ita-sense/with_translation/test-it-tt.data.gen.jsonl
 test_split: train
 task: ita-sense-gen-with-translation
 doc_to_text: "{{instruction}} Input\u0003 '{{input}}'"
