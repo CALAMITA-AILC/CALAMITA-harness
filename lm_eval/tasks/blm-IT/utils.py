@@ -26,20 +26,33 @@ def preprocess_dataset(dataset):
 
 # Funzioni passthrough per le metriche f1 da fare con aggregazione
 def f1_score(input):
-    return input
+  f1_score_func()
 ##
 
+def process_results(doc, results):
+  # doc: original doc
+  # results[0]: string output of the model
+  print(doc)
+  print(results[0])
+   
+
 def f1_score_func(y_true, y_pred):
-    return f1_score(y_true, y_pred, average='macro')
+    return f1_score(y_true, y_pred, labels=["A", "B", "C", "D", "E", "F", "G", "H"] ,average='macro')
 
 # Funzioni di aggregazione che vengono richiamate direttamente dallo YAML [PER IL PROBLEMA BINARIO]
-def f1_score_agg(dati):
+def f1_score_agg2(dati):
     correct_answers = np.array(["".join(sublist[0]) for sublist in dati])
     generations = np.array(["".join(sublist[1][0]) for sublist in dati])
-    print()
-    print()
-    print(correct_answers)
-    print(generations)
-    print()
-    print()
+    print("!!!!")
+    print("!!!")
+    print(dati)
+    print("!!!")
+    print("!!!")
     return f1_score_func(correct_answers,generations)
+
+def f1_score_agg(items):
+  unzipped_list = list(zip(*items))
+  golds = unzipped_list[0]
+  preds = unzipped_list[1]
+  fscore = f1_score(golds, preds, average="macro")
+  return fscore

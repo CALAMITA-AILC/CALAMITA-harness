@@ -9,10 +9,12 @@ doc_to_choice: ["A", "B", "C", "D", "E", "F", "G", "H"]
 doc_to_target: Correct_option
 training_split: null
 validation_split: null
+process_results: !function utils.process_results
 test_split: test
 output_type: multiple_choice
 metric_list:
   - metric: !function utils.f1_score
     aggregation: !function utils.f1_score_agg
+    higher_is_better: true
 metadata:
   version: 1.0
