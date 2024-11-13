@@ -4,7 +4,6 @@ tag:
 dataset_path: json
 dataset_name: null
 doc_to_text: !function utils.doc_to_text
-process_docs: !function utils.preprocess_dataset
 doc_to_choice: ["A", "B", "C", "D", "E", "F", "G", "H"]
 doc_to_target: Correct_option
 training_split: null
