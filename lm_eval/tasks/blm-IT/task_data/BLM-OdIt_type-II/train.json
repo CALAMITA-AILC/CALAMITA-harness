@@ -1,0 +1,2162 @@
+[
+  {
+    "ID": 215,
+    "Context": [
+      "1\tle pittrici possono disegnare delle forme in meno di due giorni",
+      "2\tle artiste possono disegnare delle rappresentazioni artistiche da un mese",
+      "3\talcune coreografie sono disegnate dalle pittrici nel salone espositivo",
+      "4\tdelle rappresentazioni artistiche devono poter essere disegnate da queste studentesse da un mese",
+      "5\talcune coreografie devono essere disegnate con pochi mezzi economici",
+      "6\tle scenografie devono essere disegnate da pochi mesi",
+      "7\tle pittrici devono disegnare nel salone espositivo"
+    ],
+    "Context_concatenated": "1\tle pittrici possono disegnare delle forme in meno di due giorni\n2\tle artiste possono disegnare delle rappresentazioni artistiche da un mese\n3\talcune coreografie sono disegnate dalle pittrici nel salone espositivo\n4\tdelle rappresentazioni artistiche devono poter essere disegnate da queste studentesse da un mese\n5\talcune coreografie devono essere disegnate con pochi mezzi economici\n6\tle scenografie devono essere disegnate da pochi mesi\n7\tle pittrici devono disegnare nel salone espositivo",
+    "Answer_set": [
+      "A\tdelle forme devono poter disegnare da pochi mesi",
+      "B\tdelle rappresentazioni artistiche devono poter disegnare le sue allieve",
+      "C\tle artiste devono poter disegnare da alcune coreografie",
+      "D\tle sue allieve devono essere disegnate da delle rappresentazioni artistiche",
+      "E\tle scenografie devono essere disegnate dalle sue allieve",
+      "F\tle pittrici possono disegnare da un anno circa",
+      "G\tdelle rappresentazioni artistiche devono disegnare dalle artiste",
+      "H\tle pittrici possono disegnare le scenografie"
+    ],
+    "Answer_concatenated": "A\tdelle forme devono poter disegnare da pochi mesi\nB\tdelle rappresentazioni artistiche devono poter disegnare le sue allieve\nC\tle artiste devono poter disegnare da alcune coreografie\nD\tle sue allieve devono essere disegnate da delle rappresentazioni artistiche\nE\tle scenografie devono essere disegnate dalle sue allieve\nF\tle pittrici possono disegnare da un anno circa\nG\tdelle rappresentazioni artistiche devono disegnare dalle artiste\nH\tle pittrici possono disegnare le scenografie",
+    "Correct_option": "F",
+    "Correct_answer": "le pittrici possono disegnare da un anno circa",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 186,
+    "Context": [
+      "1\tle artiste disegnano delle rappresentazioni artistiche in meno di due giorni",
+      "2\tle sue allieve disegnarono delle forme da un anno circa",
+      "3\tdelle rappresentazioni artistiche possono essere disegnate dalle artiste in meno di due giorni",
+      "4\talcune coreografie sono disegnate da queste studentesse da un mese",
+      "5\tdelle forme sono disegnate in vista della serata",
+      "6\tdelle forme devono essere disegnate da un mese",
+      "7\tle pittrici devono poter disegnare con pochi mezzi economici"
+    ],
+    "Context_concatenated": "1\tle artiste disegnano delle rappresentazioni artistiche in meno di due giorni\n2\tle sue allieve disegnarono delle forme da un anno circa\n3\tdelle rappresentazioni artistiche possono essere disegnate dalle artiste in meno di due giorni\n4\talcune coreografie sono disegnate da queste studentesse da un mese\n5\tdelle forme sono disegnate in vista della serata\n6\tdelle forme devono essere disegnate da un mese\n7\tle pittrici devono poter disegnare con pochi mezzi economici",
+    "Answer_set": [
+      "A\tqueste studentesse possono disegnare da un anno circa",
+      "B\talcune coreografie possono disegnare queste studentesse",
+      "C\tle sue allieve disegnano alcune coreografie",
+      "D\tdelle forme devono poter essere disegnate da queste studentesse",
+      "E\tle scenografie disegnano da queste studentesse",
+      "F\tle artiste devono disegnare dalle scenografie",
+      "G\tle pittrici sono disegnate da delle rappresentazioni artistiche",
+      "H\talcune coreografie devono poter disegnare da un mese"
+    ],
+    "Answer_concatenated": "A\tqueste studentesse possono disegnare da un anno circa\nB\talcune coreografie possono disegnare queste studentesse\nC\tle sue allieve disegnano alcune coreografie\nD\tdelle forme devono poter essere disegnate da queste studentesse\nE\tle scenografie disegnano da queste studentesse\nF\tle artiste devono disegnare dalle scenografie\nG\tle pittrici sono disegnate da delle rappresentazioni artistiche\nH\talcune coreografie devono poter disegnare da un mese",
+    "Correct_option": "A",
+    "Correct_answer": "queste studentesse possono disegnare da un anno circa",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 169,
+    "Context": [
+      "1\tle sue allieve devono disegnare le scenografie in meno di due giorni",
+      "2\tqueste studentesse devono disegnare alcune coreografie da sole",
+      "3\talcune coreografie possono essere disegnate dalle pittrici con pochi mezzi economici",
+      "4\tdelle forme devono essere disegnate dalle artiste da sole",
+      "5\tle scenografie devono essere disegnate con pochi mezzi economici",
+      "6\tdelle rappresentazioni artistiche devono poter essere disegnate da un anno circa",
+      "7\tle artiste possono disegnare in vista della serata"
+    ],
+    "Context_concatenated": "1\tle sue allieve devono disegnare le scenografie in meno di due giorni\n2\tqueste studentesse devono disegnare alcune coreografie da sole\n3\talcune coreografie possono essere disegnate dalle pittrici con pochi mezzi economici\n4\tdelle forme devono essere disegnate dalle artiste da sole\n5\tle scenografie devono essere disegnate con pochi mezzi economici\n6\tdelle rappresentazioni artistiche devono poter essere disegnate da un anno circa\n7\tle artiste possono disegnare in vista della serata",
+    "Answer_set": [
+      "A\tqueste studentesse possono essere disegnate da alcune coreografie",
+      "B\tdelle forme disegnarono da un mese",
+      "C\tle pittrici devono poter disegnare delle rappresentazioni artistiche",
+      "D\tle sue allieve devono disegnare da delle forme",
+      "E\tle sue allieve disegnano da pochi mesi",
+      "F\tdelle forme devono poter disegnare dalle artiste",
+      "G\tdelle rappresentazioni artistiche devono essere disegnate dalle artiste",
+      "H\tdelle rappresentazioni artistiche possono disegnare le pittrici"
+    ],
+    "Answer_concatenated": "A\tqueste studentesse possono essere disegnate da alcune coreografie\nB\tdelle forme disegnarono da un mese\nC\tle pittrici devono poter disegnare delle rappresentazioni artistiche\nD\tle sue allieve devono disegnare da delle forme\nE\tle sue allieve disegnano da pochi mesi\nF\tdelle forme devono poter disegnare dalle artiste\nG\tdelle rappresentazioni artistiche devono essere disegnate dalle artiste\nH\tdelle rappresentazioni artistiche possono disegnare le pittrici",
+    "Correct_option": "E",
+    "Correct_answer": "le sue allieve disegnano da pochi mesi",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 220,
+    "Context": [
+      "1\tle pittrici disegnarono alcune coreografie in vista della serata",
+      "2\tqueste studentesse disegnano delle rappresentazioni artistiche da un anno circa",
+      "3\tdelle forme furono disegnate dalle pittrici con pochi mezzi economici",
+      "4\tdelle forme devono poter essere disegnate dalle artiste da un anno circa",
+      "5\tdelle rappresentazioni artistiche devono essere disegnate con pochi mezzi economici",
+      "6\tdelle rappresentazioni artistiche furono disegnate da sole",
+      "7\tle artiste disegnarono in vista della serata"
+    ],
+    "Context_concatenated": "1\tle pittrici disegnarono alcune coreografie in vista della serata\n2\tqueste studentesse disegnano delle rappresentazioni artistiche da un anno circa\n3\tdelle forme furono disegnate dalle pittrici con pochi mezzi economici\n4\tdelle forme devono poter essere disegnate dalle artiste da un anno circa\n5\tdelle rappresentazioni artistiche devono essere disegnate con pochi mezzi economici\n6\tdelle rappresentazioni artistiche furono disegnate da sole\n7\tle artiste disegnarono in vista della serata",
+    "Answer_set": [
+      "A\tdelle forme disegnarono le artiste",
+      "B\tle scenografie devono essere disegnate dalle artiste",
+      "C\talcune coreografie devono disegnare da pochi mesi",
+      "D\tle pittrici devono disegnare dalle scenografie",
+      "E\talcune coreografie devono disegnare da queste studentesse",
+      "F\tle artiste disegnarono alcune coreografie",
+      "G\tqueste studentesse possono disegnare da pochi mesi",
+      "H\tle artiste possono essere disegnate da alcune coreografie"
+    ],
+    "Answer_concatenated": "A\tdelle forme disegnarono le artiste\nB\tle scenografie devono essere disegnate dalle artiste\nC\talcune coreografie devono disegnare da pochi mesi\nD\tle pittrici devono disegnare dalle scenografie\nE\talcune coreografie devono disegnare da queste studentesse\nF\tle artiste disegnarono alcune coreografie\nG\tqueste studentesse possono disegnare da pochi mesi\nH\tle artiste possono essere disegnate da alcune coreografie",
+    "Correct_option": "G",
+    "Correct_answer": "queste studentesse possono disegnare da pochi mesi",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 178,
+    "Context": [
+      "1\tle artiste disegnano delle forme con pochi mezzi economici",
+      "2\tle artiste devono disegnare delle forme da sole",
+      "3\tle scenografie devono essere disegnate dalle sue allieve in meno di due giorni",
+      "4\tdelle forme furono disegnate dalle pittrici da un mese",
+      "5\tdelle forme devono essere disegnate con pochi mezzi economici",
+      "6\tle scenografie possono essere disegnate da un mese",
+      "7\tqueste studentesse devono disegnare con pochi mezzi economici"
+    ],
+    "Context_concatenated": "1\tle artiste disegnano delle forme con pochi mezzi economici\n2\tle artiste devono disegnare delle forme da sole\n3\tle scenografie devono essere disegnate dalle sue allieve in meno di due giorni\n4\tdelle forme furono disegnate dalle pittrici da un mese\n5\tdelle forme devono essere disegnate con pochi mezzi economici\n6\tle scenografie possono essere disegnate da un mese\n7\tqueste studentesse devono disegnare con pochi mezzi economici",
+    "Answer_set": [
+      "A\tle sue allieve possono essere disegnate da delle forme",
+      "B\tle pittrici devono poter disegnare da pochi mesi",
+      "C\tle sue allieve possono disegnare da alcune coreografie",
+      "D\tle scenografie possono essere disegnate dalle pittrici",
+      "E\tle sue allieve disegnammo delle rappresentazioni artistiche",
+      "F\tdelle rappresentazioni artistiche possono disegnare dalle pittrici",
+      "G\tle scenografie disegnammo da un mese",
+      "H\talcune coreografie devono poter disegnare le sue allieve"
+    ],
+    "Answer_concatenated": "A\tle sue allieve possono essere disegnate da delle forme\nB\tle pittrici devono poter disegnare da pochi mesi\nC\tle sue allieve possono disegnare da alcune coreografie\nD\tle scenografie possono essere disegnate dalle pittrici\nE\tle sue allieve disegnammo delle rappresentazioni artistiche\nF\tdelle rappresentazioni artistiche possono disegnare dalle pittrici\nG\tle scenografie disegnammo da un mese\nH\talcune coreografie devono poter disegnare le sue allieve",
+    "Correct_option": "B",
+    "Correct_answer": "le pittrici devono poter disegnare da pochi mesi",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 206,
+    "Context": [
+      "1\tle pittrici possono disegnare alcune coreografie con pochi mezzi economici",
+      "2\tle artiste disegnano delle forme da un mese",
+      "3\talcune coreografie furono disegnate dalle artiste nel salone espositivo",
+      "4\tle scenografie furono disegnate dalle pittrici da sole",
+      "5\tdelle rappresentazioni artistiche possono essere disegnate nel salone espositivo",
+      "6\tdelle rappresentazioni artistiche furono disegnate da un anno circa",
+      "7\tle artiste disegnano con pochi mezzi economici"
+    ],
+    "Context_concatenated": "1\tle pittrici possono disegnare alcune coreografie con pochi mezzi economici\n2\tle artiste disegnano delle forme da un mese\n3\talcune coreografie furono disegnate dalle artiste nel salone espositivo\n4\tle scenografie furono disegnate dalle pittrici da sole\n5\tdelle rappresentazioni artistiche possono essere disegnate nel salone espositivo\n6\tdelle rappresentazioni artistiche furono disegnate da un anno circa\n7\tle artiste disegnano con pochi mezzi economici",
+    "Answer_set": [
+      "A\tqueste studentesse possono disegnare da alcune coreografie",
+      "B\talcune coreografie possono disegnare da queste studentesse",
+      "C\talcune coreografie possono disegnare da sole",
+      "D\tle artiste devono essere disegnate da delle forme",
+      "E\tle pittrici devono disegnare alcune coreografie",
+      "F\talcune coreografie devono disegnare queste studentesse",
+      "G\tdelle forme devono poter essere disegnate dalle artiste",
+      "H\tle pittrici devono poter disegnare da pochi mesi"
+    ],
+    "Answer_concatenated": "A\tqueste studentesse possono disegnare da alcune coreografie\nB\talcune coreografie possono disegnare da queste studentesse\nC\talcune coreografie possono disegnare da sole\nD\tle artiste devono essere disegnate da delle forme\nE\tle pittrici devono disegnare alcune coreografie\nF\talcune coreografie devono disegnare queste studentesse\nG\tdelle forme devono poter essere disegnate dalle artiste\nH\tle pittrici devono poter disegnare da pochi mesi",
+    "Correct_option": "H",
+    "Correct_answer": "le pittrici devono poter disegnare da pochi mesi",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 193,
+    "Context": [
+      "1\tle artiste disegnammo le scenografie in vista della serata",
+      "2\tle artiste devono poter disegnare alcune coreografie da un mese",
+      "3\tdelle forme devono poter essere disegnate dalle pittrici in vista della serata",
+      "4\talcune coreografie devono poter essere disegnate dalle pittrici da sole",
+      "5\tle scenografie furono disegnate in vista della serata",
+      "6\tdelle forme devono essere disegnate da pochi mesi",
+      "7\tle artiste devono disegnare in meno di due giorni"
+    ],
+    "Context_concatenated": "1\tle artiste disegnammo le scenografie in vista della serata\n2\tle artiste devono poter disegnare alcune coreografie da un mese\n3\tdelle forme devono poter essere disegnate dalle pittrici in vista della serata\n4\talcune coreografie devono poter essere disegnate dalle pittrici da sole\n5\tle scenografie furono disegnate in vista della serata\n6\tdelle forme devono essere disegnate da pochi mesi\n7\tle artiste devono disegnare in meno di due giorni",
+    "Answer_set": [
+      "A\tdelle rappresentazioni artistiche devono poter disegnare da un mese",
+      "B\tle artiste possono disegnare da un mese",
+      "C\tdelle rappresentazioni artistiche disegnano le pittrici",
+      "D\talcune coreografie sono disegnate da queste studentesse",
+      "E\tqueste studentesse possono disegnare alcune coreografie",
+      "F\tdelle rappresentazioni artistiche disegnano dalle artiste",
+      "G\tle pittrici possono disegnare da delle forme",
+      "H\tqueste studentesse possono essere disegnate dalle scenografie"
+    ],
+    "Answer_concatenated": "A\tdelle rappresentazioni artistiche devono poter disegnare da un mese\nB\tle artiste possono disegnare da un mese\nC\tdelle rappresentazioni artistiche disegnano le pittrici\nD\talcune coreografie sono disegnate da queste studentesse\nE\tqueste studentesse possono disegnare alcune coreografie\nF\tdelle rappresentazioni artistiche disegnano dalle artiste\nG\tle pittrici possono disegnare da delle forme\nH\tqueste studentesse possono essere disegnate dalle scenografie",
+    "Correct_option": "B",
+    "Correct_answer": "le artiste possono disegnare da un mese",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 184,
+    "Context": [
+      "1\tle sue allieve devono disegnare alcune coreografie con pochi mezzi economici",
+      "2\tle sue allieve disegnammo delle rappresentazioni artistiche da un anno circa",
+      "3\tdelle rappresentazioni artistiche sono disegnate da queste studentesse in vista della serata",
+      "4\tdelle rappresentazioni artistiche furono disegnate da queste studentesse da sole",
+      "5\tdelle rappresentazioni artistiche devono essere disegnate in vista della serata",
+      "6\tdelle forme furono disegnate da sole",
+      "7\tle pittrici disegnano in meno di due giorni"
+    ],
+    "Context_concatenated": "1\tle sue allieve devono disegnare alcune coreografie con pochi mezzi economici\n2\tle sue allieve disegnammo delle rappresentazioni artistiche da un anno circa\n3\tdelle rappresentazioni artistiche sono disegnate da queste studentesse in vista della serata\n4\tdelle rappresentazioni artistiche furono disegnate da queste studentesse da sole\n5\tdelle rappresentazioni artistiche devono essere disegnate in vista della serata\n6\tdelle forme furono disegnate da sole\n7\tle pittrici disegnano in meno di due giorni",
+    "Answer_set": [
+      "A\tle pittrici possono essere disegnate dalle scenografie",
+      "B\tle artiste possono disegnare da alcune coreografie",
+      "C\tle sue allieve disegnarono da pochi mesi",
+      "D\talcune coreografie disegnarono dalle pittrici",
+      "E\tle artiste possono disegnare le scenografie",
+      "F\tdelle forme sono disegnate dalle artiste",
+      "G\tle scenografie disegnammo da pochi mesi",
+      "H\tle scenografie possono disegnare le pittrici"
+    ],
+    "Answer_concatenated": "A\tle pittrici possono essere disegnate dalle scenografie\nB\tle artiste possono disegnare da alcune coreografie\nC\tle sue allieve disegnarono da pochi mesi\nD\talcune coreografie disegnarono dalle pittrici\nE\tle artiste possono disegnare le scenografie\nF\tdelle forme sono disegnate dalle artiste\nG\tle scenografie disegnammo da pochi mesi\nH\tle scenografie possono disegnare le pittrici",
+    "Correct_option": "C",
+    "Correct_answer": "le sue allieve disegnarono da pochi mesi",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 238,
+    "Context": [
+      "1\tqueste studentesse disegnammo delle rappresentazioni artistiche nel salone espositivo",
+      "2\tle sue allieve disegnarono alcune coreografie da pochi mesi",
+      "3\tle scenografie sono disegnate da queste studentesse in vista della serata",
+      "4\tdelle rappresentazioni artistiche sono disegnate dalle pittrici da sole",
+      "5\talcune coreografie possono essere disegnate in vista della serata",
+      "6\tdelle rappresentazioni artistiche devono poter essere disegnate da un mese",
+      "7\tqueste studentesse possono disegnare nel salone espositivo"
+    ],
+    "Context_concatenated": "1\tqueste studentesse disegnammo delle rappresentazioni artistiche nel salone espositivo\n2\tle sue allieve disegnarono alcune coreografie da pochi mesi\n3\tle scenografie sono disegnate da queste studentesse in vista della serata\n4\tdelle rappresentazioni artistiche sono disegnate dalle pittrici da sole\n5\talcune coreografie possono essere disegnate in vista della serata\n6\tdelle rappresentazioni artistiche devono poter essere disegnate da un mese\n7\tqueste studentesse possono disegnare nel salone espositivo",
+    "Answer_set": [
+      "A\tdelle forme possono disegnare le artiste",
+      "B\tdelle rappresentazioni artistiche disegnammo dalle sue allieve",
+      "C\tdelle rappresentazioni artistiche possono essere disegnate da queste studentesse",
+      "D\tle pittrici furono disegnate dalle scenografie",
+      "E\talcune coreografie devono poter disegnare da sole",
+      "F\tle pittrici disegnammo da un mese",
+      "G\tle artiste possono disegnare alcune coreografie",
+      "H\tle pittrici disegnano dalle scenografie"
+    ],
+    "Answer_concatenated": "A\tdelle forme possono disegnare le artiste\nB\tdelle rappresentazioni artistiche disegnammo dalle sue allieve\nC\tdelle rappresentazioni artistiche possono essere disegnate da queste studentesse\nD\tle pittrici furono disegnate dalle scenografie\nE\talcune coreografie devono poter disegnare da sole\nF\tle pittrici disegnammo da un mese\nG\tle artiste possono disegnare alcune coreografie\nH\tle pittrici disegnano dalle scenografie",
+    "Correct_option": "F",
+    "Correct_answer": "le pittrici disegnammo da un mese",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 231,
+    "Context": [
+      "1\tle pittrici devono disegnare delle rappresentazioni artistiche in vista della serata",
+      "2\tle sue allieve disegnammo le scenografie da pochi mesi",
+      "3\tle scenografie devono essere disegnate dalle artiste in meno di due giorni",
+      "4\tdelle forme devono poter essere disegnate dalle pittrici da pochi mesi",
+      "5\tdelle rappresentazioni artistiche devono essere disegnate in meno di due giorni",
+      "6\tle scenografie sono disegnate da un mese",
+      "7\tle pittrici disegnarono in vista della serata"
+    ],
+    "Context_concatenated": "1\tle pittrici devono disegnare delle rappresentazioni artistiche in vista della serata\n2\tle sue allieve disegnammo le scenografie da pochi mesi\n3\tle scenografie devono essere disegnate dalle artiste in meno di due giorni\n4\tdelle forme devono poter essere disegnate dalle pittrici da pochi mesi\n5\tdelle rappresentazioni artistiche devono essere disegnate in meno di due giorni\n6\tle scenografie sono disegnate da un mese\n7\tle pittrici disegnarono in vista della serata",
+    "Answer_set": [
+      "A\tle sue allieve devono poter essere disegnate da delle forme",
+      "B\talcune coreografie disegnano da un mese",
+      "C\tdelle rappresentazioni artistiche disegnano dalle pittrici",
+      "D\tdelle rappresentazioni artistiche devono poter essere disegnate da queste studentesse",
+      "E\tle scenografie possono disegnare le artiste",
+      "F\tqueste studentesse possono disegnare delle forme",
+      "G\tle artiste devono disegnare da sole",
+      "H\tqueste studentesse disegnarono da delle forme"
+    ],
+    "Answer_concatenated": "A\tle sue allieve devono poter essere disegnate da delle forme\nB\talcune coreografie disegnano da un mese\nC\tdelle rappresentazioni artistiche disegnano dalle pittrici\nD\tdelle rappresentazioni artistiche devono poter essere disegnate da queste studentesse\nE\tle scenografie possono disegnare le artiste\nF\tqueste studentesse possono disegnare delle forme\nG\tle artiste devono disegnare da sole\nH\tqueste studentesse disegnarono da delle forme",
+    "Correct_option": "G",
+    "Correct_answer": "le artiste devono disegnare da sole",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 213,
+    "Context": [
+      "1\tqueste studentesse devono poter disegnare delle forme con pochi mezzi economici",
+      "2\tqueste studentesse possono disegnare alcune coreografie da pochi mesi",
+      "3\tdelle rappresentazioni artistiche furono disegnate dalle sue allieve in vista della serata",
+      "4\talcune coreografie furono disegnate dalle sue allieve da pochi mesi",
+      "5\tle scenografie sono disegnate in meno di due giorni",
+      "6\tdelle forme sono disegnate da un mese",
+      "7\tle sue allieve devono poter disegnare nel salone espositivo"
+    ],
+    "Context_concatenated": "1\tqueste studentesse devono poter disegnare delle forme con pochi mezzi economici\n2\tqueste studentesse possono disegnare alcune coreografie da pochi mesi\n3\tdelle rappresentazioni artistiche furono disegnate dalle sue allieve in vista della serata\n4\talcune coreografie furono disegnate dalle sue allieve da pochi mesi\n5\tle scenografie sono disegnate in meno di due giorni\n6\tdelle forme sono disegnate da un mese\n7\tle sue allieve devono poter disegnare nel salone espositivo",
+    "Answer_set": [
+      "A\tle artiste disegnano da un mese",
+      "B\tle scenografie disegnammo da sole",
+      "C\tqueste studentesse possono essere disegnate da delle forme",
+      "D\tqueste studentesse disegnano da delle forme",
+      "E\tqueste studentesse devono disegnare alcune coreografie",
+      "F\tdelle rappresentazioni artistiche possono disegnare da queste studentesse",
+      "G\tle scenografie devono disegnare le sue allieve",
+      "H\tle scenografie devono poter essere disegnate da queste studentesse"
+    ],
+    "Answer_concatenated": "A\tle artiste disegnano da un mese\nB\tle scenografie disegnammo da sole\nC\tqueste studentesse possono essere disegnate da delle forme\nD\tqueste studentesse disegnano da delle forme\nE\tqueste studentesse devono disegnare alcune coreografie\nF\tdelle rappresentazioni artistiche possono disegnare da queste studentesse\nG\tle scenografie devono disegnare le sue allieve\nH\tle scenografie devono poter essere disegnate da queste studentesse",
+    "Correct_option": "A",
+    "Correct_answer": "le artiste disegnano da un mese",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 222,
+    "Context": [
+      "1\tqueste studentesse disegnano delle rappresentazioni artistiche in vista della serata",
+      "2\tle pittrici devono disegnare alcune coreografie da un mese",
+      "3\talcune coreografie devono essere disegnate da queste studentesse in vista della serata",
+      "4\tle scenografie devono poter essere disegnate dalle sue allieve da pochi mesi",
+      "5\talcune coreografie devono poter essere disegnate nel salone espositivo",
+      "6\tdelle rappresentazioni artistiche possono essere disegnate da sole",
+      "7\tle sue allieve disegnano in vista della serata"
+    ],
+    "Context_concatenated": "1\tqueste studentesse disegnano delle rappresentazioni artistiche in vista della serata\n2\tle pittrici devono disegnare alcune coreografie da un mese\n3\talcune coreografie devono essere disegnate da queste studentesse in vista della serata\n4\tle scenografie devono poter essere disegnate dalle sue allieve da pochi mesi\n5\talcune coreografie devono poter essere disegnate nel salone espositivo\n6\tdelle rappresentazioni artistiche possono essere disegnate da sole\n7\tle sue allieve disegnano in vista della serata",
+    "Answer_set": [
+      "A\tqueste studentesse devono disegnare da sole",
+      "B\talcune coreografie disegnarono dalle sue allieve",
+      "C\tdelle rappresentazioni artistiche disegnammo le sue allieve",
+      "D\tle pittrici devono poter essere disegnate da alcune coreografie",
+      "E\tle pittrici disegnammo le scenografie",
+      "F\tdelle rappresentazioni artistiche devono disegnare da un anno circa",
+      "G\talcune coreografie devono essere disegnate da queste studentesse",
+      "H\tqueste studentesse devono poter disegnare da alcune coreografie"
+    ],
+    "Answer_concatenated": "A\tqueste studentesse devono disegnare da sole\nB\talcune coreografie disegnarono dalle sue allieve\nC\tdelle rappresentazioni artistiche disegnammo le sue allieve\nD\tle pittrici devono poter essere disegnate da alcune coreografie\nE\tle pittrici disegnammo le scenografie\nF\tdelle rappresentazioni artistiche devono disegnare da un anno circa\nG\talcune coreografie devono essere disegnate da queste studentesse\nH\tqueste studentesse devono poter disegnare da alcune coreografie",
+    "Correct_option": "A",
+    "Correct_answer": "queste studentesse devono disegnare da sole",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 235,
+    "Context": [
+      "1\tqueste studentesse disegnarono delle forme in meno di due giorni",
+      "2\tle pittrici disegnano delle rappresentazioni artistiche da sole",
+      "3\tle scenografie possono essere disegnate dalle artiste con pochi mezzi economici",
+      "4\talcune coreografie sono disegnate dalle artiste da un anno circa",
+      "5\tdelle forme furono disegnate con pochi mezzi economici",
+      "6\talcune coreografie devono poter essere disegnate da un mese",
+      "7\tle pittrici disegnarono con pochi mezzi economici"
+    ],
+    "Context_concatenated": "1\tqueste studentesse disegnarono delle forme in meno di due giorni\n2\tle pittrici disegnano delle rappresentazioni artistiche da sole\n3\tle scenografie possono essere disegnate dalle artiste con pochi mezzi economici\n4\talcune coreografie sono disegnate dalle artiste da un anno circa\n5\tdelle forme furono disegnate con pochi mezzi economici\n6\talcune coreografie devono poter essere disegnate da un mese\n7\tle pittrici disegnarono con pochi mezzi economici",
+    "Answer_set": [
+      "A\talcune coreografie devono disegnare dalle artiste",
+      "B\tle pittrici possono disegnare dalle scenografie",
+      "C\tqueste studentesse sono disegnate dalle scenografie",
+      "D\tdelle rappresentazioni artistiche sono disegnate dalle artiste",
+      "E\tdelle forme disegnano queste studentesse",
+      "F\talcune coreografie disegnarono da un anno circa",
+      "G\tle sue allieve possono disegnare alcune coreografie",
+      "H\tle pittrici devono disegnare da un mese"
+    ],
+    "Answer_concatenated": "A\talcune coreografie devono disegnare dalle artiste\nB\tle pittrici possono disegnare dalle scenografie\nC\tqueste studentesse sono disegnate dalle scenografie\nD\tdelle rappresentazioni artistiche sono disegnate dalle artiste\nE\tdelle forme disegnano queste studentesse\nF\talcune coreografie disegnarono da un anno circa\nG\tle sue allieve possono disegnare alcune coreografie\nH\tle pittrici devono disegnare da un mese",
+    "Correct_option": "H",
+    "Correct_answer": "le pittrici devono disegnare da un mese",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 199,
+    "Context": [
+      "1\tle sue allieve possono disegnare delle rappresentazioni artistiche con pochi mezzi economici",
+      "2\tqueste studentesse disegnano delle forme da un anno circa",
+      "3\talcune coreografie possono essere disegnate dalle sue allieve nel salone espositivo",
+      "4\tdelle rappresentazioni artistiche devono poter essere disegnate dalle artiste da un anno circa",
+      "5\talcune coreografie devono poter essere disegnate con pochi mezzi economici",
+      "6\tdelle rappresentazioni artistiche furono disegnate da pochi mesi",
+      "7\tle pittrici devono poter disegnare in vista della serata"
+    ],
+    "Context_concatenated": "1\tle sue allieve possono disegnare delle rappresentazioni artistiche con pochi mezzi economici\n2\tqueste studentesse disegnano delle forme da un anno circa\n3\talcune coreografie possono essere disegnate dalle sue allieve nel salone espositivo\n4\tdelle rappresentazioni artistiche devono poter essere disegnate dalle artiste da un anno circa\n5\talcune coreografie devono poter essere disegnate con pochi mezzi economici\n6\tdelle rappresentazioni artistiche furono disegnate da pochi mesi\n7\tle pittrici devono poter disegnare in vista della serata",
+    "Answer_set": [
+      "A\tle scenografie possono disegnare dalle artiste",
+      "B\tqueste studentesse disegnano da un anno circa",
+      "C\tle artiste devono essere disegnate da delle rappresentazioni artistiche",
+      "D\talcune coreografie possono disegnare da un anno circa",
+      "E\tdelle forme devono disegnare le sue allieve",
+      "F\tle scenografie possono essere disegnate dalle artiste",
+      "G\tle pittrici devono disegnare da alcune coreografie",
+      "H\tqueste studentesse disegnammo delle rappresentazioni artistiche"
+    ],
+    "Answer_concatenated": "A\tle scenografie possono disegnare dalle artiste\nB\tqueste studentesse disegnano da un anno circa\nC\tle artiste devono essere disegnate da delle rappresentazioni artistiche\nD\talcune coreografie possono disegnare da un anno circa\nE\tdelle forme devono disegnare le sue allieve\nF\tle scenografie possono essere disegnate dalle artiste\nG\tle pittrici devono disegnare da alcune coreografie\nH\tqueste studentesse disegnammo delle rappresentazioni artistiche",
+    "Correct_option": "B",
+    "Correct_answer": "queste studentesse disegnano da un anno circa",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 189,
+    "Context": [
+      "1\tle sue allieve devono disegnare delle forme con pochi mezzi economici",
+      "2\tqueste studentesse possono disegnare delle forme da un anno circa",
+      "3\tdelle rappresentazioni artistiche devono essere disegnate dalle artiste nel salone espositivo",
+      "4\tle scenografie devono poter essere disegnate da queste studentesse da un anno circa",
+      "5\tdelle forme possono essere disegnate nel salone espositivo",
+      "6\tdelle rappresentazioni artistiche sono disegnate da un anno circa",
+      "7\tle sue allieve devono disegnare con pochi mezzi economici"
+    ],
+    "Context_concatenated": "1\tle sue allieve devono disegnare delle forme con pochi mezzi economici\n2\tqueste studentesse possono disegnare delle forme da un anno circa\n3\tdelle rappresentazioni artistiche devono essere disegnate dalle artiste nel salone espositivo\n4\tle scenografie devono poter essere disegnate da queste studentesse da un anno circa\n5\tdelle forme possono essere disegnate nel salone espositivo\n6\tdelle rappresentazioni artistiche sono disegnate da un anno circa\n7\tle sue allieve devono disegnare con pochi mezzi economici",
+    "Answer_set": [
+      "A\tqueste studentesse disegnano da un anno circa",
+      "B\tdelle rappresentazioni artistiche possono disegnare le sue allieve",
+      "C\tle scenografie devono disegnare dalle artiste",
+      "D\tdelle rappresentazioni artistiche disegnammo da un anno circa",
+      "E\tle sue allieve devono disegnare dalle scenografie",
+      "F\tle artiste devono poter essere disegnate da delle rappresentazioni artistiche",
+      "G\tdelle forme devono essere disegnate dalle sue allieve",
+      "H\tle pittrici disegnano alcune coreografie"
+    ],
+    "Answer_concatenated": "A\tqueste studentesse disegnano da un anno circa\nB\tdelle rappresentazioni artistiche possono disegnare le sue allieve\nC\tle scenografie devono disegnare dalle artiste\nD\tdelle rappresentazioni artistiche disegnammo da un anno circa\nE\tle sue allieve devono disegnare dalle scenografie\nF\tle artiste devono poter essere disegnate da delle rappresentazioni artistiche\nG\tdelle forme devono essere disegnate dalle sue allieve\nH\tle pittrici disegnano alcune coreografie",
+    "Correct_option": "A",
+    "Correct_answer": "queste studentesse disegnano da un anno circa",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 164,
+    "Context": [
+      "1\tqueste studentesse devono poter disegnare alcune coreografie con pochi mezzi economici",
+      "2\tle pittrici disegnammo delle rappresentazioni artistiche da un mese",
+      "3\tdelle rappresentazioni artistiche devono poter essere disegnate da queste studentesse in meno di due giorni",
+      "4\talcune coreografie devono poter essere disegnate da queste studentesse da un anno circa",
+      "5\tdelle forme devono essere disegnate in vista della serata",
+      "6\tdelle rappresentazioni artistiche devono essere disegnate da un anno circa",
+      "7\tle artiste devono poter disegnare in vista della serata"
+    ],
+    "Context_concatenated": "1\tqueste studentesse devono poter disegnare alcune coreografie con pochi mezzi economici\n2\tle pittrici disegnammo delle rappresentazioni artistiche da un mese\n3\tdelle rappresentazioni artistiche devono poter essere disegnate da queste studentesse in meno di due giorni\n4\talcune coreografie devono poter essere disegnate da queste studentesse da un anno circa\n5\tdelle forme devono essere disegnate in vista della serata\n6\tdelle rappresentazioni artistiche devono essere disegnate da un anno circa\n7\tle artiste devono poter disegnare in vista della serata",
+    "Answer_set": [
+      "A\tqueste studentesse possono disegnare dalle scenografie",
+      "B\tle scenografie devono poter disegnare queste studentesse",
+      "C\talcune coreografie devono poter disegnare dalle sue allieve",
+      "D\tdelle forme furono disegnate dalle pittrici",
+      "E\tle scenografie disegnammo da un anno circa",
+      "F\tle pittrici possono disegnare da sole",
+      "G\tle pittrici furono disegnate da delle forme",
+      "H\tle artiste disegnammo le scenografie"
+    ],
+    "Answer_concatenated": "A\tqueste studentesse possono disegnare dalle scenografie\nB\tle scenografie devono poter disegnare queste studentesse\nC\talcune coreografie devono poter disegnare dalle sue allieve\nD\tdelle forme furono disegnate dalle pittrici\nE\tle scenografie disegnammo da un anno circa\nF\tle pittrici possono disegnare da sole\nG\tle pittrici furono disegnate da delle forme\nH\tle artiste disegnammo le scenografie",
+    "Correct_option": "F",
+    "Correct_answer": "le pittrici possono disegnare da sole",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 236,
+    "Context": [
+      "1\tle sue allieve disegnano le scenografie con pochi mezzi economici",
+      "2\tle artiste devono disegnare le scenografie da pochi mesi",
+      "3\talcune coreografie sono disegnate dalle artiste con pochi mezzi economici",
+      "4\talcune coreografie devono essere disegnate dalle pittrici da un mese",
+      "5\tdelle rappresentazioni artistiche devono essere disegnate nel salone espositivo",
+      "6\tle scenografie furono disegnate da pochi mesi",
+      "7\tle sue allieve disegnarono nel salone espositivo"
+    ],
+    "Context_concatenated": "1\tle sue allieve disegnano le scenografie con pochi mezzi economici\n2\tle artiste devono disegnare le scenografie da pochi mesi\n3\talcune coreografie sono disegnate dalle artiste con pochi mezzi economici\n4\talcune coreografie devono essere disegnate dalle pittrici da un mese\n5\tdelle rappresentazioni artistiche devono essere disegnate nel salone espositivo\n6\tle scenografie furono disegnate da pochi mesi\n7\tle sue allieve disegnarono nel salone espositivo",
+    "Answer_set": [
+      "A\talcune coreografie devono disegnare le artiste",
+      "B\tqueste studentesse devono poter disegnare le scenografie",
+      "C\tdelle forme devono essere disegnate da queste studentesse",
+      "D\tqueste studentesse sono disegnate da delle forme",
+      "E\tle scenografie disegnano da un anno circa",
+      "F\tle sue allieve devono poter disegnare da sole",
+      "G\talcune coreografie possono disegnare dalle pittrici",
+      "H\tle artiste devono poter disegnare da delle rappresentazioni artistiche"
+    ],
+    "Answer_concatenated": "A\talcune coreografie devono disegnare le artiste\nB\tqueste studentesse devono poter disegnare le scenografie\nC\tdelle forme devono essere disegnate da queste studentesse\nD\tqueste studentesse sono disegnate da delle forme\nE\tle scenografie disegnano da un anno circa\nF\tle sue allieve devono poter disegnare da sole\nG\talcune coreografie possono disegnare dalle pittrici\nH\tle artiste devono poter disegnare da delle rappresentazioni artistiche",
+    "Correct_option": "F",
+    "Correct_answer": "le sue allieve devono poter disegnare da sole",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 176,
+    "Context": [
+      "1\tqueste studentesse possono disegnare delle rappresentazioni artistiche in vista della serata",
+      "2\tle artiste disegnammo le scenografie da un mese",
+      "3\talcune coreografie devono poter essere disegnate dalle sue allieve nel salone espositivo",
+      "4\tle scenografie sono disegnate dalle sue allieve da sole",
+      "5\tdelle forme possono essere disegnate in vista della serata",
+      "6\tle scenografie possono essere disegnate da sole",
+      "7\tqueste studentesse devono poter disegnare con pochi mezzi economici"
+    ],
+    "Context_concatenated": "1\tqueste studentesse possono disegnare delle rappresentazioni artistiche in vista della serata\n2\tle artiste disegnammo le scenografie da un mese\n3\talcune coreografie devono poter essere disegnate dalle sue allieve nel salone espositivo\n4\tle scenografie sono disegnate dalle sue allieve da sole\n5\tdelle forme possono essere disegnate in vista della serata\n6\tle scenografie possono essere disegnate da sole\n7\tqueste studentesse devono poter disegnare con pochi mezzi economici",
+    "Answer_set": [
+      "A\tle artiste devono disegnare le scenografie",
+      "B\tqueste studentesse furono disegnate da delle rappresentazioni artistiche",
+      "C\tle artiste disegnammo da un mese",
+      "D\tdelle rappresentazioni artistiche devono poter disegnare da sole",
+      "E\tdelle forme sono disegnate dalle pittrici",
+      "F\talcune coreografie devono disegnare le pittrici",
+      "G\tle scenografie disegnano dalle artiste",
+      "H\tle pittrici disegnarono da alcune coreografie"
+    ],
+    "Answer_concatenated": "A\tle artiste devono disegnare le scenografie\nB\tqueste studentesse furono disegnate da delle rappresentazioni artistiche\nC\tle artiste disegnammo da un mese\nD\tdelle rappresentazioni artistiche devono poter disegnare da sole\nE\tdelle forme sono disegnate dalle pittrici\nF\talcune coreografie devono disegnare le pittrici\nG\tle scenografie disegnano dalle artiste\nH\tle pittrici disegnarono da alcune coreografie",
+    "Correct_option": "C",
+    "Correct_answer": "le artiste disegnammo da un mese",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 204,
+    "Context": [
+      "1\tle artiste devono poter disegnare le scenografie in vista della serata",
+      "2\tqueste studentesse devono poter disegnare alcune coreografie da un anno circa",
+      "3\tdelle rappresentazioni artistiche devono poter essere disegnate dalle artiste in vista della serata",
+      "4\tdelle rappresentazioni artistiche possono essere disegnate dalle sue allieve da pochi mesi",
+      "5\tdelle forme possono essere disegnate con pochi mezzi economici",
+      "6\tdelle forme furono disegnate da un anno circa",
+      "7\tqueste studentesse devono poter disegnare con pochi mezzi economici"
+    ],
+    "Context_concatenated": "1\tle artiste devono poter disegnare le scenografie in vista della serata\n2\tqueste studentesse devono poter disegnare alcune coreografie da un anno circa\n3\tdelle rappresentazioni artistiche devono poter essere disegnate dalle artiste in vista della serata\n4\tdelle rappresentazioni artistiche possono essere disegnate dalle sue allieve da pochi mesi\n5\tdelle forme possono essere disegnate con pochi mezzi economici\n6\tdelle forme furono disegnate da un anno circa\n7\tqueste studentesse devono poter disegnare con pochi mezzi economici",
+    "Answer_set": [
+      "A\tdelle forme disegnano dalle pittrici",
+      "B\tdelle forme devono poter disegnare da sole",
+      "C\tle sue allieve possono disegnare le scenografie",
+      "D\tle artiste devono poter disegnare da un anno circa",
+      "E\tdelle rappresentazioni artistiche devono disegnare le artiste",
+      "F\tle sue allieve disegnano da delle forme",
+      "G\tdelle forme devono essere disegnate dalle pittrici",
+      "H\tle pittrici sono disegnate dalle scenografie"
+    ],
+    "Answer_concatenated": "A\tdelle forme disegnano dalle pittrici\nB\tdelle forme devono poter disegnare da sole\nC\tle sue allieve possono disegnare le scenografie\nD\tle artiste devono poter disegnare da un anno circa\nE\tdelle rappresentazioni artistiche devono disegnare le artiste\nF\tle sue allieve disegnano da delle forme\nG\tdelle forme devono essere disegnate dalle pittrici\nH\tle pittrici sono disegnate dalle scenografie",
+    "Correct_option": "D",
+    "Correct_answer": "le artiste devono poter disegnare da un anno circa",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 162,
+    "Context": [
+      "1\tle sue allieve possono disegnare le scenografie in vista della serata",
+      "2\tle pittrici devono poter disegnare alcune coreografie da sole",
+      "3\tdelle rappresentazioni artistiche devono essere disegnate dalle sue allieve in meno di due giorni",
+      "4\talcune coreografie devono essere disegnate dalle artiste da pochi mesi",
+      "5\talcune coreografie possono essere disegnate con pochi mezzi economici",
+      "6\talcune coreografie sono disegnate da sole",
+      "7\tle sue allieve disegnano con pochi mezzi economici"
+    ],
+    "Context_concatenated": "1\tle sue allieve possono disegnare le scenografie in vista della serata\n2\tle pittrici devono poter disegnare alcune coreografie da sole\n3\tdelle rappresentazioni artistiche devono essere disegnate dalle sue allieve in meno di due giorni\n4\talcune coreografie devono essere disegnate dalle artiste da pochi mesi\n5\talcune coreografie possono essere disegnate con pochi mezzi economici\n6\talcune coreografie sono disegnate da sole\n7\tle sue allieve disegnano con pochi mezzi economici",
+    "Answer_set": [
+      "A\tqueste studentesse sono disegnate da alcune coreografie",
+      "B\tle pittrici devono disegnare da un mese",
+      "C\tle scenografie possono disegnare le sue allieve",
+      "D\tle sue allieve devono poter disegnare delle forme",
+      "E\tle pittrici devono poter disegnare da alcune coreografie",
+      "F\tdelle rappresentazioni artistiche furono disegnate da queste studentesse",
+      "G\tdelle forme possono disegnare da un anno circa",
+      "H\tdelle rappresentazioni artistiche disegnano dalle sue allieve"
+    ],
+    "Answer_concatenated": "A\tqueste studentesse sono disegnate da alcune coreografie\nB\tle pittrici devono disegnare da un mese\nC\tle scenografie possono disegnare le sue allieve\nD\tle sue allieve devono poter disegnare delle forme\nE\tle pittrici devono poter disegnare da alcune coreografie\nF\tdelle rappresentazioni artistiche furono disegnate da queste studentesse\nG\tdelle forme possono disegnare da un anno circa\nH\tdelle rappresentazioni artistiche disegnano dalle sue allieve",
+    "Correct_option": "B",
+    "Correct_answer": "le pittrici devono disegnare da un mese",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 217,
+    "Context": [
+      "1\tle pittrici disegnammo delle rappresentazioni artistiche in meno di due giorni",
+      "2\tle pittrici devono disegnare delle rappresentazioni artistiche da un anno circa",
+      "3\tle scenografie furono disegnate dalle pittrici con pochi mezzi economici",
+      "4\talcune coreografie devono essere disegnate da queste studentesse da sole",
+      "5\tdelle forme possono essere disegnate in meno di due giorni",
+      "6\talcune coreografie devono poter essere disegnate da un anno circa",
+      "7\tle artiste disegnammo con pochi mezzi economici"
+    ],
+    "Context_concatenated": "1\tle pittrici disegnammo delle rappresentazioni artistiche in meno di due giorni\n2\tle pittrici devono disegnare delle rappresentazioni artistiche da un anno circa\n3\tle scenografie furono disegnate dalle pittrici con pochi mezzi economici\n4\talcune coreografie devono essere disegnate da queste studentesse da sole\n5\tdelle forme possono essere disegnate in meno di due giorni\n6\talcune coreografie devono poter essere disegnate da un anno circa\n7\tle artiste disegnammo con pochi mezzi economici",
+    "Answer_set": [
+      "A\tle artiste furono disegnate da alcune coreografie",
+      "B\tle scenografie disegnammo dalle sue allieve",
+      "C\talcune coreografie devono poter essere disegnate dalle artiste",
+      "D\tdelle forme disegnano le artiste",
+      "E\tdelle forme devono poter disegnare da un mese",
+      "F\tle sue allieve devono poter disegnare da delle rappresentazioni artistiche",
+      "G\tqueste studentesse disegnarono da sole",
+      "H\tle sue allieve devono poter disegnare alcune coreografie"
+    ],
+    "Answer_concatenated": "A\tle artiste furono disegnate da alcune coreografie\nB\tle scenografie disegnammo dalle sue allieve\nC\talcune coreografie devono poter essere disegnate dalle artiste\nD\tdelle forme disegnano le artiste\nE\tdelle forme devono poter disegnare da un mese\nF\tle sue allieve devono poter disegnare da delle rappresentazioni artistiche\nG\tqueste studentesse disegnarono da sole\nH\tle sue allieve devono poter disegnare alcune coreografie",
+    "Correct_option": "G",
+    "Correct_answer": "queste studentesse disegnarono da sole",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 239,
+    "Context": [
+      "1\tle sue allieve devono poter disegnare alcune coreografie nel salone espositivo",
+      "2\tle artiste disegnammo delle rappresentazioni artistiche da pochi mesi",
+      "3\tle scenografie devono poter essere disegnate da queste studentesse in meno di due giorni",
+      "4\tdelle forme sono disegnate dalle artiste da un mese",
+      "5\tle scenografie sono disegnate con pochi mezzi economici",
+      "6\tdelle forme possono essere disegnate da un anno circa",
+      "7\tle pittrici possono disegnare nel salone espositivo"
+    ],
+    "Context_concatenated": "1\tle sue allieve devono poter disegnare alcune coreografie nel salone espositivo\n2\tle artiste disegnammo delle rappresentazioni artistiche da pochi mesi\n3\tle scenografie devono poter essere disegnate da queste studentesse in meno di due giorni\n4\tdelle forme sono disegnate dalle artiste da un mese\n5\tle scenografie sono disegnate con pochi mezzi economici\n6\tdelle forme possono essere disegnate da un anno circa\n7\tle pittrici possono disegnare nel salone espositivo",
+    "Answer_set": [
+      "A\tle scenografie devono disegnare da un anno circa",
+      "B\tqueste studentesse devono disegnare da pochi mesi",
+      "C\tqueste studentesse disegnano da alcune coreografie",
+      "D\tle pittrici possono disegnare alcune coreografie",
+      "E\tle pittrici possono essere disegnate da delle rappresentazioni artistiche",
+      "F\talcune coreografie possono essere disegnate da queste studentesse",
+      "G\tle scenografie disegnammo dalle artiste",
+      "H\tdelle forme possono disegnare queste studentesse"
+    ],
+    "Answer_concatenated": "A\tle scenografie devono disegnare da un anno circa\nB\tqueste studentesse devono disegnare da pochi mesi\nC\tqueste studentesse disegnano da alcune coreografie\nD\tle pittrici possono disegnare alcune coreografie\nE\tle pittrici possono essere disegnate da delle rappresentazioni artistiche\nF\talcune coreografie possono essere disegnate da queste studentesse\nG\tle scenografie disegnammo dalle artiste\nH\tdelle forme possono disegnare queste studentesse",
+    "Correct_option": "B",
+    "Correct_answer": "queste studentesse devono disegnare da pochi mesi",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 175,
+    "Context": [
+      "1\tqueste studentesse devono poter disegnare delle rappresentazioni artistiche in meno di due giorni",
+      "2\tqueste studentesse disegnarono alcune coreografie da un anno circa",
+      "3\talcune coreografie possono essere disegnate da queste studentesse nel salone espositivo",
+      "4\tle scenografie furono disegnate dalle artiste da un mese",
+      "5\talcune coreografie devono poter essere disegnate in vista della serata",
+      "6\talcune coreografie furono disegnate da sole",
+      "7\tqueste studentesse devono poter disegnare con pochi mezzi economici"
+    ],
+    "Context_concatenated": "1\tqueste studentesse devono poter disegnare delle rappresentazioni artistiche in meno di due giorni\n2\tqueste studentesse disegnarono alcune coreografie da un anno circa\n3\talcune coreografie possono essere disegnate da queste studentesse nel salone espositivo\n4\tle scenografie furono disegnate dalle artiste da un mese\n5\talcune coreografie devono poter essere disegnate in vista della serata\n6\talcune coreografie furono disegnate da sole\n7\tqueste studentesse devono poter disegnare con pochi mezzi economici",
+    "Answer_set": [
+      "A\tle scenografie devono poter disegnare da pochi mesi",
+      "B\tle sue allieve devono poter disegnare le scenografie",
+      "C\tle sue allieve disegnano da delle rappresentazioni artistiche",
+      "D\talcune coreografie disegnarono dalle artiste",
+      "E\tle sue allieve furono disegnate da delle forme",
+      "F\tdelle forme disegnano le pittrici",
+      "G\tle sue allieve possono disegnare da pochi mesi",
+      "H\tdelle forme possono essere disegnate dalle pittrici"
+    ],
+    "Answer_concatenated": "A\tle scenografie devono poter disegnare da pochi mesi\nB\tle sue allieve devono poter disegnare le scenografie\nC\tle sue allieve disegnano da delle rappresentazioni artistiche\nD\talcune coreografie disegnarono dalle artiste\nE\tle sue allieve furono disegnate da delle forme\nF\tdelle forme disegnano le pittrici\nG\tle sue allieve possono disegnare da pochi mesi\nH\tdelle forme possono essere disegnate dalle pittrici",
+    "Correct_option": "G",
+    "Correct_answer": "le sue allieve possono disegnare da pochi mesi",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 187,
+    "Context": [
+      "1\tle pittrici devono poter disegnare delle forme in vista della serata",
+      "2\tqueste studentesse devono poter disegnare delle rappresentazioni artistiche da un mese",
+      "3\talcune coreografie devono essere disegnate dalle sue allieve con pochi mezzi economici",
+      "4\tdelle forme furono disegnate dalle artiste da pochi mesi",
+      "5\tle scenografie furono disegnate in meno di due giorni",
+      "6\tdelle rappresentazioni artistiche devono poter essere disegnate da pochi mesi",
+      "7\tqueste studentesse disegnano nel salone espositivo"
+    ],
+    "Context_concatenated": "1\tle pittrici devono poter disegnare delle forme in vista della serata\n2\tqueste studentesse devono poter disegnare delle rappresentazioni artistiche da un mese\n3\talcune coreografie devono essere disegnate dalle sue allieve con pochi mezzi economici\n4\tdelle forme furono disegnate dalle artiste da pochi mesi\n5\tle scenografie furono disegnate in meno di due giorni\n6\tdelle rappresentazioni artistiche devono poter essere disegnate da pochi mesi\n7\tqueste studentesse disegnano nel salone espositivo",
+    "Answer_set": [
+      "A\tdelle forme devono poter essere disegnate dalle sue allieve",
+      "B\tqueste studentesse disegnammo dalle scenografie",
+      "C\tle scenografie disegnano dalle sue allieve",
+      "D\tqueste studentesse possono disegnare le scenografie",
+      "E\tle pittrici furono disegnate da delle rappresentazioni artistiche",
+      "F\tdelle forme devono disegnare le pittrici",
+      "G\tdelle forme disegnano da sole",
+      "H\tle pittrici disegnarono da un mese"
+    ],
+    "Answer_concatenated": "A\tdelle forme devono poter essere disegnate dalle sue allieve\nB\tqueste studentesse disegnammo dalle scenografie\nC\tle scenografie disegnano dalle sue allieve\nD\tqueste studentesse possono disegnare le scenografie\nE\tle pittrici furono disegnate da delle rappresentazioni artistiche\nF\tdelle forme devono disegnare le pittrici\nG\tdelle forme disegnano da sole\nH\tle pittrici disegnarono da un mese",
+    "Correct_option": "H",
+    "Correct_answer": "le pittrici disegnarono da un mese",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 170,
+    "Context": [
+      "1\tle pittrici devono poter disegnare delle rappresentazioni artistiche con pochi mezzi economici",
+      "2\tle artiste disegnarono alcune coreografie da un mese",
+      "3\tdelle rappresentazioni artistiche furono disegnate dalle pittrici in meno di due giorni",
+      "4\tle scenografie sono disegnate da queste studentesse da un mese",
+      "5\tdelle forme sono disegnate con pochi mezzi economici",
+      "6\talcune coreografie furono disegnate da un mese",
+      "7\tle sue allieve devono poter disegnare in meno di due giorni"
+    ],
+    "Context_concatenated": "1\tle pittrici devono poter disegnare delle rappresentazioni artistiche con pochi mezzi economici\n2\tle artiste disegnarono alcune coreografie da un mese\n3\tdelle rappresentazioni artistiche furono disegnate dalle pittrici in meno di due giorni\n4\tle scenografie sono disegnate da queste studentesse da un mese\n5\tdelle forme sono disegnate con pochi mezzi economici\n6\talcune coreografie furono disegnate da un mese\n7\tle sue allieve devono poter disegnare in meno di due giorni",
+    "Answer_set": [
+      "A\tle sue allieve disegnano delle forme",
+      "B\tle artiste devono essere disegnate dalle scenografie",
+      "C\talcune coreografie devono disegnare da un anno circa",
+      "D\tle pittrici disegnarono da sole",
+      "E\tdelle rappresentazioni artistiche devono essere disegnate dalle sue allieve",
+      "F\tdelle forme devono poter disegnare le artiste",
+      "G\tle artiste disegnano da delle forme",
+      "H\talcune coreografie devono poter disegnare dalle artiste"
+    ],
+    "Answer_concatenated": "A\tle sue allieve disegnano delle forme\nB\tle artiste devono essere disegnate dalle scenografie\nC\talcune coreografie devono disegnare da un anno circa\nD\tle pittrici disegnarono da sole\nE\tdelle rappresentazioni artistiche devono essere disegnate dalle sue allieve\nF\tdelle forme devono poter disegnare le artiste\nG\tle artiste disegnano da delle forme\nH\talcune coreografie devono poter disegnare dalle artiste",
+    "Correct_option": "D",
+    "Correct_answer": "le pittrici disegnarono da sole",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 210,
+    "Context": [
+      "1\tle artiste possono disegnare delle forme con pochi mezzi economici",
+      "2\tle artiste devono poter disegnare delle forme da un anno circa",
+      "3\tdelle rappresentazioni artistiche sono disegnate dalle artiste in meno di due giorni",
+      "4\talcune coreografie sono disegnate dalle pittrici da pochi mesi",
+      "5\talcune coreografie sono disegnate nel salone espositivo",
+      "6\talcune coreografie devono essere disegnate da un mese",
+      "7\tle pittrici disegnammo in meno di due giorni"
+    ],
+    "Context_concatenated": "1\tle artiste possono disegnare delle forme con pochi mezzi economici\n2\tle artiste devono poter disegnare delle forme da un anno circa\n3\tdelle rappresentazioni artistiche sono disegnate dalle artiste in meno di due giorni\n4\talcune coreografie sono disegnate dalle pittrici da pochi mesi\n5\talcune coreografie sono disegnate nel salone espositivo\n6\talcune coreografie devono essere disegnate da un mese\n7\tle pittrici disegnammo in meno di due giorni",
+    "Answer_set": [
+      "A\tle artiste disegnano le scenografie",
+      "B\tle sue allieve possono disegnare da un mese",
+      "C\tle sue allieve furono disegnate dalle scenografie",
+      "D\tdelle rappresentazioni artistiche disegnammo le artiste",
+      "E\tle scenografie devono disegnare da queste studentesse",
+      "F\tle scenografie disegnano da pochi mesi",
+      "G\talcune coreografie sono disegnate dalle pittrici",
+      "H\tle sue allieve devono poter disegnare da delle forme"
+    ],
+    "Answer_concatenated": "A\tle artiste disegnano le scenografie\nB\tle sue allieve possono disegnare da un mese\nC\tle sue allieve furono disegnate dalle scenografie\nD\tdelle rappresentazioni artistiche disegnammo le artiste\nE\tle scenografie devono disegnare da queste studentesse\nF\tle scenografie disegnano da pochi mesi\nG\talcune coreografie sono disegnate dalle pittrici\nH\tle sue allieve devono poter disegnare da delle forme",
+    "Correct_option": "B",
+    "Correct_answer": "le sue allieve possono disegnare da un mese",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 183,
+    "Context": [
+      "1\tle artiste devono disegnare le scenografie in meno di due giorni",
+      "2\tle sue allieve disegnano le scenografie da sole",
+      "3\tle scenografie devono essere disegnate dalle pittrici in vista della serata",
+      "4\tdelle rappresentazioni artistiche devono poter essere disegnate dalle pittrici da pochi mesi",
+      "5\tdelle forme devono poter essere disegnate con pochi mezzi economici",
+      "6\tle scenografie devono poter essere disegnate da un mese",
+      "7\tle sue allieve possono disegnare in vista della serata"
+    ],
+    "Context_concatenated": "1\tle artiste devono disegnare le scenografie in meno di due giorni\n2\tle sue allieve disegnano le scenografie da sole\n3\tle scenografie devono essere disegnate dalle pittrici in vista della serata\n4\tdelle rappresentazioni artistiche devono poter essere disegnate dalle pittrici da pochi mesi\n5\tdelle forme devono poter essere disegnate con pochi mezzi economici\n6\tle scenografie devono poter essere disegnate da un mese\n7\tle sue allieve possono disegnare in vista della serata",
+    "Answer_set": [
+      "A\tle pittrici devono essere disegnate da alcune coreografie",
+      "B\tqueste studentesse devono poter disegnare da sole",
+      "C\tdelle rappresentazioni artistiche possono essere disegnate dalle sue allieve",
+      "D\tdelle rappresentazioni artistiche devono disegnare queste studentesse",
+      "E\tdelle forme disegnarono da sole",
+      "F\tle artiste disegnammo da delle rappresentazioni artistiche",
+      "G\tle artiste disegnano alcune coreografie",
+      "H\tle scenografie disegnammo da queste studentesse"
+    ],
+    "Answer_concatenated": "A\tle pittrici devono essere disegnate da alcune coreografie\nB\tqueste studentesse devono poter disegnare da sole\nC\tdelle rappresentazioni artistiche possono essere disegnate dalle sue allieve\nD\tdelle rappresentazioni artistiche devono disegnare queste studentesse\nE\tdelle forme disegnarono da sole\nF\tle artiste disegnammo da delle rappresentazioni artistiche\nG\tle artiste disegnano alcune coreografie\nH\tle scenografie disegnammo da queste studentesse",
+    "Correct_option": "B",
+    "Correct_answer": "queste studentesse devono poter disegnare da sole",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 201,
+    "Context": [
+      "1\tle artiste devono poter disegnare alcune coreografie nel salone espositivo",
+      "2\tqueste studentesse devono poter disegnare le scenografie da sole",
+      "3\tle scenografie devono poter essere disegnate da queste studentesse con pochi mezzi economici",
+      "4\tdelle rappresentazioni artistiche devono essere disegnate dalle pittrici da un anno circa",
+      "5\tle scenografie sono disegnate in vista della serata",
+      "6\tle scenografie devono essere disegnate da un anno circa",
+      "7\tle pittrici disegnano in meno di due giorni"
+    ],
+    "Context_concatenated": "1\tle artiste devono poter disegnare alcune coreografie nel salone espositivo\n2\tqueste studentesse devono poter disegnare le scenografie da sole\n3\tle scenografie devono poter essere disegnate da queste studentesse con pochi mezzi economici\n4\tdelle rappresentazioni artistiche devono essere disegnate dalle pittrici da un anno circa\n5\tle scenografie sono disegnate in vista della serata\n6\tle scenografie devono essere disegnate da un anno circa\n7\tle pittrici disegnano in meno di due giorni",
+    "Answer_set": [
+      "A\tle sue allieve devono disegnare da delle rappresentazioni artistiche",
+      "B\tle scenografie devono disegnare da sole",
+      "C\tle artiste devono poter essere disegnate dalle scenografie",
+      "D\tle scenografie possono essere disegnate da queste studentesse",
+      "E\tle artiste disegnano da un anno circa",
+      "F\talcune coreografie disegnano dalle artiste",
+      "G\tdelle forme disegnarono queste studentesse",
+      "H\tqueste studentesse disegnano le scenografie"
+    ],
+    "Answer_concatenated": "A\tle sue allieve devono disegnare da delle rappresentazioni artistiche\nB\tle scenografie devono disegnare da sole\nC\tle artiste devono poter essere disegnate dalle scenografie\nD\tle scenografie possono essere disegnate da queste studentesse\nE\tle artiste disegnano da un anno circa\nF\talcune coreografie disegnano dalle artiste\nG\tdelle forme disegnarono queste studentesse\nH\tqueste studentesse disegnano le scenografie",
+    "Correct_option": "E",
+    "Correct_answer": "le artiste disegnano da un anno circa",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 224,
+    "Context": [
+      "1\tle pittrici disegnano delle forme in meno di due giorni",
+      "2\tqueste studentesse devono poter disegnare delle forme da un mese",
+      "3\talcune coreografie devono essere disegnate dalle artiste nel salone espositivo",
+      "4\talcune coreografie possono essere disegnate dalle artiste da sole",
+      "5\tle scenografie devono essere disegnate in vista della serata",
+      "6\tle scenografie devono poter essere disegnate da sole",
+      "7\tle sue allieve devono disegnare in meno di due giorni"
+    ],
+    "Context_concatenated": "1\tle pittrici disegnano delle forme in meno di due giorni\n2\tqueste studentesse devono poter disegnare delle forme da un mese\n3\talcune coreografie devono essere disegnate dalle artiste nel salone espositivo\n4\talcune coreografie possono essere disegnate dalle artiste da sole\n5\tle scenografie devono essere disegnate in vista della serata\n6\tle scenografie devono poter essere disegnate da sole\n7\tle sue allieve devono disegnare in meno di due giorni",
+    "Answer_set": [
+      "A\talcune coreografie disegnarono le artiste",
+      "B\tdelle rappresentazioni artistiche disegnano da un anno circa",
+      "C\tdelle forme devono disegnare da queste studentesse",
+      "D\talcune coreografie sono disegnate dalle sue allieve",
+      "E\tle artiste devono disegnare da alcune coreografie",
+      "F\tle artiste disegnammo da pochi mesi",
+      "G\tqueste studentesse furono disegnate dalle scenografie",
+      "H\tle artiste devono poter disegnare delle forme"
+    ],
+    "Answer_concatenated": "A\talcune coreografie disegnarono le artiste\nB\tdelle rappresentazioni artistiche disegnano da un anno circa\nC\tdelle forme devono disegnare da queste studentesse\nD\talcune coreografie sono disegnate dalle sue allieve\nE\tle artiste devono disegnare da alcune coreografie\nF\tle artiste disegnammo da pochi mesi\nG\tqueste studentesse furono disegnate dalle scenografie\nH\tle artiste devono poter disegnare delle forme",
+    "Correct_option": "F",
+    "Correct_answer": "le artiste disegnammo da pochi mesi",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 177,
+    "Context": [
+      "1\tle artiste devono disegnare delle forme in meno di due giorni",
+      "2\tqueste studentesse disegnammo delle rappresentazioni artistiche da sole",
+      "3\talcune coreografie devono poter essere disegnate da queste studentesse con pochi mezzi economici",
+      "4\talcune coreografie possono essere disegnate dalle pittrici da un anno circa",
+      "5\talcune coreografie devono essere disegnate nel salone espositivo",
+      "6\tle scenografie devono essere disegnate da un mese",
+      "7\tle sue allieve possono disegnare con pochi mezzi economici"
+    ],
+    "Context_concatenated": "1\tle artiste devono disegnare delle forme in meno di due giorni\n2\tqueste studentesse disegnammo delle rappresentazioni artistiche da sole\n3\talcune coreografie devono poter essere disegnate da queste studentesse con pochi mezzi economici\n4\talcune coreografie possono essere disegnate dalle pittrici da un anno circa\n5\talcune coreografie devono essere disegnate nel salone espositivo\n6\tle scenografie devono essere disegnate da un mese\n7\tle sue allieve possono disegnare con pochi mezzi economici",
+    "Answer_set": [
+      "A\tdelle forme disegnarono da queste studentesse",
+      "B\tle pittrici devono disegnare delle rappresentazioni artistiche",
+      "C\tdelle rappresentazioni artistiche disegnano le sue allieve",
+      "D\tqueste studentesse devono poter disegnare da un anno circa",
+      "E\tle pittrici possono disegnare da alcune coreografie",
+      "F\tle pittrici devono poter essere disegnate da delle rappresentazioni artistiche",
+      "G\talcune coreografie disegnano da sole",
+      "H\talcune coreografie furono disegnate dalle pittrici"
+    ],
+    "Answer_concatenated": "A\tdelle forme disegnarono da queste studentesse\nB\tle pittrici devono disegnare delle rappresentazioni artistiche\nC\tdelle rappresentazioni artistiche disegnano le sue allieve\nD\tqueste studentesse devono poter disegnare da un anno circa\nE\tle pittrici possono disegnare da alcune coreografie\nF\tle pittrici devono poter essere disegnate da delle rappresentazioni artistiche\nG\talcune coreografie disegnano da sole\nH\talcune coreografie furono disegnate dalle pittrici",
+    "Correct_option": "D",
+    "Correct_answer": "queste studentesse devono poter disegnare da un anno circa",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 226,
+    "Context": [
+      "1\tle pittrici possono disegnare delle rappresentazioni artistiche nel salone espositivo",
+      "2\tle artiste disegnano le scenografie da un anno circa",
+      "3\tdelle rappresentazioni artistiche sono disegnate dalle pittrici nel salone espositivo",
+      "4\talcune coreografie devono poter essere disegnate dalle sue allieve da pochi mesi",
+      "5\talcune coreografie sono disegnate in vista della serata",
+      "6\talcune coreografie possono essere disegnate da pochi mesi",
+      "7\tqueste studentesse possono disegnare in meno di due giorni"
+    ],
+    "Context_concatenated": "1\tle pittrici possono disegnare delle rappresentazioni artistiche nel salone espositivo\n2\tle artiste disegnano le scenografie da un anno circa\n3\tdelle rappresentazioni artistiche sono disegnate dalle pittrici nel salone espositivo\n4\talcune coreografie devono poter essere disegnate dalle sue allieve da pochi mesi\n5\talcune coreografie sono disegnate in vista della serata\n6\talcune coreografie possono essere disegnate da pochi mesi\n7\tqueste studentesse possono disegnare in meno di due giorni",
+    "Answer_set": [
+      "A\tle pittrici devono disegnare da un anno circa",
+      "B\tqueste studentesse devono poter disegnare da delle rappresentazioni artistiche",
+      "C\tle scenografie disegnano da sole",
+      "D\tle sue allieve devono poter essere disegnate dalle scenografie",
+      "E\tle scenografie devono poter disegnare dalle artiste",
+      "F\tle scenografie sono disegnate dalle artiste",
+      "G\tle sue allieve devono disegnare delle rappresentazioni artistiche",
+      "H\tdelle rappresentazioni artistiche disegnano queste studentesse"
+    ],
+    "Answer_concatenated": "A\tle pittrici devono disegnare da un anno circa\nB\tqueste studentesse devono poter disegnare da delle rappresentazioni artistiche\nC\tle scenografie disegnano da sole\nD\tle sue allieve devono poter essere disegnate dalle scenografie\nE\tle scenografie devono poter disegnare dalle artiste\nF\tle scenografie sono disegnate dalle artiste\nG\tle sue allieve devono disegnare delle rappresentazioni artistiche\nH\tdelle rappresentazioni artistiche disegnano queste studentesse",
+    "Correct_option": "A",
+    "Correct_answer": "le pittrici devono disegnare da un anno circa",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 208,
+    "Context": [
+      "1\tle pittrici disegnarono delle forme con pochi mezzi economici",
+      "2\tle artiste possono disegnare alcune coreografie da sole",
+      "3\tdelle rappresentazioni artistiche possono essere disegnate dalle sue allieve con pochi mezzi economici",
+      "4\tdelle forme sono disegnate dalle sue allieve da pochi mesi",
+      "5\talcune coreografie furono disegnate nel salone espositivo",
+      "6\tdelle rappresentazioni artistiche possono essere disegnate da pochi mesi",
+      "7\tle artiste disegnano in meno di due giorni"
+    ],
+    "Context_concatenated": "1\tle pittrici disegnarono delle forme con pochi mezzi economici\n2\tle artiste possono disegnare alcune coreografie da sole\n3\tdelle rappresentazioni artistiche possono essere disegnate dalle sue allieve con pochi mezzi economici\n4\tdelle forme sono disegnate dalle sue allieve da pochi mesi\n5\talcune coreografie furono disegnate nel salone espositivo\n6\tdelle rappresentazioni artistiche possono essere disegnate da pochi mesi\n7\tle artiste disegnano in meno di due giorni",
+    "Answer_set": [
+      "A\tle sue allieve devono disegnare da alcune coreografie",
+      "B\tqueste studentesse devono poter essere disegnate dalle scenografie",
+      "C\talcune coreografie sono disegnate dalle artiste",
+      "D\tqueste studentesse devono poter disegnare da un mese",
+      "E\talcune coreografie possono disegnare dalle artiste",
+      "F\talcune coreografie disegnano da un anno circa",
+      "G\tle scenografie devono disegnare le pittrici",
+      "H\tqueste studentesse disegnano delle forme"
+    ],
+    "Answer_concatenated": "A\tle sue allieve devono disegnare da alcune coreografie\nB\tqueste studentesse devono poter essere disegnate dalle scenografie\nC\talcune coreografie sono disegnate dalle artiste\nD\tqueste studentesse devono poter disegnare da un mese\nE\talcune coreografie possono disegnare dalle artiste\nF\talcune coreografie disegnano da un anno circa\nG\tle scenografie devono disegnare le pittrici\nH\tqueste studentesse disegnano delle forme",
+    "Correct_option": "D",
+    "Correct_answer": "queste studentesse devono poter disegnare da un mese",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 168,
+    "Context": [
+      "1\tqueste studentesse disegnano le scenografie in vista della serata",
+      "2\tle sue allieve devono disegnare delle forme da un mese",
+      "3\tle scenografie sono disegnate dalle sue allieve con pochi mezzi economici",
+      "4\talcune coreografie furono disegnate dalle artiste da un mese",
+      "5\tdelle rappresentazioni artistiche sono disegnate con pochi mezzi economici",
+      "6\tdelle rappresentazioni artistiche possono essere disegnate da un mese",
+      "7\tle artiste devono poter disegnare in vista della serata"
+    ],
+    "Context_concatenated": "1\tqueste studentesse disegnano le scenografie in vista della serata\n2\tle sue allieve devono disegnare delle forme da un mese\n3\tle scenografie sono disegnate dalle sue allieve con pochi mezzi economici\n4\talcune coreografie furono disegnate dalle artiste da un mese\n5\tdelle rappresentazioni artistiche sono disegnate con pochi mezzi economici\n6\tdelle rappresentazioni artistiche possono essere disegnate da un mese\n7\tle artiste devono poter disegnare in vista della serata",
+    "Answer_set": [
+      "A\tqueste studentesse disegnano da delle rappresentazioni artistiche",
+      "B\tdelle forme devono disegnare le artiste",
+      "C\tle sue allieve devono disegnare da un anno circa",
+      "D\tle pittrici sono disegnate da delle forme",
+      "E\tle scenografie devono disegnare dalle sue allieve",
+      "F\tle artiste devono poter disegnare alcune coreografie",
+      "G\talcune coreografie possono disegnare da pochi mesi",
+      "H\tdelle forme devono essere disegnate dalle artiste"
+    ],
+    "Answer_concatenated": "A\tqueste studentesse disegnano da delle rappresentazioni artistiche\nB\tdelle forme devono disegnare le artiste\nC\tle sue allieve devono disegnare da un anno circa\nD\tle pittrici sono disegnate da delle forme\nE\tle scenografie devono disegnare dalle sue allieve\nF\tle artiste devono poter disegnare alcune coreografie\nG\talcune coreografie possono disegnare da pochi mesi\nH\tdelle forme devono essere disegnate dalle artiste",
+    "Correct_option": "C",
+    "Correct_answer": "le sue allieve devono disegnare da un anno circa",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 219,
+    "Context": [
+      "1\tqueste studentesse devono disegnare delle rappresentazioni artistiche con pochi mezzi economici",
+      "2\tle sue allieve devono disegnare delle rappresentazioni artistiche da un mese",
+      "3\tle scenografie possono essere disegnate dalle pittrici in meno di due giorni",
+      "4\tdelle rappresentazioni artistiche sono disegnate dalle sue allieve da pochi mesi",
+      "5\talcune coreografie devono essere disegnate nel salone espositivo",
+      "6\tdelle rappresentazioni artistiche sono disegnate da sole",
+      "7\tle artiste possono disegnare in meno di due giorni"
+    ],
+    "Context_concatenated": "1\tqueste studentesse devono disegnare delle rappresentazioni artistiche con pochi mezzi economici\n2\tle sue allieve devono disegnare delle rappresentazioni artistiche da un mese\n3\tle scenografie possono essere disegnate dalle pittrici in meno di due giorni\n4\tdelle rappresentazioni artistiche sono disegnate dalle sue allieve da pochi mesi\n5\talcune coreografie devono essere disegnate nel salone espositivo\n6\tdelle rappresentazioni artistiche sono disegnate da sole\n7\tle artiste possono disegnare in meno di due giorni",
+    "Answer_set": [
+      "A\tle artiste devono disegnare delle rappresentazioni artistiche",
+      "B\tdelle forme possono disegnare da un mese",
+      "C\tdelle rappresentazioni artistiche devono disegnare dalle pittrici",
+      "D\talcune coreografie devono disegnare le sue allieve",
+      "E\tle artiste possono essere disegnate dalle scenografie",
+      "F\tdelle rappresentazioni artistiche devono poter essere disegnate dalle artiste",
+      "G\tqueste studentesse disegnarono da alcune coreografie",
+      "H\tqueste studentesse disegnarono da un anno circa"
+    ],
+    "Answer_concatenated": "A\tle artiste devono disegnare delle rappresentazioni artistiche\nB\tdelle forme possono disegnare da un mese\nC\tdelle rappresentazioni artistiche devono disegnare dalle pittrici\nD\talcune coreografie devono disegnare le sue allieve\nE\tle artiste possono essere disegnate dalle scenografie\nF\tdelle rappresentazioni artistiche devono poter essere disegnate dalle artiste\nG\tqueste studentesse disegnarono da alcune coreografie\nH\tqueste studentesse disegnarono da un anno circa",
+    "Correct_option": "H",
+    "Correct_answer": "queste studentesse disegnarono da un anno circa",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 171,
+    "Context": [
+      "1\tqueste studentesse devono disegnare alcune coreografie in vista della serata",
+      "2\tle sue allieve disegnano alcune coreografie da sole",
+      "3\tdelle rappresentazioni artistiche devono essere disegnate dalle pittrici in vista della serata",
+      "4\talcune coreografie devono essere disegnate dalle sue allieve da un anno circa",
+      "5\tdelle rappresentazioni artistiche furono disegnate in meno di due giorni",
+      "6\talcune coreografie sono disegnate da un anno circa",
+      "7\tle pittrici devono poter disegnare in vista della serata"
+    ],
+    "Context_concatenated": "1\tqueste studentesse devono disegnare alcune coreografie in vista della serata\n2\tle sue allieve disegnano alcune coreografie da sole\n3\tdelle rappresentazioni artistiche devono essere disegnate dalle pittrici in vista della serata\n4\talcune coreografie devono essere disegnate dalle sue allieve da un anno circa\n5\tdelle rappresentazioni artistiche furono disegnate in meno di due giorni\n6\talcune coreografie sono disegnate da un anno circa\n7\tle pittrici devono poter disegnare in vista della serata",
+    "Answer_set": [
+      "A\talcune coreografie devono poter disegnare da un anno circa",
+      "B\tle sue allieve devono disegnare le scenografie",
+      "C\tle pittrici devono disegnare da delle rappresentazioni artistiche",
+      "D\tle scenografie disegnammo dalle pittrici",
+      "E\tle scenografie furono disegnate da queste studentesse",
+      "F\tle sue allieve devono poter disegnare da pochi mesi",
+      "G\tle artiste devono essere disegnate da alcune coreografie",
+      "H\tle scenografie disegnano le artiste"
+    ],
+    "Answer_concatenated": "A\talcune coreografie devono poter disegnare da un anno circa\nB\tle sue allieve devono disegnare le scenografie\nC\tle pittrici devono disegnare da delle rappresentazioni artistiche\nD\tle scenografie disegnammo dalle pittrici\nE\tle scenografie furono disegnate da queste studentesse\nF\tle sue allieve devono poter disegnare da pochi mesi\nG\tle artiste devono essere disegnate da alcune coreografie\nH\tle scenografie disegnano le artiste",
+    "Correct_option": "F",
+    "Correct_answer": "le sue allieve devono poter disegnare da pochi mesi",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 188,
+    "Context": [
+      "1\tle sue allieve devono poter disegnare delle rappresentazioni artistiche nel salone espositivo",
+      "2\tqueste studentesse devono disegnare delle rappresentazioni artistiche da pochi mesi",
+      "3\tdelle forme furono disegnate dalle sue allieve nel salone espositivo",
+      "4\tdelle rappresentazioni artistiche possono essere disegnate da queste studentesse da un anno circa",
+      "5\tle scenografie possono essere disegnate in meno di due giorni",
+      "6\talcune coreografie sono disegnate da pochi mesi",
+      "7\tle sue allieve disegnammo in meno di due giorni"
+    ],
+    "Context_concatenated": "1\tle sue allieve devono poter disegnare delle rappresentazioni artistiche nel salone espositivo\n2\tqueste studentesse devono disegnare delle rappresentazioni artistiche da pochi mesi\n3\tdelle forme furono disegnate dalle sue allieve nel salone espositivo\n4\tdelle rappresentazioni artistiche possono essere disegnate da queste studentesse da un anno circa\n5\tle scenografie possono essere disegnate in meno di due giorni\n6\talcune coreografie sono disegnate da pochi mesi\n7\tle sue allieve disegnammo in meno di due giorni",
+    "Answer_set": [
+      "A\tle artiste sono disegnate da delle forme",
+      "B\talcune coreografie devono essere disegnate dalle pittrici",
+      "C\tle sue allieve disegnano da sole",
+      "D\tdelle rappresentazioni artistiche disegnammo da un mese",
+      "E\tle sue allieve possono disegnare delle rappresentazioni artistiche",
+      "F\tle scenografie disegnammo queste studentesse",
+      "G\talcune coreografie disegnano dalle sue allieve",
+      "H\tqueste studentesse devono poter disegnare dalle scenografie"
+    ],
+    "Answer_concatenated": "A\tle artiste sono disegnate da delle forme\nB\talcune coreografie devono essere disegnate dalle pittrici\nC\tle sue allieve disegnano da sole\nD\tdelle rappresentazioni artistiche disegnammo da un mese\nE\tle sue allieve possono disegnare delle rappresentazioni artistiche\nF\tle scenografie disegnammo queste studentesse\nG\talcune coreografie disegnano dalle sue allieve\nH\tqueste studentesse devono poter disegnare dalle scenografie",
+    "Correct_option": "C",
+    "Correct_answer": "le sue allieve disegnano da sole",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 198,
+    "Context": [
+      "1\tqueste studentesse possono disegnare alcune coreografie nel salone espositivo",
+      "2\tle sue allieve devono poter disegnare delle rappresentazioni artistiche da sole",
+      "3\talcune coreografie devono essere disegnate dalle pittrici nel salone espositivo",
+      "4\tle scenografie possono essere disegnate dalle sue allieve da un mese",
+      "5\talcune coreografie sono disegnate con pochi mezzi economici",
+      "6\tdelle forme sono disegnate da un anno circa",
+      "7\tle sue allieve disegnano in vista della serata"
+    ],
+    "Context_concatenated": "1\tqueste studentesse possono disegnare alcune coreografie nel salone espositivo\n2\tle sue allieve devono poter disegnare delle rappresentazioni artistiche da sole\n3\talcune coreografie devono essere disegnate dalle pittrici nel salone espositivo\n4\tle scenografie possono essere disegnate dalle sue allieve da un mese\n5\talcune coreografie sono disegnate con pochi mezzi economici\n6\tdelle forme sono disegnate da un anno circa\n7\tle sue allieve disegnano in vista della serata",
+    "Answer_set": [
+      "A\tle sue allieve possono disegnare da delle rappresentazioni artistiche",
+      "B\tle artiste sono disegnate dalle scenografie",
+      "C\tle artiste possono disegnare da un mese",
+      "D\tdelle forme possono essere disegnate da queste studentesse",
+      "E\tdelle forme devono poter disegnare da un anno circa",
+      "F\tle scenografie disegnano dalle pittrici",
+      "G\tdelle forme disegnano le sue allieve",
+      "H\tle artiste possono disegnare delle forme"
+    ],
+    "Answer_concatenated": "A\tle sue allieve possono disegnare da delle rappresentazioni artistiche\nB\tle artiste sono disegnate dalle scenografie\nC\tle artiste possono disegnare da un mese\nD\tdelle forme possono essere disegnate da queste studentesse\nE\tdelle forme devono poter disegnare da un anno circa\nF\tle scenografie disegnano dalle pittrici\nG\tdelle forme disegnano le sue allieve\nH\tle artiste possono disegnare delle forme",
+    "Correct_option": "C",
+    "Correct_answer": "le artiste possono disegnare da un mese",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 232,
+    "Context": [
+      "1\tle pittrici devono disegnare alcune coreografie nel salone espositivo",
+      "2\tle pittrici devono poter disegnare delle rappresentazioni artistiche da pochi mesi",
+      "3\tdelle forme devono essere disegnate dalle pittrici nel salone espositivo",
+      "4\tdelle rappresentazioni artistiche furono disegnate dalle artiste da pochi mesi",
+      "5\tdelle forme devono poter essere disegnate in meno di due giorni",
+      "6\tdelle rappresentazioni artistiche sono disegnate da pochi mesi",
+      "7\tle sue allieve disegnarono nel salone espositivo"
+    ],
+    "Context_concatenated": "1\tle pittrici devono disegnare alcune coreografie nel salone espositivo\n2\tle pittrici devono poter disegnare delle rappresentazioni artistiche da pochi mesi\n3\tdelle forme devono essere disegnate dalle pittrici nel salone espositivo\n4\tdelle rappresentazioni artistiche furono disegnate dalle artiste da pochi mesi\n5\tdelle forme devono poter essere disegnate in meno di due giorni\n6\tdelle rappresentazioni artistiche sono disegnate da pochi mesi\n7\tle sue allieve disegnarono nel salone espositivo",
+    "Answer_set": [
+      "A\tle artiste disegnarono da delle forme",
+      "B\tle scenografie devono poter essere disegnate da queste studentesse",
+      "C\talcune coreografie devono disegnare da un mese",
+      "D\tle artiste furono disegnate da delle rappresentazioni artistiche",
+      "E\tle pittrici disegnarono delle forme",
+      "F\tle scenografie devono poter disegnare queste studentesse",
+      "G\tdelle rappresentazioni artistiche disegnammo dalle artiste",
+      "H\tqueste studentesse devono poter disegnare da un mese"
+    ],
+    "Answer_concatenated": "A\tle artiste disegnarono da delle forme\nB\tle scenografie devono poter essere disegnate da queste studentesse\nC\talcune coreografie devono disegnare da un mese\nD\tle artiste furono disegnate da delle rappresentazioni artistiche\nE\tle pittrici disegnarono delle forme\nF\tle scenografie devono poter disegnare queste studentesse\nG\tdelle rappresentazioni artistiche disegnammo dalle artiste\nH\tqueste studentesse devono poter disegnare da un mese",
+    "Correct_option": "H",
+    "Correct_answer": "queste studentesse devono poter disegnare da un mese",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 182,
+    "Context": [
+      "1\tle sue allieve disegnano delle rappresentazioni artistiche con pochi mezzi economici",
+      "2\tle artiste devono disegnare alcune coreografie da pochi mesi",
+      "3\tle scenografie devono essere disegnate da queste studentesse con pochi mezzi economici",
+      "4\tdelle rappresentazioni artistiche sono disegnate dalle artiste da un mese",
+      "5\tle scenografie possono essere disegnate in vista della serata",
+      "6\tdelle forme devono poter essere disegnate da sole",
+      "7\tle artiste disegnano con pochi mezzi economici"
+    ],
+    "Context_concatenated": "1\tle sue allieve disegnano delle rappresentazioni artistiche con pochi mezzi economici\n2\tle artiste devono disegnare alcune coreografie da pochi mesi\n3\tle scenografie devono essere disegnate da queste studentesse con pochi mezzi economici\n4\tdelle rappresentazioni artistiche sono disegnate dalle artiste da un mese\n5\tle scenografie possono essere disegnate in vista della serata\n6\tdelle forme devono poter essere disegnate da sole\n7\tle artiste disegnano con pochi mezzi economici",
+    "Answer_set": [
+      "A\tdelle forme devono disegnare dalle sue allieve",
+      "B\tle scenografie devono poter essere disegnate dalle artiste",
+      "C\tqueste studentesse devono poter disegnare dalle scenografie",
+      "D\talcune coreografie disegnano le sue allieve",
+      "E\tqueste studentesse furono disegnate da delle forme",
+      "F\tqueste studentesse devono disegnare da pochi mesi",
+      "G\tdelle forme possono disegnare da pochi mesi",
+      "H\tle sue allieve disegnano le scenografie"
+    ],
+    "Answer_concatenated": "A\tdelle forme devono disegnare dalle sue allieve\nB\tle scenografie devono poter essere disegnate dalle artiste\nC\tqueste studentesse devono poter disegnare dalle scenografie\nD\talcune coreografie disegnano le sue allieve\nE\tqueste studentesse furono disegnate da delle forme\nF\tqueste studentesse devono disegnare da pochi mesi\nG\tdelle forme possono disegnare da pochi mesi\nH\tle sue allieve disegnano le scenografie",
+    "Correct_option": "F",
+    "Correct_answer": "queste studentesse devono disegnare da pochi mesi",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 202,
+    "Context": [
+      "1\tle pittrici disegnano delle rappresentazioni artistiche nel salone espositivo",
+      "2\tqueste studentesse disegnano le scenografie da un mese",
+      "3\tle scenografie devono poter essere disegnate dalle artiste in vista della serata",
+      "4\tdelle forme devono poter essere disegnate dalle sue allieve da sole",
+      "5\talcune coreografie furono disegnate nel salone espositivo",
+      "6\tdelle rappresentazioni artistiche devono essere disegnate da un mese",
+      "7\tqueste studentesse devono disegnare in vista della serata"
+    ],
+    "Context_concatenated": "1\tle pittrici disegnano delle rappresentazioni artistiche nel salone espositivo\n2\tqueste studentesse disegnano le scenografie da un mese\n3\tle scenografie devono poter essere disegnate dalle artiste in vista della serata\n4\tdelle forme devono poter essere disegnate dalle sue allieve da sole\n5\talcune coreografie furono disegnate nel salone espositivo\n6\tdelle rappresentazioni artistiche devono essere disegnate da un mese\n7\tqueste studentesse devono disegnare in vista della serata",
+    "Answer_set": [
+      "A\tdelle rappresentazioni artistiche possono disegnare dalle sue allieve",
+      "B\tle artiste disegnarono da alcune coreografie",
+      "C\tle pittrici devono disegnare delle forme",
+      "D\tle sue allieve devono essere disegnate da delle forme",
+      "E\tdelle forme disegnarono da un anno circa",
+      "F\tqueste studentesse devono poter disegnare da un anno circa",
+      "G\tdelle rappresentazioni artistiche sono disegnate dalle sue allieve",
+      "H\tle scenografie disegnano le pittrici"
+    ],
+    "Answer_concatenated": "A\tdelle rappresentazioni artistiche possono disegnare dalle sue allieve\nB\tle artiste disegnarono da alcune coreografie\nC\tle pittrici devono disegnare delle forme\nD\tle sue allieve devono essere disegnate da delle forme\nE\tdelle forme disegnarono da un anno circa\nF\tqueste studentesse devono poter disegnare da un anno circa\nG\tdelle rappresentazioni artistiche sono disegnate dalle sue allieve\nH\tle scenografie disegnano le pittrici",
+    "Correct_option": "F",
+    "Correct_answer": "queste studentesse devono poter disegnare da un anno circa",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 181,
+    "Context": [
+      "1\tqueste studentesse disegnarono alcune coreografie con pochi mezzi economici",
+      "2\tle sue allieve disegnano delle forme da pochi mesi",
+      "3\tdelle rappresentazioni artistiche devono essere disegnate da queste studentesse con pochi mezzi economici",
+      "4\tle scenografie possono essere disegnate da queste studentesse da pochi mesi",
+      "5\tdelle rappresentazioni artistiche sono disegnate nel salone espositivo",
+      "6\tdelle forme sono disegnate da sole",
+      "7\tle sue allieve devono disegnare in meno di due giorni"
+    ],
+    "Context_concatenated": "1\tqueste studentesse disegnarono alcune coreografie con pochi mezzi economici\n2\tle sue allieve disegnano delle forme da pochi mesi\n3\tdelle rappresentazioni artistiche devono essere disegnate da queste studentesse con pochi mezzi economici\n4\tle scenografie possono essere disegnate da queste studentesse da pochi mesi\n5\tdelle rappresentazioni artistiche sono disegnate nel salone espositivo\n6\tdelle forme sono disegnate da sole\n7\tle sue allieve devono disegnare in meno di due giorni",
+    "Answer_set": [
+      "A\tle sue allieve disegnammo le scenografie",
+      "B\tle scenografie devono poter essere disegnate dalle sue allieve",
+      "C\tle sue allieve disegnano da sole",
+      "D\tle pittrici furono disegnate da alcune coreografie",
+      "E\talcune coreografie devono poter disegnare dalle pittrici",
+      "F\tle artiste devono poter disegnare da delle forme",
+      "G\tdelle rappresentazioni artistiche disegnano da pochi mesi",
+      "H\tdelle rappresentazioni artistiche possono disegnare le artiste"
+    ],
+    "Answer_concatenated": "A\tle sue allieve disegnammo le scenografie\nB\tle scenografie devono poter essere disegnate dalle sue allieve\nC\tle sue allieve disegnano da sole\nD\tle pittrici furono disegnate da alcune coreografie\nE\talcune coreografie devono poter disegnare dalle pittrici\nF\tle artiste devono poter disegnare da delle forme\nG\tdelle rappresentazioni artistiche disegnano da pochi mesi\nH\tdelle rappresentazioni artistiche possono disegnare le artiste",
+    "Correct_option": "C",
+    "Correct_answer": "le sue allieve disegnano da sole",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 194,
+    "Context": [
+      "1\tle artiste possono disegnare delle rappresentazioni artistiche in meno di due giorni",
+      "2\tle artiste disegnano alcune coreografie da un anno circa",
+      "3\tdelle forme devono essere disegnate da queste studentesse in vista della serata",
+      "4\tle scenografie possono essere disegnate dalle pittrici da un anno circa",
+      "5\tdelle forme sono disegnate in meno di due giorni",
+      "6\tdelle rappresentazioni artistiche possono essere disegnate da un anno circa",
+      "7\tle artiste devono disegnare in meno di due giorni"
+    ],
+    "Context_concatenated": "1\tle artiste possono disegnare delle rappresentazioni artistiche in meno di due giorni\n2\tle artiste disegnano alcune coreografie da un anno circa\n3\tdelle forme devono essere disegnate da queste studentesse in vista della serata\n4\tle scenografie possono essere disegnate dalle pittrici da un anno circa\n5\tdelle forme sono disegnate in meno di due giorni\n6\tdelle rappresentazioni artistiche possono essere disegnate da un anno circa\n7\tle artiste devono disegnare in meno di due giorni",
+    "Answer_set": [
+      "A\tle pittrici devono essere disegnate da delle forme",
+      "B\tle sue allieve possono disegnare delle forme",
+      "C\tdelle forme possono disegnare da queste studentesse",
+      "D\tle scenografie furono disegnate dalle artiste",
+      "E\tle pittrici devono poter disegnare da delle rappresentazioni artistiche",
+      "F\tle pittrici possono disegnare da sole",
+      "G\tdelle rappresentazioni artistiche devono disegnare da un mese",
+      "H\talcune coreografie devono poter disegnare le pittrici"
+    ],
+    "Answer_concatenated": "A\tle pittrici devono essere disegnate da delle forme\nB\tle sue allieve possono disegnare delle forme\nC\tdelle forme possono disegnare da queste studentesse\nD\tle scenografie furono disegnate dalle artiste\nE\tle pittrici devono poter disegnare da delle rappresentazioni artistiche\nF\tle pittrici possono disegnare da sole\nG\tdelle rappresentazioni artistiche devono disegnare da un mese\nH\talcune coreografie devono poter disegnare le pittrici",
+    "Correct_option": "F",
+    "Correct_answer": "le pittrici possono disegnare da sole",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 165,
+    "Context": [
+      "1\tle sue allieve devono disegnare delle rappresentazioni artistiche in meno di due giorni",
+      "2\tle pittrici disegnammo le scenografie da sole",
+      "3\tdelle rappresentazioni artistiche sono disegnate dalle sue allieve con pochi mezzi economici",
+      "4\talcune coreografie devono poter essere disegnate dalle artiste da un mese",
+      "5\tle scenografie devono poter essere disegnate in meno di due giorni",
+      "6\tle scenografie devono essere disegnate da sole",
+      "7\tle pittrici possono disegnare in meno di due giorni"
+    ],
+    "Context_concatenated": "1\tle sue allieve devono disegnare delle rappresentazioni artistiche in meno di due giorni\n2\tle pittrici disegnammo le scenografie da sole\n3\tdelle rappresentazioni artistiche sono disegnate dalle sue allieve con pochi mezzi economici\n4\talcune coreografie devono poter essere disegnate dalle artiste da un mese\n5\tle scenografie devono poter essere disegnate in meno di due giorni\n6\tle scenografie devono essere disegnate da sole\n7\tle pittrici possono disegnare in meno di due giorni",
+    "Answer_set": [
+      "A\tdelle forme disegnano da un mese",
+      "B\tle scenografie possono disegnare dalle pittrici",
+      "C\tle artiste devono disegnare da pochi mesi",
+      "D\talcune coreografie devono poter disegnare queste studentesse",
+      "E\tdelle rappresentazioni artistiche possono essere disegnate dalle artiste",
+      "F\tqueste studentesse disegnano dalle scenografie",
+      "G\tle pittrici devono disegnare le scenografie",
+      "H\tle artiste devono poter essere disegnate da delle forme"
+    ],
+    "Answer_concatenated": "A\tdelle forme disegnano da un mese\nB\tle scenografie possono disegnare dalle pittrici\nC\tle artiste devono disegnare da pochi mesi\nD\talcune coreografie devono poter disegnare queste studentesse\nE\tdelle rappresentazioni artistiche possono essere disegnate dalle artiste\nF\tqueste studentesse disegnano dalle scenografie\nG\tle pittrici devono disegnare le scenografie\nH\tle artiste devono poter essere disegnate da delle forme",
+    "Correct_option": "C",
+    "Correct_answer": "le artiste devono disegnare da pochi mesi",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 218,
+    "Context": [
+      "1\tle pittrici devono disegnare le scenografie in vista della serata",
+      "2\tle pittrici disegnano le scenografie da pochi mesi",
+      "3\tdelle forme devono essere disegnate dalle artiste in meno di due giorni",
+      "4\tdelle forme devono essere disegnate dalle sue allieve da un mese",
+      "5\tdelle rappresentazioni artistiche sono disegnate in meno di due giorni",
+      "6\tle scenografie devono poter essere disegnate da pochi mesi",
+      "7\tle sue allieve devono disegnare con pochi mezzi economici"
+    ],
+    "Context_concatenated": "1\tle pittrici devono disegnare le scenografie in vista della serata\n2\tle pittrici disegnano le scenografie da pochi mesi\n3\tdelle forme devono essere disegnate dalle artiste in meno di due giorni\n4\tdelle forme devono essere disegnate dalle sue allieve da un mese\n5\tdelle rappresentazioni artistiche sono disegnate in meno di due giorni\n6\tle scenografie devono poter essere disegnate da pochi mesi\n7\tle sue allieve devono disegnare con pochi mezzi economici",
+    "Answer_set": [
+      "A\tle pittrici possono disegnare da delle rappresentazioni artistiche",
+      "B\tqueste studentesse devono disegnare le scenografie",
+      "C\tle pittrici devono poter essere disegnate da delle forme",
+      "D\tdelle rappresentazioni artistiche devono disegnare da queste studentesse",
+      "E\tdelle rappresentazioni artistiche possono disegnare da pochi mesi",
+      "F\tle sue allieve devono disegnare da un mese",
+      "G\tdelle forme possono essere disegnate dalle sue allieve",
+      "H\tdelle forme devono poter disegnare queste studentesse"
+    ],
+    "Answer_concatenated": "A\tle pittrici possono disegnare da delle rappresentazioni artistiche\nB\tqueste studentesse devono disegnare le scenografie\nC\tle pittrici devono poter essere disegnate da delle forme\nD\tdelle rappresentazioni artistiche devono disegnare da queste studentesse\nE\tdelle rappresentazioni artistiche possono disegnare da pochi mesi\nF\tle sue allieve devono disegnare da un mese\nG\tdelle forme possono essere disegnate dalle sue allieve\nH\tdelle forme devono poter disegnare queste studentesse",
+    "Correct_option": "F",
+    "Correct_answer": "le sue allieve devono disegnare da un mese",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 166,
+    "Context": [
+      "1\tle sue allieve devono poter disegnare le scenografie in meno di due giorni",
+      "2\tle sue allieve possono disegnare delle forme da pochi mesi",
+      "3\tdelle forme devono poter essere disegnate da queste studentesse con pochi mezzi economici",
+      "4\tdelle forme sono disegnate dalle pittrici da sole",
+      "5\tdelle forme devono poter essere disegnate in vista della serata",
+      "6\tdelle forme furono disegnate da un mese",
+      "7\tle sue allieve disegnammo in vista della serata"
+    ],
+    "Context_concatenated": "1\tle sue allieve devono poter disegnare le scenografie in meno di due giorni\n2\tle sue allieve possono disegnare delle forme da pochi mesi\n3\tdelle forme devono poter essere disegnate da queste studentesse con pochi mezzi economici\n4\tdelle forme sono disegnate dalle pittrici da sole\n5\tdelle forme devono poter essere disegnate in vista della serata\n6\tdelle forme furono disegnate da un mese\n7\tle sue allieve disegnammo in vista della serata",
+    "Answer_set": [
+      "A\tle pittrici disegnano da sole",
+      "B\tdelle forme devono poter disegnare le sue allieve",
+      "C\tle scenografie devono essere disegnate da queste studentesse",
+      "D\tqueste studentesse devono essere disegnate da delle forme",
+      "E\tqueste studentesse disegnarono delle forme",
+      "F\tdelle forme devono disegnare da un anno circa",
+      "G\tle artiste disegnano dalle scenografie",
+      "H\tle scenografie possono disegnare da queste studentesse"
+    ],
+    "Answer_concatenated": "A\tle pittrici disegnano da sole\nB\tdelle forme devono poter disegnare le sue allieve\nC\tle scenografie devono essere disegnate da queste studentesse\nD\tqueste studentesse devono essere disegnate da delle forme\nE\tqueste studentesse disegnarono delle forme\nF\tdelle forme devono disegnare da un anno circa\nG\tle artiste disegnano dalle scenografie\nH\tle scenografie possono disegnare da queste studentesse",
+    "Correct_option": "A",
+    "Correct_answer": "le pittrici disegnano da sole",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 195,
+    "Context": [
+      "1\tle artiste disegnammo delle rappresentazioni artistiche con pochi mezzi economici",
+      "2\tle artiste devono poter disegnare delle rappresentazioni artistiche da un anno circa",
+      "3\tdelle forme devono poter essere disegnate dalle sue allieve in meno di due giorni",
+      "4\tdelle forme sono disegnate da queste studentesse da un anno circa",
+      "5\tle scenografie furono disegnate in meno di due giorni",
+      "6\talcune coreografie furono disegnate da pochi mesi",
+      "7\tle artiste disegnarono nel salone espositivo"
+    ],
+    "Context_concatenated": "1\tle artiste disegnammo delle rappresentazioni artistiche con pochi mezzi economici\n2\tle artiste devono poter disegnare delle rappresentazioni artistiche da un anno circa\n3\tdelle forme devono poter essere disegnate dalle sue allieve in meno di due giorni\n4\tdelle forme sono disegnate da queste studentesse da un anno circa\n5\tle scenografie furono disegnate in meno di due giorni\n6\talcune coreografie furono disegnate da pochi mesi\n7\tle artiste disegnarono nel salone espositivo",
+    "Answer_set": [
+      "A\tle artiste devono disegnare alcune coreografie",
+      "B\tdelle forme devono poter disegnare da queste studentesse",
+      "C\tle artiste possono disegnare da delle rappresentazioni artistiche",
+      "D\tqueste studentesse devono essere disegnate da delle rappresentazioni artistiche",
+      "E\tdelle rappresentazioni artistiche disegnano le artiste",
+      "F\tle scenografie sono disegnate da queste studentesse",
+      "G\tle pittrici devono disegnare da un anno circa",
+      "H\tdelle rappresentazioni artistiche possono disegnare da sole"
+    ],
+    "Answer_concatenated": "A\tle artiste devono disegnare alcune coreografie\nB\tdelle forme devono poter disegnare da queste studentesse\nC\tle artiste possono disegnare da delle rappresentazioni artistiche\nD\tqueste studentesse devono essere disegnate da delle rappresentazioni artistiche\nE\tdelle rappresentazioni artistiche disegnano le artiste\nF\tle scenografie sono disegnate da queste studentesse\nG\tle pittrici devono disegnare da un anno circa\nH\tdelle rappresentazioni artistiche possono disegnare da sole",
+    "Correct_option": "G",
+    "Correct_answer": "le pittrici devono disegnare da un anno circa",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 200,
+    "Context": [
+      "1\tle artiste devono poter disegnare delle rappresentazioni artistiche in vista della serata",
+      "2\tle artiste devono poter disegnare le scenografie da un mese",
+      "3\tdelle rappresentazioni artistiche devono poter essere disegnate dalle pittrici con pochi mezzi economici",
+      "4\tdelle forme devono poter essere disegnate da queste studentesse da un mese",
+      "5\talcune coreografie possono essere disegnate nel salone espositivo",
+      "6\tle scenografie furono disegnate da un anno circa",
+      "7\tqueste studentesse disegnano in vista della serata"
+    ],
+    "Context_concatenated": "1\tle artiste devono poter disegnare delle rappresentazioni artistiche in vista della serata\n2\tle artiste devono poter disegnare le scenografie da un mese\n3\tdelle rappresentazioni artistiche devono poter essere disegnate dalle pittrici con pochi mezzi economici\n4\tdelle forme devono poter essere disegnate da queste studentesse da un mese\n5\talcune coreografie possono essere disegnate nel salone espositivo\n6\tle scenografie furono disegnate da un anno circa\n7\tqueste studentesse disegnano in vista della serata",
+    "Answer_set": [
+      "A\tqueste studentesse devono poter disegnare delle forme",
+      "B\tle artiste possono disegnare da sole",
+      "C\tle artiste furono disegnate dalle scenografie",
+      "D\tdelle rappresentazioni artistiche possono essere disegnate dalle pittrici",
+      "E\tdelle rappresentazioni artistiche devono poter disegnare queste studentesse",
+      "F\talcune coreografie possono disegnare da un mese",
+      "G\talcune coreografie devono disegnare dalle pittrici",
+      "H\tle artiste possono disegnare dalle scenografie"
+    ],
+    "Answer_concatenated": "A\tqueste studentesse devono poter disegnare delle forme\nB\tle artiste possono disegnare da sole\nC\tle artiste furono disegnate dalle scenografie\nD\tdelle rappresentazioni artistiche possono essere disegnate dalle pittrici\nE\tdelle rappresentazioni artistiche devono poter disegnare queste studentesse\nF\talcune coreografie possono disegnare da un mese\nG\talcune coreografie devono disegnare dalle pittrici\nH\tle artiste possono disegnare dalle scenografie",
+    "Correct_option": "B",
+    "Correct_answer": "le artiste possono disegnare da sole",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 191,
+    "Context": [
+      "1\tle artiste devono disegnare delle rappresentazioni artistiche nel salone espositivo",
+      "2\tle sue allieve devono disegnare alcune coreografie da un anno circa",
+      "3\talcune coreografie devono poter essere disegnate dalle pittrici in vista della serata",
+      "4\tle scenografie devono essere disegnate da queste studentesse da sole",
+      "5\tdelle forme sono disegnate nel salone espositivo",
+      "6\tdelle rappresentazioni artistiche devono essere disegnate da sole",
+      "7\tqueste studentesse disegnarono con pochi mezzi economici"
+    ],
+    "Context_concatenated": "1\tle artiste devono disegnare delle rappresentazioni artistiche nel salone espositivo\n2\tle sue allieve devono disegnare alcune coreografie da un anno circa\n3\talcune coreografie devono poter essere disegnate dalle pittrici in vista della serata\n4\tle scenografie devono essere disegnate da queste studentesse da sole\n5\tdelle forme sono disegnate nel salone espositivo\n6\tdelle rappresentazioni artistiche devono essere disegnate da sole\n7\tqueste studentesse disegnarono con pochi mezzi economici",
+    "Answer_set": [
+      "A\talcune coreografie devono essere disegnate dalle artiste",
+      "B\tle artiste possono essere disegnate da delle rappresentazioni artistiche",
+      "C\tle sue allieve possono disegnare da delle forme",
+      "D\tdelle forme possono disegnare dalle sue allieve",
+      "E\tle artiste devono poter disegnare da un mese",
+      "F\tle scenografie devono poter disegnare le artiste",
+      "G\talcune coreografie devono poter disegnare da pochi mesi",
+      "H\tle artiste disegnano delle rappresentazioni artistiche"
+    ],
+    "Answer_concatenated": "A\talcune coreografie devono essere disegnate dalle artiste\nB\tle artiste possono essere disegnate da delle rappresentazioni artistiche\nC\tle sue allieve possono disegnare da delle forme\nD\tdelle forme possono disegnare dalle sue allieve\nE\tle artiste devono poter disegnare da un mese\nF\tle scenografie devono poter disegnare le artiste\nG\talcune coreografie devono poter disegnare da pochi mesi\nH\tle artiste disegnano delle rappresentazioni artistiche",
+    "Correct_option": "E",
+    "Correct_answer": "le artiste devono poter disegnare da un mese",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 205,
+    "Context": [
+      "1\tle pittrici disegnano alcune coreografie nel salone espositivo",
+      "2\tle pittrici possono disegnare delle rappresentazioni artistiche da sole",
+      "3\tdelle forme possono essere disegnate dalle pittrici in meno di due giorni",
+      "4\tle scenografie devono poter essere disegnate da queste studentesse da sole",
+      "5\talcune coreografie furono disegnate in vista della serata",
+      "6\tdelle rappresentazioni artistiche devono poter essere disegnate da sole",
+      "7\tqueste studentesse disegnano in vista della serata"
+    ],
+    "Context_concatenated": "1\tle pittrici disegnano alcune coreografie nel salone espositivo\n2\tle pittrici possono disegnare delle rappresentazioni artistiche da sole\n3\tdelle forme possono essere disegnate dalle pittrici in meno di due giorni\n4\tle scenografie devono poter essere disegnate da queste studentesse da sole\n5\talcune coreografie furono disegnate in vista della serata\n6\tdelle rappresentazioni artistiche devono poter essere disegnate da sole\n7\tqueste studentesse disegnano in vista della serata",
+    "Answer_set": [
+      "A\tdelle rappresentazioni artistiche devono poter disegnare da pochi mesi",
+      "B\tdelle forme devono poter essere disegnate dalle pittrici",
+      "C\tle pittrici disegnammo delle rappresentazioni artistiche",
+      "D\tle pittrici disegnano da delle rappresentazioni artistiche",
+      "E\tdelle forme disegnano dalle artiste",
+      "F\tdelle forme devono disegnare queste studentesse",
+      "G\tle sue allieve possono essere disegnate da delle rappresentazioni artistiche",
+      "H\tle sue allieve disegnano da pochi mesi"
+    ],
+    "Answer_concatenated": "A\tdelle rappresentazioni artistiche devono poter disegnare da pochi mesi\nB\tdelle forme devono poter essere disegnate dalle pittrici\nC\tle pittrici disegnammo delle rappresentazioni artistiche\nD\tle pittrici disegnano da delle rappresentazioni artistiche\nE\tdelle forme disegnano dalle artiste\nF\tdelle forme devono disegnare queste studentesse\nG\tle sue allieve possono essere disegnate da delle rappresentazioni artistiche\nH\tle sue allieve disegnano da pochi mesi",
+    "Correct_option": "H",
+    "Correct_answer": "le sue allieve disegnano da pochi mesi",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 228,
+    "Context": [
+      "1\tqueste studentesse disegnammo le scenografie in meno di due giorni",
+      "2\tle pittrici disegnarono alcune coreografie da sole",
+      "3\tdelle forme sono disegnate dalle pittrici in meno di due giorni",
+      "4\tle scenografie sono disegnate dalle artiste da un anno circa",
+      "5\tle scenografie devono essere disegnate in meno di due giorni",
+      "6\talcune coreografie furono disegnate da un anno circa",
+      "7\tqueste studentesse possono disegnare in vista della serata"
+    ],
+    "Context_concatenated": "1\tqueste studentesse disegnammo le scenografie in meno di due giorni\n2\tle pittrici disegnarono alcune coreografie da sole\n3\tdelle forme sono disegnate dalle pittrici in meno di due giorni\n4\tle scenografie sono disegnate dalle artiste da un anno circa\n5\tle scenografie devono essere disegnate in meno di due giorni\n6\talcune coreografie furono disegnate da un anno circa\n7\tqueste studentesse possono disegnare in vista della serata",
+    "Answer_set": [
+      "A\talcune coreografie possono essere disegnate dalle artiste",
+      "B\tle artiste devono poter disegnare le scenografie",
+      "C\tle sue allieve possono disegnare dalle scenografie",
+      "D\tle scenografie disegnano le sue allieve",
+      "E\tle artiste devono poter disegnare da un anno circa",
+      "F\tdelle forme devono poter disegnare dalle sue allieve",
+      "G\tle pittrici devono essere disegnate da delle rappresentazioni artistiche",
+      "H\tle scenografie possono disegnare da pochi mesi"
+    ],
+    "Answer_concatenated": "A\talcune coreografie possono essere disegnate dalle artiste\nB\tle artiste devono poter disegnare le scenografie\nC\tle sue allieve possono disegnare dalle scenografie\nD\tle scenografie disegnano le sue allieve\nE\tle artiste devono poter disegnare da un anno circa\nF\tdelle forme devono poter disegnare dalle sue allieve\nG\tle pittrici devono essere disegnate da delle rappresentazioni artistiche\nH\tle scenografie possono disegnare da pochi mesi",
+    "Correct_option": "E",
+    "Correct_answer": "le artiste devono poter disegnare da un anno circa",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 192,
+    "Context": [
+      "1\tqueste studentesse possono disegnare le scenografie in meno di due giorni",
+      "2\tle sue allieve possono disegnare delle rappresentazioni artistiche da pochi mesi",
+      "3\tdelle forme devono essere disegnate dalle sue allieve con pochi mezzi economici",
+      "4\talcune coreografie possono essere disegnate da queste studentesse da pochi mesi",
+      "5\talcune coreografie devono essere disegnate in vista della serata",
+      "6\tle scenografie sono disegnate da pochi mesi",
+      "7\tle pittrici disegnammo con pochi mezzi economici"
+    ],
+    "Context_concatenated": "1\tqueste studentesse possono disegnare le scenografie in meno di due giorni\n2\tle sue allieve possono disegnare delle rappresentazioni artistiche da pochi mesi\n3\tdelle forme devono essere disegnate dalle sue allieve con pochi mezzi economici\n4\talcune coreografie possono essere disegnate da queste studentesse da pochi mesi\n5\talcune coreografie devono essere disegnate in vista della serata\n6\tle scenografie sono disegnate da pochi mesi\n7\tle pittrici disegnammo con pochi mezzi economici",
+    "Answer_set": [
+      "A\tdelle forme disegnano dalle sue allieve",
+      "B\tdelle forme devono poter disegnare le pittrici",
+      "C\tle scenografie furono disegnate dalle pittrici",
+      "D\tle artiste devono disegnare delle forme",
+      "E\tle sue allieve disegnammo da delle rappresentazioni artistiche",
+      "F\tle sue allieve devono poter disegnare da sole",
+      "G\tle sue allieve possono essere disegnate da alcune coreografie",
+      "H\tdelle rappresentazioni artistiche devono poter disegnare da un anno circa"
+    ],
+    "Answer_concatenated": "A\tdelle forme disegnano dalle sue allieve\nB\tdelle forme devono poter disegnare le pittrici\nC\tle scenografie furono disegnate dalle pittrici\nD\tle artiste devono disegnare delle forme\nE\tle sue allieve disegnammo da delle rappresentazioni artistiche\nF\tle sue allieve devono poter disegnare da sole\nG\tle sue allieve possono essere disegnate da alcune coreografie\nH\tdelle rappresentazioni artistiche devono poter disegnare da un anno circa",
+    "Correct_option": "F",
+    "Correct_answer": "le sue allieve devono poter disegnare da sole",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 229,
+    "Context": [
+      "1\tle sue allieve possono disegnare alcune coreografie nel salone espositivo",
+      "2\tqueste studentesse disegnarono delle forme da sole",
+      "3\talcune coreografie furono disegnate da queste studentesse con pochi mezzi economici",
+      "4\tdelle forme possono essere disegnate dalle sue allieve da pochi mesi",
+      "5\tle scenografie devono poter essere disegnate in meno di due giorni",
+      "6\talcune coreografie devono poter essere disegnate da sole",
+      "7\tle pittrici devono disegnare in vista della serata"
+    ],
+    "Context_concatenated": "1\tle sue allieve possono disegnare alcune coreografie nel salone espositivo\n2\tqueste studentesse disegnarono delle forme da sole\n3\talcune coreografie furono disegnate da queste studentesse con pochi mezzi economici\n4\tdelle forme possono essere disegnate dalle sue allieve da pochi mesi\n5\tle scenografie devono poter essere disegnate in meno di due giorni\n6\talcune coreografie devono poter essere disegnate da sole\n7\tle pittrici devono disegnare in vista della serata",
+    "Answer_set": [
+      "A\tle sue allieve sono disegnate da delle forme",
+      "B\tqueste studentesse disegnano alcune coreografie",
+      "C\tle sue allieve devono poter disegnare dalle scenografie",
+      "D\talcune coreografie disegnarono da queste studentesse",
+      "E\tle sue allieve devono disegnare da un anno circa",
+      "F\tle scenografie devono poter disegnare le sue allieve",
+      "G\talcune coreografie devono poter essere disegnate da queste studentesse",
+      "H\tdelle forme disegnano da un anno circa"
+    ],
+    "Answer_concatenated": "A\tle sue allieve sono disegnate da delle forme\nB\tqueste studentesse disegnano alcune coreografie\nC\tle sue allieve devono poter disegnare dalle scenografie\nD\talcune coreografie disegnarono da queste studentesse\nE\tle sue allieve devono disegnare da un anno circa\nF\tle scenografie devono poter disegnare le sue allieve\nG\talcune coreografie devono poter essere disegnate da queste studentesse\nH\tdelle forme disegnano da un anno circa",
+    "Correct_option": "E",
+    "Correct_answer": "le sue allieve devono disegnare da un anno circa",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 163,
+    "Context": [
+      "1\tqueste studentesse possono disegnare delle forme nel salone espositivo",
+      "2\tqueste studentesse devono disegnare delle forme da pochi mesi",
+      "3\talcune coreografie furono disegnate dalle sue allieve nel salone espositivo",
+      "4\tdelle rappresentazioni artistiche devono essere disegnate dalle artiste da sole",
+      "5\tdelle rappresentazioni artistiche possono essere disegnate in vista della serata",
+      "6\tdelle forme devono poter essere disegnate da un mese",
+      "7\tqueste studentesse disegnammo nel salone espositivo"
+    ],
+    "Context_concatenated": "1\tqueste studentesse possono disegnare delle forme nel salone espositivo\n2\tqueste studentesse devono disegnare delle forme da pochi mesi\n3\talcune coreografie furono disegnate dalle sue allieve nel salone espositivo\n4\tdelle rappresentazioni artistiche devono essere disegnate dalle artiste da sole\n5\tdelle rappresentazioni artistiche possono essere disegnate in vista della serata\n6\tdelle forme devono poter essere disegnate da un mese\n7\tqueste studentesse disegnammo nel salone espositivo",
+    "Answer_set": [
+      "A\tle sue allieve devono essere disegnate dalle scenografie",
+      "B\tle pittrici disegnano le scenografie",
+      "C\tdelle rappresentazioni artistiche disegnano da sole",
+      "D\tdelle rappresentazioni artistiche possono disegnare dalle artiste",
+      "E\tle pittrici disegnammo dalle scenografie",
+      "F\talcune coreografie possono essere disegnate dalle pittrici",
+      "G\tle pittrici disegnano da pochi mesi",
+      "H\talcune coreografie disegnano le pittrici"
+    ],
+    "Answer_concatenated": "A\tle sue allieve devono essere disegnate dalle scenografie\nB\tle pittrici disegnano le scenografie\nC\tdelle rappresentazioni artistiche disegnano da sole\nD\tdelle rappresentazioni artistiche possono disegnare dalle artiste\nE\tle pittrici disegnammo dalle scenografie\nF\talcune coreografie possono essere disegnate dalle pittrici\nG\tle pittrici disegnano da pochi mesi\nH\talcune coreografie disegnano le pittrici",
+    "Correct_option": "G",
+    "Correct_answer": "le pittrici disegnano da pochi mesi",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 172,
+    "Context": [
+      "1\tle pittrici devono poter disegnare alcune coreografie in vista della serata",
+      "2\tle pittrici possono disegnare le scenografie da un anno circa",
+      "3\talcune coreografie sono disegnate dalle sue allieve in vista della serata",
+      "4\tle scenografie devono essere disegnate dalle artiste da pochi mesi",
+      "5\tle scenografie devono essere disegnate in meno di due giorni",
+      "6\tdelle forme devono essere disegnate da sole",
+      "7\tqueste studentesse disegnano nel salone espositivo"
+    ],
+    "Context_concatenated": "1\tle pittrici devono poter disegnare alcune coreografie in vista della serata\n2\tle pittrici possono disegnare le scenografie da un anno circa\n3\talcune coreografie sono disegnate dalle sue allieve in vista della serata\n4\tle scenografie devono essere disegnate dalle artiste da pochi mesi\n5\tle scenografie devono essere disegnate in meno di due giorni\n6\tdelle forme devono essere disegnate da sole\n7\tqueste studentesse disegnano nel salone espositivo",
+    "Answer_set": [
+      "A\tle scenografie devono disegnare da pochi mesi",
+      "B\tle sue allieve furono disegnate da delle rappresentazioni artistiche",
+      "C\tle sue allieve disegnarono alcune coreografie",
+      "D\tdelle rappresentazioni artistiche devono poter disegnare dalle sue allieve",
+      "E\tdelle forme possono disegnare le sue allieve",
+      "F\tdelle rappresentazioni artistiche devono poter essere disegnate dalle pittrici",
+      "G\tle artiste disegnammo dalle scenografie",
+      "H\tle sue allieve devono poter disegnare da pochi mesi"
+    ],
+    "Answer_concatenated": "A\tle scenografie devono disegnare da pochi mesi\nB\tle sue allieve furono disegnate da delle rappresentazioni artistiche\nC\tle sue allieve disegnarono alcune coreografie\nD\tdelle rappresentazioni artistiche devono poter disegnare dalle sue allieve\nE\tdelle forme possono disegnare le sue allieve\nF\tdelle rappresentazioni artistiche devono poter essere disegnate dalle pittrici\nG\tle artiste disegnammo dalle scenografie\nH\tle sue allieve devono poter disegnare da pochi mesi",
+    "Correct_option": "H",
+    "Correct_answer": "le sue allieve devono poter disegnare da pochi mesi",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 203,
+    "Context": [
+      "1\tqueste studentesse devono disegnare le scenografie con pochi mezzi economici",
+      "2\tle sue allieve devono poter disegnare alcune coreografie da pochi mesi",
+      "3\tdelle forme devono poter essere disegnate dalle artiste nel salone espositivo",
+      "4\tle scenografie possono essere disegnate dalle artiste da sole",
+      "5\tle scenografie sono disegnate in meno di due giorni",
+      "6\tle scenografie furono disegnate da sole",
+      "7\tqueste studentesse devono poter disegnare in meno di due giorni"
+    ],
+    "Context_concatenated": "1\tqueste studentesse devono disegnare le scenografie con pochi mezzi economici\n2\tle sue allieve devono poter disegnare alcune coreografie da pochi mesi\n3\tdelle forme devono poter essere disegnate dalle artiste nel salone espositivo\n4\tle scenografie possono essere disegnate dalle artiste da sole\n5\tle scenografie sono disegnate in meno di due giorni\n6\tle scenografie furono disegnate da sole\n7\tqueste studentesse devono poter disegnare in meno di due giorni",
+    "Answer_set": [
+      "A\tdelle forme disegnarono da pochi mesi",
+      "B\tle pittrici disegnano da delle forme",
+      "C\talcune coreografie furono disegnate dalle artiste",
+      "D\tle sue allieve possono essere disegnate dalle scenografie",
+      "E\tqueste studentesse disegnano da un mese",
+      "F\tle artiste disegnano delle forme",
+      "G\talcune coreografie disegnano dalle pittrici",
+      "H\tdelle rappresentazioni artistiche possono disegnare queste studentesse"
+    ],
+    "Answer_concatenated": "A\tdelle forme disegnarono da pochi mesi\nB\tle pittrici disegnano da delle forme\nC\talcune coreografie furono disegnate dalle artiste\nD\tle sue allieve possono essere disegnate dalle scenografie\nE\tqueste studentesse disegnano da un mese\nF\tle artiste disegnano delle forme\nG\talcune coreografie disegnano dalle pittrici\nH\tdelle rappresentazioni artistiche possono disegnare queste studentesse",
+    "Correct_option": "E",
+    "Correct_answer": "queste studentesse disegnano da un mese",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 185,
+    "Context": [
+      "1\tle sue allieve disegnammo delle rappresentazioni artistiche in vista della serata",
+      "2\tle pittrici possono disegnare delle forme da sole",
+      "3\tdelle forme sono disegnate dalle artiste con pochi mezzi economici",
+      "4\tdelle rappresentazioni artistiche devono poter essere disegnate dalle sue allieve da sole",
+      "5\tdelle rappresentazioni artistiche sono disegnate in vista della serata",
+      "6\talcune coreografie devono essere disegnate da un anno circa",
+      "7\tle sue allieve devono poter disegnare in meno di due giorni"
+    ],
+    "Context_concatenated": "1\tle sue allieve disegnammo delle rappresentazioni artistiche in vista della serata\n2\tle pittrici possono disegnare delle forme da sole\n3\tdelle forme sono disegnate dalle artiste con pochi mezzi economici\n4\tdelle rappresentazioni artistiche devono poter essere disegnate dalle sue allieve da sole\n5\tdelle rappresentazioni artistiche sono disegnate in vista della serata\n6\talcune coreografie devono essere disegnate da un anno circa\n7\tle sue allieve devono poter disegnare in meno di due giorni",
+    "Answer_set": [
+      "A\tle pittrici disegnarono alcune coreografie",
+      "B\tdelle rappresentazioni artistiche devono poter essere disegnate dalle sue allieve",
+      "C\tqueste studentesse disegnammo da un anno circa",
+      "D\tqueste studentesse devono disegnare da delle rappresentazioni artistiche",
+      "E\tqueste studentesse possono essere disegnate da delle rappresentazioni artistiche",
+      "F\tle scenografie devono poter disegnare da sole",
+      "G\tdelle forme devono disegnare dalle artiste",
+      "H\tdelle forme disegnarono le pittrici"
+    ],
+    "Answer_concatenated": "A\tle pittrici disegnarono alcune coreografie\nB\tdelle rappresentazioni artistiche devono poter essere disegnate dalle sue allieve\nC\tqueste studentesse disegnammo da un anno circa\nD\tqueste studentesse devono disegnare da delle rappresentazioni artistiche\nE\tqueste studentesse possono essere disegnate da delle rappresentazioni artistiche\nF\tle scenografie devono poter disegnare da sole\nG\tdelle forme devono disegnare dalle artiste\nH\tdelle forme disegnarono le pittrici",
+    "Correct_option": "C",
+    "Correct_answer": "queste studentesse disegnammo da un anno circa",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 161,
+    "Context": [
+      "1\tqueste studentesse disegnano delle forme nel salone espositivo",
+      "2\tle artiste possono disegnare delle forme da un mese",
+      "3\tdelle rappresentazioni artistiche possono essere disegnate dalle pittrici nel salone espositivo",
+      "4\tdelle rappresentazioni artistiche devono essere disegnate da queste studentesse da pochi mesi",
+      "5\tdelle rappresentazioni artistiche devono poter essere disegnate nel salone espositivo",
+      "6\tdelle forme devono poter essere disegnate da un anno circa",
+      "7\tle sue allieve disegnano con pochi mezzi economici"
+    ],
+    "Context_concatenated": "1\tqueste studentesse disegnano delle forme nel salone espositivo\n2\tle artiste possono disegnare delle forme da un mese\n3\tdelle rappresentazioni artistiche possono essere disegnate dalle pittrici nel salone espositivo\n4\tdelle rappresentazioni artistiche devono essere disegnate da queste studentesse da pochi mesi\n5\tdelle rappresentazioni artistiche devono poter essere disegnate nel salone espositivo\n6\tdelle forme devono poter essere disegnate da un anno circa\n7\tle sue allieve disegnano con pochi mezzi economici",
+    "Answer_set": [
+      "A\tle scenografie possono disegnare da sole",
+      "B\tle scenografie devono poter disegnare da queste studentesse",
+      "C\tdelle rappresentazioni artistiche devono essere disegnate dalle pittrici",
+      "D\tle pittrici devono disegnare da delle forme",
+      "E\tdelle rappresentazioni artistiche devono disegnare le sue allieve",
+      "F\tle artiste possono disegnare da sole",
+      "G\tle pittrici devono poter disegnare delle forme",
+      "H\tle sue allieve sono disegnate da alcune coreografie"
+    ],
+    "Answer_concatenated": "A\tle scenografie possono disegnare da sole\nB\tle scenografie devono poter disegnare da queste studentesse\nC\tdelle rappresentazioni artistiche devono essere disegnate dalle pittrici\nD\tle pittrici devono disegnare da delle forme\nE\tdelle rappresentazioni artistiche devono disegnare le sue allieve\nF\tle artiste possono disegnare da sole\nG\tle pittrici devono poter disegnare delle forme\nH\tle sue allieve sono disegnate da alcune coreografie",
+    "Correct_option": "F",
+    "Correct_answer": "le artiste possono disegnare da sole",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 223,
+    "Context": [
+      "1\tqueste studentesse devono poter disegnare le scenografie con pochi mezzi economici",
+      "2\tle sue allieve disegnano delle rappresentazioni artistiche da pochi mesi",
+      "3\tdelle forme sono disegnate dalle sue allieve in vista della serata",
+      "4\tdelle forme devono essere disegnate dalle pittrici da un anno circa",
+      "5\tdelle rappresentazioni artistiche possono essere disegnate con pochi mezzi economici",
+      "6\talcune coreografie possono essere disegnate da sole",
+      "7\tle artiste possono disegnare con pochi mezzi economici"
+    ],
+    "Context_concatenated": "1\tqueste studentesse devono poter disegnare le scenografie con pochi mezzi economici\n2\tle sue allieve disegnano delle rappresentazioni artistiche da pochi mesi\n3\tdelle forme sono disegnate dalle sue allieve in vista della serata\n4\tdelle forme devono essere disegnate dalle pittrici da un anno circa\n5\tdelle rappresentazioni artistiche possono essere disegnate con pochi mezzi economici\n6\talcune coreografie possono essere disegnate da sole\n7\tle artiste possono disegnare con pochi mezzi economici",
+    "Answer_set": [
+      "A\tdelle forme disegnarono dalle sue allieve",
+      "B\tle sue allieve devono poter disegnare da alcune coreografie",
+      "C\talcune coreografie disegnarono queste studentesse",
+      "D\tle scenografie possono essere disegnate dalle sue allieve",
+      "E\talcune coreografie disegnarono da pochi mesi",
+      "F\tqueste studentesse disegnarono alcune coreografie",
+      "G\tqueste studentesse disegnano da un mese",
+      "H\tqueste studentesse devono poter essere disegnate da delle forme"
+    ],
+    "Answer_concatenated": "A\tdelle forme disegnarono dalle sue allieve\nB\tle sue allieve devono poter disegnare da alcune coreografie\nC\talcune coreografie disegnarono queste studentesse\nD\tle scenografie possono essere disegnate dalle sue allieve\nE\talcune coreografie disegnarono da pochi mesi\nF\tqueste studentesse disegnarono alcune coreografie\nG\tqueste studentesse disegnano da un mese\nH\tqueste studentesse devono poter essere disegnate da delle forme",
+    "Correct_option": "G",
+    "Correct_answer": "queste studentesse disegnano da un mese",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 196,
+    "Context": [
+      "1\tle sue allieve disegnarono alcune coreografie nel salone espositivo",
+      "2\tqueste studentesse disegnammo le scenografie da un anno circa",
+      "3\tle scenografie furono disegnate dalle sue allieve in meno di due giorni",
+      "4\tdelle rappresentazioni artistiche possono essere disegnate dalle artiste da un mese",
+      "5\tdelle rappresentazioni artistiche devono poter essere disegnate in meno di due giorni",
+      "6\tdelle forme furono disegnate da pochi mesi",
+      "7\tqueste studentesse disegnammo in meno di due giorni"
+    ],
+    "Context_concatenated": "1\tle sue allieve disegnarono alcune coreografie nel salone espositivo\n2\tqueste studentesse disegnammo le scenografie da un anno circa\n3\tle scenografie furono disegnate dalle sue allieve in meno di due giorni\n4\tdelle rappresentazioni artistiche possono essere disegnate dalle artiste da un mese\n5\tdelle rappresentazioni artistiche devono poter essere disegnate in meno di due giorni\n6\tdelle forme furono disegnate da pochi mesi\n7\tqueste studentesse disegnammo in meno di due giorni",
+    "Answer_set": [
+      "A\talcune coreografie furono disegnate da queste studentesse",
+      "B\tqueste studentesse furono disegnate da alcune coreografie",
+      "C\tdelle rappresentazioni artistiche devono disegnare le pittrici",
+      "D\talcune coreografie disegnano da queste studentesse",
+      "E\talcune coreografie devono disegnare da sole",
+      "F\tle artiste devono poter disegnare dalle scenografie",
+      "G\tle artiste possono disegnare delle rappresentazioni artistiche",
+      "H\tle artiste disegnano da un mese"
+    ],
+    "Answer_concatenated": "A\talcune coreografie furono disegnate da queste studentesse\nB\tqueste studentesse furono disegnate da alcune coreografie\nC\tdelle rappresentazioni artistiche devono disegnare le pittrici\nD\talcune coreografie disegnano da queste studentesse\nE\talcune coreografie devono disegnare da sole\nF\tle artiste devono poter disegnare dalle scenografie\nG\tle artiste possono disegnare delle rappresentazioni artistiche\nH\tle artiste disegnano da un mese",
+    "Correct_option": "H",
+    "Correct_answer": "le artiste disegnano da un mese",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 237,
+    "Context": [
+      "1\tle pittrici devono disegnare delle forme nel salone espositivo",
+      "2\tle pittrici disegnano alcune coreografie da pochi mesi",
+      "3\tdelle rappresentazioni artistiche furono disegnate dalle artiste con pochi mezzi economici",
+      "4\talcune coreografie furono disegnate dalle pittrici da sole",
+      "5\tdelle forme devono poter essere disegnate nel salone espositivo",
+      "6\tdelle forme possono essere disegnate da un mese",
+      "7\tle sue allieve possono disegnare nel salone espositivo"
+    ],
+    "Context_concatenated": "1\tle pittrici devono disegnare delle forme nel salone espositivo\n2\tle pittrici disegnano alcune coreografie da pochi mesi\n3\tdelle rappresentazioni artistiche furono disegnate dalle artiste con pochi mezzi economici\n4\talcune coreografie furono disegnate dalle pittrici da sole\n5\tdelle forme devono poter essere disegnate nel salone espositivo\n6\tdelle forme possono essere disegnate da un mese\n7\tle sue allieve possono disegnare nel salone espositivo",
+    "Answer_set": [
+      "A\tle artiste possono disegnare da delle forme",
+      "B\tdelle rappresentazioni artistiche disegnammo queste studentesse",
+      "C\tdelle rappresentazioni artistiche disegnano da queste studentesse",
+      "D\tle scenografie devono disegnare da un mese",
+      "E\tle pittrici possono disegnare da un anno circa",
+      "F\talcune coreografie possono essere disegnate dalle sue allieve",
+      "G\tqueste studentesse disegnano delle rappresentazioni artistiche",
+      "H\tle artiste possono essere disegnate da delle forme"
+    ],
+    "Answer_concatenated": "A\tle artiste possono disegnare da delle forme\nB\tdelle rappresentazioni artistiche disegnammo queste studentesse\nC\tdelle rappresentazioni artistiche disegnano da queste studentesse\nD\tle scenografie devono disegnare da un mese\nE\tle pittrici possono disegnare da un anno circa\nF\talcune coreografie possono essere disegnate dalle sue allieve\nG\tqueste studentesse disegnano delle rappresentazioni artistiche\nH\tle artiste possono essere disegnate da delle forme",
+    "Correct_option": "E",
+    "Correct_answer": "le pittrici possono disegnare da un anno circa",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 233,
+    "Context": [
+      "1\tle sue allieve possono disegnare delle forme in vista della serata",
+      "2\tqueste studentesse devono disegnare le scenografie da sole",
+      "3\tdelle rappresentazioni artistiche devono poter essere disegnate dalle sue allieve nel salone espositivo",
+      "4\talcune coreografie furono disegnate da queste studentesse da un anno circa",
+      "5\tle scenografie furono disegnate con pochi mezzi economici",
+      "6\tle scenografie furono disegnate da un mese",
+      "7\tle pittrici possono disegnare con pochi mezzi economici"
+    ],
+    "Context_concatenated": "1\tle sue allieve possono disegnare delle forme in vista della serata\n2\tqueste studentesse devono disegnare le scenografie da sole\n3\tdelle rappresentazioni artistiche devono poter essere disegnate dalle sue allieve nel salone espositivo\n4\talcune coreografie furono disegnate da queste studentesse da un anno circa\n5\tle scenografie furono disegnate con pochi mezzi economici\n6\tle scenografie furono disegnate da un mese\n7\tle pittrici possono disegnare con pochi mezzi economici",
+    "Answer_set": [
+      "A\tdelle forme sono disegnate da queste studentesse",
+      "B\tle sue allieve possono disegnare da un mese",
+      "C\tqueste studentesse devono poter essere disegnate dalle scenografie",
+      "D\tdelle rappresentazioni artistiche devono poter disegnare le pittrici",
+      "E\tle sue allieve disegnano delle rappresentazioni artistiche",
+      "F\tdelle forme devono disegnare da sole",
+      "G\tqueste studentesse devono disegnare da alcune coreografie",
+      "H\talcune coreografie possono disegnare dalle sue allieve"
+    ],
+    "Answer_concatenated": "A\tdelle forme sono disegnate da queste studentesse\nB\tle sue allieve possono disegnare da un mese\nC\tqueste studentesse devono poter essere disegnate dalle scenografie\nD\tdelle rappresentazioni artistiche devono poter disegnare le pittrici\nE\tle sue allieve disegnano delle rappresentazioni artistiche\nF\tdelle forme devono disegnare da sole\nG\tqueste studentesse devono disegnare da alcune coreografie\nH\talcune coreografie possono disegnare dalle sue allieve",
+    "Correct_option": "B",
+    "Correct_answer": "le sue allieve possono disegnare da un mese",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 179,
+    "Context": [
+      "1\tle artiste possono disegnare le scenografie con pochi mezzi economici",
+      "2\tle sue allieve devono poter disegnare le scenografie da pochi mesi",
+      "3\tle scenografie furono disegnate dalle artiste in vista della serata",
+      "4\tdelle forme possono essere disegnate dalle pittrici da sole",
+      "5\tdelle rappresentazioni artistiche devono poter essere disegnate con pochi mezzi economici",
+      "6\tdelle forme devono poter essere disegnate da pochi mesi",
+      "7\tle artiste disegnammo in vista della serata"
+    ],
+    "Context_concatenated": "1\tle artiste possono disegnare le scenografie con pochi mezzi economici\n2\tle sue allieve devono poter disegnare le scenografie da pochi mesi\n3\tle scenografie furono disegnate dalle artiste in vista della serata\n4\tdelle forme possono essere disegnate dalle pittrici da sole\n5\tdelle rappresentazioni artistiche devono poter essere disegnate con pochi mezzi economici\n6\tdelle forme devono poter essere disegnate da pochi mesi\n7\tle artiste disegnammo in vista della serata",
+    "Answer_set": [
+      "A\tqueste studentesse disegnammo le scenografie",
+      "B\tle pittrici disegnano da alcune coreografie",
+      "C\tdelle rappresentazioni artistiche devono disegnare da pochi mesi",
+      "D\tle scenografie sono disegnate dalle pittrici",
+      "E\tle sue allieve disegnammo da un anno circa",
+      "F\tdelle forme possono disegnare dalle pittrici",
+      "G\tdelle forme possono disegnare le pittrici",
+      "H\tle pittrici devono essere disegnate dalle scenografie"
+    ],
+    "Answer_concatenated": "A\tqueste studentesse disegnammo le scenografie\nB\tle pittrici disegnano da alcune coreografie\nC\tdelle rappresentazioni artistiche devono disegnare da pochi mesi\nD\tle scenografie sono disegnate dalle pittrici\nE\tle sue allieve disegnammo da un anno circa\nF\tdelle forme possono disegnare dalle pittrici\nG\tdelle forme possono disegnare le pittrici\nH\tle pittrici devono essere disegnate dalle scenografie",
+    "Correct_option": "E",
+    "Correct_answer": "le sue allieve disegnammo da un anno circa",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 211,
+    "Context": [
+      "1\tle pittrici possono disegnare le scenografie in meno di due giorni",
+      "2\tle sue allieve possono disegnare le scenografie da un mese",
+      "3\tle scenografie possono essere disegnate dalle sue allieve in vista della serata",
+      "4\tdelle forme possono essere disegnate da queste studentesse da un anno circa",
+      "5\tdelle rappresentazioni artistiche furono disegnate in vista della serata",
+      "6\talcune coreografie devono essere disegnate da pochi mesi",
+      "7\tle artiste disegnano in meno di due giorni"
+    ],
+    "Context_concatenated": "1\tle pittrici possono disegnare le scenografie in meno di due giorni\n2\tle sue allieve possono disegnare le scenografie da un mese\n3\tle scenografie possono essere disegnate dalle sue allieve in vista della serata\n4\tdelle forme possono essere disegnate da queste studentesse da un anno circa\n5\tdelle rappresentazioni artistiche furono disegnate in vista della serata\n6\talcune coreografie devono essere disegnate da pochi mesi\n7\tle artiste disegnano in meno di due giorni",
+    "Answer_set": [
+      "A\tle sue allieve disegnano dalle scenografie",
+      "B\tqueste studentesse devono disegnare delle rappresentazioni artistiche",
+      "C\tdelle forme disegnano da pochi mesi",
+      "D\tdelle rappresentazioni artistiche devono poter disegnare da queste studentesse",
+      "E\tle sue allieve devono poter essere disegnate da alcune coreografie",
+      "F\tle scenografie furono disegnate dalle sue allieve",
+      "G\tle sue allieve disegnammo da pochi mesi",
+      "H\talcune coreografie possono disegnare le sue allieve"
+    ],
+    "Answer_concatenated": "A\tle sue allieve disegnano dalle scenografie\nB\tqueste studentesse devono disegnare delle rappresentazioni artistiche\nC\tdelle forme disegnano da pochi mesi\nD\tdelle rappresentazioni artistiche devono poter disegnare da queste studentesse\nE\tle sue allieve devono poter essere disegnate da alcune coreografie\nF\tle scenografie furono disegnate dalle sue allieve\nG\tle sue allieve disegnammo da pochi mesi\nH\talcune coreografie possono disegnare le sue allieve",
+    "Correct_option": "G",
+    "Correct_answer": "le sue allieve disegnammo da pochi mesi",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 207,
+    "Context": [
+      "1\tle artiste disegnano le scenografie in meno di due giorni",
+      "2\tle pittrici possono disegnare alcune coreografie da un anno circa",
+      "3\tle scenografie possono essere disegnate da queste studentesse in meno di due giorni",
+      "4\tdelle forme furono disegnate da queste studentesse da sole",
+      "5\talcune coreografie sono disegnate nel salone espositivo",
+      "6\tle scenografie sono disegnate da sole",
+      "7\tle sue allieve possono disegnare in vista della serata"
+    ],
+    "Context_concatenated": "1\tle artiste disegnano le scenografie in meno di due giorni\n2\tle pittrici possono disegnare alcune coreografie da un anno circa\n3\tle scenografie possono essere disegnate da queste studentesse in meno di due giorni\n4\tdelle forme furono disegnate da queste studentesse da sole\n5\talcune coreografie sono disegnate nel salone espositivo\n6\tle scenografie sono disegnate da sole\n7\tle sue allieve possono disegnare in vista della serata",
+    "Answer_set": [
+      "A\tle artiste disegnano da delle rappresentazioni artistiche",
+      "B\tqueste studentesse sono disegnate da delle rappresentazioni artistiche",
+      "C\tle sue allieve possono disegnare da pochi mesi",
+      "D\talcune coreografie devono essere disegnate dalle sue allieve",
+      "E\tdelle forme devono disegnare da un mese",
+      "F\talcune coreografie disegnarono le pittrici",
+      "G\tle pittrici possono disegnare delle forme",
+      "H\tdelle forme devono poter disegnare dalle pittrici"
+    ],
+    "Answer_concatenated": "A\tle artiste disegnano da delle rappresentazioni artistiche\nB\tqueste studentesse sono disegnate da delle rappresentazioni artistiche\nC\tle sue allieve possono disegnare da pochi mesi\nD\talcune coreografie devono essere disegnate dalle sue allieve\nE\tdelle forme devono disegnare da un mese\nF\talcune coreografie disegnarono le pittrici\nG\tle pittrici possono disegnare delle forme\nH\tdelle forme devono poter disegnare dalle pittrici",
+    "Correct_option": "C",
+    "Correct_answer": "le sue allieve possono disegnare da pochi mesi",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 234,
+    "Context": [
+      "1\tle sue allieve disegnammo le scenografie in meno di due giorni",
+      "2\tle sue allieve devono disegnare le scenografie da un anno circa",
+      "3\tle scenografie sono disegnate dalle artiste in meno di due giorni",
+      "4\tdelle forme possono essere disegnate dalle artiste da un mese",
+      "5\tdelle rappresentazioni artistiche possono essere disegnate in meno di due giorni",
+      "6\talcune coreografie devono poter essere disegnate da pochi mesi",
+      "7\tle pittrici possono disegnare in meno di due giorni"
+    ],
+    "Context_concatenated": "1\tle sue allieve disegnammo le scenografie in meno di due giorni\n2\tle sue allieve devono disegnare le scenografie da un anno circa\n3\tle scenografie sono disegnate dalle artiste in meno di due giorni\n4\tdelle forme possono essere disegnate dalle artiste da un mese\n5\tdelle rappresentazioni artistiche possono essere disegnate in meno di due giorni\n6\talcune coreografie devono poter essere disegnate da pochi mesi\n7\tle pittrici possono disegnare in meno di due giorni",
+    "Answer_set": [
+      "A\tdelle forme disegnarono le sue allieve",
+      "B\tle scenografie possono disegnare da un mese",
+      "C\tle pittrici possono disegnare delle rappresentazioni artistiche",
+      "D\talcune coreografie devono disegnare dalle sue allieve",
+      "E\tle sue allieve disegnarono da delle forme",
+      "F\tle artiste devono poter essere disegnate da alcune coreografie",
+      "G\tdelle rappresentazioni artistiche devono essere disegnate da queste studentesse",
+      "H\tqueste studentesse possono disegnare da un anno circa"
+    ],
+    "Answer_concatenated": "A\tdelle forme disegnarono le sue allieve\nB\tle scenografie possono disegnare da un mese\nC\tle pittrici possono disegnare delle rappresentazioni artistiche\nD\talcune coreografie devono disegnare dalle sue allieve\nE\tle sue allieve disegnarono da delle forme\nF\tle artiste devono poter essere disegnate da alcune coreografie\nG\tdelle rappresentazioni artistiche devono essere disegnate da queste studentesse\nH\tqueste studentesse possono disegnare da un anno circa",
+    "Correct_option": "H",
+    "Correct_answer": "queste studentesse possono disegnare da un anno circa",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 214,
+    "Context": [
+      "1\tle artiste devono disegnare alcune coreografie nel salone espositivo",
+      "2\tle pittrici disegnarono delle forme da un mese",
+      "3\tdelle forme possono essere disegnate dalle artiste con pochi mezzi economici",
+      "4\tdelle rappresentazioni artistiche devono essere disegnate dalle sue allieve da un mese",
+      "5\tle scenografie possono essere disegnate in meno di due giorni",
+      "6\talcune coreografie sono disegnate da un mese",
+      "7\tle artiste devono poter disegnare nel salone espositivo"
+    ],
+    "Context_concatenated": "1\tle artiste devono disegnare alcune coreografie nel salone espositivo\n2\tle pittrici disegnarono delle forme da un mese\n3\tdelle forme possono essere disegnate dalle artiste con pochi mezzi economici\n4\tdelle rappresentazioni artistiche devono essere disegnate dalle sue allieve da un mese\n5\tle scenografie possono essere disegnate in meno di due giorni\n6\talcune coreografie sono disegnate da un mese\n7\tle artiste devono poter disegnare nel salone espositivo",
+    "Answer_set": [
+      "A\talcune coreografie disegnarono da un mese",
+      "B\tle scenografie disegnammo le pittrici",
+      "C\tqueste studentesse disegnammo da sole",
+      "D\tle pittrici possono essere disegnate da alcune coreografie",
+      "E\tdelle rappresentazioni artistiche devono poter disegnare dalle pittrici",
+      "F\tle artiste devono poter disegnare delle rappresentazioni artistiche",
+      "G\tdelle rappresentazioni artistiche sono disegnate da queste studentesse",
+      "H\tqueste studentesse possono disegnare da delle forme"
+    ],
+    "Answer_concatenated": "A\talcune coreografie disegnarono da un mese\nB\tle scenografie disegnammo le pittrici\nC\tqueste studentesse disegnammo da sole\nD\tle pittrici possono essere disegnate da alcune coreografie\nE\tdelle rappresentazioni artistiche devono poter disegnare dalle pittrici\nF\tle artiste devono poter disegnare delle rappresentazioni artistiche\nG\tdelle rappresentazioni artistiche sono disegnate da queste studentesse\nH\tqueste studentesse possono disegnare da delle forme",
+    "Correct_option": "C",
+    "Correct_answer": "queste studentesse disegnammo da sole",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 230,
+    "Context": [
+      "1\tqueste studentesse devono disegnare delle forme in vista della serata",
+      "2\tle pittrici devono poter disegnare delle forme da pochi mesi",
+      "3\tdelle rappresentazioni artistiche furono disegnate da queste studentesse nel salone espositivo",
+      "4\talcune coreografie possono essere disegnate dalle sue allieve da un mese",
+      "5\talcune coreografie furono disegnate con pochi mezzi economici",
+      "6\tle scenografie possono essere disegnate da pochi mesi",
+      "7\tle pittrici devono disegnare in vista della serata"
+    ],
+    "Context_concatenated": "1\tqueste studentesse devono disegnare delle forme in vista della serata\n2\tle pittrici devono poter disegnare delle forme da pochi mesi\n3\tdelle rappresentazioni artistiche furono disegnate da queste studentesse nel salone espositivo\n4\talcune coreografie possono essere disegnate dalle sue allieve da un mese\n5\talcune coreografie furono disegnate con pochi mezzi economici\n6\tle scenografie possono essere disegnate da pochi mesi\n7\tle pittrici devono disegnare in vista della serata",
+    "Answer_set": [
+      "A\tle pittrici disegnano delle forme",
+      "B\tle pittrici sono disegnate da alcune coreografie",
+      "C\tle scenografie devono essere disegnate dalle pittrici",
+      "D\tle artiste devono disegnare da delle forme",
+      "E\tle pittrici disegnano da pochi mesi",
+      "F\tle scenografie devono disegnare queste studentesse",
+      "G\tle scenografie devono poter disegnare da un mese",
+      "H\tdelle forme disegnano da queste studentesse"
+    ],
+    "Answer_concatenated": "A\tle pittrici disegnano delle forme\nB\tle pittrici sono disegnate da alcune coreografie\nC\tle scenografie devono essere disegnate dalle pittrici\nD\tle artiste devono disegnare da delle forme\nE\tle pittrici disegnano da pochi mesi\nF\tle scenografie devono disegnare queste studentesse\nG\tle scenografie devono poter disegnare da un mese\nH\tdelle forme disegnano da queste studentesse",
+    "Correct_option": "E",
+    "Correct_answer": "le pittrici disegnano da pochi mesi",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 173,
+    "Context": [
+      "1\tle artiste disegnarono alcune coreografie nel salone espositivo",
+      "2\tqueste studentesse disegnano alcune coreografie da un mese",
+      "3\talcune coreografie furono disegnate dalle pittrici in vista della serata",
+      "4\tle scenografie furono disegnate da queste studentesse da un anno circa",
+      "5\tdelle forme devono essere disegnate nel salone espositivo",
+      "6\talcune coreografie devono essere disegnate da sole",
+      "7\tle artiste possono disegnare con pochi mezzi economici"
+    ],
+    "Context_concatenated": "1\tle artiste disegnarono alcune coreografie nel salone espositivo\n2\tqueste studentesse disegnano alcune coreografie da un mese\n3\talcune coreografie furono disegnate dalle pittrici in vista della serata\n4\tle scenografie furono disegnate da queste studentesse da un anno circa\n5\tdelle forme devono essere disegnate nel salone espositivo\n6\talcune coreografie devono essere disegnate da sole\n7\tle artiste possono disegnare con pochi mezzi economici",
+    "Answer_set": [
+      "A\tdelle forme devono disegnare da pochi mesi",
+      "B\tqueste studentesse devono essere disegnate dalle scenografie",
+      "C\tle artiste disegnano da un anno circa",
+      "D\tdelle rappresentazioni artistiche furono disegnate dalle pittrici",
+      "E\talcune coreografie possono disegnare le pittrici",
+      "F\tqueste studentesse devono disegnare delle forme",
+      "G\tle scenografie devono disegnare dalle pittrici",
+      "H\tle sue allieve disegnammo dalle scenografie"
+    ],
+    "Answer_concatenated": "A\tdelle forme devono disegnare da pochi mesi\nB\tqueste studentesse devono essere disegnate dalle scenografie\nC\tle artiste disegnano da un anno circa\nD\tdelle rappresentazioni artistiche furono disegnate dalle pittrici\nE\talcune coreografie possono disegnare le pittrici\nF\tqueste studentesse devono disegnare delle forme\nG\tle scenografie devono disegnare dalle pittrici\nH\tle sue allieve disegnammo dalle scenografie",
+    "Correct_option": "C",
+    "Correct_answer": "le artiste disegnano da un anno circa",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 225,
+    "Context": [
+      "1\tqueste studentesse devono poter disegnare le scenografie in meno di due giorni",
+      "2\tle artiste possono disegnare le scenografie da sole",
+      "3\talcune coreografie devono poter essere disegnate dalle artiste nel salone espositivo",
+      "4\tle scenografie devono poter essere disegnate dalle artiste da un mese",
+      "5\tle scenografie devono poter essere disegnate con pochi mezzi economici",
+      "6\tdelle rappresentazioni artistiche sono disegnate da un mese",
+      "7\tqueste studentesse devono poter disegnare in meno di due giorni"
+    ],
+    "Context_concatenated": "1\tqueste studentesse devono poter disegnare le scenografie in meno di due giorni\n2\tle artiste possono disegnare le scenografie da sole\n3\talcune coreografie devono poter essere disegnate dalle artiste nel salone espositivo\n4\tle scenografie devono poter essere disegnate dalle artiste da un mese\n5\tle scenografie devono poter essere disegnate con pochi mezzi economici\n6\tdelle rappresentazioni artistiche sono disegnate da un mese\n7\tqueste studentesse devono poter disegnare in meno di due giorni",
+    "Answer_set": [
+      "A\tdelle rappresentazioni artistiche devono poter disegnare le artiste",
+      "B\tqueste studentesse devono essere disegnate da alcune coreografie",
+      "C\tqueste studentesse possono disegnare delle rappresentazioni artistiche",
+      "D\tqueste studentesse devono disegnare da delle forme",
+      "E\tle scenografie possono disegnare da un anno circa",
+      "F\tle artiste devono poter disegnare da un mese",
+      "G\tdelle forme furono disegnate dalle sue allieve",
+      "H\tle scenografie possono disegnare dalle sue allieve"
+    ],
+    "Answer_concatenated": "A\tdelle rappresentazioni artistiche devono poter disegnare le artiste\nB\tqueste studentesse devono essere disegnate da alcune coreografie\nC\tqueste studentesse possono disegnare delle rappresentazioni artistiche\nD\tqueste studentesse devono disegnare da delle forme\nE\tle scenografie possono disegnare da un anno circa\nF\tle artiste devono poter disegnare da un mese\nG\tdelle forme furono disegnate dalle sue allieve\nH\tle scenografie possono disegnare dalle sue allieve",
+    "Correct_option": "F",
+    "Correct_answer": "le artiste devono poter disegnare da un mese",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 240,
+    "Context": [
+      "1\tle pittrici disegnano le scenografie in meno di due giorni",
+      "2\tle artiste disegnano delle rappresentazioni artistiche da un mese",
+      "3\tdelle forme furono disegnate dalle artiste in vista della serata",
+      "4\tdelle rappresentazioni artistiche sono disegnate da queste studentesse da un anno circa",
+      "5\talcune coreografie possono essere disegnate nel salone espositivo",
+      "6\tle scenografie devono poter essere disegnate da un anno circa",
+      "7\tqueste studentesse devono disegnare con pochi mezzi economici"
+    ],
+    "Context_concatenated": "1\tle pittrici disegnano le scenografie in meno di due giorni\n2\tle artiste disegnano delle rappresentazioni artistiche da un mese\n3\tdelle forme furono disegnate dalle artiste in vista della serata\n4\tdelle rappresentazioni artistiche sono disegnate da queste studentesse da un anno circa\n5\talcune coreografie possono essere disegnate nel salone espositivo\n6\tle scenografie devono poter essere disegnate da un anno circa\n7\tqueste studentesse devono disegnare con pochi mezzi economici",
+    "Answer_set": [
+      "A\tle sue allieve disegnarono da un anno circa",
+      "B\tqueste studentesse devono poter disegnare delle rappresentazioni artistiche",
+      "C\tqueste studentesse devono disegnare dalle scenografie",
+      "D\tdelle rappresentazioni artistiche possono disegnare da un mese",
+      "E\talcune coreografie devono poter disegnare da queste studentesse",
+      "F\tle sue allieve sono disegnate da delle rappresentazioni artistiche",
+      "G\tdelle rappresentazioni artistiche sono disegnate dalle pittrici",
+      "H\talcune coreografie devono poter disegnare le artiste"
+    ],
+    "Answer_concatenated": "A\tle sue allieve disegnarono da un anno circa\nB\tqueste studentesse devono poter disegnare delle rappresentazioni artistiche\nC\tqueste studentesse devono disegnare dalle scenografie\nD\tdelle rappresentazioni artistiche possono disegnare da un mese\nE\talcune coreografie devono poter disegnare da queste studentesse\nF\tle sue allieve sono disegnate da delle rappresentazioni artistiche\nG\tdelle rappresentazioni artistiche sono disegnate dalle pittrici\nH\talcune coreografie devono poter disegnare le artiste",
+    "Correct_option": "A",
+    "Correct_answer": "le sue allieve disegnarono da un anno circa",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 174,
+    "Context": [
+      "1\tle pittrici disegnammo le scenografie con pochi mezzi economici",
+      "2\tle artiste disegnarono delle forme da pochi mesi",
+      "3\tdelle forme possono essere disegnate da queste studentesse nel salone espositivo",
+      "4\tdelle forme devono essere disegnate da queste studentesse da pochi mesi",
+      "5\tdelle rappresentazioni artistiche furono disegnate nel salone espositivo",
+      "6\tle scenografie possono essere disegnate da un anno circa",
+      "7\tle artiste devono disegnare nel salone espositivo"
+    ],
+    "Context_concatenated": "1\tle pittrici disegnammo le scenografie con pochi mezzi economici\n2\tle artiste disegnarono delle forme da pochi mesi\n3\tdelle forme possono essere disegnate da queste studentesse nel salone espositivo\n4\tdelle forme devono essere disegnate da queste studentesse da pochi mesi\n5\tdelle rappresentazioni artistiche furono disegnate nel salone espositivo\n6\tle scenografie possono essere disegnate da un anno circa\n7\tle artiste devono disegnare nel salone espositivo",
+    "Answer_set": [
+      "A\tle scenografie disegnano queste studentesse",
+      "B\tdelle rappresentazioni artistiche disegnammo da pochi mesi",
+      "C\tle artiste devono disegnare da sole",
+      "D\tdelle forme furono disegnate dalle artiste",
+      "E\tdelle forme disegnarono dalle pittrici",
+      "F\tle artiste sono disegnate da alcune coreografie",
+      "G\tle pittrici disegnano delle rappresentazioni artistiche",
+      "H\tle pittrici disegnammo da delle rappresentazioni artistiche"
+    ],
+    "Answer_concatenated": "A\tle scenografie disegnano queste studentesse\nB\tdelle rappresentazioni artistiche disegnammo da pochi mesi\nC\tle artiste devono disegnare da sole\nD\tdelle forme furono disegnate dalle artiste\nE\tdelle forme disegnarono dalle pittrici\nF\tle artiste sono disegnate da alcune coreografie\nG\tle pittrici disegnano delle rappresentazioni artistiche\nH\tle pittrici disegnammo da delle rappresentazioni artistiche",
+    "Correct_option": "C",
+    "Correct_answer": "le artiste devono disegnare da sole",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 180,
+    "Context": [
+      "1\tle sue allieve disegnarono delle forme nel salone espositivo",
+      "2\tle sue allieve devono poter disegnare delle forme da sole",
+      "3\tdelle forme possono essere disegnate dalle sue allieve in vista della serata",
+      "4\tle scenografie devono essere disegnate dalle pittrici da un mese",
+      "5\tdelle forme devono essere disegnate in meno di due giorni",
+      "6\tdelle forme sono disegnate da pochi mesi",
+      "7\tle pittrici devono disegnare nel salone espositivo"
+    ],
+    "Context_concatenated": "1\tle sue allieve disegnarono delle forme nel salone espositivo\n2\tle sue allieve devono poter disegnare delle forme da sole\n3\tdelle forme possono essere disegnate dalle sue allieve in vista della serata\n4\tle scenografie devono essere disegnate dalle pittrici da un mese\n5\tdelle forme devono essere disegnate in meno di due giorni\n6\tdelle forme sono disegnate da pochi mesi\n7\tle pittrici devono disegnare nel salone espositivo",
+    "Answer_set": [
+      "A\tqueste studentesse devono poter disegnare le scenografie",
+      "B\tle sue allieve devono essere disegnate da alcune coreografie",
+      "C\talcune coreografie possono disegnare le artiste",
+      "D\talcune coreografie disegnano da pochi mesi",
+      "E\tle pittrici disegnarono da delle forme",
+      "F\tle artiste disegnarono da un mese",
+      "G\tle scenografie devono poter disegnare da queste studentesse",
+      "H\tdelle forme possono essere disegnate dalle artiste"
+    ],
+    "Answer_concatenated": "A\tqueste studentesse devono poter disegnare le scenografie\nB\tle sue allieve devono essere disegnate da alcune coreografie\nC\talcune coreografie possono disegnare le artiste\nD\talcune coreografie disegnano da pochi mesi\nE\tle pittrici disegnarono da delle forme\nF\tle artiste disegnarono da un mese\nG\tle scenografie devono poter disegnare da queste studentesse\nH\tdelle forme possono essere disegnate dalle artiste",
+    "Correct_option": "F",
+    "Correct_answer": "le artiste disegnarono da un mese",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 221,
+    "Context": [
+      "1\tle artiste possono disegnare alcune coreografie in vista della serata",
+      "2\tle sue allieve possono disegnare alcune coreografie da un mese",
+      "3\tdelle forme furono disegnate da queste studentesse in meno di due giorni",
+      "4\tdelle rappresentazioni artistiche possono essere disegnate dalle pittrici da sole",
+      "5\talcune coreografie devono poter essere disegnate nel salone espositivo",
+      "6\tdelle forme devono essere disegnate da un anno circa",
+      "7\tle artiste devono poter disegnare nel salone espositivo"
+    ],
+    "Context_concatenated": "1\tle artiste possono disegnare alcune coreografie in vista della serata\n2\tle sue allieve possono disegnare alcune coreografie da un mese\n3\tdelle forme furono disegnate da queste studentesse in meno di due giorni\n4\tdelle rappresentazioni artistiche possono essere disegnate dalle pittrici da sole\n5\talcune coreografie devono poter essere disegnate nel salone espositivo\n6\tdelle forme devono essere disegnate da un anno circa\n7\tle artiste devono poter disegnare nel salone espositivo",
+    "Answer_set": [
+      "A\talcune coreografie furono disegnate dalle sue allieve",
+      "B\tdelle rappresentazioni artistiche disegnammo da queste studentesse",
+      "C\tqueste studentesse devono poter essere disegnate da delle rappresentazioni artistiche",
+      "D\tle scenografie devono disegnare le artiste",
+      "E\tle pittrici devono poter disegnare alcune coreografie",
+      "F\tle artiste disegnano da alcune coreografie",
+      "G\tle scenografie devono poter disegnare da un anno circa",
+      "H\tle artiste devono disegnare da pochi mesi"
+    ],
+    "Answer_concatenated": "A\talcune coreografie furono disegnate dalle sue allieve\nB\tdelle rappresentazioni artistiche disegnammo da queste studentesse\nC\tqueste studentesse devono poter essere disegnate da delle rappresentazioni artistiche\nD\tle scenografie devono disegnare le artiste\nE\tle pittrici devono poter disegnare alcune coreografie\nF\tle artiste disegnano da alcune coreografie\nG\tle scenografie devono poter disegnare da un anno circa\nH\tle artiste devono disegnare da pochi mesi",
+    "Correct_option": "H",
+    "Correct_answer": "le artiste devono disegnare da pochi mesi",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 167,
+    "Context": [
+      "1\tle sue allieve devono poter disegnare delle forme in meno di due giorni",
+      "2\tqueste studentesse possono disegnare delle rappresentazioni artistiche da un anno circa",
+      "3\tdelle forme sono disegnate da queste studentesse nel salone espositivo",
+      "4\tdelle rappresentazioni artistiche furono disegnate dalle sue allieve da un anno circa",
+      "5\tdelle rappresentazioni artistiche devono poter essere disegnate in vista della serata",
+      "6\talcune coreografie possono essere disegnate da un mese",
+      "7\tle pittrici disegnano nel salone espositivo"
+    ],
+    "Context_concatenated": "1\tle sue allieve devono poter disegnare delle forme in meno di due giorni\n2\tqueste studentesse possono disegnare delle rappresentazioni artistiche da un anno circa\n3\tdelle forme sono disegnate da queste studentesse nel salone espositivo\n4\tdelle rappresentazioni artistiche furono disegnate dalle sue allieve da un anno circa\n5\tdelle rappresentazioni artistiche devono poter essere disegnate in vista della serata\n6\talcune coreografie possono essere disegnate da un mese\n7\tle pittrici disegnano nel salone espositivo",
+    "Answer_set": [
+      "A\tqueste studentesse devono poter disegnare da delle forme",
+      "B\tdelle rappresentazioni artistiche furono disegnate dalle artiste",
+      "C\tdelle rappresentazioni artistiche devono poter disegnare dalle artiste",
+      "D\tle scenografie disegnammo le artiste",
+      "E\tqueste studentesse devono poter essere disegnate da alcune coreografie",
+      "F\tdelle rappresentazioni artistiche possono disegnare da un anno circa",
+      "G\tqueste studentesse devono poter disegnare alcune coreografie",
+      "H\tle pittrici devono poter disegnare da sole"
+    ],
+    "Answer_concatenated": "A\tqueste studentesse devono poter disegnare da delle forme\nB\tdelle rappresentazioni artistiche furono disegnate dalle artiste\nC\tdelle rappresentazioni artistiche devono poter disegnare dalle artiste\nD\tle scenografie disegnammo le artiste\nE\tqueste studentesse devono poter essere disegnate da alcune coreografie\nF\tdelle rappresentazioni artistiche possono disegnare da un anno circa\nG\tqueste studentesse devono poter disegnare alcune coreografie\nH\tle pittrici devono poter disegnare da sole",
+    "Correct_option": "H",
+    "Correct_answer": "le pittrici devono poter disegnare da sole",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 216,
+    "Context": [
+      "1\tqueste studentesse disegnano alcune coreografie nel salone espositivo",
+      "2\tle artiste devono disegnare delle rappresentazioni artistiche da sole",
+      "3\tle scenografie devono poter essere disegnate dalle sue allieve in meno di due giorni",
+      "4\tdelle forme furono disegnate dalle sue allieve da un anno circa",
+      "5\tdelle forme furono disegnate in meno di due giorni",
+      "6\tdelle forme possono essere disegnate da sole",
+      "7\tle artiste devono disegnare nel salone espositivo"
+    ],
+    "Context_concatenated": "1\tqueste studentesse disegnano alcune coreografie nel salone espositivo\n2\tle artiste devono disegnare delle rappresentazioni artistiche da sole\n3\tle scenografie devono poter essere disegnate dalle sue allieve in meno di due giorni\n4\tdelle forme furono disegnate dalle sue allieve da un anno circa\n5\tdelle forme furono disegnate in meno di due giorni\n6\tdelle forme possono essere disegnate da sole\n7\tle artiste devono disegnare nel salone espositivo",
+    "Answer_set": [
+      "A\tdelle forme possono disegnare da sole",
+      "B\tle scenografie devono poter disegnare dalle sue allieve",
+      "C\tqueste studentesse disegnammo da delle rappresentazioni artistiche",
+      "D\talcune coreografie disegnarono le sue allieve",
+      "E\tle sue allieve devono poter essere disegnate da delle rappresentazioni artistiche",
+      "F\tle pittrici disegnammo da sole",
+      "G\tdelle forme furono disegnate da queste studentesse",
+      "H\tle artiste disegnammo delle rappresentazioni artistiche"
+    ],
+    "Answer_concatenated": "A\tdelle forme possono disegnare da sole\nB\tle scenografie devono poter disegnare dalle sue allieve\nC\tqueste studentesse disegnammo da delle rappresentazioni artistiche\nD\talcune coreografie disegnarono le sue allieve\nE\tle sue allieve devono poter essere disegnate da delle rappresentazioni artistiche\nF\tle pittrici disegnammo da sole\nG\tdelle forme furono disegnate da queste studentesse\nH\tle artiste disegnammo delle rappresentazioni artistiche",
+    "Correct_option": "F",
+    "Correct_answer": "le pittrici disegnammo da sole",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 190,
+    "Context": [
+      "1\tle artiste disegnano alcune coreografie con pochi mezzi economici",
+      "2\tle pittrici devono disegnare le scenografie da un mese",
+      "3\tle scenografie sono disegnate dalle pittrici in meno di due giorni",
+      "4\tdelle rappresentazioni artistiche furono disegnate dalle pittrici da un mese",
+      "5\tdelle forme furono disegnate nel salone espositivo",
+      "6\tdelle rappresentazioni artistiche furono disegnate da un mese",
+      "7\tle sue allieve devono poter disegnare nel salone espositivo"
+    ],
+    "Context_concatenated": "1\tle artiste disegnano alcune coreografie con pochi mezzi economici\n2\tle pittrici devono disegnare le scenografie da un mese\n3\tle scenografie sono disegnate dalle pittrici in meno di due giorni\n4\tdelle rappresentazioni artistiche furono disegnate dalle pittrici da un mese\n5\tdelle forme furono disegnate nel salone espositivo\n6\tdelle rappresentazioni artistiche furono disegnate da un mese\n7\tle sue allieve devono poter disegnare nel salone espositivo",
+    "Answer_set": [
+      "A\tle pittrici disegnano da sole",
+      "B\tdelle rappresentazioni artistiche disegnammo le pittrici",
+      "C\tdelle rappresentazioni artistiche disegnammo dalle pittrici",
+      "D\tle sue allieve disegnarono delle forme",
+      "E\tle sue allieve disegnano da alcune coreografie",
+      "F\tdelle rappresentazioni artistiche disegnano da un mese",
+      "G\tle pittrici possono essere disegnate da delle forme",
+      "H\talcune coreografie devono poter essere disegnate dalle sue allieve"
+    ],
+    "Answer_concatenated": "A\tle pittrici disegnano da sole\nB\tdelle rappresentazioni artistiche disegnammo le pittrici\nC\tdelle rappresentazioni artistiche disegnammo dalle pittrici\nD\tle sue allieve disegnarono delle forme\nE\tle sue allieve disegnano da alcune coreografie\nF\tdelle rappresentazioni artistiche disegnano da un mese\nG\tle pittrici possono essere disegnate da delle forme\nH\talcune coreografie devono poter essere disegnate dalle sue allieve",
+    "Correct_option": "A",
+    "Correct_answer": "le pittrici disegnano da sole",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 227,
+    "Context": [
+      "1\tle sue allieve disegnano alcune coreografie in vista della serata",
+      "2\tle pittrici devono disegnare delle forme da un anno circa",
+      "3\talcune coreografie sono disegnate da queste studentesse nel salone espositivo",
+      "4\tle scenografie sono disegnate dalle pittrici da pochi mesi",
+      "5\tle scenografie possono essere disegnate con pochi mezzi economici",
+      "6\tdelle rappresentazioni artistiche devono essere disegnate da pochi mesi",
+      "7\tqueste studentesse disegnarono in meno di due giorni"
+    ],
+    "Context_concatenated": "1\tle sue allieve disegnano alcune coreografie in vista della serata\n2\tle pittrici devono disegnare delle forme da un anno circa\n3\talcune coreografie sono disegnate da queste studentesse nel salone espositivo\n4\tle scenografie sono disegnate dalle pittrici da pochi mesi\n5\tle scenografie possono essere disegnate con pochi mezzi economici\n6\tdelle rappresentazioni artistiche devono essere disegnate da pochi mesi\n7\tqueste studentesse disegnarono in meno di due giorni",
+    "Answer_set": [
+      "A\tdelle rappresentazioni artistiche furono disegnate dalle sue allieve",
+      "B\tle scenografie disegnano da un mese",
+      "C\talcune coreografie disegnano queste studentesse",
+      "D\tle sue allieve devono disegnare da un mese",
+      "E\tle artiste disegnarono delle forme",
+      "F\tdelle rappresentazioni artistiche devono disegnare dalle sue allieve",
+      "G\tqueste studentesse possono disegnare da delle rappresentazioni artistiche",
+      "H\tle sue allieve furono disegnate da alcune coreografie"
+    ],
+    "Answer_concatenated": "A\tdelle rappresentazioni artistiche furono disegnate dalle sue allieve\nB\tle scenografie disegnano da un mese\nC\talcune coreografie disegnano queste studentesse\nD\tle sue allieve devono disegnare da un mese\nE\tle artiste disegnarono delle forme\nF\tdelle rappresentazioni artistiche devono disegnare dalle sue allieve\nG\tqueste studentesse possono disegnare da delle rappresentazioni artistiche\nH\tle sue allieve furono disegnate da alcune coreografie",
+    "Correct_option": "D",
+    "Correct_answer": "le sue allieve devono disegnare da un mese",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 197,
+    "Context": [
+      "1\tle sue allieve disegnano delle forme in vista della serata",
+      "2\tle pittrici disegnano delle forme da sole",
+      "3\tle scenografie furono disegnate da queste studentesse in meno di due giorni",
+      "4\tle scenografie devono essere disegnate dalle sue allieve da un anno circa",
+      "5\tdelle forme furono disegnate in vista della serata",
+      "6\tdelle forme possono essere disegnate da pochi mesi",
+      "7\tqueste studentesse possono disegnare nel salone espositivo"
+    ],
+    "Context_concatenated": "1\tle sue allieve disegnano delle forme in vista della serata\n2\tle pittrici disegnano delle forme da sole\n3\tle scenografie furono disegnate da queste studentesse in meno di due giorni\n4\tle scenografie devono essere disegnate dalle sue allieve da un anno circa\n5\tdelle forme furono disegnate in vista della serata\n6\tdelle forme possono essere disegnate da pochi mesi\n7\tqueste studentesse possono disegnare nel salone espositivo",
+    "Answer_set": [
+      "A\tle scenografie possono disegnare queste studentesse",
+      "B\talcune coreografie disegnarono da sole",
+      "C\tdelle forme disegnarono dalle artiste",
+      "D\tle sue allieve disegnarono da alcune coreografie",
+      "E\tle scenografie sono disegnate dalle sue allieve",
+      "F\tqueste studentesse devono disegnare da sole",
+      "G\tle sue allieve sono disegnate dalle scenografie",
+      "H\tle sue allieve devono disegnare delle forme"
+    ],
+    "Answer_concatenated": "A\tle scenografie possono disegnare queste studentesse\nB\talcune coreografie disegnarono da sole\nC\tdelle forme disegnarono dalle artiste\nD\tle sue allieve disegnarono da alcune coreografie\nE\tle scenografie sono disegnate dalle sue allieve\nF\tqueste studentesse devono disegnare da sole\nG\tle sue allieve sono disegnate dalle scenografie\nH\tle sue allieve devono disegnare delle forme",
+    "Correct_option": "F",
+    "Correct_answer": "queste studentesse devono disegnare da sole",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 212,
+    "Context": [
+      "1\tle artiste devono poter disegnare delle forme nel salone espositivo",
+      "2\tqueste studentesse devono poter disegnare le scenografie da un anno circa",
+      "3\talcune coreografie possono essere disegnate dalle artiste in vista della serata",
+      "4\talcune coreografie sono disegnate dalle sue allieve da sole",
+      "5\tdelle rappresentazioni artistiche furono disegnate con pochi mezzi economici",
+      "6\tle scenografie sono disegnate da un anno circa",
+      "7\tle pittrici disegnano nel salone espositivo"
+    ],
+    "Context_concatenated": "1\tle artiste devono poter disegnare delle forme nel salone espositivo\n2\tqueste studentesse devono poter disegnare le scenografie da un anno circa\n3\talcune coreografie possono essere disegnate dalle artiste in vista della serata\n4\talcune coreografie sono disegnate dalle sue allieve da sole\n5\tdelle rappresentazioni artistiche furono disegnate con pochi mezzi economici\n6\tle scenografie sono disegnate da un anno circa\n7\tle pittrici disegnano nel salone espositivo",
+    "Answer_set": [
+      "A\tle sue allieve devono poter disegnare delle rappresentazioni artistiche",
+      "B\tle artiste devono disegnare da delle rappresentazioni artistiche",
+      "C\tqueste studentesse possono disegnare da pochi mesi",
+      "D\tdelle forme possono disegnare dalle artiste",
+      "E\tdelle rappresentazioni artistiche disegnammo da sole",
+      "F\tdelle forme sono disegnate dalle sue allieve",
+      "G\tle artiste furono disegnate da delle forme",
+      "H\tle scenografie disegnammo le sue allieve"
+    ],
+    "Answer_concatenated": "A\tle sue allieve devono poter disegnare delle rappresentazioni artistiche\nB\tle artiste devono disegnare da delle rappresentazioni artistiche\nC\tqueste studentesse possono disegnare da pochi mesi\nD\tdelle forme possono disegnare dalle artiste\nE\tdelle rappresentazioni artistiche disegnammo da sole\nF\tdelle forme sono disegnate dalle sue allieve\nG\tle artiste furono disegnate da delle forme\nH\tle scenografie disegnammo le sue allieve",
+    "Correct_option": "C",
+    "Correct_answer": "queste studentesse possono disegnare da pochi mesi",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 209,
+    "Context": [
+      "1\tle artiste disegnarono delle forme in vista della serata",
+      "2\tqueste studentesse possono disegnare le scenografie da pochi mesi",
+      "3\tdelle rappresentazioni artistiche possono essere disegnate da queste studentesse in vista della serata",
+      "4\tle scenografie furono disegnate dalle sue allieve da pochi mesi",
+      "5\tle scenografie devono poter essere disegnate in vista della serata",
+      "6\talcune coreografie possono essere disegnate da un anno circa",
+      "7\tqueste studentesse devono disegnare in vista della serata"
+    ],
+    "Context_concatenated": "1\tle artiste disegnarono delle forme in vista della serata\n2\tqueste studentesse possono disegnare le scenografie da pochi mesi\n3\tdelle rappresentazioni artistiche possono essere disegnate da queste studentesse in vista della serata\n4\tle scenografie furono disegnate dalle sue allieve da pochi mesi\n5\tle scenografie devono poter essere disegnate in vista della serata\n6\talcune coreografie possono essere disegnate da un anno circa\n7\tqueste studentesse devono disegnare in vista della serata",
+    "Answer_set": [
+      "A\tle artiste sono disegnate da delle rappresentazioni artistiche",
+      "B\talcune coreografie devono poter essere disegnate dalle pittrici",
+      "C\tle artiste disegnarono da pochi mesi",
+      "D\tdelle rappresentazioni artistiche devono disegnare da sole",
+      "E\tle sue allieve devono disegnare alcune coreografie",
+      "F\talcune coreografie disegnano le artiste",
+      "G\tle pittrici devono poter disegnare da delle forme",
+      "H\tdelle forme devono disegnare dalle pittrici"
+    ],
+    "Answer_concatenated": "A\tle artiste sono disegnate da delle rappresentazioni artistiche\nB\talcune coreografie devono poter essere disegnate dalle pittrici\nC\tle artiste disegnarono da pochi mesi\nD\tdelle rappresentazioni artistiche devono disegnare da sole\nE\tle sue allieve devono disegnare alcune coreografie\nF\talcune coreografie disegnano le artiste\nG\tle pittrici devono poter disegnare da delle forme\nH\tdelle forme devono disegnare dalle pittrici",
+    "Correct_option": "C",
+    "Correct_answer": "le artiste disegnarono da pochi mesi",
+    "Verb": "disegnare"
+  }
+]

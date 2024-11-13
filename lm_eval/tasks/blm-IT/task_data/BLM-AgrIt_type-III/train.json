@@ -1,0 +1,562 @@
+[
+  {
+    "ID": 3049,
+    "Context": [
+      "1\tI miei amici dicono che il maestro dei miei cugini nella foto assomiglia a una star .",
+      "2\tL’ articolo ha riportato che le teorie sui canti del canarino dividono i riercatori .",
+      "3\tLe bambine dicono che il cuore del senzatetto vicino alla spazzatura piange .",
+      "4\tIl dottore si crea conto che i racconti della sofferenza all' ospedale commuovono i partecipanti .",
+      "5\tL’ organizzatore mi ha informato che la riunione sulle storie delle guerre è cominciata più tardi del previsto .",
+      "6\tLa fonte ha detto che gli elicotteri per i voli sui canyon si sono schiantati .",
+      "7\tLe amministratrici trovano che l’ architetto del castello dei milionari ha perso l' appalto ."
+    ],
+    "Context_concatenated": "1\tI miei amici dicono che il maestro dei miei cugini nella foto assomiglia a una star .\n2\tL’ articolo ha riportato che le teorie sui canti del canarino dividono i riercatori .\n3\tLe bambine dicono che il cuore del senzatetto vicino alla spazzatura piange .\n4\tIl dottore si crea conto che i racconti della sofferenza all' ospedale commuovono i partecipanti .\n5\tL’ organizzatore mi ha informato che la riunione sulle storie delle guerre è cominciata più tardi del previsto .\n6\tLa fonte ha detto che gli elicotteri per i voli sui canyon si sono schiantati .\n7\tLe amministratrici trovano che l’ architetto del castello dei milionari ha perso l' appalto .",
+    "Context_annotation": [
+      {
+        "pattern": "Prefix Subj_sg P1_pl P2_sg V_sg",
+        "chunks": "['I miei amici dicono che', 'il maestro', 'dei miei cugini', 'nella foto', 'assomiglia a una star', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_pl P1_pl P2_sg V_pl",
+        "chunks": "['L’ articolo ha riportato che', 'le teorie', 'sui canti', 'del canarino', 'dividono i riercatori', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_sg P1_sg P2_sg V_sg",
+        "chunks": "['Le bambine dicono che', 'il cuore', 'del senzatetto', 'vicino alla spazzatura', 'piange', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_pl P1_sg P2_sg V_pl",
+        "chunks": "['Il dottore si crea conto che', 'i racconti', 'della sofferenza', \"all' ospedale\", 'commuovono i partecipanti', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_sg P1_pl P2_pl V_sg",
+        "chunks": "['L’ organizzatore mi ha informato che', 'la riunione', 'sulle storie', 'delle guerre', 'è cominciata più tardi del previsto', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_pl P1_pl P2_pl V_pl",
+        "chunks": "['La fonte ha detto che', 'gli elicotteri', 'per i voli', 'sui canyon', 'si sono schiantati', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_sg P1_sg P2_pl V_sg",
+        "chunks": "['Le amministratrici trovano che', 'l’ architetto', 'del castello', 'dei milionari', \"ha perso l' appalto\", '.']"
+      }
+    ],
+    "Answer_set": [
+      "A\tLa polizia ha detto che gli elicotteri per i voli sui canyon si sono schiantati .",
+      "B\tLa polizia ha detto che gli elicotteri per il volo sui canyon si sono schiantati .",
+      "C\tLa polizia ha detto che gli elicotteri per il volo sul canyon si è schiantato .",
+      "D\tLa polizia ha detto che gli elicotteri per il volo sul canyon si è schiantato .",
+      "E\tLa polizia ha detto che gli elicotteri per il volo sul canyon si sono schiantati .",
+      "F\tLa polizia ha detto che gli elicotteri per il volo sui canyon si è schiantato .",
+      "G\tLa polizia ha detto che gli elicotteri per il volo sui canyon nelle riserve indiane si sono schiantati .",
+      "H\tLa polizia ha detto che gli elicotteri per il volo e i canyon si sono schiantati ."
+    ],
+    "Answer_concatenated": "A\tLa polizia ha detto che gli elicotteri per i voli sui canyon si sono schiantati .\nB\tLa polizia ha detto che gli elicotteri per il volo sui canyon si sono schiantati .\nC\tLa polizia ha detto che gli elicotteri per il volo sul canyon si è schiantato .\nD\tLa polizia ha detto che gli elicotteri per il volo sul canyon si è schiantato .\nE\tLa polizia ha detto che gli elicotteri per il volo sul canyon si sono schiantati .\nF\tLa polizia ha detto che gli elicotteri per il volo sui canyon si è schiantato .\nG\tLa polizia ha detto che gli elicotteri per il volo sui canyon nelle riserve indiane si sono schiantati .\nH\tLa polizia ha detto che gli elicotteri per il volo e i canyon si sono schiantati .",
+    "Correct_option": "B",
+    "Correct_answer": "La polizia ha detto che gli elicotteri per il volo sui canyon si sono schiantati ."
+  },
+  {
+    "ID": 1031,
+    "Context": [
+      "1\tIl furfante delle macchine ha sterzato bruscamente .",
+      "2\tI produttori dei video hanno vinto la palma d' oro .",
+      "3\tLa visita al palazzo si avvicina .",
+      "4\tI bambini del senzatetto piangono .",
+      "5\tIl macchina coi programmi dell' esperimento non funziona .",
+      "6\tLe teorie sui fatti del canarino dividono i riercatori .",
+      "7\tIl depliant sul tema della comunità ha molto interessato ."
+    ],
+    "Context_concatenated": "1\tIl furfante delle macchine ha sterzato bruscamente .\n2\tI produttori dei video hanno vinto la palma d' oro .\n3\tLa visita al palazzo si avvicina .\n4\tI bambini del senzatetto piangono .\n5\tIl macchina coi programmi dell' esperimento non funziona .\n6\tLe teorie sui fatti del canarino dividono i riercatori .\n7\tIl depliant sul tema della comunità ha molto interessato .",
+    "Context_annotation": [
+      {
+        "pattern": "Subj_sg P1_pl P2_None V_sg",
+        "chunks": "['Il furfante', 'delle macchine', '', 'ha sterzato bruscamente', '.']"
+      },
+      {
+        "pattern": "Subj_pl P1_pl P2_None V_pl",
+        "chunks": "['I produttori', 'dei video', '', \"hanno vinto la palma d' oro\", '.']"
+      },
+      {
+        "pattern": "Subj_sg P1_sg P2_None V_sg",
+        "chunks": "['La visita', 'al palazzo', '', 'si avvicina', '.']"
+      },
+      {
+        "pattern": "Subj_pl P1_sg P2_None V_pl",
+        "chunks": "['I bambini', 'del senzatetto', '', 'piangono', '.']"
+      },
+      {
+        "pattern": "Subj_sg P1_pl P2_sg V_sg",
+        "chunks": "['Il macchina', 'coi programmi', \"dell' esperimento\", 'non funziona', '.']"
+      },
+      {
+        "pattern": "Subj_pl P1_pl P2_sg V_pl",
+        "chunks": "['Le teorie', 'sui fatti', 'del canarino', 'dividono i riercatori', '.']"
+      },
+      {
+        "pattern": "Subj_sg P1_sg P2_sg V_sg",
+        "chunks": "['Il depliant', 'sul tema', 'della comunità', 'ha molto interessato', '.']"
+      }
+    ],
+    "Answer_set": [
+      "A\tI libri sulla privatizzazione della ditta ha entusiasmato la sala .",
+      "B\tI libri sulle trasferimenti della ditta hanno entusiasmato la sala .",
+      "C\tI libri sulla privatizzazione delle ditte hanno entusiasmato la sala .",
+      "D\tI libri sulla privatizzazione della ditta ha entusiasmato la sala .",
+      "E\tI libri sulla privatizzazione della ditta delle città hanno entusiasmato la sala .",
+      "F\tI libri sulla privatizzazione delle ditte ha entusiasmato la sala .",
+      "G\tI libri sulla privatizzazione della ditta hanno entusiasmato la sala .",
+      "H\tI libri sulla privatizzazione e le ditte hanno entusiasmato la sala ."
+    ],
+    "Answer_concatenated": "A\tI libri sulla privatizzazione della ditta ha entusiasmato la sala .\nB\tI libri sulle trasferimenti della ditta hanno entusiasmato la sala .\nC\tI libri sulla privatizzazione delle ditte hanno entusiasmato la sala .\nD\tI libri sulla privatizzazione della ditta ha entusiasmato la sala .\nE\tI libri sulla privatizzazione della ditta delle città hanno entusiasmato la sala .\nF\tI libri sulla privatizzazione delle ditte ha entusiasmato la sala .\nG\tI libri sulla privatizzazione della ditta hanno entusiasmato la sala .\nH\tI libri sulla privatizzazione e le ditte hanno entusiasmato la sala .",
+    "Correct_option": "G",
+    "Correct_answer": "I libri sulla privatizzazione della ditta hanno entusiasmato la sala ."
+  },
+  {
+    "ID": 2359,
+    "Context": [
+      "1\tIl capo trova che la minaccia delle riforme inquieta i medici .",
+      "2\tL’ scribacchina crede che gli studi sugli effetti appariranno presto .",
+      "3\tI vicini sperano che il capo del pappagallo arriverà .",
+      "4\tIl mio amico ha commentato che le serate nell' appartamento hanno disturbato i vicini .",
+      "5\tLe colleghe hanno visto che lo scioperante sulle pioli del padrone bloccava la porta .",
+      "6\tGiulia si è resa conto che le tovaglie sui tavoli del pranzo brillano al sole .",
+      "7\tI miei cugini pensano che la compagna del possessorio della villa dormiva sulla spiaggia ."
+    ],
+    "Context_concatenated": "1\tIl capo trova che la minaccia delle riforme inquieta i medici .\n2\tL’ scribacchina crede che gli studi sugli effetti appariranno presto .\n3\tI vicini sperano che il capo del pappagallo arriverà .\n4\tIl mio amico ha commentato che le serate nell' appartamento hanno disturbato i vicini .\n5\tLe colleghe hanno visto che lo scioperante sulle pioli del padrone bloccava la porta .\n6\tGiulia si è resa conto che le tovaglie sui tavoli del pranzo brillano al sole .\n7\tI miei cugini pensano che la compagna del possessorio della villa dormiva sulla spiaggia .",
+    "Context_annotation": [
+      {
+        "pattern": "Prefix Subj_sg P1_pl P2_None V_sg",
+        "chunks": "['Il capo trova che', 'la minaccia', 'delle riforme', '', 'inquieta i medici', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_pl P1_pl P2_None V_pl",
+        "chunks": "['L’ scribacchina crede che', 'gli studi', 'sugli effetti', '', 'appariranno presto', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_sg P1_sg P2_None V_sg",
+        "chunks": "['I vicini sperano che', 'il capo', 'del pappagallo', '', 'arriverà', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_pl P1_sg P2_None V_pl",
+        "chunks": "['Il mio amico ha commentato che', 'le serate', \"nell' appartamento\", '', 'hanno disturbato i vicini', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_sg P1_pl P2_sg V_sg",
+        "chunks": "['Le colleghe hanno visto che', 'lo scioperante', 'sulle pioli', 'del padrone', 'bloccava la porta', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_pl P1_pl P2_sg V_pl",
+        "chunks": "['Giulia si è resa conto che', 'le tovaglie', 'sui tavoli', 'del pranzo', 'brillano al sole', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_sg P1_sg P2_sg V_sg",
+        "chunks": "['I miei cugini pensano che', 'la compagna', 'del possessorio', 'della villa', 'dormiva sulla spiaggia', '.']"
+      }
+    ],
+    "Answer_set": [
+      "A\tLa polizia ha detto che gli elicotteri per i voli sul canyon si sono schiantati .",
+      "B\tLa polizia ha detto che gli elicotteri per il volo sul canyon si è schiantato .",
+      "C\tLa polizia ha detto che gli elicotteri per il volo sul canyon nelle riserve indiane si sono schiantati .",
+      "D\tLa polizia ha detto che gli elicotteri per il volo e i canyon si sono schiantati .",
+      "E\tLa polizia ha detto che gli elicotteri per il volo sul canyon si sono schiantati .",
+      "F\tLa polizia ha detto che gli elicotteri per il volo sul canyon si è schiantato .",
+      "G\tLa polizia ha detto che gli elicotteri per il volo sui canyon si sono schiantati .",
+      "H\tLa polizia ha detto che gli elicotteri per il volo sui canyon si è schiantato ."
+    ],
+    "Answer_concatenated": "A\tLa polizia ha detto che gli elicotteri per i voli sul canyon si sono schiantati .\nB\tLa polizia ha detto che gli elicotteri per il volo sul canyon si è schiantato .\nC\tLa polizia ha detto che gli elicotteri per il volo sul canyon nelle riserve indiane si sono schiantati .\nD\tLa polizia ha detto che gli elicotteri per il volo e i canyon si sono schiantati .\nE\tLa polizia ha detto che gli elicotteri per il volo sul canyon si sono schiantati .\nF\tLa polizia ha detto che gli elicotteri per il volo sul canyon si è schiantato .\nG\tLa polizia ha detto che gli elicotteri per il volo sui canyon si sono schiantati .\nH\tLa polizia ha detto che gli elicotteri per il volo sui canyon si è schiantato .",
+    "Correct_option": "E",
+    "Correct_answer": "La polizia ha detto che gli elicotteri per il volo sul canyon si sono schiantati ."
+  },
+  {
+    "ID": 14844,
+    "Context": [
+      "1\tI miei figli mi hanno detto che i gatti sui tetti dei ragazzi miagolano da ieri sera .",
+      "2\tI vicini sperano che il padrone dei pappagalli sugli alberi arriverà .",
+      "3\tI presenti sapevano che gli allenatori del vincitore delle partite ricevettero una grossa ricompensa .",
+      "4\tI procuratori pensano che l' avvocato dell' assassino dei villaggi ritornerà .",
+      "5\tI miei ragazzi dicono che i professori dei miei cugini nella foto assomigliano a delle star .",
+      "6\tGiulia si è resa conto che la tovaglia sui muri del pranzo brilla al sole .",
+      "7\tIl giornale ha menzionato che le scritte sulla porta della camera hanno irritato sua mamma ."
+    ],
+    "Context_concatenated": "1\tI miei figli mi hanno detto che i gatti sui tetti dei ragazzi miagolano da ieri sera .\n2\tI vicini sperano che il padrone dei pappagalli sugli alberi arriverà .\n3\tI presenti sapevano che gli allenatori del vincitore delle partite ricevettero una grossa ricompensa .\n4\tI procuratori pensano che l' avvocato dell' assassino dei villaggi ritornerà .\n5\tI miei ragazzi dicono che i professori dei miei cugini nella foto assomigliano a delle star .\n6\tGiulia si è resa conto che la tovaglia sui muri del pranzo brilla al sole .\n7\tIl giornale ha menzionato che le scritte sulla porta della camera hanno irritato sua mamma .",
+    "Context_annotation": [
+      {
+        "pattern": "Prefix Subj_pl P1_pl P2_pl V_pl",
+        "chunks": "['I miei figli mi hanno detto che', 'i gatti', 'sui tetti', 'dei vicini', 'miagolano da ieri sera', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_sg P1_pl P2_pl V_sg",
+        "chunks": "['I vicini sperano che', 'il padrone', 'dei pappagalli', 'sugli alberi', 'arriverà', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_pl P1_sg P2_pl V_pl",
+        "chunks": "['I presenti sapevano che', 'gli allenatori', 'del vincitore', 'delle partite', 'ricevettero una grossa ricompensa', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_sg P1_sg P2_pl V_sg",
+        "chunks": "['I procuratori pensano che', \"l' avvocato\", \"dell' assassino\", 'dei villaggi', 'ritornerà', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_pl P1_pl P2_sg V_pl",
+        "chunks": "['I miei ragazzi dicono che', 'i professori', 'dei miei cugini', 'nella foto', 'assomigliano a delle star', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_sg P1_pl P2_sg V_sg",
+        "chunks": "['Giulia si è resa conto che', 'la tovaglia', 'sui muri', 'del pranzo', 'brilla al sole', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_pl P1_sg P2_sg V_pl",
+        "chunks": "['Il giornale ha menzionato che', 'le scritte', 'sulla porta', 'della camera', 'hanno irritato sua mamma', '.']"
+      }
+    ],
+    "Answer_set": [
+      "A\tIl governo ha affermato che la mostra col disegno del bambino ha avuto molto successo .",
+      "B\tIl governo ha affermato che la mostra col disegno e il bambino ha avuto molto successo .",
+      "C\tIl governo ha affermato che la mostra col disegno del bambino erano avuto molto successo .",
+      "D\tIl governo ha affermato che la mostra col disegno dei bambini ha avuto molto successo .",
+      "E\tIl governo ha affermato che la mostra col disegno dei bambini erano avuto molto successo .",
+      "F\tIl governo ha affermato che la mostra col disegno dei bambini erano avuto molto successo .",
+      "G\tIl governo ha affermato che la mostra coi disegni del bambino ha avuto molto successo .",
+      "H\tIl governo ha affermato che la mostra col disegno del bambino dell' asilo ha avuto molto successo ."
+    ],
+    "Answer_concatenated": "A\tIl governo ha affermato che la mostra col disegno del bambino ha avuto molto successo .\nB\tIl governo ha affermato che la mostra col disegno e il bambino ha avuto molto successo .\nC\tIl governo ha affermato che la mostra col disegno del bambino erano avuto molto successo .\nD\tIl governo ha affermato che la mostra col disegno dei bambini ha avuto molto successo .\nE\tIl governo ha affermato che la mostra col disegno dei bambini erano avuto molto successo .\nF\tIl governo ha affermato che la mostra col disegno dei bambini erano avuto molto successo .\nG\tIl governo ha affermato che la mostra coi disegni del bambino ha avuto molto successo .\nH\tIl governo ha affermato che la mostra col disegno del bambino dell' asilo ha avuto molto successo .",
+    "Correct_option": "A",
+    "Correct_answer": "Il governo ha affermato che la mostra col disegno del bambino ha avuto molto successo ."
+  },
+  {
+    "ID": 961,
+    "Context": [
+      "1\tMaria osserva che il mazzo con la chiave della cella si trova sullo scaffale .",
+      "2\tI colleghi capivano che gli allenatori del vincitore della partita ricevettero una grossa ricompensa .",
+      "3\tMaria dice che il mazzo con le chiavi della cella si trova sullo scaffale .",
+      "4\tGli allevatori hanno pensato che i maiali dei braccianti del campo sguazzano nel mare .",
+      "5\tIl presidente dice che la minaccia della riforma nelle scuole inquieta i medici .",
+      "6\tI miei amici pensano che le compagne del proprietario delle ville dormivano sulla spiaggia .",
+      "7\tI miei cugini pensano che la amica dei proprietari delle ville dormiva sulla spiaggia ."
+    ],
+    "Context_concatenated": "1\tMaria osserva che il mazzo con la chiave della cella si trova sullo scaffale .\n2\tI colleghi capivano che gli allenatori del vincitore della partita ricevettero una grossa ricompensa .\n3\tMaria dice che il mazzo con le chiavi della cella si trova sullo scaffale .\n4\tGli allevatori hanno pensato che i maiali dei braccianti del campo sguazzano nel mare .\n5\tIl presidente dice che la minaccia della riforma nelle scuole inquieta i medici .\n6\tI miei amici pensano che le compagne del proprietario delle ville dormivano sulla spiaggia .\n7\tI miei cugini pensano che la amica dei proprietari delle ville dormiva sulla spiaggia .",
+    "Context_annotation": [
+      {
+        "pattern": "Prefix Subj_sg P1_sg P2_sg V_sg",
+        "chunks": "['Maria osserva che', 'il mazzo', 'con la chiave', 'della cella', 'si trova sullo scaffale', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_pl P1_sg P2_sg V_pl",
+        "chunks": "['I colleghi capivano che', 'gli allenatori', 'del vincitore', 'della partita', 'ricevettero una grossa ricompensa', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_sg P1_pl P2_sg V_sg",
+        "chunks": "['Maria dice che', 'il mazzo', 'con le chiavi', 'della cella', 'si trova sullo scaffale', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_pl P1_pl P2_sg V_pl",
+        "chunks": "['Gli allevatori hanno pensato che', 'i maiali', 'dei braccianti', 'del campo', 'sguazzano nel mare', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_sg P1_sg P2_pl V_sg",
+        "chunks": "['Il presidente dice che', 'la minaccia', 'della riforma', 'nelle scuole', 'inquieta i medici', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_pl P1_sg P2_pl V_pl",
+        "chunks": "['I miei cugini pensano che', 'le compagne', 'del proprietario', 'delle ville', 'dormivano sulla spiaggia', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_sg P1_pl P2_pl V_sg",
+        "chunks": "['I miei cugini pensano che', 'la amica', 'dei proprietari', 'delle ville', 'dormiva sulla spiaggia', '.']"
+      }
+    ],
+    "Answer_set": [
+      "A\tIl presidente trova che le minacce delle riforme nella scuola inquieta i medici .",
+      "B\tIl presidente trova che le minacce della rinnovamento nelle scuole inquietano i medici .",
+      "C\tIl presidente trova che le minacce delle riforme nelle scuole inquieta i medici .",
+      "D\tIl presidente trova che le minacce delle riforme e le scuole inquietano i medici .",
+      "E\tIl presidente trova che le minacce delle riforme nelle scuole inquietano i medici .",
+      "F\tIl presidente trova che le minacce delle riforme nella scuola inquieta i medici .",
+      "G\tIl presidente trova che le minacce delle riforme nelle scuole nei settori sanitari inquietano i medici .",
+      "H\tIl presidente trova che le minacce delle riforme nella scuola inquietano i medici ."
+    ],
+    "Answer_concatenated": "A\tIl presidente trova che le minacce delle riforme nella scuola inquieta i medici .\nB\tIl presidente trova che le minacce della rinnovamento nelle scuole inquietano i medici .\nC\tIl presidente trova che le minacce delle riforme nelle scuole inquieta i medici .\nD\tIl presidente trova che le minacce delle riforme e le scuole inquietano i medici .\nE\tIl presidente trova che le minacce delle riforme nelle scuole inquietano i medici .\nF\tIl presidente trova che le minacce delle riforme nella scuola inquieta i medici .\nG\tIl presidente trova che le minacce delle riforme nelle scuole nei settori sanitari inquietano i medici .\nH\tIl presidente trova che le minacce delle riforme nella scuola inquietano i medici .",
+    "Correct_option": "E",
+    "Correct_answer": "Il presidente trova che le minacce delle riforme nelle scuole inquietano i medici ."
+  },
+  {
+    "ID": 9712,
+    "Context": [
+      "1\tIl medico si rende conto che il racconto della sofferenza all' ospedale commuove i partecipanti .",
+      "2\tI amici trovano che le accompagnatrici del musicista in strada suonavano in modo meraviglioso .",
+      "3\tMia cugina mi ha detto che la fila ai bordi della strada scomparve .",
+      "4\tIl direttore ha affermato che le mostre coi disegni del bambino hanno avuto molto successo .",
+      "5\tLa mia vicina mi ha fatto che il depliant sul tema ha molto interessato .",
+      "6\tI miei amici dicono che i professori di mio cugino assomigliano a delle star .",
+      "7\tL’ facilitatore mi ha informato che la conferenza sulle storie è cominciata più tardi del previsto ."
+    ],
+    "Context_concatenated": "1\tIl medico si rende conto che il racconto della sofferenza all' ospedale commuove i partecipanti .\n2\tI amici trovano che le accompagnatrici del musicista in strada suonavano in modo meraviglioso .\n3\tMia cugina mi ha detto che la fila ai bordi della strada scomparve .\n4\tIl direttore ha affermato che le mostre coi disegni del bambino hanno avuto molto successo .\n5\tLa mia vicina mi ha fatto che il depliant sul tema ha molto interessato .\n6\tI miei amici dicono che i professori di mio cugino assomigliano a delle star .\n7\tL’ facilitatore mi ha informato che la conferenza sulle storie è cominciata più tardi del previsto .",
+    "Context_annotation": [
+      {
+        "pattern": "Prefix Subj_sg P1_sg P2_sg V_sg",
+        "chunks": "['Il medico si rende conto che', 'il racconto', 'della sofferenza', \"all' ospedale\", 'commuove i partecipanti', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_pl P1_sg P2_sg V_pl",
+        "chunks": "['I amici trovano che', 'le accompagnatrici', 'del musicista', 'in strada', 'suonavano in modo meraviglioso', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_sg P1_pl P2_sg V_sg",
+        "chunks": "['Mia cugina mi ha detto che', 'la fila', 'ai bordi', 'della strada', 'scomparve', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_pl P1_pl P2_sg V_pl",
+        "chunks": "['Il direttore ha affermato che', 'le mostre', 'coi disegni', 'del bambino', 'hanno avuto molto successo', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_sg P1_sg P2_None V_sg",
+        "chunks": "['La mia vicina mi ha fatto che', 'il depliant', 'sul tema', '', 'ha molto interessato', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_pl P1_sg P2_None V_pl",
+        "chunks": "['I miei amici dicono che', 'i professori', 'di mio cugino', '', 'assomigliano a delle star', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_sg P1_pl P2_None V_sg",
+        "chunks": "['L’ facilitatore mi ha informato che', 'la conferenza', 'sulle storie', '', 'è cominciata più tardi del previsto', '.']"
+      }
+    ],
+    "Answer_set": [
+      "A\tGli studenti apprendono che i responsabili dei diritti dell' immigrato daranno le dimissioni .",
+      "B\tGli studenti apprendono che i responsabili dei diritti dell' immigrato darà le dimissioni .",
+      "C\tGli studenti apprendono che i responsabili dei diritti degli immigrati darà le dimissioni .",
+      "D\tGli studenti apprendono che i responsabili dei diritti daranno le dimissioni .",
+      "E\tGli studenti apprendono che i responsabili dei diritti e gli immigrati daranno le dimissioni .",
+      "F\tGli studenti apprendono che i responsabili dei diritti dell' immigrato darà le dimissioni .",
+      "G\tGli studenti apprendono che i responsabili del corso daranno le dimissioni .",
+      "H\tGli studenti apprendono che i responsabili dei diritti dei porti daranno le dimissioni ."
+    ],
+    "Answer_concatenated": "A\tGli studenti apprendono che i responsabili dei diritti dell' immigrato daranno le dimissioni .\nB\tGli studenti apprendono che i responsabili dei diritti dell' immigrato darà le dimissioni .\nC\tGli studenti apprendono che i responsabili dei diritti degli immigrati darà le dimissioni .\nD\tGli studenti apprendono che i responsabili dei diritti daranno le dimissioni .\nE\tGli studenti apprendono che i responsabili dei diritti e gli immigrati daranno le dimissioni .\nF\tGli studenti apprendono che i responsabili dei diritti dell' immigrato darà le dimissioni .\nG\tGli studenti apprendono che i responsabili del corso daranno le dimissioni .\nH\tGli studenti apprendono che i responsabili dei diritti dei porti daranno le dimissioni .",
+    "Correct_option": "D",
+    "Correct_answer": "Gli studenti apprendono che i responsabili dei diritti daranno le dimissioni ."
+  },
+  {
+    "ID": 10513,
+    "Context": [
+      "1\tL’ editore ha trovato che il libro sulla cessione ha entusiasmato la sala .",
+      "2\tGli spettatori hanno appreso che i produttori del film hanno vinto la palma d' oro .",
+      "3\tLe amministratrici constatano che l’ progettista dei castelli ha perso l' appalto .",
+      "4\tLe amministratrici sanno che gli architetti dei castelli hanno perso l' appalto .",
+      "5\tI miei genitori mi hanno detto che il gatto sul tetto dei vicini miagola da ieri sera .",
+      "6\tI bambini sapevano che gli allenatori del vincitore delle partite ricevettero una grossa ricompensa .",
+      "7\tI miei amici cercano che il professore dei miei cugini nelle foto assomiglia a una star ."
+    ],
+    "Context_concatenated": "1\tL’ editore ha trovato che il libro sulla cessione ha entusiasmato la sala .\n2\tGli spettatori hanno appreso che i produttori del film hanno vinto la palma d' oro .\n3\tLe amministratrici constatano che l’ progettista dei castelli ha perso l' appalto .\n4\tLe amministratrici sanno che gli architetti dei castelli hanno perso l' appalto .\n5\tI miei genitori mi hanno detto che il gatto sul tetto dei vicini miagola da ieri sera .\n6\tI bambini sapevano che gli allenatori del vincitore delle partite ricevettero una grossa ricompensa .\n7\tI miei amici cercano che il professore dei miei cugini nelle foto assomiglia a una star .",
+    "Context_annotation": [
+      {
+        "pattern": "Prefix Subj_sg P1_sg P2_None V_sg",
+        "chunks": "['L’ editore ha trovato che', 'il libro', 'sulla cessione', '', 'ha entusiasmato la sala', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_pl P1_sg P2_None V_pl",
+        "chunks": "['Gli spettatori hanno appreso che', 'i produttori', 'del film', '', \"hanno vinto la palma d' oro\", '.']"
+      },
+      {
+        "pattern": "Prefix Subj_sg P1_pl P2_None V_sg",
+        "chunks": "['Le amministratrici constatano che', 'l’ progettista', 'dei castelli', '', \"ha perso l' appalto\", '.']"
+      },
+      {
+        "pattern": "Prefix Subj_pl P1_pl P2_None V_pl",
+        "chunks": "['Le amministratrici sanno che', 'gli architetti', 'dei castelli', '', \"hanno perso l' appalto\", '.']"
+      },
+      {
+        "pattern": "Prefix Subj_sg P1_sg P2_pl V_sg",
+        "chunks": "['I miei genitori mi hanno detto che', 'il gatto', 'sul tetto', 'dei vicini', 'miagola da ieri sera', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_pl P1_sg P2_pl V_pl",
+        "chunks": "['I bambini sapevano che', 'gli allenatori', 'del vincitore', 'delle partite', 'ricevettero una grossa ricompensa', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_sg P1_pl P2_pl V_sg",
+        "chunks": "['I miei amici cercano che', 'il professore', 'dei miei cugini', 'nelle foto', 'assomiglia a una star', '.']"
+      }
+    ],
+    "Answer_set": [
+      "A\tI miei amici dicono che i professori dei miei cugini nelle foto assomigliano a delle star .",
+      "B\tI miei amici dicono che i professori di mio cugino nelle foto assomigliano a delle star .",
+      "C\tI miei amici dicono che i professori dei miei cugini e le foto assomigliano a delle star .",
+      "D\tI miei amici dicono che i professori dei miei cugini nelle foto assomiglia a una star .",
+      "E\tI miei amici dicono che i professori dei miei cugini nella foto assomiglia a una star .",
+      "F\tI miei amici dicono che i professori dei miei cugini nelle foto sotto gli scaffali assomigliano a delle star .",
+      "G\tI miei amici dicono che i professori dei miei cugini nella foto assomiglia a una star .",
+      "H\tI miei amici dicono che i professori dei miei cugini nella foto assomigliano a delle star ."
+    ],
+    "Answer_concatenated": "A\tI miei amici dicono che i professori dei miei cugini nelle foto assomigliano a delle star .\nB\tI miei amici dicono che i professori di mio cugino nelle foto assomigliano a delle star .\nC\tI miei amici dicono che i professori dei miei cugini e le foto assomigliano a delle star .\nD\tI miei amici dicono che i professori dei miei cugini nelle foto assomiglia a una star .\nE\tI miei amici dicono che i professori dei miei cugini nella foto assomiglia a una star .\nF\tI miei amici dicono che i professori dei miei cugini nelle foto sotto gli scaffali assomigliano a delle star .\nG\tI miei amici dicono che i professori dei miei cugini nella foto assomiglia a una star .\nH\tI miei amici dicono che i professori dei miei cugini nella foto assomigliano a delle star .",
+    "Correct_option": "A",
+    "Correct_answer": "I miei amici dicono che i professori dei miei cugini nelle foto assomigliano a delle star ."
+  },
+  {
+    "ID": 16115,
+    "Context": [
+      "1\tI vicini erano che le accompagnatrici dei musicisti in strada suonavano in modo meraviglioso .",
+      "2\tGli spettatori hanno appreso che il produttore dei film sull’ artista ha vinto la palma d’ oro .",
+      "3\tI miei genitori mi hanno comunicata che i cani sul cuscino del neonato si sono addormentati .",
+      "4\tIl pubblicazione ha menzionato che la scritta sulla porta della camera ha irritato sua mamma .",
+      "5\tL’ articolo ha indicato che le teorie sui canti dividono i riercatori .",
+      "6\tLa mia vicina mi ha chiesto che il depliant sui temi ha molto interessato .",
+      "7\tI vicini dicono che i padroni del pappagallo arriveranno ."
+    ],
+    "Context_concatenated": "1\tI vicini erano che le accompagnatrici dei musicisti in strada suonavano in modo meraviglioso .\n2\tGli spettatori hanno appreso che il produttore dei film sull’ artista ha vinto la palma d’ oro .\n3\tI miei genitori mi hanno comunicata che i cani sul cuscino del neonato si sono addormentati .\n4\tIl pubblicazione ha menzionato che la scritta sulla porta della camera ha irritato sua mamma .\n5\tL’ articolo ha indicato che le teorie sui canti dividono i riercatori .\n6\tLa mia vicina mi ha chiesto che il depliant sui temi ha molto interessato .\n7\tI vicini dicono che i padroni del pappagallo arriveranno .",
+    "Context_annotation": [
+      {
+        "pattern": "Prefix Subj_pl P1_pl P2_sg V_pl",
+        "chunks": "['I vicini erano che', 'le accompagnatrici', 'dei musicisti', 'in strada', 'suonavano in modo meraviglioso', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_sg P1_pl P2_sg V_sg",
+        "chunks": "['Gli spettatori hanno appreso che', 'il produttore', 'dei film', 'sull’ artista', 'ha vinto la palma d’ oro', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_pl P1_sg P2_sg V_pl",
+        "chunks": "['I miei genitori mi hanno comunicata che', 'i cani', 'sul cuscino', 'del neonato', 'si sono addormentati', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_sg P1_sg P2_sg V_sg",
+        "chunks": "['Il pubblicazione ha menzionato che', 'la scritta', 'sulla porta', 'della camera', 'ha irritato sua mamma', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_pl P1_pl P2_None V_pl",
+        "chunks": "['L’ articolo ha indicato che', 'le teorie', 'sui canti', '', 'dividono i riercatori', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_sg P1_pl P2_None V_sg",
+        "chunks": "['La mia vicina mi ha chiesto che', 'il depliant', 'sui temi', '', 'ha molto interessato', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_pl P1_sg P2_None V_pl",
+        "chunks": "['I vicini dicono che', 'i padroni', 'del pappagallo', '', 'arriveranno', '.']"
+      }
+    ],
+    "Answer_set": [
+      "A\tLe bambine dicono che il bambino del senzatetto vicino alle spazzature piangono .",
+      "B\tLe bambine dicono che il bambino del senzatetto del vicino piange .",
+      "C\tLe bambine dicono che il bambino dei senzatetto piange .",
+      "D\tLe bambine dicono che il bambino del senzatetto vicino alle spazzature piangono .",
+      "E\tLe bambine dicono che il bambino del senzatetto vicino alla spazzatura piangono .",
+      "F\tLe bambine dicono che il bambino del senzatetto e la spazzatura piange .",
+      "G\tLe bambine dicono che il bambino del senzatetto vicino alla spazzatura piange .",
+      "H\tLe bambine dicono che il bambino del senzatetto piange ."
+    ],
+    "Answer_concatenated": "A\tLe bambine dicono che il bambino del senzatetto vicino alle spazzature piangono .\nB\tLe bambine dicono che il bambino del senzatetto del vicino piange .\nC\tLe bambine dicono che il bambino dei senzatetto piange .\nD\tLe bambine dicono che il bambino del senzatetto vicino alle spazzature piangono .\nE\tLe bambine dicono che il bambino del senzatetto vicino alla spazzatura piangono .\nF\tLe bambine dicono che il bambino del senzatetto e la spazzatura piange .\nG\tLe bambine dicono che il bambino del senzatetto vicino alla spazzatura piange .\nH\tLe bambine dicono che il bambino del senzatetto piange .",
+    "Correct_option": "H",
+    "Correct_answer": "Le bambine dicono che il bambino del senzatetto piange ."
+  },
+  {
+    "ID": 14676,
+    "Context": [
+      "1\tI colleghi sapevano che gli allenatori del allenatore ricevettero una grossa ricompensa .",
+      "2\tGli abitanti raccontarono che il ladro della macchina ha sterzato bruscamente .",
+      "3\tGli abitanti videro che i ladri delle macchine hanno sterzato bruscamente .",
+      "4\tMia cugina mi ha detto che la riga ai bordi scomparve .",
+      "5\tLa polizia ha detto che gli elicotteri per il lavoro sui canyon si sono schiantati .",
+      "6\tGli agricoltori hanno pensato che il maiale del bracciante dei campi sguazza nel mare .",
+      "7\tMaria dice che i mazzi con le chiavi delle celle si affermano sullo scaffale ."
+    ],
+    "Context_concatenated": "1\tI colleghi sapevano che gli allenatori del allenatore ricevettero una grossa ricompensa .\n2\tGli abitanti raccontarono che il ladro della macchina ha sterzato bruscamente .\n3\tGli abitanti videro che i ladri delle macchine hanno sterzato bruscamente .\n4\tMia cugina mi ha detto che la riga ai bordi scomparve .\n5\tLa polizia ha detto che gli elicotteri per il lavoro sui canyon si sono schiantati .\n6\tGli agricoltori hanno pensato che il maiale del bracciante dei campi sguazza nel mare .\n7\tMaria dice che i mazzi con le chiavi delle celle si affermano sullo scaffale .",
+    "Context_annotation": [
+      {
+        "pattern": "Prefix Subj_pl P1_sg P2_None V_pl",
+        "chunks": "['I colleghi sapevano che', 'gli allenatori', 'del allenatore', '', 'ricevettero una grossa ricompensa', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_sg P1_sg P2_None V_sg",
+        "chunks": "['Gli abitanti raccontarono che', 'il ladro', 'della macchina', '', 'ha sterzato bruscamente', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_pl P1_pl P2_None V_pl",
+        "chunks": "['Gli abitanti videro che', 'i ladri', 'delle macchine', '', 'hanno sterzato bruscamente', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_sg P1_pl P2_None V_sg",
+        "chunks": "['Mia cugina mi ha detto che', 'la riga', 'ai bordi', '', 'scomparve', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_pl P1_sg P2_pl V_pl",
+        "chunks": "['La polizia ha detto che', 'gli elicotteri', 'per il lavoro', 'sui canyon', 'si sono schiantati', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_sg P1_sg P2_pl V_sg",
+        "chunks": "['Gli agricoltori hanno pensato che', 'il maiale', 'del bracciante', 'dei campi', 'sguazza nel mare', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_pl P1_pl P2_pl V_pl",
+        "chunks": "['Maria dice che', 'i mazzi', 'con le chiavi', 'delle celle', 'si trovano sullo scaffale', '.']"
+      }
+    ],
+    "Answer_set": [
+      "A\tI procuratori pensano che l' avvocato degli assassini del villaggio ritorneranno .",
+      "B\tI procuratori pensano che l' avvocato degli assassini del villaggio ritornerà .",
+      "C\tI procuratori pensano che l' avvocato degli assassini dei villaggi ritorneranno .",
+      "D\tI procuratori pensano che l' avvocato degli assassini dei villaggi sul lago ritornerà .",
+      "E\tI procuratori pensano che l' avvocato dell' assassino dei villaggi ritornerà .",
+      "F\tI procuratori pensano che l' avvocato degli assassini e il villaggio ritornerà .",
+      "G\tI procuratori pensano che l' avvocato degli assassini dei villaggi ritornerà .",
+      "H\tI procuratori pensano che l' avvocato degli assassini dei villaggi ritorneranno ."
+    ],
+    "Answer_concatenated": "A\tI procuratori pensano che l' avvocato degli assassini del villaggio ritorneranno .\nB\tI procuratori pensano che l' avvocato degli assassini del villaggio ritornerà .\nC\tI procuratori pensano che l' avvocato degli assassini dei villaggi ritorneranno .\nD\tI procuratori pensano che l' avvocato degli assassini dei villaggi sul lago ritornerà .\nE\tI procuratori pensano che l' avvocato dell' assassino dei villaggi ritornerà .\nF\tI procuratori pensano che l' avvocato degli assassini e il villaggio ritornerà .\nG\tI procuratori pensano che l' avvocato degli assassini dei villaggi ritornerà .\nH\tI procuratori pensano che l' avvocato degli assassini dei villaggi ritorneranno .",
+    "Correct_option": "G",
+    "Correct_answer": "I procuratori pensano che l' avvocato degli assassini dei villaggi ritornerà ."
+  },
+  {
+    "ID": 11384,
+    "Context": [
+      "1\tLa scritta sulle porte della camera che piacevano alla mia vicina ha irritato sua matrigna .",
+      "2\tLe visite ai musei dell' artigianato di cui mia nipote mi aveva parlato si avvicinano .",
+      "3\tLa scritta sulla porta della camera che piacevano alla mia vicina ha irritato sua famiglia .",
+      "4\tLe serate nell' appartamento del seminterrato di cui il mio cliente mi aveva informato hanno disturbato i vicini .",
+      "5\tLa vittima delle menzogne di cui i giornalisti hanno scritto ha dato causa .",
+      "6\tI racconti delle sofferenze che il pubblico ascolta commuovono i partecipanti .",
+      "7\tLo scioperante sulla scale di cui i colleghi si preoccupavano bloccava la porta ."
+    ],
+    "Context_concatenated": "1\tLa scritta sulle porte della camera che piacevano alla mia vicina ha irritato sua matrigna .\n2\tLe visite ai musei dell' artigianato di cui mia nipote mi aveva parlato si avvicinano .\n3\tLa scritta sulla porta della camera che piacevano alla mia vicina ha irritato sua famiglia .\n4\tLe serate nell' appartamento del seminterrato di cui il mio cliente mi aveva informato hanno disturbato i vicini .\n5\tLa vittima delle menzogne di cui i giornalisti hanno scritto ha dato causa .\n6\tI racconti delle sofferenze che il pubblico ascolta commuovono i partecipanti .\n7\tLo scioperante sulla scale di cui i colleghi si preoccupavano bloccava la porta .",
+    "Context_annotation": [
+      {
+        "pattern": "Subj_sg P1_pl P2_sg ROC_sg V_sg",
+        "chunks": "['La scritta', 'sulle porte', 'della camera', 'che piacevano alla mia vicina', 'ha irritato sua mamma', '.']"
+      },
+      {
+        "pattern": "Subj_pl P1_pl P2_sg ROC_pl V_pl",
+        "chunks": "['Le visite', 'ai musei', \"dell' artigianato\", 'di cui mia nipote mi aveva parlato', 'si avvicinano', '.']"
+      },
+      {
+        "pattern": "Subj_sg P1_sg P2_sg ROC_sg V_sg",
+        "chunks": "['La scritta', 'sulla porta', 'della camera', 'che piacevano alla mia vicina', 'ha irritato sua mamma', '.']"
+      },
+      {
+        "pattern": "Subj_pl P1_sg P2_sg ROC_pl V_pl",
+        "chunks": "['Le serate', \"nell' appartamento\", 'del seminterrato', 'di cui il mio cliente mi aveva informato', 'hanno disturbato i vicini', '.']"
+      },
+      {
+        "pattern": "Subj_sg P1_pl P2_None ROC_sg V_sg",
+        "chunks": "['La vittima', 'delle menzogne', '', 'di cui i giornalisti hanno scritto', 'ha fatto causa', '.']"
+      },
+      {
+        "pattern": "Subj_pl P1_pl P2_None ROC_pl V_pl",
+        "chunks": "['I racconti', 'delle sofferenze', '', 'che il pubblico ascolta', 'commuovono i partecipanti', '.']"
+      },
+      {
+        "pattern": "Subj_sg P1_sg P2_None ROC_sg V_sg",
+        "chunks": "['Lo scioperante', 'sulla scale', '', 'di cui i colleghi si preoccupavano', 'bloccava la porta', '.']"
+      }
+    ],
+    "Answer_set": [
+      "A\tI responsabili del diritto e gli immigrati che gli studenti conoscono daranno le dimissioni .",
+      "B\tI responsabili dei diritti che gli studenti conoscono daranno le dimissioni .",
+      "C\tI responsabili del diritto dell' immigrato che gli studenti conoscono darà le dimissioni .",
+      "D\tI responsabili del diritto che gli studenti conoscono daranno le dimissioni .",
+      "E\tI responsabili del diritto dell' immigrato che gli studenti conoscono daranno le dimissioni .",
+      "F\tI responsabili del diritto dei porti che gli studenti conoscono daranno le dimissioni .",
+      "G\tI responsabili del diritto degli immigrati che gli studenti conoscono darà le dimissioni .",
+      "H\tI responsabili del diritto dell' immigrato che gli studenti conoscono darà le dimissioni ."
+    ],
+    "Answer_concatenated": "A\tI responsabili del diritto e gli immigrati che gli studenti conoscono daranno le dimissioni .\nB\tI responsabili dei diritti che gli studenti conoscono daranno le dimissioni .\nC\tI responsabili del diritto dell' immigrato che gli studenti conoscono darà le dimissioni .\nD\tI responsabili del diritto che gli studenti conoscono daranno le dimissioni .\nE\tI responsabili del diritto dell' immigrato che gli studenti conoscono daranno le dimissioni .\nF\tI responsabili del diritto dei porti che gli studenti conoscono daranno le dimissioni .\nG\tI responsabili del diritto degli immigrati che gli studenti conoscono darà le dimissioni .\nH\tI responsabili del diritto dell' immigrato che gli studenti conoscono darà le dimissioni .",
+    "Correct_option": "D",
+    "Correct_answer": "I responsabili del diritto che gli studenti conoscono daranno le dimissioni ."
+  }
+]

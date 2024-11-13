@@ -1,0 +1,2162 @@
+[
+  {
+    "ID": 1577,
+    "Context": [
+      "1\talcuni turisti intagliarono questi legnetti con un coltellino svizzero",
+      "2\tqueste produttrici mungono le mucche  da sempre",
+      "3\tla specialità della casa deve essere mangiata dalla zia  nella sala grande",
+      "4\tla scalinata deve essere spazzata dalla commessa da ieri sera",
+      "5\tle sedie devono essere lavate senza voglia",
+      "6\tun bel libro fu letto da qualche ora",
+      "7\tle signore del paese devono poter seminare con tanta cura"
+    ],
+    "Context_concatenated": "1\talcuni turisti intagliarono questi legnetti con un coltellino svizzero\n2\tqueste produttrici mungono le mucche  da sempre\n3\tla specialità della casa deve essere mangiata dalla zia  nella sala grande\n4\tla scalinata deve essere spazzata dalla commessa da ieri sera\n5\tle sedie devono essere lavate senza voglia\n6\tun bel libro fu letto da qualche ora\n7\tle signore del paese devono poter seminare con tanta cura",
+    "Answer_set": [
+      "A\tdue tuoi amici devono poter rammendare i calzettoni della squadra di calcio",
+      "B\tmia moglie può essere cucita dalla tasca",
+      "C\tle artiste disegnano da un mese",
+      "D\tle capre mungono da sempre",
+      "E\tle parti della commedia devono recitare dalle artiste",
+      "F\ti calzini possono stirare i magazzinieri",
+      "G\tdelle righe di dialogo sono recitate dalle attrici",
+      "H\til musicista cantò dal nuovo pezzo"
+    ],
+    "Answer_concatenated": "A\tdue tuoi amici devono poter rammendare i calzettoni della squadra di calcio\nB\tmia moglie può essere cucita dalla tasca\nC\tle artiste disegnano da un mese\nD\tle capre mungono da sempre\nE\tle parti della commedia devono recitare dalle artiste\nF\ti calzini possono stirare i magazzinieri\nG\tdelle righe di dialogo sono recitate dalle attrici\nH\til musicista cantò dal nuovo pezzo",
+    "Correct_option": "C",
+    "Correct_answer": "le artiste disegnano da un mese",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 716,
+    "Context": [
+      "1\tla mamma può lucidare una delle camere prima della cena",
+      "2\tuna cameriera deve poter lucidare l'entrata dell'albergo da ieri",
+      "3\tsua figlia può essere allatata dalla mamma con tanta felicità",
+      "4\tdelle piante sono seminate dalle contadine da stamattina",
+      "5\tdelle forme possono essere disegnate in vista della serata",
+      "6\tquesti motivi greci devono poter essere tessuti da sempre",
+      "7\tl'autrice deve scrivere con parole meravigliose"
+    ],
+    "Context_concatenated": "1\tla mamma può lucidare una delle camere prima della cena\n2\tuna cameriera deve poter lucidare l'entrata dell'albergo da ieri\n3\tsua figlia può essere allatata dalla mamma con tanta felicità\n4\tdelle piante sono seminate dalle contadine da stamattina\n5\tdelle forme possono essere disegnate in vista della serata\n6\tquesti motivi greci devono poter essere tessuti da sempre\n7\tl'autrice deve scrivere con parole meravigliose",
+    "Answer_set": [
+      "A\tla pasta col pomodoro deve poter mangiare la presidente",
+      "B\tlo chef può cucinare dall'arrosto",
+      "C\tle tovaglie devono essere lavate dalle cameriere",
+      "D\tuna delle camere lucida da ieri",
+      "E\tgli studenti sono studiati dai libri di testo",
+      "F\tla ditta deve lucidare l'entrata dell'albergo",
+      "G\tle sue allieve possono disegnare da un mese",
+      "H\ti telai delle bici può saldare da mio nonno"
+    ],
+    "Answer_concatenated": "A\tla pasta col pomodoro deve poter mangiare la presidente\nB\tlo chef può cucinare dall'arrosto\nC\tle tovaglie devono essere lavate dalle cameriere\nD\tuna delle camere lucida da ieri\nE\tgli studenti sono studiati dai libri di testo\nF\tla ditta deve lucidare l'entrata dell'albergo\nG\tle sue allieve possono disegnare da un mese\nH\ti telai delle bici può saldare da mio nonno",
+    "Correct_option": "G",
+    "Correct_answer": "le sue allieve possono disegnare da un mese",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 1295,
+    "Context": [
+      "1\tle due tirocinanti lavarono le forchette a mano",
+      "2\tle signore del paese devono seminare delle fragole da stamattina",
+      "3\tquesti paesaggi è dipinti da Leonardo e Michelangelo in una giornata",
+      "4\ti pigiama furono stirati da alcuni tifosi da questo pomeriggio",
+      "5\tdue balene devono essere pescate con un nuovo attrezzo",
+      "6\tla copertina deve poter essere cucita da stamattina",
+      "7\tla professoressa scrisse nel suo studio"
+    ],
+    "Context_concatenated": "1\tle due tirocinanti lavarono le forchette a mano\n2\tle signore del paese devono seminare delle fragole da stamattina\n3\tquesti paesaggi è dipinti da Leonardo e Michelangelo in una giornata\n4\ti pigiama furono stirati da alcuni tifosi da questo pomeriggio\n5\tdue balene devono essere pescate con un nuovo attrezzo\n6\tla copertina deve poter essere cucita da stamattina\n7\tla professoressa scrisse nel suo studio",
+    "Answer_set": [
+      "A\tqueste studentesse disegnano da un anno circa",
+      "B\tuna lettera può scrivere la professoressa",
+      "C\tle due tirocinanti devono lavare le sedie",
+      "D\tuno dei clavicembali sono suonato dal maestro",
+      "E\tLeonardo e Michelangelo possono dipingere da questi paesaggi",
+      "F\tla scalinata deve spazzare da qualche ora",
+      "G\tquesti studenti deve essere dipinti da questi paesaggi",
+      "H\tl'organo deve giocare dal maestro"
+    ],
+    "Answer_concatenated": "A\tqueste studentesse disegnano da un anno circa\nB\tuna lettera può scrivere la professoressa\nC\tle due tirocinanti devono lavare le sedie\nD\tuno dei clavicembali sono suonato dal maestro\nE\tLeonardo e Michelangelo possono dipingere da questi paesaggi\nF\tla scalinata deve spazzare da qualche ora\nG\tquesti studenti deve essere dipinti da questi paesaggi\nH\tl'organo deve giocare dal maestro",
+    "Correct_option": "A",
+    "Correct_answer": "queste studentesse disegnano da un anno circa",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 1506,
+    "Context": [
+      "1\tl'autrice può scrivere una lettera in biblioteca",
+      "2\tle pittrici devono disegnare alcune coreografie da un mese",
+      "3\tdelle parole di un testo devono essere recitate dalle studentesse in fiorentino antico",
+      "4\tle scenografie sono disegnate dalle artiste da un anno circa",
+      "5\tquei calzettoni devono poter essere stirati alla perfezione",
+      "6\tdelle cernie possono essere pescate dal peschereccio",
+      "7\tuna delle proprietarie deve poter allattare nell'area adibita"
+    ],
+    "Context_concatenated": "1\tl'autrice può scrivere una lettera in biblioteca\n2\tle pittrici devono disegnare alcune coreografie da un mese\n3\tdelle parole di un testo devono essere recitate dalle studentesse in fiorentino antico\n4\tle scenografie sono disegnate dalle artiste da un anno circa\n5\tquei calzettoni devono poter essere stirati alla perfezione\n6\tdelle cernie possono essere pescate dal peschereccio\n7\tuna delle proprietarie deve poter allattare nell'area adibita",
+    "Answer_set": [
+      "A\til professore fu insegnato da un noioso modello teorico",
+      "B\tsuo padre deve poter cucinare il pollo",
+      "C\ti materiali devono poter studiare dagli studenti",
+      "D\tle sue allieve disegnarono da pochi mesi",
+      "E\tuno dei clavicembali possono essere suonato da uno dei finalisti",
+      "F\tla squadra di calcio mangiò dalla specialità della casa",
+      "G\tl'entrata dell'albergo deve lucidare da qualche ora",
+      "H\tla focaccia può impastare la pasticcera"
+    ],
+    "Answer_concatenated": "A\til professore fu insegnato da un noioso modello teorico\nB\tsuo padre deve poter cucinare il pollo\nC\ti materiali devono poter studiare dagli studenti\nD\tle sue allieve disegnarono da pochi mesi\nE\tuno dei clavicembali possono essere suonato da uno dei finalisti\nF\tla squadra di calcio mangiò dalla specialità della casa\nG\tl'entrata dell'albergo deve lucidare da qualche ora\nH\tla focaccia può impastare la pasticcera",
+    "Correct_option": "D",
+    "Correct_answer": "le sue allieve disegnarono da pochi mesi",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 1772,
+    "Context": [
+      "1\talcuni tifosi stirarono i pantaloncini alla perfezione",
+      "2\tLeonardo e Michelangelo devono poter dipingere i ponti sul Tevere da descrizioni in alcuni libri",
+      "3\ti telai delle bici deve essere saldato dall'imbianchino senza fatica",
+      "4\tdei piccoli giochi possono essere intagliati da alcuni turisti da questo pomeriggio",
+      "5\ti pigiama sono stirati nelle stanze d'albergo",
+      "6\tl'articolo deve essere letto da qualche minuto",
+      "7\tla poetessa deve poter scrivere nel suo studio"
+    ],
+    "Context_concatenated": "1\talcuni tifosi stirarono i pantaloncini alla perfezione\n2\tLeonardo e Michelangelo devono poter dipingere i ponti sul Tevere da descrizioni in alcuni libri\n3\ti telai delle bici deve essere saldato dall'imbianchino senza fatica\n4\tdei piccoli giochi possono essere intagliati da alcuni turisti da questo pomeriggio\n5\ti pigiama sono stirati nelle stanze d'albergo\n6\tl'articolo deve essere letto da qualche minuto\n7\tla poetessa deve poter scrivere nel suo studio",
+    "Answer_set": [
+      "A\tuna carbonara può mangiare dalla zia ",
+      "B\ti loro calzini possono rammendare da soli",
+      "C\til giornalista deve leggere il manuale di istruzioni",
+      "D\tqueste studentesse devono poter disegnare da un mese",
+      "E\ti pigiama possono essere stirati dai calciatori della squadra",
+      "F\tl'artista fu canticchiato dall'inno",
+      "G\tle turiste possono pescare da due balene",
+      "H\talcune coreografie devono disegnare le sue allieve"
+    ],
+    "Answer_concatenated": "A\tuna carbonara può mangiare dalla zia \nB\ti loro calzini possono rammendare da soli\nC\til giornalista deve leggere il manuale di istruzioni\nD\tqueste studentesse devono poter disegnare da un mese\nE\ti pigiama possono essere stirati dai calciatori della squadra\nF\tl'artista fu canticchiato dall'inno\nG\tle turiste possono pescare da due balene\nH\talcune coreografie devono disegnare le sue allieve",
+    "Correct_option": "D",
+    "Correct_answer": "queste studentesse devono poter disegnare da un mese",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 1040,
+    "Context": [
+      "1\tuno dei docenti può insegnare un noioso modello teorico dopo il pranzo di facoltà",
+      "2\tmio nonno può saldare i circuiti del pc da solo",
+      "3\tquesti paesaggi deve essere dipinti da artisti rinascimentali in una giornata",
+      "4\ti vestiti per la parata sono tessuti dai sarti del paese da qualche anno",
+      "5\tla sala può essere pulita con questa scopa",
+      "6\tdei guanti devono poter essere rammendati da una vita",
+      "7\tle ristoratrici possono lavare con molta attenzione"
+    ],
+    "Context_concatenated": "1\tuno dei docenti può insegnare un noioso modello teorico dopo il pranzo di facoltà\n2\tmio nonno può saldare i circuiti del pc da solo\n3\tquesti paesaggi deve essere dipinti da artisti rinascimentali in una giornata\n4\ti vestiti per la parata sono tessuti dai sarti del paese da qualche anno\n5\tla sala può essere pulita con questa scopa\n6\tdei guanti devono poter essere rammendati da una vita\n7\tle ristoratrici possono lavare con molta attenzione",
+    "Answer_set": [
+      "A\tla sala da ballo lucida da una cameriera",
+      "B\tuno dei finalisti può giocare dal pianoforte",
+      "C\tle pittrici devono poter disegnare da sole",
+      "D\tquesti vini possono bere da soli",
+      "E\tuna scritta sul cuscino deve cucire mia moglie",
+      "F\ti contadini furono intagliati da questi legnetti",
+      "G\tuno dei produttori può canticchiare il ritornello",
+      "H\tcastelli e cattedrali fu dipinti da alcuni turisti"
+    ],
+    "Answer_concatenated": "A\tla sala da ballo lucida da una cameriera\nB\tuno dei finalisti può giocare dal pianoforte\nC\tle pittrici devono poter disegnare da sole\nD\tquesti vini possono bere da soli\nE\tuna scritta sul cuscino deve cucire mia moglie\nF\ti contadini furono intagliati da questi legnetti\nG\tuno dei produttori può canticchiare il ritornello\nH\tcastelli e cattedrali fu dipinti da alcuni turisti",
+    "Correct_option": "C",
+    "Correct_answer": "le pittrici devono poter disegnare da sole",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 484,
+    "Context": [
+      "1\tuna delle propretarie dell'albergo può pulire la sala con questa scopa",
+      "2\tla nonna deve pulire la scalinata da qualche minuto",
+      "3\tle sedie furono lavate dalle ristoratrici con un vecchio elettrodomestico",
+      "4\tla tasca fu cucita dalla sarta da qualche giorno",
+      "5\tdelle parole di un testo sono recitate con la giusta intepretazione",
+      "6\tdelle cernie furono pescate dal peschereccio",
+      "7\tgli studenti possono studiare in biblioteca"
+    ],
+    "Context_concatenated": "1\tuna delle propretarie dell'albergo può pulire la sala con questa scopa\n2\tla nonna deve pulire la scalinata da qualche minuto\n3\tle sedie furono lavate dalle ristoratrici con un vecchio elettrodomestico\n4\tla tasca fu cucita dalla sarta da qualche giorno\n5\tdelle parole di un testo sono recitate con la giusta intepretazione\n6\tdelle cernie furono pescate dal peschereccio\n7\tgli studenti possono studiare in biblioteca",
+    "Answer_set": [
+      "A\tle artiste devono disegnare da sole",
+      "B\tuno dei clavicembali deve poter giocare dal cantante pop",
+      "C\tla presidente deve spazzare la piazzetta",
+      "D\tgli arazzi possono tessere i sarti del paese",
+      "E\tqueste aiuole devono arare da qualche ora",
+      "F\tle attrici furono recitate dalle poesie",
+      "G\tl'articolo deve poter essere letto dal giornalista",
+      "H\tla zia  può lucidare dall'entrata dell'albergo"
+    ],
+    "Answer_concatenated": "A\tle artiste devono disegnare da sole\nB\tuno dei clavicembali deve poter giocare dal cantante pop\nC\tla presidente deve spazzare la piazzetta\nD\tgli arazzi possono tessere i sarti del paese\nE\tqueste aiuole devono arare da qualche ora\nF\tle attrici furono recitate dalle poesie\nG\tl'articolo deve poter essere letto dal giornalista\nH\tla zia  può lucidare dall'entrata dell'albergo",
+    "Correct_option": "A",
+    "Correct_answer": "le artiste devono disegnare da sole",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 2309,
+    "Context": [
+      "1\ti candidati possono studiare i manuali in biblioteca",
+      "2\ti sarti del paese devono poter tessere gli arazzi da qualche anno",
+      "3\tla bambina fu allatata da quella signora in piena notte",
+      "4\ti telai delle bici deve poter essere saldato dall'imbianchino da un paio di minuti",
+      "5\tle poesie furono recitate dopo una selezione",
+      "6\tquesti paesaggi fu dipinti da descrizioni in alcuni libri",
+      "7\tle attrici possono recitare in fiorentino antico"
+    ],
+    "Context_concatenated": "1\ti candidati possono studiare i manuali in biblioteca\n2\ti sarti del paese devono poter tessere gli arazzi da qualche anno\n3\tla bambina fu allatata da quella signora in piena notte\n4\ti telai delle bici deve poter essere saldato dall'imbianchino da un paio di minuti\n5\tle poesie furono recitate dopo una selezione\n6\tquesti paesaggi fu dipinti da descrizioni in alcuni libri\n7\tle attrici possono recitare in fiorentino antico",
+    "Answer_set": [
+      "A\tle mucche  possono mungere queste produttrici",
+      "B\tmia moglie fu cucita dalla giacca",
+      "C\tqueste aiuole sono arate dalle contadine",
+      "D\til nonno cucina dal cenone",
+      "E\tuna delle proprietarie può allattare sua figlia",
+      "F\ti vestiti per la parata devono poter tessere da alcuni artisti",
+      "G\tle capre devono mungere da qualche ora",
+      "H\tle artiste devono disegnare da pochi mesi"
+    ],
+    "Answer_concatenated": "A\tle mucche  possono mungere queste produttrici\nB\tmia moglie fu cucita dalla giacca\nC\tqueste aiuole sono arate dalle contadine\nD\til nonno cucina dal cenone\nE\tuna delle proprietarie può allattare sua figlia\nF\ti vestiti per la parata devono poter tessere da alcuni artisti\nG\tle capre devono mungere da qualche ora\nH\tle artiste devono disegnare da pochi mesi",
+    "Correct_option": "H",
+    "Correct_answer": "le artiste devono disegnare da pochi mesi",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 281,
+    "Context": [
+      "1\tla zia  deve mangiare una bistecca prima di partire",
+      "2\tla mamma deve poter lucidare una delle camere da stamattina",
+      "3\tla scalinata deve essere pulita dalla ditta con un nuovo prodotto",
+      "4\tla cucina deve poter essere lucidata dalla zia  da ieri",
+      "5\til manuale di istruzioni è letto prima di andare a dormire",
+      "6\ti ponti sul Tevere deve poter essere dipinti da quelle torri",
+      "7\til maestro e l'allievo possono scolpire nella cava di marmo"
+    ],
+    "Context_concatenated": "1\tla zia  deve mangiare una bistecca prima di partire\n2\tla mamma deve poter lucidare una delle camere da stamattina\n3\tla scalinata deve essere pulita dalla ditta con un nuovo prodotto\n4\tla cucina deve poter essere lucidata dalla zia  da ieri\n5\til manuale di istruzioni è letto prima di andare a dormire\n6\ti ponti sul Tevere deve poter essere dipinti da quelle torri\n7\til maestro e l'allievo possono scolpire nella cava di marmo",
+    "Answer_set": [
+      "A\tle zie di Maria sono pescate da delle cernie",
+      "B\tl'area davanti alla porta deve poter essere spazzata dalla commessa",
+      "C\tle clienti dell'agriturismo seminano da alcune specie locali",
+      "D\tla neonata deve allattare quella signora",
+      "E\tqueste studentesse possono disegnare da un anno circa",
+      "F\tuna lettera scrive da sola",
+      "G\tle due cugine devono mungere le pecore",
+      "H\tdei succhi di frutta possono bere dai produttori"
+    ],
+    "Answer_concatenated": "A\tle zie di Maria sono pescate da delle cernie\nB\tl'area davanti alla porta deve poter essere spazzata dalla commessa\nC\tle clienti dell'agriturismo seminano da alcune specie locali\nD\tla neonata deve allattare quella signora\nE\tqueste studentesse possono disegnare da un anno circa\nF\tuna lettera scrive da sola\nG\tle due cugine devono mungere le pecore\nH\tdei succhi di frutta possono bere dai produttori",
+    "Correct_option": "E",
+    "Correct_answer": "queste studentesse possono disegnare da un anno circa",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 2187,
+    "Context": [
+      "1\tle due tirocinanti lavarono le tovaglie senza voglia",
+      "2\tle mondine ararono alcune sezioni del campo da stamattina",
+      "3\tuna scritta sul cuscino fu cucita dalla sarta davanti al camino",
+      "4\tle tovaglie furono lavate dalle due tirocinanti da stamattina",
+      "5\tla specialità della casa deve essere mangiata prima di partire",
+      "6\ttanti boccali di birra furono bevuti da un paio di minuti",
+      "7\tla sarta può cucire in una mezz'ora"
+    ],
+    "Context_concatenated": "1\tle due tirocinanti lavarono le tovaglie senza voglia\n2\tle mondine ararono alcune sezioni del campo da stamattina\n3\tuna scritta sul cuscino fu cucita dalla sarta davanti al camino\n4\tle tovaglie furono lavate dalle due tirocinanti da stamattina\n5\tla specialità della casa deve essere mangiata prima di partire\n6\ttanti boccali di birra furono bevuti da un paio di minuti\n7\tla sarta può cucire in una mezz'ora",
+    "Answer_set": [
+      "A\tquesti attrezzi intagliarono i falegnami",
+      "B\til manuale deve essere insegnato dal maestro",
+      "C\tdelle piante seminarono dalle insegnanti del corso",
+      "D\talcuni turisti devono poter intagliare dei burattini",
+      "E\tqueste produttrici munsero da queste bestie",
+      "F\tla sala da ballo deve poter lucidare da stamattina",
+      "G\tle artiste disegnano da un anno circa",
+      "H\til maestro e l'allievo devono poter essere scolpiti da dei simboli antichi"
+    ],
+    "Answer_concatenated": "A\tquesti attrezzi intagliarono i falegnami\nB\til manuale deve essere insegnato dal maestro\nC\tdelle piante seminarono dalle insegnanti del corso\nD\talcuni turisti devono poter intagliare dei burattini\nE\tqueste produttrici munsero da queste bestie\nF\tla sala da ballo deve poter lucidare da stamattina\nG\tle artiste disegnano da un anno circa\nH\til maestro e l'allievo devono poter essere scolpiti da dei simboli antichi",
+    "Correct_option": "G",
+    "Correct_answer": "le artiste disegnano da un anno circa",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 1557,
+    "Context": [
+      "1\tle zie di Maria pescano delle cernie senza molto fatica",
+      "2\tuna delle proprietarie allattò la bambina da sola",
+      "3\tgli abiti del matrimonio sono tessuti dai maestri dell'alta moda con del filo d'oro",
+      "4\tqueste bestie sono munte da queste produttrici da sole",
+      "5\til ritornello è cantato senza autotune",
+      "6\tla neonata può essere allatata da sola",
+      "7\tuna delle proprietarie deve allattare per qualche mese"
+    ],
+    "Context_concatenated": "1\tle zie di Maria pescano delle cernie senza molto fatica\n2\tuna delle proprietarie allattò la bambina da sola\n3\tgli abiti del matrimonio sono tessuti dai maestri dell'alta moda con del filo d'oro\n4\tqueste bestie sono munte da queste produttrici da sole\n5\til ritornello è cantato senza autotune\n6\tla neonata può essere allatata da sola\n7\tuna delle proprietarie deve allattare per qualche mese",
+    "Answer_set": [
+      "A\tqueste studentesse devono disegnare da pochi mesi",
+      "B\tle signore del paese possono essere seminate da delle cipolle",
+      "C\til ritornello fu canticchiato dall'attore",
+      "D\til bambino può giocare il pianoforte",
+      "E\ti sarti del paese devono poter tessere dagli arazzi",
+      "F\tun vecchio romanzo legge da solo",
+      "G\tuna raccolta di testi deve poter scrivere l'autrice",
+      "H\tdelle parole di un testo devono recitare dalle artiste"
+    ],
+    "Answer_concatenated": "A\tqueste studentesse devono disegnare da pochi mesi\nB\tle signore del paese possono essere seminate da delle cipolle\nC\til ritornello fu canticchiato dall'attore\nD\til bambino può giocare il pianoforte\nE\ti sarti del paese devono poter tessere dagli arazzi\nF\tun vecchio romanzo legge da solo\nG\tuna raccolta di testi deve poter scrivere l'autrice\nH\tdelle parole di un testo devono recitare dalle artiste",
+    "Correct_option": "A",
+    "Correct_answer": "queste studentesse devono disegnare da pochi mesi",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 307,
+    "Context": [
+      "1\tquesti stilisti tessono gli abiti del matrimonio per pura passione",
+      "2\ti calciatori della squadra possono stirare i calzini da soli",
+      "3\tun noioso modello teorico fu insegnato dal maestro dopo il pranzo di facoltà",
+      "4\ti libri di testo devono poter essere studiati dai due fratelli da qualche settimana",
+      "5\tla tasca può essere cucita in una mezz'ora",
+      "6\tdegli dei greci possono essere scolpiti da anni",
+      "7\tla professoressa deve scrivere in piena notte"
+    ],
+    "Context_concatenated": "1\tquesti stilisti tessono gli abiti del matrimonio per pura passione\n2\ti calciatori della squadra possono stirare i calzini da soli\n3\tun noioso modello teorico fu insegnato dal maestro dopo il pranzo di facoltà\n4\ti libri di testo devono poter essere studiati dai due fratelli da qualche settimana\n5\tla tasca può essere cucita in una mezz'ora\n6\tdegli dei greci possono essere scolpiti da anni\n7\tla professoressa deve scrivere in piena notte",
+    "Answer_set": [
+      "A\tla ragazza deve poter allattare dalla bambina",
+      "B\tle pittrici disegnano da sole",
+      "C\ti magazzinieri sono stirati dai pigiama",
+      "D\tle scenografie disegnammo da queste studentesse",
+      "E\tdelle righe di dialogo possono recitare le artiste",
+      "F\tgli appunti devono essere studiati dagli studenti",
+      "G\ti pantaloni possono rammendare da soli",
+      "H\tle clienti dell'agriturismo devono seminare delle piante"
+    ],
+    "Answer_concatenated": "A\tla ragazza deve poter allattare dalla bambina\nB\tle pittrici disegnano da sole\nC\ti magazzinieri sono stirati dai pigiama\nD\tle scenografie disegnammo da queste studentesse\nE\tdelle righe di dialogo possono recitare le artiste\nF\tgli appunti devono essere studiati dagli studenti\nG\ti pantaloni possono rammendare da soli\nH\tle clienti dell'agriturismo devono seminare delle piante",
+    "Correct_option": "B",
+    "Correct_answer": "le pittrici disegnano da sole",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 386,
+    "Context": [
+      "1\tle contadine possono seminare delle piante con dei nuovi attrezzi",
+      "2\tle due cugine possono mungere le capre da sole",
+      "3\tun vecchio romanzo deve poter essere letto dallo scrittore davanti al camino",
+      "4\tle triglie sono pescate dalle turiste dal peschereccio",
+      "5\til manuale fu insegnato prima dell'esame",
+      "6\tun motivetto deve poter essere canticchiato da un paio di secondi",
+      "7\til pubblico deve poter cantare con solo pianoforte"
+    ],
+    "Context_concatenated": "1\tle contadine possono seminare delle piante con dei nuovi attrezzi\n2\tle due cugine possono mungere le capre da sole\n3\tun vecchio romanzo deve poter essere letto dallo scrittore davanti al camino\n4\tle triglie sono pescate dalle turiste dal peschereccio\n5\til manuale fu insegnato prima dell'esame\n6\tun motivetto deve poter essere canticchiato da un paio di secondi\n7\til pubblico deve poter cantare con solo pianoforte",
+    "Answer_set": [
+      "A\talcuni artisti possono essere tessuti dagli abiti del matrimonio",
+      "B\ti pantaloni sono rammendati dai proprietari",
+      "C\tl'entrata dell'hotel spazza dalla presidente",
+      "D\tle terre intorno al fiume devono poter arare le proprietarie",
+      "E\tuna mia amica deve impastare dalla pizza",
+      "F\tle artiste devono recitare le poesie",
+      "G\tle sue allieve disegnano da sole",
+      "H\tl'area davanti alla porta deve poter spazzare da ieri sera"
+    ],
+    "Answer_concatenated": "A\talcuni artisti possono essere tessuti dagli abiti del matrimonio\nB\ti pantaloni sono rammendati dai proprietari\nC\tl'entrata dell'hotel spazza dalla presidente\nD\tle terre intorno al fiume devono poter arare le proprietarie\nE\tuna mia amica deve impastare dalla pizza\nF\tle artiste devono recitare le poesie\nG\tle sue allieve disegnano da sole\nH\tl'area davanti alla porta deve poter spazzare da ieri sera",
+    "Correct_option": "G",
+    "Correct_answer": "le sue allieve disegnano da sole",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 2362,
+    "Context": [
+      "1\tla nonna deve pulire la stanza con questa scopa",
+      "2\tle contadine seminarono delle piante da ieri pomeriggio",
+      "3\ti loro calzini devono essere rammendati dai sarti del paese per una mezzoretta",
+      "4\tdei ritratti deve essere dipinti da questi studenti dall'alba",
+      "5\tuna poesia deve poter essere scritta in biblioteca",
+      "6\tdegli dei greci devono poter essere scolpiti da qualche mese",
+      "7\tgli artisti scolpirono entro la fine dell'anno"
+    ],
+    "Context_concatenated": "1\tla nonna deve pulire la stanza con questa scopa\n2\tle contadine seminarono delle piante da ieri pomeriggio\n3\ti loro calzini devono essere rammendati dai sarti del paese per una mezzoretta\n4\tdei ritratti deve essere dipinti da questi studenti dall'alba\n5\tuna poesia deve poter essere scritta in biblioteca\n6\tdegli dei greci devono poter essere scolpiti da qualche mese\n7\tgli artisti scolpirono entro la fine dell'anno",
+    "Answer_set": [
+      "A\til nonno deve poter cucinare il pane",
+      "B\tle sue allieve devono disegnare da un anno circa",
+      "C\ti ripetenti devono essere studiati dai manuali",
+      "D\tuno dei clavicembali sono suonato da uno dei finalisti",
+      "E\ti loro calzini rammendano due tuoi amici",
+      "F\tla presidente mangia dalla specialità della casa",
+      "G\tdei soggetti astratti possono scolpire da qualche mese",
+      "H\tgli appunti studiano dai candidati"
+    ],
+    "Answer_concatenated": "A\til nonno deve poter cucinare il pane\nB\tle sue allieve devono disegnare da un anno circa\nC\ti ripetenti devono essere studiati dai manuali\nD\tuno dei clavicembali sono suonato da uno dei finalisti\nE\ti loro calzini rammendano due tuoi amici\nF\tla presidente mangia dalla specialità della casa\nG\tdei soggetti astratti possono scolpire da qualche mese\nH\tgli appunti studiano dai candidati",
+    "Correct_option": "B",
+    "Correct_answer": "le sue allieve devono disegnare da un anno circa",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 2053,
+    "Context": [
+      "1\tla poetessa deve scrivere una poesia in biblioteca",
+      "2\ti due allenatori devono poter stirare i calzini da soli",
+      "3\tquesti motivi greci furono tessuti dai sarti del paese con abilità",
+      "4\tla pasta frolla fu impastata dalla pasticcera da sola",
+      "5\tdelle parole di un testo devono essere recitate con la giusta intepretazione",
+      "6\tun motivetto fu canticchiato da un paio di secondi",
+      "7\tuno dei produttori deve poter canticchiare con megafoni"
+    ],
+    "Context_concatenated": "1\tla poetessa deve scrivere una poesia in biblioteca\n2\ti due allenatori devono poter stirare i calzini da soli\n3\tquesti motivi greci furono tessuti dai sarti del paese con abilità\n4\tla pasta frolla fu impastata dalla pasticcera da sola\n5\tdelle parole di un testo devono essere recitate con la giusta intepretazione\n6\tun motivetto fu canticchiato da un paio di secondi\n7\tuno dei produttori deve poter canticchiare con megafoni",
+    "Answer_set": [
+      "A\tle pittrici devono poter disegnare da pochi mesi",
+      "B\til bambino può giocare uno dei clavicembali",
+      "C\talcuni busti devono poter essere scolpiti dal maestro e dall'allievo",
+      "D\tdue balene pescarono da una barchetta",
+      "E\ti maestri dell'alta moda tessono dai vestiti per la parata",
+      "F\tla chef deve poter essere impastata dalla sfoglia",
+      "G\til ritornello può cantare il gruppo rock",
+      "H\til pane cucinò da suo padre"
+    ],
+    "Answer_concatenated": "A\tle pittrici devono poter disegnare da pochi mesi\nB\til bambino può giocare uno dei clavicembali\nC\talcuni busti devono poter essere scolpiti dal maestro e dall'allievo\nD\tdue balene pescarono da una barchetta\nE\ti maestri dell'alta moda tessono dai vestiti per la parata\nF\tla chef deve poter essere impastata dalla sfoglia\nG\til ritornello può cantare il gruppo rock\nH\til pane cucinò da suo padre",
+    "Correct_option": "A",
+    "Correct_answer": "le pittrici devono poter disegnare da pochi mesi",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 491,
+    "Context": [
+      "1\tla nonna deve impastare la pizza nel pomeriggio",
+      "2\ti produttori bevtrue due bicchieri d'acqua da un'ora circa",
+      "3\tla piazzetta deve essere spazzata da una cliente dell'albergo con una scopa di vimini",
+      "4\tla copertina può essere cucita dalla nonna da sola",
+      "5\tquesta camera deve poter essere pulita con un nuovo prodotto",
+      "6\tun noioso modello teorico è insegnato da qualche anno",
+      "7\tquest'artista può scrivere in biblioteca"
+    ],
+    "Context_concatenated": "1\tla nonna deve impastare la pizza nel pomeriggio\n2\ti produttori bevtrue due bicchieri d'acqua da un'ora circa\n3\tla piazzetta deve essere spazzata da una cliente dell'albergo con una scopa di vimini\n4\tla copertina può essere cucita dalla nonna da sola\n5\tquesta camera deve poter essere pulita con un nuovo prodotto\n6\tun noioso modello teorico è insegnato da qualche anno\n7\tquest'artista può scrivere in biblioteca",
+    "Answer_set": [
+      "A\tmio nonno può saldare i tubi",
+      "B\til pollo fu cucinato dal sottocuoco",
+      "C\tdelle cantanti devono essere recitate dalle parti della commedia",
+      "D\tl'articolo legge dal giornalista",
+      "E\tla tasca cuce da qualche ora",
+      "F\tdelle cernie possono pescare le zie di Maria",
+      "G\tla sarta deve cucire dalla tasca",
+      "H\tle pittrici possono disegnare da un anno circa"
+    ],
+    "Answer_concatenated": "A\tmio nonno può saldare i tubi\nB\til pollo fu cucinato dal sottocuoco\nC\tdelle cantanti devono essere recitate dalle parti della commedia\nD\tl'articolo legge dal giornalista\nE\tla tasca cuce da qualche ora\nF\tdelle cernie possono pescare le zie di Maria\nG\tla sarta deve cucire dalla tasca\nH\tle pittrici possono disegnare da un anno circa",
+    "Correct_option": "H",
+    "Correct_answer": "le pittrici possono disegnare da un anno circa",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 1736,
+    "Context": [
+      "1\til musicista canta l'inno nazionale con solo pianoforte",
+      "2\tquella signora può allattare sua figlia da quando lei è nata",
+      "3\talcune coreografie possono essere disegnate dalle pittrici con pochi mezzi economici",
+      "4\tle stoviglie furono lavate da delle ospiti da sole",
+      "5\tla cucina deve essere lucidata senza essere pagata",
+      "6\tla stanza è pulita da qualche minuto",
+      "7\tl'imbianchino può saldare con vecchi attrezzi"
+    ],
+    "Context_concatenated": "1\til musicista canta l'inno nazionale con solo pianoforte\n2\tquella signora può allattare sua figlia da quando lei è nata\n3\talcune coreografie possono essere disegnate dalle pittrici con pochi mezzi economici\n4\tle stoviglie furono lavate da delle ospiti da sole\n5\tla cucina deve essere lucidata senza essere pagata\n6\tla stanza è pulita da qualche minuto\n7\tl'imbianchino può saldare con vecchi attrezzi",
+    "Answer_set": [
+      "A\tquesti operai devono poter scolpire degli dei greci",
+      "B\tuna mia amica deve poter essere impastata dalla focaccia",
+      "C\talcuni busti possono scolpire dal maestro e dall'allievo",
+      "D\tla sua miglior opera deve scrivere da questa mattina",
+      "E\tle sue allieve possono disegnare da un mese",
+      "F\tla focaccia deve poter essere impastata da una mia amica",
+      "G\ti candidati studiarono dai materiali",
+      "H\tla neonata deve allattare la mamma"
+    ],
+    "Answer_concatenated": "A\tquesti operai devono poter scolpire degli dei greci\nB\tuna mia amica deve poter essere impastata dalla focaccia\nC\talcuni busti possono scolpire dal maestro e dall'allievo\nD\tla sua miglior opera deve scrivere da questa mattina\nE\tle sue allieve possono disegnare da un mese\nF\tla focaccia deve poter essere impastata da una mia amica\nG\ti candidati studiarono dai materiali\nH\tla neonata deve allattare la mamma",
+    "Correct_option": "E",
+    "Correct_answer": "le sue allieve possono disegnare da un mese",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 1369,
+    "Context": [
+      "1\til direttore può leggere un bel libro davanti al camino",
+      "2\tgli studenti devono bere questi vini da pochi istanti",
+      "3\tdue bicchieri d'acqua sono bevuti dagli studenti prima di partire",
+      "4\tle triglie devono essere pescate dalle zie di Maria dal peschereccio",
+      "5\tdei ritratti è dipinti in una giornata",
+      "6\tun bel libro deve essere letto da qualche minuto",
+      "7\tle zie di Maria possono pescare con un nuovo attrezzo"
+    ],
+    "Context_concatenated": "1\til direttore può leggere un bel libro davanti al camino\n2\tgli studenti devono bere questi vini da pochi istanti\n3\tdue bicchieri d'acqua sono bevuti dagli studenti prima di partire\n4\tle triglie devono essere pescate dalle zie di Maria dal peschereccio\n5\tdei ritratti è dipinti in una giornata\n6\tun bel libro deve essere letto da qualche minuto\n7\tle zie di Maria possono pescare con un nuovo attrezzo",
+    "Answer_set": [
+      "A\tle ristoratrici lavano dalle sedie",
+      "B\tle ristoratrici sono lavate dalle stoviglie",
+      "C\tuna raccolta di testi scrive da qualche giorno",
+      "D\tqueste studentesse possono disegnare da un anno circa",
+      "E\ti vestiti per la parata tessono i maestri dell'alta moda",
+      "F\til sottocuoco cucina il pane",
+      "G\tla scalinata deve pulire dalla nonna",
+      "H\talcuni busti devono poter essere scolpiti dai muratori"
+    ],
+    "Answer_concatenated": "A\tle ristoratrici lavano dalle sedie\nB\tle ristoratrici sono lavate dalle stoviglie\nC\tuna raccolta di testi scrive da qualche giorno\nD\tqueste studentesse possono disegnare da un anno circa\nE\ti vestiti per la parata tessono i maestri dell'alta moda\nF\til sottocuoco cucina il pane\nG\tla scalinata deve pulire dalla nonna\nH\talcuni busti devono poter essere scolpiti dai muratori",
+    "Correct_option": "D",
+    "Correct_answer": "queste studentesse possono disegnare da un anno circa",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 1779,
+    "Context": [
+      "1\tquesti studenti devono dipingere dei ritratti con colori vivi",
+      "2\ti muratori scolpirono dei soggetti astratti da soli",
+      "3\ti ponti sul Tevere può essere dipinti da questi studenti con grandi abilità",
+      "4\tdelle rappresentazioni artistiche sono disegnate da queste studentesse da un anno circa",
+      "5\talcune coreografie devono essere disegnate nel salone espositivo",
+      "6\tla bimba può essere allatata da sola",
+      "7\tla mamma deve poter lucidare con questo nuovo prodotto"
+    ],
+    "Context_concatenated": "1\tquesti studenti devono dipingere dei ritratti con colori vivi\n2\ti muratori scolpirono dei soggetti astratti da soli\n3\ti ponti sul Tevere può essere dipinti da questi studenti con grandi abilità\n4\tdelle rappresentazioni artistiche sono disegnate da queste studentesse da un anno circa\n5\talcune coreografie devono essere disegnate nel salone espositivo\n6\tla bimba può essere allatata da sola\n7\tla mamma deve poter lucidare con questo nuovo prodotto",
+    "Answer_set": [
+      "A\tun suo singolo deve poter essere canticchiato da uno dei produttori",
+      "B\til musicista è cantato dal nuovo pezzo",
+      "C\til pianoforte deve giocare dal bambino",
+      "D\tle turiste possono pescare le triglie",
+      "E\tle pittrici devono poter disegnare da pochi mesi",
+      "F\ttanti boccali di birra bevono gli studenti",
+      "G\tuna delle proprietarie deve allattare dalla neonata",
+      "H\talcune sezioni del campo devono poter arare da qualche giorno"
+    ],
+    "Answer_concatenated": "A\tun suo singolo deve poter essere canticchiato da uno dei produttori\nB\til musicista è cantato dal nuovo pezzo\nC\til pianoforte deve giocare dal bambino\nD\tle turiste possono pescare le triglie\nE\tle pittrici devono poter disegnare da pochi mesi\nF\ttanti boccali di birra bevono gli studenti\nG\tuna delle proprietarie deve allattare dalla neonata\nH\talcune sezioni del campo devono poter arare da qualche giorno",
+    "Correct_option": "E",
+    "Correct_answer": "le pittrici devono poter disegnare da pochi mesi",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 367,
+    "Context": [
+      "1\tla cameriera deve pulire la scalinata in meno di un'ora",
+      "2\ti candidati studiarono i libri di testo da qualche giorno",
+      "3\talcune sezioni del campo sono arate dalle proprietarie alle cinque del mattino",
+      "4\talcune coreografie possono essere disegnate dalle artiste da sole",
+      "5\ti materiali devono essere studiati per l'esame",
+      "6\tle triglie sono pescate da sole",
+      "7\tla ditta deve poter pulire con un nuovo prodotto"
+    ],
+    "Context_concatenated": "1\tla cameriera deve pulire la scalinata in meno di un'ora\n2\ti candidati studiarono i libri di testo da qualche giorno\n3\talcune sezioni del campo sono arate dalle proprietarie alle cinque del mattino\n4\talcune coreografie possono essere disegnate dalle artiste da sole\n5\ti materiali devono essere studiati per l'esame\n6\tle triglie sono pescate da sole\n7\tla ditta deve poter pulire con un nuovo prodotto",
+    "Answer_set": [
+      "A\tla sua miglior opera fu scritta dalla poetessa",
+      "B\tle due tirocinanti devono poter lavare le stoviglie",
+      "C\tla sua miglior opera scrive dall'autrice",
+      "D\tla professoressa fu scritta dalla sua miglior opera",
+      "E\tgli artisti devono scolpire da dei soggetti astratti",
+      "F\tle mucche  devono mungere le mie zie",
+      "G\tquesti vini devono bere da un paio di minuti",
+      "H\tle sue allieve disegnano da sole"
+    ],
+    "Answer_concatenated": "A\tla sua miglior opera fu scritta dalla poetessa\nB\tle due tirocinanti devono poter lavare le stoviglie\nC\tla sua miglior opera scrive dall'autrice\nD\tla professoressa fu scritta dalla sua miglior opera\nE\tgli artisti devono scolpire da dei soggetti astratti\nF\tle mucche  devono mungere le mie zie\nG\tquesti vini devono bere da un paio di minuti\nH\tle sue allieve disegnano da sole",
+    "Correct_option": "H",
+    "Correct_answer": "le sue allieve disegnano da sole",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 1916,
+    "Context": [
+      "1\tle cameriere devono poter lavare le sedie a mano",
+      "2\ti due fratelli possono studiare gli appunti da qualche giorno",
+      "3\ti loro calzini furono rammendati dai proprietari nel grande salone",
+      "4\tdei guanti sono rammendati dai proprietari da soli",
+      "5\tdelle parole di un testo sono recitate in teatro",
+      "6\ti materiali devono poter essere studiati da qualche settimana",
+      "7\tle artiste disegnano in meno di due giorni"
+    ],
+    "Context_concatenated": "1\tle cameriere devono poter lavare le sedie a mano\n2\ti due fratelli possono studiare gli appunti da qualche giorno\n3\ti loro calzini furono rammendati dai proprietari nel grande salone\n4\tdei guanti sono rammendati dai proprietari da soli\n5\tdelle parole di un testo sono recitate in teatro\n6\ti materiali devono poter essere studiati da qualche settimana\n7\tle artiste disegnano in meno di due giorni",
+    "Answer_set": [
+      "A\talcuni artisti devono tessere gli arazzi",
+      "B\tla stanza pulisce una delle propretarie dell'albergo",
+      "C\tle artiste possono disegnare da un mese",
+      "D\talcune specie locali devono essere seminate dalle clienti dell'agriturismo",
+      "E\tuno dei produttori è canticchiato da un motivetto",
+      "F\tla sarta può cucire dalla tasca",
+      "G\tquesti attrezzi possono intagliare da un istante",
+      "H\til violino gioca dal cantante pop"
+    ],
+    "Answer_concatenated": "A\talcuni artisti devono tessere gli arazzi\nB\tla stanza pulisce una delle propretarie dell'albergo\nC\tle artiste possono disegnare da un mese\nD\talcune specie locali devono essere seminate dalle clienti dell'agriturismo\nE\tuno dei produttori è canticchiato da un motivetto\nF\tla sarta può cucire dalla tasca\nG\tquesti attrezzi possono intagliare da un istante\nH\til violino gioca dal cantante pop",
+    "Correct_option": "C",
+    "Correct_answer": "le artiste possono disegnare da un mese",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 2047,
+    "Context": [
+      "1\ti sarti del paese possono tessere gli arazzi con abilità",
+      "2\tle due tirocinanti lavano le sedie da ieri",
+      "3\tdelle rappresentazioni artistiche possono essere disegnate da queste studentesse in vista della serata",
+      "4\tun modo per studiare meglio è insegnato da uno dei docenti da qualche settimana",
+      "5\tcastelli e cattedrali deve essere dipinti con grandi abilità",
+      "6\tle stoviglie devono poter essere lavate da ieri",
+      "7\tl'artista canticchiò dopo il festival"
+    ],
+    "Context_concatenated": "1\ti sarti del paese possono tessere gli arazzi con abilità\n2\tle due tirocinanti lavano le sedie da ieri\n3\tdelle rappresentazioni artistiche possono essere disegnate da queste studentesse in vista della serata\n4\tun modo per studiare meglio è insegnato da uno dei docenti da qualche settimana\n5\tcastelli e cattedrali deve essere dipinti con grandi abilità\n6\tle stoviglie devono poter essere lavate da ieri\n7\tl'artista canticchiò dopo il festival",
+    "Answer_set": [
+      "A\tle pittrici disegnarono da sole",
+      "B\tle contadine sono arate dalle terre intorno al fiume",
+      "C\tle scenografie devono disegnare da un mese",
+      "D\tdei burattini devono poter essere intagliati da alcuni turisti",
+      "E\ti sarti del paese tessono dai vestiti per la parata",
+      "F\til dolce può cucinare da suo padre",
+      "G\tdue bicchieri d'acqua devono poter bere i turisti",
+      "H\tl'artista canticchia un suo singolo"
+    ],
+    "Answer_concatenated": "A\tle pittrici disegnarono da sole\nB\tle contadine sono arate dalle terre intorno al fiume\nC\tle scenografie devono disegnare da un mese\nD\tdei burattini devono poter essere intagliati da alcuni turisti\nE\ti sarti del paese tessono dai vestiti per la parata\nF\til dolce può cucinare da suo padre\nG\tdue bicchieri d'acqua devono poter bere i turisti\nH\tl'artista canticchia un suo singolo",
+    "Correct_option": "A",
+    "Correct_answer": "le pittrici disegnarono da sole",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 117,
+    "Context": [
+      "1\tla mamma allattò la neonata in piena notte",
+      "2\tle sommozzatrici devono poter pescare delle trote da sole",
+      "3\tle distese di grano sono arate dalle contadine con tanta abilità",
+      "4\tcastelli e cattedrali fu dipinti da Leonardo e Michelangelo da soli",
+      "5\tdelle fragole furono seminate con tanta cura",
+      "6\tla pasta frolla può essere impastata da manuale",
+      "7\tl'autrice può scrivere nel suo studio"
+    ],
+    "Context_concatenated": "1\tla mamma allattò la neonata in piena notte\n2\tle sommozzatrici devono poter pescare delle trote da sole\n3\tle distese di grano sono arate dalle contadine con tanta abilità\n4\tcastelli e cattedrali fu dipinti da Leonardo e Michelangelo da soli\n5\tdelle fragole furono seminate con tanta cura\n6\tla pasta frolla può essere impastata da manuale\n7\tl'autrice può scrivere nel suo studio",
+    "Answer_set": [
+      "A\tdei burattini furono intagliati da alcuni turisti",
+      "B\tuna cameriera lucida la cucina",
+      "C\ti pigiama stirarono da alcuni tifosi",
+      "D\tla copertina deve cucire la nonna",
+      "E\tquesti vini bevono da pochi istanti",
+      "F\ti sarti del paese possono essere tessuti dagli arazzi",
+      "G\tle artiste disegnammo da pochi mesi",
+      "H\tle due sorelle devono arare dalle distese di grano"
+    ],
+    "Answer_concatenated": "A\tdei burattini furono intagliati da alcuni turisti\nB\tuna cameriera lucida la cucina\nC\ti pigiama stirarono da alcuni tifosi\nD\tla copertina deve cucire la nonna\nE\tquesti vini bevono da pochi istanti\nF\ti sarti del paese possono essere tessuti dagli arazzi\nG\tle artiste disegnammo da pochi mesi\nH\tle due sorelle devono arare dalle distese di grano",
+    "Correct_option": "G",
+    "Correct_answer": "le artiste disegnammo da pochi mesi",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 1439,
+    "Context": [
+      "1\ti produttori possono bere due bicchieri d'acqua prima di partire",
+      "2\tmio nonno deve saldare i cavi del lampadario da un paio di minuti",
+      "3\tla pasta frolla è impastata dalla nonna con ingredienti pregiati",
+      "4\til ritornello deve essere cantato dal gruppo rock da solo",
+      "5\tla neonata è allatata per qualche mese",
+      "6\ti loro calzini possono essere rammendati da una vita",
+      "7\ti falegnami devono intagliare con un coltellino svizzero"
+    ],
+    "Context_concatenated": "1\ti produttori possono bere due bicchieri d'acqua prima di partire\n2\tmio nonno deve saldare i cavi del lampadario da un paio di minuti\n3\tla pasta frolla è impastata dalla nonna con ingredienti pregiati\n4\til ritornello deve essere cantato dal gruppo rock da solo\n5\tla neonata è allatata per qualche mese\n6\ti loro calzini possono essere rammendati da una vita\n7\ti falegnami devono intagliare con un coltellino svizzero",
+    "Answer_set": [
+      "A\tqueste aiuole sono arate dalle due sorelle",
+      "B\tuno dei clavicembali giocò da uno dei finalisti",
+      "C\tgli appunti devono poter studiare i candidati",
+      "D\tle pittrici possono disegnare da sole",
+      "E\tdelle cantanti recitarono dalle parti della commedia",
+      "F\tdelle forme disegnano da un anno circa",
+      "G\tl'artista può canticchiare il ritornello",
+      "H\tla pasticcera deve essere impastata dalla pizza"
+    ],
+    "Answer_concatenated": "A\tqueste aiuole sono arate dalle due sorelle\nB\tuno dei clavicembali giocò da uno dei finalisti\nC\tgli appunti devono poter studiare i candidati\nD\tle pittrici possono disegnare da sole\nE\tdelle cantanti recitarono dalle parti della commedia\nF\tdelle forme disegnano da un anno circa\nG\tl'artista può canticchiare il ritornello\nH\tla pasticcera deve essere impastata dalla pizza",
+    "Correct_option": "D",
+    "Correct_answer": "le pittrici possono disegnare da sole",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 1453,
+    "Context": [
+      "1\tle mie zie munsero le mucche  con macchine moderne",
+      "2\tla commessa spazza la scalinata da qualche ora",
+      "3\ttanti boccali di birra sono bevuti dai nostri ospiti con curiosità",
+      "4\tquesti attrezzi possono essere intagliati da questi due signori da questo pomeriggio",
+      "5\ti pantaloni devono essere rammendati per una mezzoretta",
+      "6\tdelle parole di un testo devono essere recitate da qualche ora",
+      "7\tlo chef cucinò per i gentili ospiti"
+    ],
+    "Context_concatenated": "1\tle mie zie munsero le mucche  con macchine moderne\n2\tla commessa spazza la scalinata da qualche ora\n3\ttanti boccali di birra sono bevuti dai nostri ospiti con curiosità\n4\tquesti attrezzi possono essere intagliati da questi due signori da questo pomeriggio\n5\ti pantaloni devono essere rammendati per una mezzoretta\n6\tdelle parole di un testo devono essere recitate da qualche ora\n7\tlo chef cucinò per i gentili ospiti",
+    "Answer_set": [
+      "A\tla focaccia impasta da stamani",
+      "B\tla presidente spazzò la piazzetta",
+      "C\til dolce deve poter cucinare dallo chef",
+      "D\tle sue allieve disegnarono da un anno circa",
+      "E\ti contadini possono intagliare da questi legnetti",
+      "F\til ricercatore deve poter essere insegnato dal corso",
+      "G\tun vecchio romanzo deve leggere il giornalista",
+      "H\tuna raccolta di testi deve poter essere scritta dalla professoressa"
+    ],
+    "Answer_concatenated": "A\tla focaccia impasta da stamani\nB\tla presidente spazzò la piazzetta\nC\til dolce deve poter cucinare dallo chef\nD\tle sue allieve disegnarono da un anno circa\nE\ti contadini possono intagliare da questi legnetti\nF\til ricercatore deve poter essere insegnato dal corso\nG\tun vecchio romanzo deve leggere il giornalista\nH\tuna raccolta di testi deve poter essere scritta dalla professoressa",
+    "Correct_option": "D",
+    "Correct_answer": "le sue allieve disegnarono da un anno circa",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 2086,
+    "Context": [
+      "1\ti nostri ospiti devono poter bere dei succhi di frutta senza pensarci tanto",
+      "2\tle artiste recitarono delle parole di un testo da sole",
+      "3\tle stoviglie furono lavate dalle cameriere senza voglia",
+      "4\tla pasta col pomodoro fu mangiata dalla squadra di calcio da tre ore",
+      "5\tla tasca è cucita in una mezz'ora",
+      "6\tquesto testo deve poter essere cantato da qualche minuto",
+      "7\til bambino può giocare dopo le prove"
+    ],
+    "Context_concatenated": "1\ti nostri ospiti devono poter bere dei succhi di frutta senza pensarci tanto\n2\tle artiste recitarono delle parole di un testo da sole\n3\tle stoviglie furono lavate dalle cameriere senza voglia\n4\tla pasta col pomodoro fu mangiata dalla squadra di calcio da tre ore\n5\tla tasca è cucita in una mezz'ora\n6\tquesto testo deve poter essere cantato da qualche minuto\n7\til bambino può giocare dopo le prove",
+    "Answer_set": [
+      "A\talcuni busti scolpirono il maestro e l'allievo",
+      "B\tl'idraulico fu saldato dai tubi",
+      "C\tuna mia amica impasta la pizza",
+      "D\tle mucche  devono poter mungere da sole",
+      "E\tla sua miglior opera fu scritta dalla professoressa",
+      "F\tle sedie devono lavare dalle due tirocinanti",
+      "G\ti due allenatori devono poter stirare dai calzini",
+      "H\tle sue allieve possono disegnare da pochi mesi"
+    ],
+    "Answer_concatenated": "A\talcuni busti scolpirono il maestro e l'allievo\nB\tl'idraulico fu saldato dai tubi\nC\tuna mia amica impasta la pizza\nD\tle mucche  devono poter mungere da sole\nE\tla sua miglior opera fu scritta dalla professoressa\nF\tle sedie devono lavare dalle due tirocinanti\nG\ti due allenatori devono poter stirare dai calzini\nH\tle sue allieve possono disegnare da pochi mesi",
+    "Correct_option": "H",
+    "Correct_answer": "le sue allieve possono disegnare da pochi mesi",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 1463,
+    "Context": [
+      "1\tle due tirocinanti lavarono le stoviglie con un vecchio elettrodomestico",
+      "2\til direttore può leggere un vecchio romanzo da ieri sera",
+      "3\tle scenografie devono essere disegnate dalle sue allieve in meno di due giorni",
+      "4\tun modo per studiare meglio deve essere insegnato da uno dei docenti da qualche mese",
+      "5\til corso deve poter essere insegnato nell'aula magna",
+      "6\tl'organo sono suonato da solo",
+      "7\tmia moglie deve poter cucire davanti al camino"
+    ],
+    "Context_concatenated": "1\tle due tirocinanti lavarono le stoviglie con un vecchio elettrodomestico\n2\til direttore può leggere un vecchio romanzo da ieri sera\n3\tle scenografie devono essere disegnate dalle sue allieve in meno di due giorni\n4\tun modo per studiare meglio deve essere insegnato da uno dei docenti da qualche mese\n5\til corso deve poter essere insegnato nell'aula magna\n6\tl'organo sono suonato da solo\n7\tmia moglie deve poter cucire davanti al camino",
+    "Answer_set": [
+      "A\talcuni tifosi devono stirare i pigiama",
+      "B\tle artiste possono disegnare da sole",
+      "C\tdelle cernie devono pescare dal peschereccio",
+      "D\tdue balene pescarono dalle zie di Maria",
+      "E\ti calzini possono essere stirati dai due allenatori",
+      "F\tmio nonno salda dai tubi",
+      "G\tun motivetto deve poter canticchiare l'attore",
+      "H\ti proprietari devono essere rammendati dai loro calzini"
+    ],
+    "Answer_concatenated": "A\talcuni tifosi devono stirare i pigiama\nB\tle artiste possono disegnare da sole\nC\tdelle cernie devono pescare dal peschereccio\nD\tdue balene pescarono dalle zie di Maria\nE\ti calzini possono essere stirati dai due allenatori\nF\tmio nonno salda dai tubi\nG\tun motivetto deve poter canticchiare l'attore\nH\ti proprietari devono essere rammendati dai loro calzini",
+    "Correct_option": "B",
+    "Correct_answer": "le artiste possono disegnare da sole",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 996,
+    "Context": [
+      "1\tla chef spazzò la piazzetta con poca voglia",
+      "2\ti turisti devono bere tanti boccali di birra da soli",
+      "3\talcuni busti devono poter essere scolpiti da questi operai con martelli e scalpelli",
+      "4\tquesti vini devono poter essere bevuti dagli studenti da un'ora circa",
+      "5\tle pecore furono munte nella stalla",
+      "6\tla piazzetta è spazzata da stamattina",
+      "7\ti contadini intagliarono nel centro storico"
+    ],
+    "Context_concatenated": "1\tla chef spazzò la piazzetta con poca voglia\n2\ti turisti devono bere tanti boccali di birra da soli\n3\talcuni busti devono poter essere scolpiti da questi operai con martelli e scalpelli\n4\tquesti vini devono poter essere bevuti dagli studenti da un'ora circa\n5\tle pecore furono munte nella stalla\n6\tla piazzetta è spazzata da stamattina\n7\ti contadini intagliarono nel centro storico",
+    "Answer_set": [
+      "A\ti sarti del paese devono tessere da questi motivi greci",
+      "B\tqueste produttrici devono poter mungere le pecore",
+      "C\ti contadini possono essere intagliati da questi legnetti",
+      "D\tla sfoglia impastò da stamani",
+      "E\tle capre furono munte dalle allevatrici",
+      "F\tdue bicchieri d'acqua bevono i turisti",
+      "G\tle sue allieve disegnammo da pochi mesi",
+      "H\tla sua miglior opera può scrivere dall'autrice"
+    ],
+    "Answer_concatenated": "A\ti sarti del paese devono tessere da questi motivi greci\nB\tqueste produttrici devono poter mungere le pecore\nC\ti contadini possono essere intagliati da questi legnetti\nD\tla sfoglia impastò da stamani\nE\tle capre furono munte dalle allevatrici\nF\tdue bicchieri d'acqua bevono i turisti\nG\tle sue allieve disegnammo da pochi mesi\nH\tla sua miglior opera può scrivere dall'autrice",
+    "Correct_option": "G",
+    "Correct_answer": "le sue allieve disegnammo da pochi mesi",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 772,
+    "Context": [
+      "1\tl'idraulico saldò i circuiti del pc con vecchi attrezzi",
+      "2\talcuni turisti devono poter dipingere questi paesaggi dall'alba",
+      "3\ti telai delle bici è saldato da un falegname con grande precisione",
+      "4\tgli appunti sono studiati dai candidati da soli",
+      "5\tdelle cernie sono pescate con un nuovo attrezzo",
+      "6\tuna carbonara deve essere mangiata da sola",
+      "7\tla nonna deve poter impastare nel pomeriggio"
+    ],
+    "Context_concatenated": "1\tl'idraulico saldò i circuiti del pc con vecchi attrezzi\n2\talcuni turisti devono poter dipingere questi paesaggi dall'alba\n3\ti telai delle bici è saldato da un falegname con grande precisione\n4\tgli appunti sono studiati dai candidati da soli\n5\tdelle cernie sono pescate con un nuovo attrezzo\n6\tuna carbonara deve essere mangiata da sola\n7\tla nonna deve poter impastare nel pomeriggio",
+    "Answer_set": [
+      "A\tdelle fragole devono seminare le clienti dell'agriturismo",
+      "B\tle mucche  furono munte da queste produttrici",
+      "C\tl'arrosto deve cucinare da pochi istanti",
+      "D\tgli artisti devono essere scolpiti da degli dei greci",
+      "E\tqueste studentesse disegnarono da sole",
+      "F\tla scalinata deve poter pulire dalla ditta",
+      "G\tl'idraulico saldò i telai delle bici",
+      "H\tl'imbianchino deve saldare dai tubi"
+    ],
+    "Answer_concatenated": "A\tdelle fragole devono seminare le clienti dell'agriturismo\nB\tle mucche  furono munte da queste produttrici\nC\tl'arrosto deve cucinare da pochi istanti\nD\tgli artisti devono essere scolpiti da degli dei greci\nE\tqueste studentesse disegnarono da sole\nF\tla scalinata deve poter pulire dalla ditta\nG\tl'idraulico saldò i telai delle bici\nH\tl'imbianchino deve saldare dai tubi",
+    "Correct_option": "E",
+    "Correct_answer": "queste studentesse disegnarono da sole",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 2365,
+    "Context": [
+      "1\tgli studenti possono studiare gli appunti per l'esame",
+      "2\til maestro può insegnare il manuale da qualche settimana",
+      "3\tla pasta col pomodoro può essere mangiata dalla squadra di calcio prima di partire",
+      "4\tdue balene devono poter essere pescate da due persone al porto da una barchetta",
+      "5\tdei piccoli giochi devono essere intagliati a mano",
+      "6\tdelle righe di dialogo furono recitate da ieri pomeriggio",
+      "7\talcuni artisti tessono con una macchina da cucire"
+    ],
+    "Context_concatenated": "1\tgli studenti possono studiare gli appunti per l'esame\n2\til maestro può insegnare il manuale da qualche settimana\n3\tla pasta col pomodoro può essere mangiata dalla squadra di calcio prima di partire\n4\tdue balene devono poter essere pescate da due persone al porto da una barchetta\n5\tdei piccoli giochi devono essere intagliati a mano\n6\tdelle righe di dialogo furono recitate da ieri pomeriggio\n7\talcuni artisti tessono con una macchina da cucire",
+    "Answer_set": [
+      "A\tla cucina lucidò dalla ditta",
+      "B\tle sue allieve devono disegnare da un anno circa",
+      "C\tun noioso modello teorico deve insegnare il ricercatore",
+      "D\tla chef spazza l'entrata dell'hotel",
+      "E\talcuni busti scolpiscono da qualche settimana",
+      "F\til nonno fu cucinato dall'arrosto",
+      "G\tle forchette possono essere lavate dalle ristoratrici",
+      "H\til maestro deve giocare dall'organo"
+    ],
+    "Answer_concatenated": "A\tla cucina lucidò dalla ditta\nB\tle sue allieve devono disegnare da un anno circa\nC\tun noioso modello teorico deve insegnare il ricercatore\nD\tla chef spazza l'entrata dell'hotel\nE\talcuni busti scolpiscono da qualche settimana\nF\til nonno fu cucinato dall'arrosto\nG\tle forchette possono essere lavate dalle ristoratrici\nH\til maestro deve giocare dall'organo",
+    "Correct_option": "B",
+    "Correct_answer": "le sue allieve devono disegnare da un anno circa",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 1202,
+    "Context": [
+      "1\talcuni tifosi devono stirare quei calzettoni nelle stanze d'albergo",
+      "2\tmio nonno deve poter saldare i tubi da questa mattina",
+      "3\til pane deve essere cucinato dal nonno con pochi ingredienti",
+      "4\tdelle righe di dialogo possono essere recitate da delle cantanti da ieri pomeriggio",
+      "5\tla sfoglia deve essere impastata nella grande cucina",
+      "6\tdelle rappresentazioni artistiche devono essere disegnate da un mese",
+      "7\tle ristoratrici devono lavare con un vecchio elettrodomestico"
+    ],
+    "Context_concatenated": "1\talcuni tifosi devono stirare quei calzettoni nelle stanze d'albergo\n2\tmio nonno deve poter saldare i tubi da questa mattina\n3\til pane deve essere cucinato dal nonno con pochi ingredienti\n4\tdelle righe di dialogo possono essere recitate da delle cantanti da ieri pomeriggio\n5\tla sfoglia deve essere impastata nella grande cucina\n6\tdelle rappresentazioni artistiche devono essere disegnate da un mese\n7\tle ristoratrici devono lavare con un vecchio elettrodomestico",
+    "Answer_set": [
+      "A\tla nonna può essere pulita dalla stanza",
+      "B\tle mondine possono arare dalle distese di grano",
+      "C\tquesti paesaggi possono dipingere questi studenti",
+      "D\tle artiste disegnarono da pochi mesi",
+      "E\tle attrici devono recitare delle parole di un testo",
+      "F\tuna lettera deve poter scrivere dalla professoressa",
+      "G\ti calzini possono stirare da mezz'ora",
+      "H\ti libri di testo furono studiati dai candidati"
+    ],
+    "Answer_concatenated": "A\tla nonna può essere pulita dalla stanza\nB\tle mondine possono arare dalle distese di grano\nC\tquesti paesaggi possono dipingere questi studenti\nD\tle artiste disegnarono da pochi mesi\nE\tle attrici devono recitare delle parole di un testo\nF\tuna lettera deve poter scrivere dalla professoressa\nG\ti calzini possono stirare da mezz'ora\nH\ti libri di testo furono studiati dai candidati",
+    "Correct_option": "D",
+    "Correct_answer": "le artiste disegnarono da pochi mesi",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 1039,
+    "Context": [
+      "1\tla ragazza allattò la bimba nell'area adibita",
+      "2\tgli artisti scolpirono alcuni busti da qualche settimana",
+      "3\tqueste bestie devono essere munte dalle due cugine con macchine moderne",
+      "4\tquesti paesaggi è dipinti da artisti rinascimentali da quelle torri",
+      "5\tla sua miglior opera è scritta in biblioteca",
+      "6\tle triglie furono pescate dal peschereccio",
+      "7\tdelle cantanti devono recitare con la giusta intepretazione"
+    ],
+    "Context_concatenated": "1\tla ragazza allattò la bimba nell'area adibita\n2\tgli artisti scolpirono alcuni busti da qualche settimana\n3\tqueste bestie devono essere munte dalle due cugine con macchine moderne\n4\tquesti paesaggi è dipinti da artisti rinascimentali da quelle torri\n5\tla sua miglior opera è scritta in biblioteca\n6\tle triglie furono pescate dal peschereccio\n7\tdelle cantanti devono recitare con la giusta intepretazione",
+    "Answer_set": [
+      "A\talcune sezioni del campo devono poter essere arate dalle mondine",
+      "B\tle pittrici disegnano da pochi mesi",
+      "C\tlo chef cucinò dal cenone",
+      "D\talcuni turisti dipinsero questi paesaggi",
+      "E\ttanti boccali di birra possono bere i produttori",
+      "F\tla sua miglior opera può scrivere da qualche giorno",
+      "G\tle pittrici devono poter essere disegnate da delle forme",
+      "H\tdei succhi di frutta bevono dai nostri ospiti"
+    ],
+    "Answer_concatenated": "A\talcune sezioni del campo devono poter essere arate dalle mondine\nB\tle pittrici disegnano da pochi mesi\nC\tlo chef cucinò dal cenone\nD\talcuni turisti dipinsero questi paesaggi\nE\ttanti boccali di birra possono bere i produttori\nF\tla sua miglior opera può scrivere da qualche giorno\nG\tle pittrici devono poter essere disegnate da delle forme\nH\tdei succhi di frutta bevono dai nostri ospiti",
+    "Correct_option": "B",
+    "Correct_answer": "le pittrici disegnano da pochi mesi",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 175,
+    "Context": [
+      "1\ti sarti del paese devono poter tessere gli arazzi per pura passione",
+      "2\til direttore lesse un bel libro da solo",
+      "3\tuna lettera deve essere scritta dall'autrice in piena notte",
+      "4\tquesti legnetti devono essere intagliati da questi due signori da soli",
+      "5\tdei succhi di frutta devono essere bevuti in un attimo",
+      "6\tdei succhi di frutta furono bevuti da un paio di minuti",
+      "7\til pubblico deve poter cantare prima della mezzanotte"
+    ],
+    "Context_concatenated": "1\ti sarti del paese devono poter tessere gli arazzi per pura passione\n2\til direttore lesse un bel libro da solo\n3\tuna lettera deve essere scritta dall'autrice in piena notte\n4\tquesti legnetti devono essere intagliati da questi due signori da soli\n5\tdei succhi di frutta devono essere bevuti in un attimo\n6\tdei succhi di frutta furono bevuti da un paio di minuti\n7\til pubblico deve poter cantare prima della mezzanotte",
+    "Answer_set": [
+      "A\tl'imbianchino può saldare i circuiti del pc",
+      "B\tle pittrici devono disegnare da un anno circa",
+      "C\tle sedie devono essere lavate dalle ristoratrici",
+      "D\tLeonardo e Michelangelo dipinsero da castelli e cattedrali",
+      "E\tdelle cipolle devono seminare le clienti dell'agriturismo",
+      "F\tla pasta frolla impasta da sola",
+      "G\tla stanza deve poter pulire dalla cameriera",
+      "H\ti sarti del paese sono tessuti dagli abiti del matrimonio"
+    ],
+    "Answer_concatenated": "A\tl'imbianchino può saldare i circuiti del pc\nB\tle pittrici devono disegnare da un anno circa\nC\tle sedie devono essere lavate dalle ristoratrici\nD\tLeonardo e Michelangelo dipinsero da castelli e cattedrali\nE\tdelle cipolle devono seminare le clienti dell'agriturismo\nF\tla pasta frolla impasta da sola\nG\tla stanza deve poter pulire dalla cameriera\nH\ti sarti del paese sono tessuti dagli abiti del matrimonio",
+    "Correct_option": "B",
+    "Correct_answer": "le pittrici devono disegnare da un anno circa",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 503,
+    "Context": [
+      "1\til musicista può cantare questo testo con solo pianoforte",
+      "2\til nonno può cucinare il pane da pochi istanti",
+      "3\tle forchette possono essere lavate da delle ospiti con molta attenzione",
+      "4\tdue balene sono pescate dalle sommozzatrici dal peschereccio",
+      "5\tgli arazzi possono essere tessuti con abilità",
+      "6\ti tubi può essere saldato da manuale",
+      "7\tuna mia amica impastò con ingredienti pregiati"
+    ],
+    "Context_concatenated": "1\til musicista può cantare questo testo con solo pianoforte\n2\til nonno può cucinare il pane da pochi istanti\n3\tle forchette possono essere lavate da delle ospiti con molta attenzione\n4\tdue balene sono pescate dalle sommozzatrici dal peschereccio\n5\tgli arazzi possono essere tessuti con abilità\n6\ti tubi può essere saldato da manuale\n7\tuna mia amica impastò con ingredienti pregiati",
+    "Answer_set": [
+      "A\tquesti operai devono poter scolpire dei simboli antichi",
+      "B\tqueste studentesse devono disegnare da sole",
+      "C\ti materiali studiano da qualche giorno",
+      "D\tgli appunti sono studiati dai ripetenti",
+      "E\tla zia  deve lucidare da una delle camere",
+      "F\tla sfoglia impasta una mia amica",
+      "G\tle turiste furono pescate da delle trote",
+      "H\ti vestiti per la parata tessono dai maestri dell'alta moda"
+    ],
+    "Answer_concatenated": "A\tquesti operai devono poter scolpire dei simboli antichi\nB\tqueste studentesse devono disegnare da sole\nC\ti materiali studiano da qualche giorno\nD\tgli appunti sono studiati dai ripetenti\nE\tla zia  deve lucidare da una delle camere\nF\tla sfoglia impasta una mia amica\nG\tle turiste furono pescate da delle trote\nH\ti vestiti per la parata tessono dai maestri dell'alta moda",
+    "Correct_option": "B",
+    "Correct_answer": "queste studentesse devono disegnare da sole",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 640,
+    "Context": [
+      "1\tle mondine possono arare alcune sezioni del campo con le mietitrici",
+      "2\tle sue allieve possono disegnare le scenografie da un mese",
+      "3\tun motivetto può essere canticchiato da uno dei produttori dopo il festival",
+      "4\tdei burattini furono intagliati da alcuni turisti da un istante",
+      "5\tqueste bestie sono munte in mattinata",
+      "6\talcune specie locali possono essere seminate da stamattina",
+      "7\tle mie zie mungono nella stalla"
+    ],
+    "Context_concatenated": "1\tle mondine possono arare alcune sezioni del campo con le mietitrici\n2\tle sue allieve possono disegnare le scenografie da un mese\n3\tun motivetto può essere canticchiato da uno dei produttori dopo il festival\n4\tdei burattini furono intagliati da alcuni turisti da un istante\n5\tqueste bestie sono munte in mattinata\n6\talcune specie locali possono essere seminate da stamattina\n7\tle mie zie mungono nella stalla",
+    "Answer_set": [
+      "A\tun vecchio romanzo deve essere letto dallo scrittore",
+      "B\tquesti studenti può essere dipinti da dei ritratti",
+      "C\tdue balene pescano dalle sommozzatrici",
+      "D\tle allevatrici devono poter mungere queste bestie",
+      "E\tle ristoratrici lavarono dalle forchette",
+      "F\tdei succhi di frutta bevtrue gli studenti",
+      "G\tuna carbonara mangia da sola",
+      "H\tle sue allieve devono poter disegnare da pochi mesi"
+    ],
+    "Answer_concatenated": "A\tun vecchio romanzo deve essere letto dallo scrittore\nB\tquesti studenti può essere dipinti da dei ritratti\nC\tdue balene pescano dalle sommozzatrici\nD\tle allevatrici devono poter mungere queste bestie\nE\tle ristoratrici lavarono dalle forchette\nF\tdei succhi di frutta bevtrue gli studenti\nG\tuna carbonara mangia da sola\nH\tle sue allieve devono poter disegnare da pochi mesi",
+    "Correct_option": "H",
+    "Correct_answer": "le sue allieve devono poter disegnare da pochi mesi",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 1127,
+    "Context": [
+      "1\tle allevatrici mungono le pecore per tutto il pomeriggio",
+      "2\tle attrici devono recitare delle parole di un testo da qualche giorno",
+      "3\ti pigiama furono stirati da alcuni tifosi prima della partita",
+      "4\tdei piccoli giochi devono poter essere intagliati dai falegnami da questo pomeriggio",
+      "5\tle scenografie furono disegnate in vista della serata",
+      "6\tdei soggetti astratti sono scolpiti da anni",
+      "7\til professore deve insegnare dopo il pranzo di facoltà"
+    ],
+    "Context_concatenated": "1\tle allevatrici mungono le pecore per tutto il pomeriggio\n2\tle attrici devono recitare delle parole di un testo da qualche giorno\n3\ti pigiama furono stirati da alcuni tifosi prima della partita\n4\tdei piccoli giochi devono poter essere intagliati dai falegnami da questo pomeriggio\n5\tle scenografie furono disegnate in vista della serata\n6\tdei soggetti astratti sono scolpiti da anni\n7\til professore deve insegnare dopo il pranzo di facoltà",
+    "Answer_set": [
+      "A\talcuni busti furono scolpiti dal maestro e dall'allievo",
+      "B\tdelle rappresentazioni artistiche disegnammo dalle sue allieve",
+      "C\til nonno cucina il dolce",
+      "D\tle artiste devono disegnare da sole",
+      "E\tdelle forme devono poter disegnare le pittrici",
+      "F\ti turisti possono bere da dei succhi di frutta",
+      "G\tmia moglie è cucita dalla tasca",
+      "H\tdelle piante seminano da stamattina"
+    ],
+    "Answer_concatenated": "A\talcuni busti furono scolpiti dal maestro e dall'allievo\nB\tdelle rappresentazioni artistiche disegnammo dalle sue allieve\nC\til nonno cucina il dolce\nD\tle artiste devono disegnare da sole\nE\tdelle forme devono poter disegnare le pittrici\nF\ti turisti possono bere da dei succhi di frutta\nG\tmia moglie è cucita dalla tasca\nH\tdelle piante seminano da stamattina",
+    "Correct_option": "D",
+    "Correct_answer": "le artiste devono disegnare da sole",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 983,
+    "Context": [
+      "1\tqueste studentesse devono poter disegnare delle rappresentazioni artistiche in meno di due giorni",
+      "2\til professore deve insegnare il manuale da qualche settimana",
+      "3\tla tasca può essere cucita dall'amica di mia mamma con passione",
+      "4\tgli abiti del matrimonio possono essere tessuti da alcuni artisti da sempre",
+      "5\tdelle cernie devono essere pescate senza molto fatica",
+      "6\ti pantaloni devono essere rammendati da pochi minuti",
+      "7\tuna mia amica impasta per la cena di stasera"
+    ],
+    "Context_concatenated": "1\tqueste studentesse devono poter disegnare delle rappresentazioni artistiche in meno di due giorni\n2\til professore deve insegnare il manuale da qualche settimana\n3\tla tasca può essere cucita dall'amica di mia mamma con passione\n4\tgli abiti del matrimonio possono essere tessuti da alcuni artisti da sempre\n5\tdelle cernie devono essere pescate senza molto fatica\n6\ti pantaloni devono essere rammendati da pochi minuti\n7\tuna mia amica impasta per la cena di stasera",
+    "Answer_set": [
+      "A\talcuni turisti possono dipingere da questi paesaggi",
+      "B\tqueste studentesse disegnano da un mese",
+      "C\tla focaccia deve essere impastata dalla pasticcera",
+      "D\til direttore deve poter essere letto da un vecchio romanzo",
+      "E\tl'inno nazionale cantò dal gruppo rock",
+      "F\tle parti della commedia possono recitare le attrici",
+      "G\tl'attore canticchia un suo singolo",
+      "H\tle triglie pescano da una barchetta"
+    ],
+    "Answer_concatenated": "A\talcuni turisti possono dipingere da questi paesaggi\nB\tqueste studentesse disegnano da un mese\nC\tla focaccia deve essere impastata dalla pasticcera\nD\til direttore deve poter essere letto da un vecchio romanzo\nE\tl'inno nazionale cantò dal gruppo rock\nF\tle parti della commedia possono recitare le attrici\nG\tl'attore canticchia un suo singolo\nH\tle triglie pescano da una barchetta",
+    "Correct_option": "B",
+    "Correct_answer": "queste studentesse disegnano da un mese",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 177,
+    "Context": [
+      "1\til gruppo rock deve poter cantare il nuovo pezzo senza autotune",
+      "2\tla nonna cuce la tasca da qualche giorno",
+      "3\ttanti boccali di birra furono bevuti dai nostri ospiti prima di partire",
+      "4\tla pizza fu impastata da una mia amica da manuale",
+      "5\tqueste aiuole furono arate con tanta abilità",
+      "6\talcune coreografie devono essere disegnate da un anno circa",
+      "7\ti sarti del paese possono rammendare con ago e filo"
+    ],
+    "Context_concatenated": "1\til gruppo rock deve poter cantare il nuovo pezzo senza autotune\n2\tla nonna cuce la tasca da qualche giorno\n3\ttanti boccali di birra furono bevuti dai nostri ospiti prima di partire\n4\tla pizza fu impastata da una mia amica da manuale\n5\tqueste aiuole furono arate con tanta abilità\n6\talcune coreografie devono essere disegnate da un anno circa\n7\ti sarti del paese possono rammendare con ago e filo",
+    "Answer_set": [
+      "A\talcuni turisti devono intagliare questi attrezzi",
+      "B\tqueste studentesse disegnammo da sole",
+      "C\tla bambina è allatata da quella signora",
+      "D\til violino può giocare da stamattina",
+      "E\til sottocuoco fu cucinato dall'arrosto",
+      "F\tcastelli e cattedrali devono dipingere artisti rinascimentali",
+      "G\tle tovaglie lavano da delle ospiti",
+      "H\tle mondine possono arare dalle terre intorno al fiume"
+    ],
+    "Answer_concatenated": "A\talcuni turisti devono intagliare questi attrezzi\nB\tqueste studentesse disegnammo da sole\nC\tla bambina è allatata da quella signora\nD\til violino può giocare da stamattina\nE\til sottocuoco fu cucinato dall'arrosto\nF\tcastelli e cattedrali devono dipingere artisti rinascimentali\nG\tle tovaglie lavano da delle ospiti\nH\tle mondine possono arare dalle terre intorno al fiume",
+    "Correct_option": "B",
+    "Correct_answer": "queste studentesse disegnammo da sole",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 434,
+    "Context": [
+      "1\tla professoressa scrive una poesia con parole meravigliose",
+      "2\tla mamma lucidò una delle camere da stamattina",
+      "3\tgli appunti possono essere studiati dai due fratelli in piena notte",
+      "4\ti calzettoni della squadra di calcio furono rammendati da questi operai da soli",
+      "5\tl'area davanti alla porta può essere spazzata con una scopa di vimini",
+      "6\tun vecchio romanzo è letto da qualche ora",
+      "7\til direttore legge prima di andare a dormire"
+    ],
+    "Context_concatenated": "1\tla professoressa scrive una poesia con parole meravigliose\n2\tla mamma lucidò una delle camere da stamattina\n3\tgli appunti possono essere studiati dai due fratelli in piena notte\n4\ti calzettoni della squadra di calcio furono rammendati da questi operai da soli\n5\tl'area davanti alla porta può essere spazzata con una scopa di vimini\n6\tun vecchio romanzo è letto da qualche ora\n7\til direttore legge prima di andare a dormire",
+    "Answer_set": [
+      "A\tuna lettera scrive da quest'artista",
+      "B\tquesti legnetti intagliarono questi due signori",
+      "C\tle turiste devono pescare da due balene",
+      "D\tle pittrici devono disegnare da un mese",
+      "E\til pubblico può canticchiare il ritornello",
+      "F\til ritornello deve poter canticchiare da manuale",
+      "G\tmio nonno può essere saldato dai tubi",
+      "H\tla tasca deve essere cucita dalla sarta"
+    ],
+    "Answer_concatenated": "A\tuna lettera scrive da quest'artista\nB\tquesti legnetti intagliarono questi due signori\nC\tle turiste devono pescare da due balene\nD\tle pittrici devono disegnare da un mese\nE\til pubblico può canticchiare il ritornello\nF\til ritornello deve poter canticchiare da manuale\nG\tmio nonno può essere saldato dai tubi\nH\tla tasca deve essere cucita dalla sarta",
+    "Correct_option": "D",
+    "Correct_answer": "le pittrici devono disegnare da un mese",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 1401,
+    "Context": [
+      "1\tla squadra di calcio deve poter mangiare la specialità della casa nella sala grande",
+      "2\tle mie zie munsero le pecore da questa mattina",
+      "3\til violino devono essere suonato da uno dei finalisti dopo le prove",
+      "4\tdelle cipolle sono seminate dalle insegnanti del corso da stamattina",
+      "5\tl'entrata dell'albergo deve poter essere lucidata con un vecchio elettrodomestico",
+      "6\tdelle cipolle possono essere seminate da qualche giorno",
+      "7\tdelle cantanti devono poter recitare con la giusta intepretazione"
+    ],
+    "Context_concatenated": "1\tla squadra di calcio deve poter mangiare la specialità della casa nella sala grande\n2\tle mie zie munsero le pecore da questa mattina\n3\til violino devono essere suonato da uno dei finalisti dopo le prove\n4\tdelle cipolle sono seminate dalle insegnanti del corso da stamattina\n5\tl'entrata dell'albergo deve poter essere lucidata con un vecchio elettrodomestico\n6\tdelle cipolle possono essere seminate da qualche giorno\n7\tdelle cantanti devono poter recitare con la giusta intepretazione",
+    "Answer_set": [
+      "A\tla bimba può essere allatata da quella signora",
+      "B\ti circuiti del pc saldò da manuale",
+      "C\til nuovo pezzo deve cantare il pubblico",
+      "D\tquesti studenti dipinsero i ponti sul Tevere",
+      "E\tquesti operai scolpirono da alcuni busti",
+      "F\tla presidente è mangiata dalla specialità della casa",
+      "G\tdei succhi di frutta possono bere dagli studenti",
+      "H\tle sue allieve disegnano da pochi mesi"
+    ],
+    "Answer_concatenated": "A\tla bimba può essere allatata da quella signora\nB\ti circuiti del pc saldò da manuale\nC\til nuovo pezzo deve cantare il pubblico\nD\tquesti studenti dipinsero i ponti sul Tevere\nE\tquesti operai scolpirono da alcuni busti\nF\tla presidente è mangiata dalla specialità della casa\nG\tdei succhi di frutta possono bere dagli studenti\nH\tle sue allieve disegnano da pochi mesi",
+    "Correct_option": "H",
+    "Correct_answer": "le sue allieve disegnano da pochi mesi",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 1084,
+    "Context": [
+      "1\tuna delle proprietarie allattò la neonata nell'area adibita",
+      "2\tle sue allieve disegnano le scenografie da sole",
+      "3\tdelle parole di un testo possono essere recitate da delle cantanti in teatro",
+      "4\tgli appunti devono poter essere studiati dai ripetenti da qualche giorno",
+      "5\tdei simboli antichi possono essere scolpiti nella cava di marmo",
+      "6\tle capre devono essere munte da questa mattina",
+      "7\talcuni turisti possono dipingere all'alba"
+    ],
+    "Context_concatenated": "1\tuna delle proprietarie allattò la neonata nell'area adibita\n2\tle sue allieve disegnano le scenografie da sole\n3\tdelle parole di un testo possono essere recitate da delle cantanti in teatro\n4\tgli appunti devono poter essere studiati dai ripetenti da qualche giorno\n5\tdei simboli antichi possono essere scolpiti nella cava di marmo\n6\tle capre devono essere munte da questa mattina\n7\talcuni turisti possono dipingere all'alba",
+    "Answer_set": [
+      "A\tle sommozzatrici pescano da due balene",
+      "B\tdelle cantanti possono recitare le parti della commedia",
+      "C\ti materiali studiano dai candidati",
+      "D\tla piazzetta deve poter spazzare la commessa",
+      "E\tle pecore devono mungere da qualche ora",
+      "F\tqueste studentesse devono poter disegnare da un anno circa",
+      "G\tquella signora è allatata dalla neonata",
+      "H\tdelle piante devono essere seminate dalle clienti dell'agriturismo"
+    ],
+    "Answer_concatenated": "A\tle sommozzatrici pescano da due balene\nB\tdelle cantanti possono recitare le parti della commedia\nC\ti materiali studiano dai candidati\nD\tla piazzetta deve poter spazzare la commessa\nE\tle pecore devono mungere da qualche ora\nF\tqueste studentesse devono poter disegnare da un anno circa\nG\tquella signora è allatata dalla neonata\nH\tdelle piante devono essere seminate dalle clienti dell'agriturismo",
+    "Correct_option": "F",
+    "Correct_answer": "queste studentesse devono poter disegnare da un anno circa",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 1855,
+    "Context": [
+      "1\tlo chef deve poter cucinare il pollo per i gentili ospiti",
+      "2\tgli studenti studiano i libri di testo da qualche ora",
+      "3\til dolce deve essere cucinato dallo chef alla perfezione",
+      "4\tdelle forme devono poter essere disegnate da queste studentesse da un mese",
+      "5\til ritornello deve essere cantato prima della mezzanotte",
+      "6\tdei soggetti astratti sono scolpiti da qualche mese",
+      "7\tle contadine ararono con il fresco"
+    ],
+    "Context_concatenated": "1\tlo chef deve poter cucinare il pollo per i gentili ospiti\n2\tgli studenti studiano i libri di testo da qualche ora\n3\til dolce deve essere cucinato dallo chef alla perfezione\n4\tdelle forme devono poter essere disegnate da queste studentesse da un mese\n5\til ritornello deve essere cantato prima della mezzanotte\n6\tdei soggetti astratti sono scolpiti da qualche mese\n7\tle contadine ararono con il fresco",
+    "Answer_set": [
+      "A\tle turiste devono essere pescate da due balene",
+      "B\tmia moglie cucì la giacca",
+      "C\tl'entrata dell'hotel deve spazzare da ieri sera",
+      "D\tdelle fragole possono seminare le contadine",
+      "E\tuna mia amica impastò dalla pasta frolla",
+      "F\tle artiste disegnarono da un mese",
+      "G\tqueste bestie munsero dalle allevatrici",
+      "H\tla neonata deve essere allatata da una delle proprietarie"
+    ],
+    "Answer_concatenated": "A\tle turiste devono essere pescate da due balene\nB\tmia moglie cucì la giacca\nC\tl'entrata dell'hotel deve spazzare da ieri sera\nD\tdelle fragole possono seminare le contadine\nE\tuna mia amica impastò dalla pasta frolla\nF\tle artiste disegnarono da un mese\nG\tqueste bestie munsero dalle allevatrici\nH\tla neonata deve essere allatata da una delle proprietarie",
+    "Correct_option": "F",
+    "Correct_answer": "le artiste disegnarono da un mese",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 854,
+    "Context": [
+      "1\tdelle ospiti possono lavare le sedie con un vecchio elettrodomestico",
+      "2\tle artiste possono disegnare le scenografie da sole",
+      "3\tle capre possono essere munte dalle allevatrici con macchine moderne",
+      "4\tl'organo sono suonato da uno dei finalisti da stamattina",
+      "5\tquesti attrezzi devono poter essere intagliati con attrezzi antichi",
+      "6\ti tubi deve poter essere saldato da solo",
+      "7\tle cameriere devono lavare con molta attenzione"
+    ],
+    "Context_concatenated": "1\tdelle ospiti possono lavare le sedie con un vecchio elettrodomestico\n2\tle artiste possono disegnare le scenografie da sole\n3\tle capre possono essere munte dalle allevatrici con macchine moderne\n4\tl'organo sono suonato da uno dei finalisti da stamattina\n5\tquesti attrezzi devono poter essere intagliati con attrezzi antichi\n6\ti tubi deve poter essere saldato da solo\n7\tle cameriere devono lavare con molta attenzione",
+    "Answer_set": [
+      "A\tle pittrici disegnano da pochi mesi",
+      "B\tdelle cernie possono pescare da due persone al porto",
+      "C\tqueste produttrici devono poter essere munte dalle mucche ",
+      "D\tle sommozzatrici pescano delle cernie",
+      "E\tle mucche  devono essere munte dalle allevatrici",
+      "F\tla sala da ballo lucidò da ieri",
+      "G\tgli abiti del matrimonio tessero questi stilisti",
+      "H\tgli studenti devono poter bere da tanti boccali di birra"
+    ],
+    "Answer_concatenated": "A\tle pittrici disegnano da pochi mesi\nB\tdelle cernie possono pescare da due persone al porto\nC\tqueste produttrici devono poter essere munte dalle mucche \nD\tle sommozzatrici pescano delle cernie\nE\tle mucche  devono essere munte dalle allevatrici\nF\tla sala da ballo lucidò da ieri\nG\tgli abiti del matrimonio tessero questi stilisti\nH\tgli studenti devono poter bere da tanti boccali di birra",
+    "Correct_option": "A",
+    "Correct_answer": "le pittrici disegnano da pochi mesi",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 1818,
+    "Context": [
+      "1\tla nonna deve impastare la sfoglia con ingredienti pregiati",
+      "2\tuna mia amica deve impastare la pasta frolla da manuale",
+      "3\tdue balene sono pescate da due persone al porto in un paio d'ore",
+      "4\ti materiali furono studiati dagli studenti da qualche ora",
+      "5\ti ponti sul Tevere deve essere dipinti con grandi abilità",
+      "6\til manuale può essere insegnato da solo",
+      "7\tquesti stilisti devono tessere con abilità"
+    ],
+    "Context_concatenated": "1\tla nonna deve impastare la sfoglia con ingredienti pregiati\n2\tuna mia amica deve impastare la pasta frolla da manuale\n3\tdue balene sono pescate da due persone al porto in un paio d'ore\n4\ti materiali furono studiati dagli studenti da qualche ora\n5\ti ponti sul Tevere deve essere dipinti con grandi abilità\n6\til manuale può essere insegnato da solo\n7\tquesti stilisti devono tessere con abilità",
+    "Answer_set": [
+      "A\tqueste aiuole ararono dalle proprietarie",
+      "B\tquesti motivi greci sono tessuti dai sarti del paese",
+      "C\tle ristoratrici devono essere lavate dalle stoviglie",
+      "D\tdue persone al porto devono pescare delle cernie",
+      "E\talcune specie locali devono seminare da sole",
+      "F\tl'inno nazionale cantò il vincitore del festival",
+      "G\tle artiste devono poter disegnare da un mese",
+      "H\tla cameriera deve poter pulire da questa camera"
+    ],
+    "Answer_concatenated": "A\tqueste aiuole ararono dalle proprietarie\nB\tquesti motivi greci sono tessuti dai sarti del paese\nC\tle ristoratrici devono essere lavate dalle stoviglie\nD\tdue persone al porto devono pescare delle cernie\nE\talcune specie locali devono seminare da sole\nF\tl'inno nazionale cantò il vincitore del festival\nG\tle artiste devono poter disegnare da un mese\nH\tla cameriera deve poter pulire da questa camera",
+    "Correct_option": "G",
+    "Correct_answer": "le artiste devono poter disegnare da un mese",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 1771,
+    "Context": [
+      "1\tl'autrice deve poter scrivere una poesia in piena notte",
+      "2\ti nostri ospiti devono bere tanti boccali di birra da un'ora circa",
+      "3\tl'entrata dell'albergo è lucidata da una cameriera con questo nuovo prodotto",
+      "4\ti materiali furono studiati dai ripetenti da qualche giorno",
+      "5\tdei simboli antichi possono essere scolpiti entro la fine dell'anno",
+      "6\tgli abiti del matrimonio furono tessuti da ieri",
+      "7\talcuni artisti possono tessere con una macchina da cucire"
+    ],
+    "Context_concatenated": "1\tl'autrice deve poter scrivere una poesia in piena notte\n2\ti nostri ospiti devono bere tanti boccali di birra da un'ora circa\n3\tl'entrata dell'albergo è lucidata da una cameriera con questo nuovo prodotto\n4\ti materiali furono studiati dai ripetenti da qualche giorno\n5\tdei simboli antichi possono essere scolpiti entro la fine dell'anno\n6\tgli abiti del matrimonio furono tessuti da ieri\n7\talcuni artisti possono tessere con una macchina da cucire",
+    "Answer_set": [
+      "A\talcuni turisti deve essere dipinti da questi paesaggi",
+      "B\tqueste studentesse disegnano da un anno circa",
+      "C\tquesti paesaggi dipingono da descrizioni in alcuni libri",
+      "D\til maestro e l'allievo possono scolpire dei soggetti astratti",
+      "E\tle terre intorno al fiume ararono dalle contadine",
+      "F\tdelle cipolle possono seminare le clienti dell'agriturismo",
+      "G\tuno dei docenti deve poter insegnare da un noioso modello teorico",
+      "H\tdei succhi di frutta devono essere bevuti dagli studenti"
+    ],
+    "Answer_concatenated": "A\talcuni turisti deve essere dipinti da questi paesaggi\nB\tqueste studentesse disegnano da un anno circa\nC\tquesti paesaggi dipingono da descrizioni in alcuni libri\nD\til maestro e l'allievo possono scolpire dei soggetti astratti\nE\tle terre intorno al fiume ararono dalle contadine\nF\tdelle cipolle possono seminare le clienti dell'agriturismo\nG\tuno dei docenti deve poter insegnare da un noioso modello teorico\nH\tdei succhi di frutta devono essere bevuti dagli studenti",
+    "Correct_option": "B",
+    "Correct_answer": "queste studentesse disegnano da un anno circa",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 2157,
+    "Context": [
+      "1\tartisti rinascimentali dipinsero i ponti sul Tevere con grandi abilità",
+      "2\tla poetessa deve scrivere una poesia da sempre",
+      "3\til manuale può essere insegnato da uno dei docenti prima dell'esame",
+      "4\talcune coreografie devono essere disegnate dalle artiste da pochi mesi",
+      "5\tgli appunti possono essere studiati in biblioteca",
+      "6\tun vecchio romanzo deve essere letto da ieri sera",
+      "7\tuno dei produttori può canticchiare con megafoni"
+    ],
+    "Context_concatenated": "1\tartisti rinascimentali dipinsero i ponti sul Tevere con grandi abilità\n2\tla poetessa deve scrivere una poesia da sempre\n3\til manuale può essere insegnato da uno dei docenti prima dell'esame\n4\talcune coreografie devono essere disegnate dalle artiste da pochi mesi\n5\tgli appunti possono essere studiati in biblioteca\n6\tun vecchio romanzo deve essere letto da ieri sera\n7\tuno dei produttori può canticchiare con megafoni",
+    "Answer_set": [
+      "A\tquesto studente lesse il manuale di istruzioni",
+      "B\ti calzini possono stirare da soli",
+      "C\tla stanza deve pulire dalla cameriera",
+      "D\tqueste studentesse possono disegnare da pochi mesi",
+      "E\tquesti attrezzi possono essere intagliati da alcuni turisti",
+      "F\tquella signora deve poter allattare dalla bimba",
+      "G\tla copertina cuce l'amica di mia mamma",
+      "H\tl'imbianchino fu saldato dai circuiti del pc"
+    ],
+    "Answer_concatenated": "A\tquesto studente lesse il manuale di istruzioni\nB\ti calzini possono stirare da soli\nC\tla stanza deve pulire dalla cameriera\nD\tqueste studentesse possono disegnare da pochi mesi\nE\tquesti attrezzi possono essere intagliati da alcuni turisti\nF\tquella signora deve poter allattare dalla bimba\nG\tla copertina cuce l'amica di mia mamma\nH\tl'imbianchino fu saldato dai circuiti del pc",
+    "Correct_option": "D",
+    "Correct_answer": "queste studentesse possono disegnare da pochi mesi",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 693,
+    "Context": [
+      "1\tle sommozzatrici devono poter pescare delle trote senza molto fatica",
+      "2\tquesti operai devono poter rammendare i calzettoni della squadra di calcio da pochi minuti",
+      "3\til pollo può essere cucinato dal sottocuoco per i gentili ospiti",
+      "4\tla sala è pulita dalla cameriera da mezz'ora",
+      "5\tdelle trote sono pescate senza nessuna esca",
+      "6\tle terre intorno al fiume furono arate da qualche ora",
+      "7\tl'amica di mia mamma cuce davanti al camino"
+    ],
+    "Context_concatenated": "1\tle sommozzatrici devono poter pescare delle trote senza molto fatica\n2\tquesti operai devono poter rammendare i calzettoni della squadra di calcio da pochi minuti\n3\til pollo può essere cucinato dal sottocuoco per i gentili ospiti\n4\tla sala è pulita dalla cameriera da mezz'ora\n5\tdelle trote sono pescate senza nessuna esca\n6\tle terre intorno al fiume furono arate da qualche ora\n7\tl'amica di mia mamma cuce davanti al camino",
+    "Answer_set": [
+      "A\tla sala pulisce una delle propretarie dell'albergo",
+      "B\tla pasticcera è impastata dalla pasta frolla",
+      "C\til nonno deve cucinare dal pane",
+      "D\tla cameriera deve pulire questa camera",
+      "E\tqueste bestie munsero dalle due cugine",
+      "F\tle pittrici disegnano da sole",
+      "G\tl'inno nazionale canta da ieri",
+      "H\tle scenografie sono disegnate da queste studentesse"
+    ],
+    "Answer_concatenated": "A\tla sala pulisce una delle propretarie dell'albergo\nB\tla pasticcera è impastata dalla pasta frolla\nC\til nonno deve cucinare dal pane\nD\tla cameriera deve pulire questa camera\nE\tqueste bestie munsero dalle due cugine\nF\tle pittrici disegnano da sole\nG\tl'inno nazionale canta da ieri\nH\tle scenografie sono disegnate da queste studentesse",
+    "Correct_option": "F",
+    "Correct_answer": "le pittrici disegnano da sole",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 808,
+    "Context": [
+      "1\tquesto studente può leggere un vecchio romanzo con molta voglia",
+      "2\til cantante pop giocò l'organo da solo",
+      "3\tquesti paesaggi deve essere dipinti da Leonardo e Michelangelo con grandi abilità",
+      "4\ti pantaloni devono poter essere rammendati dai sarti del paese da pochi minuti",
+      "5\til nuovo pezzo è cantato prima della mezzanotte",
+      "6\tla pasta frolla è impastata da sola",
+      "7\tgli artisti scolpiscono con martelli e scalpelli"
+    ],
+    "Context_concatenated": "1\tquesto studente può leggere un vecchio romanzo con molta voglia\n2\til cantante pop giocò l'organo da solo\n3\tquesti paesaggi deve essere dipinti da Leonardo e Michelangelo con grandi abilità\n4\ti pantaloni devono poter essere rammendati dai sarti del paese da pochi minuti\n5\til nuovo pezzo è cantato prima della mezzanotte\n6\tla pasta frolla è impastata da sola\n7\tgli artisti scolpiscono con martelli e scalpelli",
+    "Answer_set": [
+      "A\tle artiste devono poter disegnare da un anno circa",
+      "B\tdei ritratti devono poter dipingere da alcuni turisti",
+      "C\ti due allenatori stirano da quei calzettoni",
+      "D\tquesti vini possono essere bevuti dai produttori",
+      "E\tuna delle proprietarie è allatata dalla bimba",
+      "F\tdue tuoi amici rammendano i pantaloni",
+      "G\tla sua miglior opera scrive la professoressa",
+      "H\tle stoviglie lavarono da stamattina"
+    ],
+    "Answer_concatenated": "A\tle artiste devono poter disegnare da un anno circa\nB\tdei ritratti devono poter dipingere da alcuni turisti\nC\ti due allenatori stirano da quei calzettoni\nD\tquesti vini possono essere bevuti dai produttori\nE\tuna delle proprietarie è allatata dalla bimba\nF\tdue tuoi amici rammendano i pantaloni\nG\tla sua miglior opera scrive la professoressa\nH\tle stoviglie lavarono da stamattina",
+    "Correct_option": "A",
+    "Correct_answer": "le artiste devono poter disegnare da un anno circa",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 1291,
+    "Context": [
+      "1\tla ragazza allattta la bimba con tanta felicità",
+      "2\tl'idraulico deve saldare i tubi da un paio di minuti",
+      "3\tun vecchio romanzo deve poter essere letto dal giornalista con molta voglia",
+      "4\ti ponti sul Tevere deve poter essere dipinti da Leonardo e Michelangelo da descrizioni in alcuni libri",
+      "5\tla sala fu pulita con questa scopa",
+      "6\til manuale fu insegnato da qualche mese",
+      "7\tquesti stilisti tessono per pura passione"
+    ],
+    "Context_concatenated": "1\tla ragazza allattta la bimba con tanta felicità\n2\tl'idraulico deve saldare i tubi da un paio di minuti\n3\tun vecchio romanzo deve poter essere letto dal giornalista con molta voglia\n4\ti ponti sul Tevere deve poter essere dipinti da Leonardo e Michelangelo da descrizioni in alcuni libri\n5\tla sala fu pulita con questa scopa\n6\til manuale fu insegnato da qualche mese\n7\tquesti stilisti tessono per pura passione",
+    "Answer_set": [
+      "A\tla zia  mangiai una bistecca",
+      "B\tla tasca può cucire dalla nonna",
+      "C\tle sue allieve devono poter disegnare da sole",
+      "D\tle ristoratrici lavano dalle forchette",
+      "E\tuno dei clavicembali devono poter essere suonato dal cantante pop",
+      "F\ttanti boccali di birra bevtrue da pochi istanti",
+      "G\tla presidente può essere spazzata dall'entrata dell'hotel",
+      "H\tdelle righe di dialogo devono recitare le attrici"
+    ],
+    "Answer_concatenated": "A\tla zia  mangiai una bistecca\nB\tla tasca può cucire dalla nonna\nC\tle sue allieve devono poter disegnare da sole\nD\tle ristoratrici lavano dalle forchette\nE\tuno dei clavicembali devono poter essere suonato dal cantante pop\nF\ttanti boccali di birra bevtrue da pochi istanti\nG\tla presidente può essere spazzata dall'entrata dell'hotel\nH\tdelle righe di dialogo devono recitare le attrici",
+    "Correct_option": "C",
+    "Correct_answer": "le sue allieve devono poter disegnare da sole",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 844,
+    "Context": [
+      "1\tla mamma può allattare la bimba nell'area adibita",
+      "2\tl'amica di mia mamma deve cucire la copertina da stamattina",
+      "3\tdue bicchieri d'acqua devono essere bevuti dai produttori senza pensarci tanto",
+      "4\tdelle righe di dialogo furono recitate dalle artiste da sole",
+      "5\tla giacca può essere cucita in una mezz'ora",
+      "6\tle parti della commedia devono poter essere recitate da sole",
+      "7\ti calciatori della squadra devono stirare con dei ferri di ultima generazione"
+    ],
+    "Context_concatenated": "1\tla mamma può allattare la bimba nell'area adibita\n2\tl'amica di mia mamma deve cucire la copertina da stamattina\n3\tdue bicchieri d'acqua devono essere bevuti dai produttori senza pensarci tanto\n4\tdelle righe di dialogo furono recitate dalle artiste da sole\n5\tla giacca può essere cucita in una mezz'ora\n6\tle parti della commedia devono poter essere recitate da sole\n7\ti calciatori della squadra devono stirare con dei ferri di ultima generazione",
+    "Answer_set": [
+      "A\tqueste bestie possono mungere dalle mie zie",
+      "B\tl'entrata dell'hotel deve poter spazzare da ieri sera",
+      "C\tdei piccoli giochi devono essere intagliati dai falegnami",
+      "D\tquesti operai possono essere scolpiti da degli dei greci",
+      "E\tle artiste devono poter disegnare da un mese",
+      "F\tle mie zie munsero le pecore",
+      "G\ti calciatori della squadra devono stirare da quei calzettoni",
+      "H\tun vecchio romanzo può leggere lo scrittore"
+    ],
+    "Answer_concatenated": "A\tqueste bestie possono mungere dalle mie zie\nB\tl'entrata dell'hotel deve poter spazzare da ieri sera\nC\tdei piccoli giochi devono essere intagliati dai falegnami\nD\tquesti operai possono essere scolpiti da degli dei greci\nE\tle artiste devono poter disegnare da un mese\nF\tle mie zie munsero le pecore\nG\ti calciatori della squadra devono stirare da quei calzettoni\nH\tun vecchio romanzo può leggere lo scrittore",
+    "Correct_option": "E",
+    "Correct_answer": "le artiste devono poter disegnare da un mese",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 2192,
+    "Context": [
+      "1\til pubblico cantò il ritornello prima della mezzanotte",
+      "2\til nonno cucina il dolce da solo",
+      "3\tle pecore devono essere munte dalle mie zie per tutto il pomeriggio",
+      "4\ti libri di testo furono studiati dai due fratelli da qualche ora",
+      "5\tle capre devono poter essere munte per tutto il pomeriggio",
+      "6\tl'entrata dell'hotel deve essere spazzata da ieri sera",
+      "7\tle ristoratrici devono poter lavare con molta attenzione"
+    ],
+    "Context_concatenated": "1\til pubblico cantò il ritornello prima della mezzanotte\n2\til nonno cucina il dolce da solo\n3\tle pecore devono essere munte dalle mie zie per tutto il pomeriggio\n4\ti libri di testo furono studiati dai due fratelli da qualche ora\n5\tle capre devono poter essere munte per tutto il pomeriggio\n6\tl'entrata dell'hotel deve essere spazzata da ieri sera\n7\tle ristoratrici devono poter lavare con molta attenzione",
+    "Answer_set": [
+      "A\tle clienti dell'agriturismo sono seminate da delle cipolle",
+      "B\tle artiste recitano da delle righe di dialogo",
+      "C\tla pizza deve impastare dalla nonna",
+      "D\tla presidente mangiai una bistecca",
+      "E\tquesti paesaggi deve essere dipinti da artisti rinascimentali",
+      "F\tl'organo deve poter giocare da solo",
+      "G\til pane cucinò il sottocuoco",
+      "H\tle artiste possono disegnare da un mese"
+    ],
+    "Answer_concatenated": "A\tle clienti dell'agriturismo sono seminate da delle cipolle\nB\tle artiste recitano da delle righe di dialogo\nC\tla pizza deve impastare dalla nonna\nD\tla presidente mangiai una bistecca\nE\tquesti paesaggi deve essere dipinti da artisti rinascimentali\nF\tl'organo deve poter giocare da solo\nG\til pane cucinò il sottocuoco\nH\tle artiste possono disegnare da un mese",
+    "Correct_option": "H",
+    "Correct_answer": "le artiste possono disegnare da un mese",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 713,
+    "Context": [
+      "1\til bambino deve giocare il pianoforte davanti al teatro",
+      "2\til maestro e l'allievo devono scolpire alcuni busti da qualche mese",
+      "3\tdegli dei greci devono poter essere scolpiti dagli artisti entro la fine dell'anno",
+      "4\tla tasca è cucita dalla sarta da sola",
+      "5\tla focaccia è impastata nel pomeriggio",
+      "6\tla pasta col pomodoro è mangiata da tre ore",
+      "7\ti candidati devono studiare per l'esame"
+    ],
+    "Context_concatenated": "1\til bambino deve giocare il pianoforte davanti al teatro\n2\til maestro e l'allievo devono scolpire alcuni busti da qualche mese\n3\tdegli dei greci devono poter essere scolpiti dagli artisti entro la fine dell'anno\n4\tla tasca è cucita dalla sarta da sola\n5\tla focaccia è impastata nel pomeriggio\n6\tla pasta col pomodoro è mangiata da tre ore\n7\ti candidati devono studiare per l'esame",
+    "Answer_set": [
+      "A\tdei soggetti astratti scolpiscono dagli artisti",
+      "B\tle pittrici disegnammo da sole",
+      "C\tuna poesia scrive la poetessa",
+      "D\tuna lettera può scrivere da qualche giorno",
+      "E\ti loro calzini furono rammendati da due tuoi amici",
+      "F\tla cameriera deve essere pulita dalla stanza",
+      "G\tl'attore canticchia un motivetto",
+      "H\talcuni turisti devono dipingere da castelli e cattedrali"
+    ],
+    "Answer_concatenated": "A\tdei soggetti astratti scolpiscono dagli artisti\nB\tle pittrici disegnammo da sole\nC\tuna poesia scrive la poetessa\nD\tuna lettera può scrivere da qualche giorno\nE\ti loro calzini furono rammendati da due tuoi amici\nF\tla cameriera deve essere pulita dalla stanza\nG\tl'attore canticchia un motivetto\nH\talcuni turisti devono dipingere da castelli e cattedrali",
+    "Correct_option": "B",
+    "Correct_answer": "le pittrici disegnammo da sole",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 2375,
+    "Context": [
+      "1\tuno dei finalisti può giocare il pianoforte in platea",
+      "2\til cantante pop gioca il violino da sempre",
+      "3\talcune sezioni del campo furono arate dalle mondine con tanta abilità",
+      "4\ti calzettoni della squadra di calcio possono essere rammendati dai proprietari da sempre",
+      "5\tuna bistecca può essere mangiata con fame",
+      "6\tle tovaglie furono lavate da sole",
+      "7\tla commessa spazzò con una scopa di vimini"
+    ],
+    "Context_concatenated": "1\tuno dei finalisti può giocare il pianoforte in platea\n2\til cantante pop gioca il violino da sempre\n3\talcune sezioni del campo furono arate dalle mondine con tanta abilità\n4\ti calzettoni della squadra di calcio possono essere rammendati dai proprietari da sempre\n5\tuna bistecca può essere mangiata con fame\n6\tle tovaglie furono lavate da sole\n7\tla commessa spazzò con una scopa di vimini",
+    "Answer_set": [
+      "A\tla copertina cucì da mia moglie",
+      "B\tle artiste disegnano da un anno circa",
+      "C\tl'imbianchino salda i cavi del lampadario",
+      "D\til pollo cucina da circa un'ora",
+      "E\tle pittrici devono disegnare da delle forme",
+      "F\til manuale di istruzioni può leggere questo studente",
+      "G\ti pantaloni devono poter essere rammendati dai sarti del paese",
+      "H\tle zie di Maria devono poter essere pescate dalle triglie"
+    ],
+    "Answer_concatenated": "A\tla copertina cucì da mia moglie\nB\tle artiste disegnano da un anno circa\nC\tl'imbianchino salda i cavi del lampadario\nD\til pollo cucina da circa un'ora\nE\tle pittrici devono disegnare da delle forme\nF\til manuale di istruzioni può leggere questo studente\nG\ti pantaloni devono poter essere rammendati dai sarti del paese\nH\tle zie di Maria devono poter essere pescate dalle triglie",
+    "Correct_option": "B",
+    "Correct_answer": "le artiste disegnano da un anno circa",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 802,
+    "Context": [
+      "1\tle allevatrici munsero le capre per tutto il pomeriggio",
+      "2\tla zia  deve lucidare la cucina da stamattina",
+      "3\tdelle cipolle furono seminate dalle clienti dell'agriturismo con dei nuovi attrezzi",
+      "4\tle scenografie devono poter essere disegnate da queste studentesse da un anno circa",
+      "5\tl'articolo fu letto prima di andare a dormire",
+      "6\tdei ritratti è dipinti da soli",
+      "7\tla chef deve poter impastare con ingredienti pregiati"
+    ],
+    "Context_concatenated": "1\tle allevatrici munsero le capre per tutto il pomeriggio\n2\tla zia  deve lucidare la cucina da stamattina\n3\tdelle cipolle furono seminate dalle clienti dell'agriturismo con dei nuovi attrezzi\n4\tle scenografie devono poter essere disegnate da queste studentesse da un anno circa\n5\tl'articolo fu letto prima di andare a dormire\n6\tdei ritratti è dipinti da soli\n7\tla chef deve poter impastare con ingredienti pregiati",
+    "Answer_set": [
+      "A\tle artiste devono poter disegnare da un anno circa",
+      "B\tdelle piante devono seminare dalle signore del paese",
+      "C\tquei calzettoni devono poter essere stirati dai calciatori della squadra",
+      "D\tla tasca cucì la nonna",
+      "E\tla chef può essere spazzata dalla scalinata",
+      "F\tuno dei docenti insegna dal manuale",
+      "G\ti nostri ospiti devono poter bere due bicchieri d'acqua",
+      "H\tla copertina cucì da qualche giorno"
+    ],
+    "Answer_concatenated": "A\tle artiste devono poter disegnare da un anno circa\nB\tdelle piante devono seminare dalle signore del paese\nC\tquei calzettoni devono poter essere stirati dai calciatori della squadra\nD\tla tasca cucì la nonna\nE\tla chef può essere spazzata dalla scalinata\nF\tuno dei docenti insegna dal manuale\nG\ti nostri ospiti devono poter bere due bicchieri d'acqua\nH\tla copertina cucì da qualche giorno",
+    "Correct_option": "A",
+    "Correct_answer": "le artiste devono poter disegnare da un anno circa",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 525,
+    "Context": [
+      "1\til ricercatore insegnò il corso dopo il pranzo di facoltà",
+      "2\tuna delle proprietarie allattta la neonata da pochi minuti",
+      "3\tdei burattini devono essere intagliati dai falegnami con attrezzi antichi",
+      "4\tl'arrosto può essere cucinato da suo padre dalla mattina",
+      "5\tsua figlia può essere allatata per qualche mese",
+      "6\talcuni busti furono scolpiti da anni",
+      "7\tle clienti dell'agriturismo seminarono all'inizio della stagione"
+    ],
+    "Context_concatenated": "1\til ricercatore insegnò il corso dopo il pranzo di facoltà\n2\tuna delle proprietarie allattta la neonata da pochi minuti\n3\tdei burattini devono essere intagliati dai falegnami con attrezzi antichi\n4\tl'arrosto può essere cucinato da suo padre dalla mattina\n5\tsua figlia può essere allatata per qualche mese\n6\talcuni busti furono scolpiti da anni\n7\tle clienti dell'agriturismo seminarono all'inizio della stagione",
+    "Answer_set": [
+      "A\tle sue allieve possono disegnare da pochi mesi",
+      "B\ti magazzinieri possono stirare dai pigiama",
+      "C\tla scalinata deve poter spazzare dalla presidente",
+      "D\tquella signora allattò la bimba",
+      "E\tuna mia amica fu impastata dalla pizza",
+      "F\tqueste aiuole possono arare le contadine",
+      "G\tquesti vini possono essere bevuti dai turisti",
+      "H\til manuale di istruzioni lesse da solo"
+    ],
+    "Answer_concatenated": "A\tle sue allieve possono disegnare da pochi mesi\nB\ti magazzinieri possono stirare dai pigiama\nC\tla scalinata deve poter spazzare dalla presidente\nD\tquella signora allattò la bimba\nE\tuna mia amica fu impastata dalla pizza\nF\tqueste aiuole possono arare le contadine\nG\tquesti vini possono essere bevuti dai turisti\nH\til manuale di istruzioni lesse da solo",
+    "Correct_option": "A",
+    "Correct_answer": "le sue allieve possono disegnare da pochi mesi",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 2040,
+    "Context": [
+      "1\til maestro insegna il corso dopo il pranzo di facoltà",
+      "2\ti due allenatori devono stirare i calzini da soli",
+      "3\tle triglie possono essere pescate dalle turiste con un nuovo attrezzo",
+      "4\tle pecore devono poter essere munte dalle allevatrici da qualche ora",
+      "5\tle distese di grano devono essere arate alle cinque del mattino",
+      "6\ti calzettoni della squadra di calcio furono rammendati da pochi minuti",
+      "7\tle insegnanti del corso seminano con tanta cura"
+    ],
+    "Context_concatenated": "1\til maestro insegna il corso dopo il pranzo di facoltà\n2\ti due allenatori devono stirare i calzini da soli\n3\tle triglie possono essere pescate dalle turiste con un nuovo attrezzo\n4\tle pecore devono poter essere munte dalle allevatrici da qualche ora\n5\tle distese di grano devono essere arate alle cinque del mattino\n6\ti calzettoni della squadra di calcio furono rammendati da pochi minuti\n7\tle insegnanti del corso seminano con tanta cura",
+    "Answer_set": [
+      "A\tle sue allieve devono poter disegnare da sole",
+      "B\tl'autrice può scrivere una lettera",
+      "C\talcune coreografie devono disegnare dalle artiste",
+      "D\tle contadine sono seminate da delle fragole",
+      "E\tdei soggetti astratti scolpiscono da anni",
+      "F\tgli appunti possono essere studiati dagli studenti",
+      "G\tla ditta lucida da una delle camere",
+      "H\tla bimba può allattare quella signora"
+    ],
+    "Answer_concatenated": "A\tle sue allieve devono poter disegnare da sole\nB\tl'autrice può scrivere una lettera\nC\talcune coreografie devono disegnare dalle artiste\nD\tle contadine sono seminate da delle fragole\nE\tdei soggetti astratti scolpiscono da anni\nF\tgli appunti possono essere studiati dagli studenti\nG\tla ditta lucida da una delle camere\nH\tla bimba può allattare quella signora",
+    "Correct_option": "A",
+    "Correct_answer": "le sue allieve devono poter disegnare da sole",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 1939,
+    "Context": [
+      "1\ti produttori devono poter bere due bicchieri d'acqua prima di partire",
+      "2\til direttore deve poter leggere il manuale di istruzioni da qualche ora",
+      "3\talcune sezioni del campo furono arate dalle contadine con il fresco",
+      "4\tdei guanti devono essere rammendati dai proprietari da una vita",
+      "5\til pane è cucinato con pochi ingredienti",
+      "6\tcastelli e cattedrali deve poter essere dipinti da descrizioni in alcuni libri",
+      "7\til bambino giocò in platea"
+    ],
+    "Context_concatenated": "1\ti produttori devono poter bere due bicchieri d'acqua prima di partire\n2\til direttore deve poter leggere il manuale di istruzioni da qualche ora\n3\talcune sezioni del campo furono arate dalle contadine con il fresco\n4\tdei guanti devono essere rammendati dai proprietari da una vita\n5\til pane è cucinato con pochi ingredienti\n6\tcastelli e cattedrali deve poter essere dipinti da descrizioni in alcuni libri\n7\til bambino giocò in platea",
+    "Answer_set": [
+      "A\tle mondine ararono le distese di grano",
+      "B\tqueste studentesse disegnano da un mese",
+      "C\tla turista deve mangiare dalla specialità della casa",
+      "D\ti libri di testo devono studiare i ripetenti",
+      "E\ti calzini stirano da manuale",
+      "F\tla chef deve poter essere spazzata dalla scalinata",
+      "G\tla sua miglior opera deve scrivere dall'autrice",
+      "H\talcune specie locali sono seminate dalle contadine"
+    ],
+    "Answer_concatenated": "A\tle mondine ararono le distese di grano\nB\tqueste studentesse disegnano da un mese\nC\tla turista deve mangiare dalla specialità della casa\nD\ti libri di testo devono studiare i ripetenti\nE\ti calzini stirano da manuale\nF\tla chef deve poter essere spazzata dalla scalinata\nG\tla sua miglior opera deve scrivere dall'autrice\nH\talcune specie locali sono seminate dalle contadine",
+    "Correct_option": "B",
+    "Correct_answer": "queste studentesse disegnano da un mese",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 663,
+    "Context": [
+      "1\tla ditta deve poter pulire la sala con un nuovo prodotto",
+      "2\tdelle cantanti recitano le poesie da qualche giorno",
+      "3\tun noioso modello teorico può essere insegnato dal professore prima dell'esame",
+      "4\tquesto testo è cantato dal vincitore del festival da solo",
+      "5\tquesti legnetti devono poter essere intagliati nel centro storico",
+      "6\tla bimba deve essere allatata da sola",
+      "7\tla poetessa deve scrivere nel suo studio"
+    ],
+    "Context_concatenated": "1\tla ditta deve poter pulire la sala con un nuovo prodotto\n2\tdelle cantanti recitano le poesie da qualche giorno\n3\tun noioso modello teorico può essere insegnato dal professore prima dell'esame\n4\tquesto testo è cantato dal vincitore del festival da solo\n5\tquesti legnetti devono poter essere intagliati nel centro storico\n6\tla bimba deve essere allatata da sola\n7\tla poetessa deve scrivere nel suo studio",
+    "Answer_set": [
+      "A\tgli arazzi possono tessere dai sarti del paese",
+      "B\tquesto testo deve cantare da qualche minuto",
+      "C\tl'inno canticchiò l'artista",
+      "D\tla squadra di calcio deve poter mangiare la specialità della casa",
+      "E\talcuni artisti devono poter essere intagliati dagli arazzi",
+      "F\tsua figlia fu allatata dalla ragazza",
+      "G\til maestro insegna da un noioso modello teorico",
+      "H\tqueste studentesse devono disegnare da sole"
+    ],
+    "Answer_concatenated": "A\tgli arazzi possono tessere dai sarti del paese\nB\tquesto testo deve cantare da qualche minuto\nC\tl'inno canticchiò l'artista\nD\tla squadra di calcio deve poter mangiare la specialità della casa\nE\talcuni artisti devono poter essere intagliati dagli arazzi\nF\tsua figlia fu allatata dalla ragazza\nG\til maestro insegna da un noioso modello teorico\nH\tqueste studentesse devono disegnare da sole",
+    "Correct_option": "H",
+    "Correct_answer": "queste studentesse devono disegnare da sole",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 510,
+    "Context": [
+      "1\tl'amica di mia mamma cuce la copertina con passione",
+      "2\tle zie di Maria devono pescare delle cernie dal peschereccio",
+      "3\tun noioso modello teorico deve poter essere insegnato dal maestro prima dell'esame",
+      "4\tle capre furono munte dalle due cugine da questa mattina",
+      "5\tdelle parole di un testo devono essere recitate con la giusta intepretazione",
+      "6\tla pasta col pomodoro deve poter essere mangiata da programma",
+      "7\tuna cameriera lucidò prima della cena"
+    ],
+    "Context_concatenated": "1\tl'amica di mia mamma cuce la copertina con passione\n2\tle zie di Maria devono pescare delle cernie dal peschereccio\n3\tun noioso modello teorico deve poter essere insegnato dal maestro prima dell'esame\n4\tle capre furono munte dalle due cugine da questa mattina\n5\tdelle parole di un testo devono essere recitate con la giusta intepretazione\n6\tla pasta col pomodoro deve poter essere mangiata da programma\n7\tuna cameriera lucidò prima della cena",
+    "Answer_set": [
+      "A\ti loro calzini rammendano da pochi minuti",
+      "B\tla presidente spazzò dalla scalinata",
+      "C\tla stanza fu pulita dalla nonna",
+      "D\tgli studenti bevtrue questi vini",
+      "E\tla commessa fu spazzata dall'entrata dell'hotel",
+      "F\tqueste bestie devono mungere dalle mie zie",
+      "G\tcastelli e cattedrali dipingono questi studenti",
+      "H\tle sue allieve disegnammo da un anno circa"
+    ],
+    "Answer_concatenated": "A\ti loro calzini rammendano da pochi minuti\nB\tla presidente spazzò dalla scalinata\nC\tla stanza fu pulita dalla nonna\nD\tgli studenti bevtrue questi vini\nE\tla commessa fu spazzata dall'entrata dell'hotel\nF\tqueste bestie devono mungere dalle mie zie\nG\tcastelli e cattedrali dipingono questi studenti\nH\tle sue allieve disegnammo da un anno circa",
+    "Correct_option": "H",
+    "Correct_answer": "le sue allieve disegnammo da un anno circa",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 2109,
+    "Context": [
+      "1\tquella signora allattta la bambina per qualche mese",
+      "2\tle contadine seminano delle cipolle da ieri pomeriggio",
+      "3\tla bimba deve essere allatata da quella signora con tanta felicità",
+      "4\tle triglie sono pescate da due persone al porto da una barchetta",
+      "5\tle pecore devono poter essere munte nella stalla",
+      "6\tla tasca deve poter essere cucita da stamattina",
+      "7\tle cameriere lavarono con molta attenzione"
+    ],
+    "Context_concatenated": "1\tquella signora allattta la bambina per qualche mese\n2\tle contadine seminano delle cipolle da ieri pomeriggio\n3\tla bimba deve essere allatata da quella signora con tanta felicità\n4\tle triglie sono pescate da due persone al porto da una barchetta\n5\tle pecore devono poter essere munte nella stalla\n6\tla tasca deve poter essere cucita da stamattina\n7\tle cameriere lavarono con molta attenzione",
+    "Answer_set": [
+      "A\til maestro e l'allievo scolpiscono degli dei greci",
+      "B\tle proprietarie devono arare dalle terre intorno al fiume",
+      "C\tle pittrici possono disegnare da un anno circa",
+      "D\tle terre intorno al fiume possono arare da sole",
+      "E\tl'entrata dell'hotel deve poter essere spazzata dalla chef",
+      "F\tle capre devono mungere dalle mie zie",
+      "G\tquesti stilisti possono essere tessuti dagli arazzi",
+      "H\til corso può insegnare uno dei docenti"
+    ],
+    "Answer_concatenated": "A\til maestro e l'allievo scolpiscono degli dei greci\nB\tle proprietarie devono arare dalle terre intorno al fiume\nC\tle pittrici possono disegnare da un anno circa\nD\tle terre intorno al fiume possono arare da sole\nE\tl'entrata dell'hotel deve poter essere spazzata dalla chef\nF\tle capre devono mungere dalle mie zie\nG\tquesti stilisti possono essere tessuti dagli arazzi\nH\til corso può insegnare uno dei docenti",
+    "Correct_option": "C",
+    "Correct_answer": "le pittrici possono disegnare da un anno circa",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 711,
+    "Context": [
+      "1\ti proprietari rammendano i pantaloni nel grande salone",
+      "2\tqueste studentesse disegnano alcune coreografie da un mese",
+      "3\tquesti attrezzi sono intagliati da alcuni turisti a mano",
+      "4\tle capre devono essere munte dalle mie zie da sole",
+      "5\tla tasca deve essere cucita davanti al camino",
+      "6\ti calzini furono stirati da mezz'ora",
+      "7\til maestro insegna con tanta passione"
+    ],
+    "Context_concatenated": "1\ti proprietari rammendano i pantaloni nel grande salone\n2\tqueste studentesse disegnano alcune coreografie da un mese\n3\tquesti attrezzi sono intagliati da alcuni turisti a mano\n4\tle capre devono essere munte dalle mie zie da sole\n5\tla tasca deve essere cucita davanti al camino\n6\ti calzini furono stirati da mezz'ora\n7\til maestro insegna con tanta passione",
+    "Answer_set": [
+      "A\tle mie zie mungono dalle capre",
+      "B\tdelle rappresentazioni artistiche disegnano da un mese",
+      "C\tl'artista deve essere canticchiato da un suo singolo",
+      "D\tle sedie devono essere lavate da delle ospiti",
+      "E\tle sue allieve devono disegnare da un mese",
+      "F\tl'area davanti alla porta spazza la chef",
+      "G\tuno dei finalisti giocò il pianoforte",
+      "H\tla cucina deve lucidare dalla mamma"
+    ],
+    "Answer_concatenated": "A\tle mie zie mungono dalle capre\nB\tdelle rappresentazioni artistiche disegnano da un mese\nC\tl'artista deve essere canticchiato da un suo singolo\nD\tle sedie devono essere lavate da delle ospiti\nE\tle sue allieve devono disegnare da un mese\nF\tl'area davanti alla porta spazza la chef\nG\tuno dei finalisti giocò il pianoforte\nH\tla cucina deve lucidare dalla mamma",
+    "Correct_option": "E",
+    "Correct_answer": "le sue allieve devono disegnare da un mese",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 1624,
+    "Context": [
+      "1\tquesti operai devono rammendare i pantaloni nel grande salone",
+      "2\tle clienti dell'agriturismo devono seminare delle piante da ieri pomeriggio",
+      "3\ti cavi del lampadario è saldato da mio nonno in garage",
+      "4\tle stoviglie sono lavate da delle ospiti da qualche ora",
+      "5\ti ponti sul Tevere è dipinti con grandi abilità",
+      "6\ti pantaloncini devono poter essere stirati da manuale",
+      "7\tLeonardo e Michelangelo dipingono in una giornata"
+    ],
+    "Context_concatenated": "1\tquesti operai devono rammendare i pantaloni nel grande salone\n2\tle clienti dell'agriturismo devono seminare delle piante da ieri pomeriggio\n3\ti cavi del lampadario è saldato da mio nonno in garage\n4\tle stoviglie sono lavate da delle ospiti da qualche ora\n5\ti ponti sul Tevere è dipinti con grandi abilità\n6\ti pantaloncini devono poter essere stirati da manuale\n7\tLeonardo e Michelangelo dipingono in una giornata",
+    "Answer_set": [
+      "A\tl'attore deve poter canticchiare un motivetto",
+      "B\tsua figlia deve allattare dalla mamma",
+      "C\tla specialità della casa deve poter mangiare la presidente",
+      "D\tla ditta deve poter lucidare da una delle camere",
+      "E\tdelle forme devono poter essere disegnate dalle sue allieve",
+      "F\tle artiste devono disegnare da pochi mesi",
+      "G\tgli appunti studiano da qualche ora",
+      "H\tla zia  è mangiata dalla pasta col pomodoro"
+    ],
+    "Answer_concatenated": "A\tl'attore deve poter canticchiare un motivetto\nB\tsua figlia deve allattare dalla mamma\nC\tla specialità della casa deve poter mangiare la presidente\nD\tla ditta deve poter lucidare da una delle camere\nE\tdelle forme devono poter essere disegnate dalle sue allieve\nF\tle artiste devono disegnare da pochi mesi\nG\tgli appunti studiano da qualche ora\nH\tla zia  è mangiata dalla pasta col pomodoro",
+    "Correct_option": "F",
+    "Correct_answer": "le artiste devono disegnare da pochi mesi",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 1972,
+    "Context": [
+      "1\tuna cliente dell'albergo deve spazzare la scalinata senza paletta",
+      "2\tla ditta pulisce la stanza da mezz'ora",
+      "3\tuno dei clavicembali devono poter essere suonato da uno dei finalisti davanti al teatro",
+      "4\tquesta camera è pulita dalla cameriera da qualche minuto",
+      "5\tla scalinata fu spazzata prima del concerto",
+      "6\tla copertina deve essere cucita da qualche ora",
+      "7\tgli studenti bevtrue senza pensarci tanto"
+    ],
+    "Context_concatenated": "1\tuna cliente dell'albergo deve spazzare la scalinata senza paletta\n2\tla ditta pulisce la stanza da mezz'ora\n3\tuno dei clavicembali devono poter essere suonato da uno dei finalisti davanti al teatro\n4\tquesta camera è pulita dalla cameriera da qualche minuto\n5\tla scalinata fu spazzata prima del concerto\n6\tla copertina deve essere cucita da qualche ora\n7\tgli studenti bevtrue senza pensarci tanto",
+    "Answer_set": [
+      "A\talcuni artisti possono tessere gli arazzi",
+      "B\tle parti della commedia recitarono dalle attrici",
+      "C\ti calzini furono stirati dai calciatori della squadra",
+      "D\talcuni busti possono scolpire questi operai",
+      "E\tgli studenti sono studiati dai materiali",
+      "F\tl'inno nazionale canta da solo",
+      "G\tlo chef cucina dal pane",
+      "H\tle pittrici devono disegnare da un anno circa"
+    ],
+    "Answer_concatenated": "A\talcuni artisti possono tessere gli arazzi\nB\tle parti della commedia recitarono dalle attrici\nC\ti calzini furono stirati dai calciatori della squadra\nD\talcuni busti possono scolpire questi operai\nE\tgli studenti sono studiati dai materiali\nF\tl'inno nazionale canta da solo\nG\tlo chef cucina dal pane\nH\tle pittrici devono disegnare da un anno circa",
+    "Correct_option": "H",
+    "Correct_answer": "le pittrici devono disegnare da un anno circa",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 2127,
+    "Context": [
+      "1\tle contadine seminarono delle piante alle sei del mattino",
+      "2\tqueste studentesse disegnano delle forme da un anno circa",
+      "3\tl'inno può essere canticchiato dall'attore nella grande piazza",
+      "4\tgli appunti devono poter essere studiati dai ripetenti da soli",
+      "5\til dolce fu cucinato alla perfezione",
+      "6\tle parti della commedia devono poter essere recitate da qualche ora",
+      "7\ti due allenatori stirano prima della partita"
+    ],
+    "Context_concatenated": "1\tle contadine seminarono delle piante alle sei del mattino\n2\tqueste studentesse disegnano delle forme da un anno circa\n3\tl'inno può essere canticchiato dall'attore nella grande piazza\n4\tgli appunti devono poter essere studiati dai ripetenti da soli\n5\til dolce fu cucinato alla perfezione\n6\tle parti della commedia devono poter essere recitate da qualche ora\n7\ti due allenatori stirano prima della partita",
+    "Answer_set": [
+      "A\tl'inno deve canticchiare da un paio di secondi",
+      "B\tuno dei finalisti gioca da uno dei clavicembali",
+      "C\tla scalinata deve poter pulire dalla cameriera",
+      "D\tle cameriere devono essere lavate dalle sedie",
+      "E\tla copertina fu cucita dall'amica di mia mamma",
+      "F\tqueste studentesse devono poter disegnare da un mese",
+      "G\tla focaccia deve poter impastare la pasticcera",
+      "H\tuna mia amica può impastare la focaccia"
+    ],
+    "Answer_concatenated": "A\tl'inno deve canticchiare da un paio di secondi\nB\tuno dei finalisti gioca da uno dei clavicembali\nC\tla scalinata deve poter pulire dalla cameriera\nD\tle cameriere devono essere lavate dalle sedie\nE\tla copertina fu cucita dall'amica di mia mamma\nF\tqueste studentesse devono poter disegnare da un mese\nG\tla focaccia deve poter impastare la pasticcera\nH\tuna mia amica può impastare la focaccia",
+    "Correct_option": "F",
+    "Correct_answer": "queste studentesse devono poter disegnare da un mese",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 2076,
+    "Context": [
+      "1\tquest'artista può scrivere una raccolta di testi in biblioteca",
+      "2\tquesti studenti devono dipingere dei ritratti da descrizioni in alcuni libri",
+      "3\tquesti legnetti devono poter essere intagliati dai falegnami con un coltellino svizzero",
+      "4\tuna bistecca fu mangiata dalla presidente da sola",
+      "5\tla copertina deve essere cucita con passione",
+      "6\til pane fu cucinato da circa un'ora",
+      "7\tle cameriere possono lavare a mano"
+    ],
+    "Context_concatenated": "1\tquest'artista può scrivere una raccolta di testi in biblioteca\n2\tquesti studenti devono dipingere dei ritratti da descrizioni in alcuni libri\n3\tquesti legnetti devono poter essere intagliati dai falegnami con un coltellino svizzero\n4\tuna bistecca fu mangiata dalla presidente da sola\n5\tla copertina deve essere cucita con passione\n6\til pane fu cucinato da circa un'ora\n7\tle cameriere possono lavare a mano",
+    "Answer_set": [
+      "A\ti calzini devono poter stirare da soli",
+      "B\tle artiste devono recitare dalle poesie",
+      "C\tquesti studenti devono poter dipingere dei ritratti",
+      "D\tl'articolo può essere letto dal direttore",
+      "E\tLeonardo e Michelangelo può essere dipinti da questi paesaggi",
+      "F\tuna lettera deve poter scrivere quest'artista",
+      "G\tle sue allieve devono disegnare da un mese",
+      "H\tle triglie pescano dalle turiste"
+    ],
+    "Answer_concatenated": "A\ti calzini devono poter stirare da soli\nB\tle artiste devono recitare dalle poesie\nC\tquesti studenti devono poter dipingere dei ritratti\nD\tl'articolo può essere letto dal direttore\nE\tLeonardo e Michelangelo può essere dipinti da questi paesaggi\nF\tuna lettera deve poter scrivere quest'artista\nG\tle sue allieve devono disegnare da un mese\nH\tle triglie pescano dalle turiste",
+    "Correct_option": "G",
+    "Correct_answer": "le sue allieve devono disegnare da un mese",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 872,
+    "Context": [
+      "1\tquesti stilisti devono tessere gli arazzi con abilità",
+      "2\tle proprietarie arano le distese di grano da stamattina",
+      "3\tl'organo devono poter essere suonato dal maestro in platea",
+      "4\ti cavi del lampadario è saldato da un falegname da solo",
+      "5\tdelle cipolle devono essere seminate con dei nuovi attrezzi",
+      "6\ti manuali sono studiati da soli",
+      "7\tle artiste devono disegnare nel salone espositivo"
+    ],
+    "Context_concatenated": "1\tquesti stilisti devono tessere gli arazzi con abilità\n2\tle proprietarie arano le distese di grano da stamattina\n3\tl'organo devono poter essere suonato dal maestro in platea\n4\ti cavi del lampadario è saldato da un falegname da solo\n5\tdelle cipolle devono essere seminate con dei nuovi attrezzi\n6\ti manuali sono studiati da soli\n7\tle artiste devono disegnare nel salone espositivo",
+    "Answer_set": [
+      "A\tle stoviglie lavano le cameriere",
+      "B\tqueste studentesse disegnarono da un anno circa",
+      "C\tqueste aiuole arano da stamattina",
+      "D\talcuni turisti possono intagliare questi attrezzi",
+      "E\tle distese di grano devono poter essere arate dalle mondine",
+      "F\talcuni busti devono poter scolpire da questi operai",
+      "G\tle due tirocinanti devono lavare dalle forchette",
+      "H\ti nostri ospiti furono bevuti da dei succhi di frutta"
+    ],
+    "Answer_concatenated": "A\tle stoviglie lavano le cameriere\nB\tqueste studentesse disegnarono da un anno circa\nC\tqueste aiuole arano da stamattina\nD\talcuni turisti possono intagliare questi attrezzi\nE\tle distese di grano devono poter essere arate dalle mondine\nF\talcuni busti devono poter scolpire da questi operai\nG\tle due tirocinanti devono lavare dalle forchette\nH\ti nostri ospiti furono bevuti da dei succhi di frutta",
+    "Correct_option": "B",
+    "Correct_answer": "queste studentesse disegnarono da un anno circa",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 473,
+    "Context": [
+      "1\tle zie di Maria pescarono due balene con un nuovo attrezzo",
+      "2\til giornalista deve poter leggere il manuale di istruzioni da ieri sera",
+      "3\tle distese di grano furono arate dalle due sorelle alle cinque del mattino",
+      "4\til pianoforte sono suonato dal cantante pop da qualche anno",
+      "5\tle scenografie possono essere disegnate in meno di due giorni",
+      "6\tun motivetto deve poter essere canticchiato da solo",
+      "7\til vincitore del festival deve cantare prima della mezzanotte"
+    ],
+    "Context_concatenated": "1\tle zie di Maria pescarono due balene con un nuovo attrezzo\n2\til giornalista deve poter leggere il manuale di istruzioni da ieri sera\n3\tle distese di grano furono arate dalle due sorelle alle cinque del mattino\n4\til pianoforte sono suonato dal cantante pop da qualche anno\n5\tle scenografie possono essere disegnate in meno di due giorni\n6\tun motivetto deve poter essere canticchiato da solo\n7\til vincitore del festival deve cantare prima della mezzanotte",
+    "Answer_set": [
+      "A\tle stoviglie possono essere lavate dalle due tirocinanti",
+      "B\tle poesie devono poter recitare le attrici",
+      "C\tla commessa spazzò la scalinata",
+      "D\tdei simboli antichi possono scolpire dal maestro e dall'allievo",
+      "E\tuno dei produttori fu canticchiato da un motivetto",
+      "F\tle contadine devono seminare da delle piante",
+      "G\ti circuiti del pc salda da manuale",
+      "H\tle artiste disegnammo da un mese"
+    ],
+    "Answer_concatenated": "A\tle stoviglie possono essere lavate dalle due tirocinanti\nB\tle poesie devono poter recitare le attrici\nC\tla commessa spazzò la scalinata\nD\tdei simboli antichi possono scolpire dal maestro e dall'allievo\nE\tuno dei produttori fu canticchiato da un motivetto\nF\tle contadine devono seminare da delle piante\nG\ti circuiti del pc salda da manuale\nH\tle artiste disegnammo da un mese",
+    "Correct_option": "H",
+    "Correct_answer": "le artiste disegnammo da un mese",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 326,
+    "Context": [
+      "1\tmia moglie cuce la tasca in una mezz'ora",
+      "2\tdue persone al porto pescarono le triglie da qualche minuto",
+      "3\tl'entrata dell'hotel deve essere spazzata da una cliente dell'albergo senza paletta",
+      "4\tla sala deve poter essere pulita dalla ditta da mezz'ora",
+      "5\tdei succhi di frutta devono essere bevuti con curiosità",
+      "6\tuna carbonara deve essere mangiata da tre ore",
+      "7\tla mamma allattò nell'area adibita"
+    ],
+    "Context_concatenated": "1\tmia moglie cuce la tasca in una mezz'ora\n2\tdue persone al porto pescarono le triglie da qualche minuto\n3\tl'entrata dell'hotel deve essere spazzata da una cliente dell'albergo senza paletta\n4\tla sala deve poter essere pulita dalla ditta da mezz'ora\n5\tdei succhi di frutta devono essere bevuti con curiosità\n6\tuna carbonara deve essere mangiata da tre ore\n7\tla mamma allattò nell'area adibita",
+    "Answer_set": [
+      "A\tdelle piante seminarono le signore del paese",
+      "B\tle pecore furono munte dalle due cugine",
+      "C\tle sue allieve devono poter disegnare da pochi mesi",
+      "D\ti magazzinieri possono essere stirati da quei calzettoni",
+      "E\tla sala da ballo lucida da qualche ora",
+      "F\tle contadine seminarono da delle cipolle",
+      "G\tle due tirocinanti devono poter lavare le tovaglie",
+      "H\tla piazzetta spazzò dalla chef"
+    ],
+    "Answer_concatenated": "A\tdelle piante seminarono le signore del paese\nB\tle pecore furono munte dalle due cugine\nC\tle sue allieve devono poter disegnare da pochi mesi\nD\ti magazzinieri possono essere stirati da quei calzettoni\nE\tla sala da ballo lucida da qualche ora\nF\tle contadine seminarono da delle cipolle\nG\tle due tirocinanti devono poter lavare le tovaglie\nH\tla piazzetta spazzò dalla chef",
+    "Correct_option": "C",
+    "Correct_answer": "le sue allieve devono poter disegnare da pochi mesi",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 1613,
+    "Context": [
+      "1\ti candidati studiano i materiali in biblioteca",
+      "2\tla cameriera deve pulire questa camera da sola",
+      "3\tle capre devono essere munte dalle due cugine con macchine moderne",
+      "4\ti circuiti del pc fu saldato dall'idraulico da questa mattina",
+      "5\ti pantaloncini devono poter essere stirati prima della partita",
+      "6\til ritornello deve essere cantato da ieri",
+      "7\tgli studenti devono poter bere con curiosità"
+    ],
+    "Context_concatenated": "1\ti candidati studiano i materiali in biblioteca\n2\tla cameriera deve pulire questa camera da sola\n3\tle capre devono essere munte dalle due cugine con macchine moderne\n4\ti circuiti del pc fu saldato dall'idraulico da questa mattina\n5\ti pantaloncini devono poter essere stirati prima della partita\n6\til ritornello deve essere cantato da ieri\n7\tgli studenti devono poter bere con curiosità",
+    "Answer_set": [
+      "A\til ritornello canticchia da solo",
+      "B\ttanti boccali di birra devono poter essere bevuti dai nostri ospiti",
+      "C\tgli studenti possono bere da due bicchieri d'acqua",
+      "D\tun suo singolo canticchia da il pubblico",
+      "E\ti sarti del paese rammendano i loro calzini",
+      "F\ti loro calzini rammendarono i sarti del paese",
+      "G\tla pasticcera fu impastata dalla focaccia",
+      "H\tle artiste disegnano da un mese"
+    ],
+    "Answer_concatenated": "A\til ritornello canticchia da solo\nB\ttanti boccali di birra devono poter essere bevuti dai nostri ospiti\nC\tgli studenti possono bere da due bicchieri d'acqua\nD\tun suo singolo canticchia da il pubblico\nE\ti sarti del paese rammendano i loro calzini\nF\ti loro calzini rammendarono i sarti del paese\nG\tla pasticcera fu impastata dalla focaccia\nH\tle artiste disegnano da un mese",
+    "Correct_option": "H",
+    "Correct_answer": "le artiste disegnano da un mese",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 1699,
+    "Context": [
+      "1\tquesti operai devono scolpire alcuni busti nella cava di marmo",
+      "2\tartisti rinascimentali possono dipingere questi paesaggi da quelle torri",
+      "3\tla giacca può essere cucita dalla sarta in una mezz'ora",
+      "4\tdei soggetti astratti possono essere scolpiti da questi operai da anni",
+      "5\tun modo per studiare meglio deve essere insegnato nell'aula magna",
+      "6\tquesti vini furono bevuti da un'ora circa",
+      "7\ti due fratelli studiarono per l'esame"
+    ],
+    "Context_concatenated": "1\tquesti operai devono scolpire alcuni busti nella cava di marmo\n2\tartisti rinascimentali possono dipingere questi paesaggi da quelle torri\n3\tla giacca può essere cucita dalla sarta in una mezz'ora\n4\tdei soggetti astratti possono essere scolpiti da questi operai da anni\n5\tun modo per studiare meglio deve essere insegnato nell'aula magna\n6\tquesti vini furono bevuti da un'ora circa\n7\ti due fratelli studiarono per l'esame",
+    "Answer_set": [
+      "A\tquesti due signori possono intagliare da dei piccoli giochi",
+      "B\tla scalinata può pulire da una delle propretarie dell'albergo",
+      "C\til ritornello deve poter essere canticchiato da il pubblico",
+      "D\tle artiste furono recitate da delle righe di dialogo",
+      "E\tdelle fragole devono poter seminare da stamattina",
+      "F\tle pittrici possono disegnare da sole",
+      "G\tquest'artista deve poter scrivere una lettera",
+      "H\tla pasta frolla impasta la pasticcera"
+    ],
+    "Answer_concatenated": "A\tquesti due signori possono intagliare da dei piccoli giochi\nB\tla scalinata può pulire da una delle propretarie dell'albergo\nC\til ritornello deve poter essere canticchiato da il pubblico\nD\tle artiste furono recitate da delle righe di dialogo\nE\tdelle fragole devono poter seminare da stamattina\nF\tle pittrici possono disegnare da sole\nG\tquest'artista deve poter scrivere una lettera\nH\tla pasta frolla impasta la pasticcera",
+    "Correct_option": "F",
+    "Correct_answer": "le pittrici possono disegnare da sole",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 1819,
+    "Context": [
+      "1\tmio nonno salda i telai delle bici in garage",
+      "2\tle mie zie possono mungere queste bestie da sole",
+      "3\tquesti legnetti furono intagliati da alcuni turisti con un coltellino svizzero",
+      "4\til pane può essere cucinato dal sottocuoco dalla mattina",
+      "5\tdei ritratti può essere dipinti in una giornata",
+      "6\tl'inno può essere canticchiato da un paio di secondi",
+      "7\til nonno cucinò alla perfezione"
+    ],
+    "Context_concatenated": "1\tmio nonno salda i telai delle bici in garage\n2\tle mie zie possono mungere queste bestie da sole\n3\tquesti legnetti furono intagliati da alcuni turisti con un coltellino svizzero\n4\til pane può essere cucinato dal sottocuoco dalla mattina\n5\tdei ritratti può essere dipinti in una giornata\n6\tl'inno può essere canticchiato da un paio di secondi\n7\til nonno cucinò alla perfezione",
+    "Answer_set": [
+      "A\ti loro calzini rammendarono da due tuoi amici",
+      "B\tgli artisti scolpirono degli dei greci",
+      "C\tl'arrosto cucinò da solo",
+      "D\tle parti della commedia recitarono le artiste",
+      "E\tle due cugine devono poter essere munte dalle mucche ",
+      "F\tla ditta lucidò dalla cucina",
+      "G\tqueste studentesse devono disegnare da pochi mesi",
+      "H\ti vestiti per la parata devono poter essere tessuti dai maestri dell'alta moda"
+    ],
+    "Answer_concatenated": "A\ti loro calzini rammendarono da due tuoi amici\nB\tgli artisti scolpirono degli dei greci\nC\tl'arrosto cucinò da solo\nD\tle parti della commedia recitarono le artiste\nE\tle due cugine devono poter essere munte dalle mucche \nF\tla ditta lucidò dalla cucina\nG\tqueste studentesse devono disegnare da pochi mesi\nH\ti vestiti per la parata devono poter essere tessuti dai maestri dell'alta moda",
+    "Correct_option": "G",
+    "Correct_answer": "queste studentesse devono disegnare da pochi mesi",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 339,
+    "Context": [
+      "1\tle cameriere lavarono le forchette con molta attenzione",
+      "2\tl'amica di mia mamma cuce la copertina da sola",
+      "3\tle terre intorno al fiume devono poter essere arate dalle proprietarie con le mietitrici",
+      "4\tun motivetto fu canticchiato da uno dei produttori da solo",
+      "5\tl'inno nazionale deve essere cantato con solo pianoforte",
+      "6\tdue balene devono poter essere pescate da sole",
+      "7\tle insegnanti del corso seminarono all'inizio della stagione"
+    ],
+    "Context_concatenated": "1\tle cameriere lavarono le forchette con molta attenzione\n2\tl'amica di mia mamma cuce la copertina da sola\n3\tle terre intorno al fiume devono poter essere arate dalle proprietarie con le mietitrici\n4\tun motivetto fu canticchiato da uno dei produttori da solo\n5\tl'inno nazionale deve essere cantato con solo pianoforte\n6\tdue balene devono poter essere pescate da sole\n7\tle insegnanti del corso seminarono all'inizio della stagione",
+    "Answer_set": [
+      "A\til ritornello deve cantare il pubblico",
+      "B\tmia moglie può cucire una scritta sul cuscino",
+      "C\tle sedie lavarono da stamattina",
+      "D\tsuo padre deve cucinare dal pane",
+      "E\tquesti legnetti possono intagliare da alcuni turisti",
+      "F\tle contadine possono essere arate da queste aiuole",
+      "G\tdei succhi di frutta possono essere bevuti dagli studenti",
+      "H\tle pittrici devono disegnare da un mese"
+    ],
+    "Answer_concatenated": "A\til ritornello deve cantare il pubblico\nB\tmia moglie può cucire una scritta sul cuscino\nC\tle sedie lavarono da stamattina\nD\tsuo padre deve cucinare dal pane\nE\tquesti legnetti possono intagliare da alcuni turisti\nF\tle contadine possono essere arate da queste aiuole\nG\tdei succhi di frutta possono essere bevuti dagli studenti\nH\tle pittrici devono disegnare da un mese",
+    "Correct_option": "H",
+    "Correct_answer": "le pittrici devono disegnare da un mese",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 1869,
+    "Context": [
+      "1\tquella signora allattò la neonata in piena notte",
+      "2\tquesto studente può leggere un vecchio romanzo da qualche ora",
+      "3\tun suo singolo deve poter essere canticchiato da il pubblico con megafoni",
+      "4\tuna raccolta di testi deve poter essere scritta dalla poetessa da questa mattina",
+      "5\tla pasta col pomodoro è mangiata prima di partire",
+      "6\ti vestiti per la parata devono essere tessuti da qualche anno",
+      "7\til vincitore del festival deve poter cantare con tanta passione"
+    ],
+    "Context_concatenated": "1\tquella signora allattò la neonata in piena notte\n2\tquesto studente può leggere un vecchio romanzo da qualche ora\n3\tun suo singolo deve poter essere canticchiato da il pubblico con megafoni\n4\tuna raccolta di testi deve poter essere scritta dalla poetessa da questa mattina\n5\tla pasta col pomodoro è mangiata prima di partire\n6\ti vestiti per la parata devono essere tessuti da qualche anno\n7\til vincitore del festival deve poter cantare con tanta passione",
+    "Answer_set": [
+      "A\tqueste produttrici munsero dalle mucche ",
+      "B\tl'articolo lesse da solo",
+      "C\tdelle cernie sono pescate dalle zie di Maria",
+      "D\tl'inno deve poter canticchiare l'attore",
+      "E\tquest'artista deve scrivere una raccolta di testi",
+      "F\tqueste studentesse disegnammo da un anno circa",
+      "G\tla cucina lucida da una cameriera",
+      "H\tla commessa può essere spazzata dall'area davanti alla porta"
+    ],
+    "Answer_concatenated": "A\tqueste produttrici munsero dalle mucche \nB\tl'articolo lesse da solo\nC\tdelle cernie sono pescate dalle zie di Maria\nD\tl'inno deve poter canticchiare l'attore\nE\tquest'artista deve scrivere una raccolta di testi\nF\tqueste studentesse disegnammo da un anno circa\nG\tla cucina lucida da una cameriera\nH\tla commessa può essere spazzata dall'area davanti alla porta",
+    "Correct_option": "F",
+    "Correct_answer": "queste studentesse disegnammo da un anno circa",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 2202,
+    "Context": [
+      "1\ti magazzinieri stirarono i calzini nelle stanze d'albergo",
+      "2\tl'artista canticchiò l'inno da un paio di secondi",
+      "3\tl'area davanti alla porta deve poter essere spazzata dalla presidente con una scopa di vimini",
+      "4\tla sfoglia può essere impastata dalla chef da manuale",
+      "5\tdei succhi di frutta possono essere bevuti in un attimo",
+      "6\tla tasca è cucita da qualche ora",
+      "7\tle sommozzatrici devono pescare senza molto fatica"
+    ],
+    "Context_concatenated": "1\ti magazzinieri stirarono i calzini nelle stanze d'albergo\n2\tl'artista canticchiò l'inno da un paio di secondi\n3\tl'area davanti alla porta deve poter essere spazzata dalla presidente con una scopa di vimini\n4\tla sfoglia può essere impastata dalla chef da manuale\n5\tdei succhi di frutta possono essere bevuti in un attimo\n6\tla tasca è cucita da qualche ora\n7\tle sommozzatrici devono pescare senza molto fatica",
+    "Answer_set": [
+      "A\tquesti stilisti devono essere tessuti da questi motivi greci",
+      "B\tle sue allieve disegnano da pochi mesi",
+      "C\tuna raccolta di testi scrisse da sola",
+      "D\tla chef deve poter impastare dalla pasta frolla",
+      "E\til gruppo rock canta il ritornello",
+      "F\tle stoviglie lavano dalle ristoratrici",
+      "G\tle parti della commedia devono recitare delle cantanti",
+      "H\tcastelli e cattedrali deve essere dipinti da Leonardo e Michelangelo"
+    ],
+    "Answer_concatenated": "A\tquesti stilisti devono essere tessuti da questi motivi greci\nB\tle sue allieve disegnano da pochi mesi\nC\tuna raccolta di testi scrisse da sola\nD\tla chef deve poter impastare dalla pasta frolla\nE\til gruppo rock canta il ritornello\nF\tle stoviglie lavano dalle ristoratrici\nG\tle parti della commedia devono recitare delle cantanti\nH\tcastelli e cattedrali deve essere dipinti da Leonardo e Michelangelo",
+    "Correct_option": "B",
+    "Correct_answer": "le sue allieve disegnano da pochi mesi",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 1614,
+    "Context": [
+      "1\tla nonna cuce la copertina davanti al camino",
+      "2\tle insegnanti del corso devono poter seminare alcune specie locali da ieri pomeriggio",
+      "3\tsua figlia può essere allatata da una delle proprietarie per qualche mese",
+      "4\tun vecchio romanzo deve essere letto da questo studente da qualche minuto",
+      "5\tle sedie devono poter essere lavate con un vecchio elettrodomestico",
+      "6\tl'articolo deve poter essere letto da qualche minuto",
+      "7\ti muratori scolpirono con martelli e scalpelli"
+    ],
+    "Context_concatenated": "1\tla nonna cuce la copertina davanti al camino\n2\tle insegnanti del corso devono poter seminare alcune specie locali da ieri pomeriggio\n3\tsua figlia può essere allatata da una delle proprietarie per qualche mese\n4\tun vecchio romanzo deve essere letto da questo studente da qualche minuto\n5\tle sedie devono poter essere lavate con un vecchio elettrodomestico\n6\tl'articolo deve poter essere letto da qualche minuto\n7\ti muratori scolpirono con martelli e scalpelli",
+    "Answer_set": [
+      "A\tle mie zie munsero dalle capre",
+      "B\tdei burattini sono intagliati dai contadini",
+      "C\tla specialità della casa mangia dalla squadra di calcio",
+      "D\tle contadine devono poter essere seminate da delle piante",
+      "E\tle artiste possono disegnare da sole",
+      "F\tla giacca cucì l'amica di mia mamma",
+      "G\tle ristoratrici possono lavare le tovaglie",
+      "H\tla sala da ballo lucidò da sola"
+    ],
+    "Answer_concatenated": "A\tle mie zie munsero dalle capre\nB\tdei burattini sono intagliati dai contadini\nC\tla specialità della casa mangia dalla squadra di calcio\nD\tle contadine devono poter essere seminate da delle piante\nE\tle artiste possono disegnare da sole\nF\tla giacca cucì l'amica di mia mamma\nG\tle ristoratrici possono lavare le tovaglie\nH\tla sala da ballo lucidò da sola",
+    "Correct_option": "E",
+    "Correct_answer": "le artiste possono disegnare da sole",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 977,
+    "Context": [
+      "1\til ricercatore deve insegnare il corso nell'aula magna",
+      "2\tdelle ospiti possono lavare le sedie da ieri",
+      "3\ttanti boccali di birra furono bevuti dai turisti senza pensarci tanto",
+      "4\tle terre intorno al fiume sono arate dalle due sorelle da qualche giorno",
+      "5\ti pigiama possono essere stirati nelle stanze d'albergo",
+      "6\tla sfoglia deve poter essere impastata da manuale",
+      "7\tle contadine ararono alle cinque del mattino"
+    ],
+    "Context_concatenated": "1\til ricercatore deve insegnare il corso nell'aula magna\n2\tdelle ospiti possono lavare le sedie da ieri\n3\ttanti boccali di birra furono bevuti dai turisti senza pensarci tanto\n4\tle terre intorno al fiume sono arate dalle due sorelle da qualche giorno\n5\ti pigiama possono essere stirati nelle stanze d'albergo\n6\tla sfoglia deve poter essere impastata da manuale\n7\tle contadine ararono alle cinque del mattino",
+    "Answer_set": [
+      "A\tla pasta col pomodoro deve mangiare dalla squadra di calcio",
+      "B\tquei calzettoni devono stirare da manuale",
+      "C\tle insegnanti del corso seminarono delle cipolle",
+      "D\tlo scrittore legge da un bel libro",
+      "E\tuna delle camere lucidò la mamma",
+      "F\til nonno può essere cucinato dal cenone",
+      "G\tla bimba può essere allatata da una delle proprietarie",
+      "H\tqueste studentesse devono poter disegnare da un anno circa"
+    ],
+    "Answer_concatenated": "A\tla pasta col pomodoro deve mangiare dalla squadra di calcio\nB\tquei calzettoni devono stirare da manuale\nC\tle insegnanti del corso seminarono delle cipolle\nD\tlo scrittore legge da un bel libro\nE\tuna delle camere lucidò la mamma\nF\til nonno può essere cucinato dal cenone\nG\tla bimba può essere allatata da una delle proprietarie\nH\tqueste studentesse devono poter disegnare da un anno circa",
+    "Correct_option": "H",
+    "Correct_answer": "queste studentesse devono poter disegnare da un anno circa",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 1490,
+    "Context": [
+      "1\til pubblico deve poter canticchiare l'inno prima del concerto",
+      "2\tle cameriere devono poter lavare le stoviglie da qualche ora",
+      "3\til ritornello fu cantato dal pubblico prima della mezzanotte",
+      "4\tgli appunti possono essere studiati dai due fratelli da qualche giorno",
+      "5\til corso può essere insegnato dopo il pranzo di facoltà",
+      "6\tquesti motivi greci possono essere tessuti da sempre",
+      "7\tle proprietarie devono arare con il fresco"
+    ],
+    "Context_concatenated": "1\til pubblico deve poter canticchiare l'inno prima del concerto\n2\tle cameriere devono poter lavare le stoviglie da qualche ora\n3\til ritornello fu cantato dal pubblico prima della mezzanotte\n4\tgli appunti possono essere studiati dai due fratelli da qualche giorno\n5\til corso può essere insegnato dopo il pranzo di facoltà\n6\tquesti motivi greci possono essere tessuti da sempre\n7\tle proprietarie devono arare con il fresco",
+    "Answer_set": [
+      "A\tla giacca deve poter cucire da mia moglie",
+      "B\tquella signora deve allattare la neonata",
+      "C\tle pittrici disegnammo da un mese",
+      "D\tun falegname fu saldato dai cavi del lampadario",
+      "E\til direttore deve poter leggere da un bel libro",
+      "F\tl'entrata dell'albergo fu lucidata da una cameriera",
+      "G\tquesti legnetti devono poter intagliare da soli",
+      "H\tla copertina può cucire la sarta"
+    ],
+    "Answer_concatenated": "A\tla giacca deve poter cucire da mia moglie\nB\tquella signora deve allattare la neonata\nC\tle pittrici disegnammo da un mese\nD\tun falegname fu saldato dai cavi del lampadario\nE\til direttore deve poter leggere da un bel libro\nF\tl'entrata dell'albergo fu lucidata da una cameriera\nG\tquesti legnetti devono poter intagliare da soli\nH\tla copertina può cucire la sarta",
+    "Correct_option": "C",
+    "Correct_answer": "le pittrici disegnammo da un mese",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 1169,
+    "Context": [
+      "1\tle signore del paese devono seminare alcune specie locali all'inizio della stagione",
+      "2\tuna mia amica impastò la pizza da manuale",
+      "3\tdei simboli antichi sono scolpiti da questi operai nella cava di marmo",
+      "4\ti calzettoni della squadra di calcio devono essere rammendati dai sarti del paese da soli",
+      "5\ti vestiti per la parata devono essere tessuti con abilità",
+      "6\ti pantaloni furono rammendati da pochi minuti",
+      "7\tle sommozzatrici pescano in un paio d'ore"
+    ],
+    "Context_concatenated": "1\tle signore del paese devono seminare alcune specie locali all'inizio della stagione\n2\tuna mia amica impastò la pizza da manuale\n3\tdei simboli antichi sono scolpiti da questi operai nella cava di marmo\n4\ti calzettoni della squadra di calcio devono essere rammendati dai sarti del paese da soli\n5\ti vestiti per la parata devono essere tessuti con abilità\n6\ti pantaloni furono rammendati da pochi minuti\n7\tle sommozzatrici pescano in un paio d'ore",
+    "Answer_set": [
+      "A\ti due allenatori stirano dai pantaloncini",
+      "B\ti telai delle bici saldò l'idraulico",
+      "C\tqueste studentesse sono disegnate da delle rappresentazioni artistiche",
+      "D\tle scenografie disegnano da un anno circa",
+      "E\ti falegnami devono poter intagliare dei piccoli giochi",
+      "F\tqueste studentesse devono poter disegnare da sole",
+      "G\talcuni busti devono poter scolpire dagli artisti",
+      "H\tle poesie devono essere recitate dalle attrici"
+    ],
+    "Answer_concatenated": "A\ti due allenatori stirano dai pantaloncini\nB\ti telai delle bici saldò l'idraulico\nC\tqueste studentesse sono disegnate da delle rappresentazioni artistiche\nD\tle scenografie disegnano da un anno circa\nE\ti falegnami devono poter intagliare dei piccoli giochi\nF\tqueste studentesse devono poter disegnare da sole\nG\talcuni busti devono poter scolpire dagli artisti\nH\tle poesie devono essere recitate dalle attrici",
+    "Correct_option": "F",
+    "Correct_answer": "queste studentesse devono poter disegnare da sole",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 119,
+    "Context": [
+      "1\tquesti due signori intagliarono questi legnetti nel centro storico",
+      "2\tla chef può impastare la pasta frolla da qualche minuto",
+      "3\tuno dei clavicembali devono essere suonato dal cantante pop in platea",
+      "4\tl'entrata dell'hotel deve poter essere spazzata da una cliente dell'albergo da ieri sera",
+      "5\tdei ritratti fu dipinti in una giornata",
+      "6\tla scalinata fu pulita da qualche minuto",
+      "7\ti sarti del paese devono poter tessere con abilità"
+    ],
+    "Context_concatenated": "1\tquesti due signori intagliarono questi legnetti nel centro storico\n2\tla chef può impastare la pasta frolla da qualche minuto\n3\tuno dei clavicembali devono essere suonato dal cantante pop in platea\n4\tl'entrata dell'hotel deve poter essere spazzata da una cliente dell'albergo da ieri sera\n5\tdei ritratti fu dipinti in una giornata\n6\tla scalinata fu pulita da qualche minuto\n7\ti sarti del paese devono poter tessere con abilità",
+    "Answer_set": [
+      "A\ti manuali possono studiare da qualche settimana",
+      "B\til pollo cucinò da suo padre",
+      "C\tla nonna può cucire una scritta sul cuscino",
+      "D\tsua figlia deve poter essere allatata dalla mamma",
+      "E\til professore deve insegnare dal manuale",
+      "F\talcuni turisti sono intagliati da dei burattini",
+      "G\tle pittrici disegnarono da un mese",
+      "H\tuna lettera può scrivere la poetessa"
+    ],
+    "Answer_concatenated": "A\ti manuali possono studiare da qualche settimana\nB\til pollo cucinò da suo padre\nC\tla nonna può cucire una scritta sul cuscino\nD\tsua figlia deve poter essere allatata dalla mamma\nE\til professore deve insegnare dal manuale\nF\talcuni turisti sono intagliati da dei burattini\nG\tle pittrici disegnarono da un mese\nH\tuna lettera può scrivere la poetessa",
+    "Correct_option": "G",
+    "Correct_answer": "le pittrici disegnarono da un mese",
+    "Verb": "disegnare"
+  },
+  {
+    "ID": 587,
+    "Context": [
+      "1\tle contadine seminano delle cipolle con dei nuovi attrezzi",
+      "2\ti proprietari devono poter rammendare i pantaloni da sempre",
+      "3\til pianoforte sono suonato dal cantante pop davanti al teatro",
+      "4\tla piazzetta può essere spazzata da una cliente dell'albergo da sola",
+      "5\tqueste aiuole devono essere arate con tanta abilità",
+      "6\tla scalinata fu spazzata da qualche ora",
+      "7\til sottocuoco cucina per i gentili ospiti"
+    ],
+    "Context_concatenated": "1\tle contadine seminano delle cipolle con dei nuovi attrezzi\n2\ti proprietari devono poter rammendare i pantaloni da sempre\n3\til pianoforte sono suonato dal cantante pop davanti al teatro\n4\tla piazzetta può essere spazzata da una cliente dell'albergo da sola\n5\tqueste aiuole devono essere arate con tanta abilità\n6\tla scalinata fu spazzata da qualche ora\n7\til sottocuoco cucina per i gentili ospiti",
+    "Answer_set": [
+      "A\tla bimba deve allattare dalla ragazza",
+      "B\tquei calzettoni devono stirare alcuni tifosi",
+      "C\tl'attore deve essere canticchiato dall'inno",
+      "D\tqueste studentesse possono disegnare da pochi mesi",
+      "E\tle proprietarie ararono da alcune sezioni del campo",
+      "F\tle tovaglie devono lavare da ieri",
+      "G\tgli artisti possono scolpire dei simboli antichi",
+      "H\til violino possono essere suonato dal maestro"
+    ],
+    "Answer_concatenated": "A\tla bimba deve allattare dalla ragazza\nB\tquei calzettoni devono stirare alcuni tifosi\nC\tl'attore deve essere canticchiato dall'inno\nD\tqueste studentesse possono disegnare da pochi mesi\nE\tle proprietarie ararono da alcune sezioni del campo\nF\tle tovaglie devono lavare da ieri\nG\tgli artisti possono scolpire dei simboli antichi\nH\til violino possono essere suonato dal maestro",
+    "Correct_option": "D",
+    "Correct_answer": "queste studentesse possono disegnare da pochi mesi",
+    "Verb": "disegnare"
+  }
+]

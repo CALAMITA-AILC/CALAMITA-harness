@@ -1,0 +1,562 @@
+[
+  {
+    "ID": 7225,
+    "Context": [
+      "1\tLa mia vicina mi ha raccontato che i depliant sui rifiuti della comunità hanno molto interessato .",
+      "2\tLa mia vicina mi ha raccontato che il depliant sui ragazzi della comunità ha molto interessato .",
+      "3\tLa mia vicina mi ha raccontato che i depliant sul tema della comunità hanno molto interessato .",
+      "4\tLa mia vicina mi ha raccontato che il depliant sul tema della comunità ha molto interessato .",
+      "5\tLa mia vicina mi ha raccontato che i depliant sui libri delle comunità hanno molto interessato .",
+      "6\tLa mia vicina mi ha raccontato che il depliant sui bambini delle comunità ha molto interessato .",
+      "7\tLa mia vicina mi ha raccontato che i depliant sul tema delle comunità hanno molto interessato ."
+    ],
+    "Context_concatenated": "1\tLa mia vicina mi ha raccontato che i depliant sui rifiuti della comunità hanno molto interessato .\n2\tLa mia vicina mi ha raccontato che il depliant sui ragazzi della comunità ha molto interessato .\n3\tLa mia vicina mi ha raccontato che i depliant sul tema della comunità hanno molto interessato .\n4\tLa mia vicina mi ha raccontato che il depliant sul tema della comunità ha molto interessato .\n5\tLa mia vicina mi ha raccontato che i depliant sui libri delle comunità hanno molto interessato .\n6\tLa mia vicina mi ha raccontato che il depliant sui bambini delle comunità ha molto interessato .\n7\tLa mia vicina mi ha raccontato che i depliant sul tema delle comunità hanno molto interessato .",
+    "Context_annotation": [
+      {
+        "pattern": "Prefix Subj_pl P1_pl P2_sg V_pl",
+        "chunks": "['La mia vicina mi ha raccontato che', 'i depliant', 'sui rifiuti', 'della comunità', 'hanno molto interessato', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_sg P1_pl P2_sg V_sg",
+        "chunks": "['La mia vicina mi ha raccontato che', 'il depliant', 'sui ragazzi', 'della comunità', 'ha molto interessato', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_pl P1_sg P2_sg V_pl",
+        "chunks": "['La mia vicina mi ha raccontato che', 'i depliant', 'sul tema', 'della comunità', 'hanno molto interessato', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_sg P1_sg P2_sg V_sg",
+        "chunks": "['La mia vicina mi ha raccontato che', 'il depliant', 'sul tema', 'della comunità', 'ha molto interessato', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_pl P1_pl P2_pl V_pl",
+        "chunks": "['La mia vicina mi ha raccontato che', 'i depliant', 'sui libri', 'delle comunità', 'hanno molto interessato', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_sg P1_pl P2_pl V_sg",
+        "chunks": "['La mia vicina mi ha raccontato che', 'il depliant', 'sui bambini', 'delle comunità', 'ha molto interessato', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_pl P1_sg P2_pl V_pl",
+        "chunks": "['La mia vicina mi ha raccontato che', 'i depliant', 'sul tema', 'delle comunità', 'hanno molto interessato', '.']"
+      }
+    ],
+    "Answer_set": [
+      "A\tLa mia vicina mi ha raccontato che il depliant sul tema delle comunità della campagna ha molto interessato .",
+      "B\tLa mia vicina mi ha raccontato che il depliant sul tema delle comunità ha molto interessato .",
+      "C\tLa mia vicina mi ha raccontato che il depliant sul tema delle comunità hanno molto interessato .",
+      "D\tLa mia vicina mi ha raccontato che il depliant sul tema e la comunità ha molto interessato .",
+      "E\tLa mia vicina mi ha raccontato che il depliant sul tema della comunità hanno molto interessato .",
+      "F\tLa mia vicina mi ha raccontato che il depliant sui trasporti delle comunità ha molto interessato .",
+      "G\tLa mia vicina mi ha raccontato che il depliant sul tema delle comunità hanno molto interessato .",
+      "H\tLa mia vicina mi ha raccontato che il depliant sul tema della comunità ha molto interessato ."
+    ],
+    "Answer_concatenated": "A\tLa mia vicina mi ha raccontato che il depliant sul tema delle comunità della campagna ha molto interessato .\nB\tLa mia vicina mi ha raccontato che il depliant sul tema delle comunità ha molto interessato .\nC\tLa mia vicina mi ha raccontato che il depliant sul tema delle comunità hanno molto interessato .\nD\tLa mia vicina mi ha raccontato che il depliant sul tema e la comunità ha molto interessato .\nE\tLa mia vicina mi ha raccontato che il depliant sul tema della comunità hanno molto interessato .\nF\tLa mia vicina mi ha raccontato che il depliant sui trasporti delle comunità ha molto interessato .\nG\tLa mia vicina mi ha raccontato che il depliant sul tema delle comunità hanno molto interessato .\nH\tLa mia vicina mi ha raccontato che il depliant sul tema della comunità ha molto interessato .",
+    "Correct_option": "B",
+    "Correct_answer": "La mia vicina mi ha raccontato che il depliant sul tema delle comunità ha molto interessato ."
+  },
+  {
+    "ID": 4179,
+    "Context": [
+      "1\tI racconti sulla privatizzazione di cui l' editore è fiero hanno entusiasmato la sala .",
+      "2\tIl libro sulla privatizzazione di cui l' editore è fiero ha entusiasmato la sala .",
+      "3\tI lavori sulle privatizzazioni di cui l' editore è fiero hanno entusiasmato la sala .",
+      "4\tIl libro sulle privatizzazioni di cui l' editore è fiero ha entusiasmato la sala .",
+      "5\tI contenuti sulla privatizzazione della ditta di cui l' editore è fiero hanno entusiasmato la sala .",
+      "6\tIl libro sulla privatizzazione della ditta di cui l' editore è fiero ha entusiasmato la sala .",
+      "7\tI film sulle privatizzazioni della ditta di cui l' editore è fiero hanno entusiasmato la sala ."
+    ],
+    "Context_concatenated": "1\tI racconti sulla privatizzazione di cui l' editore è fiero hanno entusiasmato la sala .\n2\tIl libro sulla privatizzazione di cui l' editore è fiero ha entusiasmato la sala .\n3\tI lavori sulle privatizzazioni di cui l' editore è fiero hanno entusiasmato la sala .\n4\tIl libro sulle privatizzazioni di cui l' editore è fiero ha entusiasmato la sala .\n5\tI contenuti sulla privatizzazione della ditta di cui l' editore è fiero hanno entusiasmato la sala .\n6\tIl libro sulla privatizzazione della ditta di cui l' editore è fiero ha entusiasmato la sala .\n7\tI film sulle privatizzazioni della ditta di cui l' editore è fiero hanno entusiasmato la sala .",
+    "Context_annotation": [
+      {
+        "pattern": "Subj_pl P1_sg P2_None ROC_pl V_pl",
+        "chunks": "['I racconti', 'sulla privatizzazione', '', \"di cui l' editore è fiero\", 'hanno entusiasmato la sala', '.']"
+      },
+      {
+        "pattern": "Subj_sg P1_sg P2_None ROC_sg V_sg",
+        "chunks": "['Il libro', 'sulla privatizzazione', '', \"di cui l' editore è fiero\", 'ha entusiasmato la sala', '.']"
+      },
+      {
+        "pattern": "Subj_pl P1_pl P2_None ROC_pl V_pl",
+        "chunks": "['I lavori', 'sulle privatizzazioni', '', \"di cui l' editore è fiero\", 'hanno entusiasmato la sala', '.']"
+      },
+      {
+        "pattern": "Subj_sg P1_pl P2_None ROC_sg V_sg",
+        "chunks": "['Il libro', 'sulle privatizzazioni', '', \"di cui l' editore è fiero\", 'ha entusiasmato la sala', '.']"
+      },
+      {
+        "pattern": "Subj_pl P1_sg P2_sg ROC_pl V_pl",
+        "chunks": "['I contenuti', 'sulla privatizzazione', 'della ditta', \"di cui l' editore è fiero\", 'hanno entusiasmato la sala', '.']"
+      },
+      {
+        "pattern": "Subj_sg P1_sg P2_sg ROC_sg V_sg",
+        "chunks": "['Il libro', 'sulla privatizzazione', 'della ditta', \"di cui l' editore è fiero\", 'ha entusiasmato la sala', '.']"
+      },
+      {
+        "pattern": "Subj_pl P1_pl P2_sg ROC_pl V_pl",
+        "chunks": "['I film', 'sulle privatizzazioni', 'della ditta', \"di cui l' editore è fiero\", 'hanno entusiasmato la sala', '.']"
+      }
+    ],
+    "Answer_set": [
+      "A\tIl libro sulle privatizzazioni della ditta della città di cui l' editore è fiero ha entusiasmato la sala .",
+      "B\tIl libro sulle privatizzazioni della ditta di cui l' editore è fiero ha entusiasmato la sala .",
+      "C\tIl libro sulle privatizzazioni e la ditta di cui l' editore è fiero ha entusiasmato la sala .",
+      "D\tIl libro sulla privatizzazione della ditta di cui l' editore è fiero ha entusiasmato la sala .",
+      "E\tIl libro sulle privatizzazioni delle ditte di cui l' editore è fiero hanno entusiasmato la sala .",
+      "F\tIl libro sulle privatizzazioni delle ditte di cui l' editore è fiero ha entusiasmato la sala .",
+      "G\tIl libro sulle privatizzazioni delle ditte di cui l' editore è fiero hanno entusiasmato la sala .",
+      "H\tIl libro sulle privatizzazioni della ditta di cui l' editore è fiero hanno entusiasmato la sala ."
+    ],
+    "Answer_concatenated": "A\tIl libro sulle privatizzazioni della ditta della città di cui l' editore è fiero ha entusiasmato la sala .\nB\tIl libro sulle privatizzazioni della ditta di cui l' editore è fiero ha entusiasmato la sala .\nC\tIl libro sulle privatizzazioni e la ditta di cui l' editore è fiero ha entusiasmato la sala .\nD\tIl libro sulla privatizzazione della ditta di cui l' editore è fiero ha entusiasmato la sala .\nE\tIl libro sulle privatizzazioni delle ditte di cui l' editore è fiero hanno entusiasmato la sala .\nF\tIl libro sulle privatizzazioni delle ditte di cui l' editore è fiero ha entusiasmato la sala .\nG\tIl libro sulle privatizzazioni delle ditte di cui l' editore è fiero hanno entusiasmato la sala .\nH\tIl libro sulle privatizzazioni della ditta di cui l' editore è fiero hanno entusiasmato la sala .",
+    "Correct_option": "B",
+    "Correct_answer": "Il libro sulle privatizzazioni della ditta di cui l' editore è fiero ha entusiasmato la sala ."
+  },
+  {
+    "ID": 5217,
+    "Context": [
+      "1\tLe indagini della menzogna del poliziotto di cui i giornalisti hanno scritto hanno fatto causa .",
+      "2\tLa vittima della menzogna del poliziotto di cui i giornalisti hanno scritto ha fatto causa .",
+      "3\tLe prove delle menzogne del poliziotto di cui i giornalisti hanno scritto hanno fatto causa .",
+      "4\tLa vittima delle menzogne del poliziotto di cui i giornalisti hanno scritto ha fatto causa .",
+      "5\tLe notizie della menzogna dei poliziotti di cui i giornalisti hanno scritto hanno fatto causa .",
+      "6\tLa vittima della menzogna dei poliziotti di cui i giornalisti hanno scritto ha fatto causa .",
+      "7\tLe voci delle menzogne dei poliziotti di cui i giornalisti hanno scritto hanno fatto causa ."
+    ],
+    "Context_concatenated": "1\tLe indagini della menzogna del poliziotto di cui i giornalisti hanno scritto hanno fatto causa .\n2\tLa vittima della menzogna del poliziotto di cui i giornalisti hanno scritto ha fatto causa .\n3\tLe prove delle menzogne del poliziotto di cui i giornalisti hanno scritto hanno fatto causa .\n4\tLa vittima delle menzogne del poliziotto di cui i giornalisti hanno scritto ha fatto causa .\n5\tLe notizie della menzogna dei poliziotti di cui i giornalisti hanno scritto hanno fatto causa .\n6\tLa vittima della menzogna dei poliziotti di cui i giornalisti hanno scritto ha fatto causa .\n7\tLe voci delle menzogne dei poliziotti di cui i giornalisti hanno scritto hanno fatto causa .",
+    "Context_annotation": [
+      {
+        "pattern": "Subj_pl P1_sg P2_sg ROC_pl V_pl",
+        "chunks": "['Le indagini', 'della menzogna', 'del poliziotto', 'di cui i giornalisti hanno scritto', 'hanno fatto causa', '.']"
+      },
+      {
+        "pattern": "Subj_sg P1_sg P2_sg ROC_sg V_sg",
+        "chunks": "['La vittima', 'della menzogna', 'del poliziotto', 'di cui i giornalisti hanno scritto', 'ha fatto causa', '.']"
+      },
+      {
+        "pattern": "Subj_pl P1_pl P2_sg ROC_pl V_pl",
+        "chunks": "['Le prove', 'delle menzogne', 'del poliziotto', 'di cui i giornalisti hanno scritto', 'hanno fatto causa', '.']"
+      },
+      {
+        "pattern": "Subj_sg P1_pl P2_sg ROC_sg V_sg",
+        "chunks": "['La vittima', 'delle menzogne', 'del poliziotto', 'di cui i giornalisti hanno scritto', 'ha fatto causa', '.']"
+      },
+      {
+        "pattern": "Subj_pl P1_sg P2_pl ROC_pl V_pl",
+        "chunks": "['Le notizie', 'della menzogna', 'dei poliziotti', 'di cui i giornalisti hanno scritto', 'hanno fatto causa', '.']"
+      },
+      {
+        "pattern": "Subj_sg P1_sg P2_pl ROC_sg V_sg",
+        "chunks": "['La vittima', 'della menzogna', 'dei poliziotti', 'di cui i giornalisti hanno scritto', 'ha fatto causa', '.']"
+      },
+      {
+        "pattern": "Subj_pl P1_pl P2_pl ROC_pl V_pl",
+        "chunks": "['Le voci', 'delle menzogne', 'dei poliziotti', 'di cui i giornalisti hanno scritto', 'hanno fatto causa', '.']"
+      }
+    ],
+    "Answer_set": [
+      "A\tLa vittima delle menzogne e il poliziotto di cui i giornalisti hanno scritto ha fatto causa .",
+      "B\tLa vittima delle menzogne del poliziotto di cui i giornalisti hanno scritto ha fatto causa .",
+      "C\tLa vittima delle menzogne dei poliziotti di cui i giornalisti hanno scritto ha fatto causa .",
+      "D\tLa vittima delle menzogne dei poliziotti di cui i giornalisti hanno scritto hanno fatto causa .",
+      "E\tLa vittima delle menzogne dei poliziotti del commissariato di cui i giornalisti hanno scritto ha fatto causa .",
+      "F\tLa vittima della menzogna dei poliziotti di cui i giornalisti hanno scritto ha fatto causa .",
+      "G\tLa vittima delle menzogne del poliziotto di cui i giornalisti hanno scritto hanno fatto causa .",
+      "H\tLa vittima delle menzogne dei poliziotti di cui i giornalisti hanno scritto hanno fatto causa ."
+    ],
+    "Answer_concatenated": "A\tLa vittima delle menzogne e il poliziotto di cui i giornalisti hanno scritto ha fatto causa .\nB\tLa vittima delle menzogne del poliziotto di cui i giornalisti hanno scritto ha fatto causa .\nC\tLa vittima delle menzogne dei poliziotti di cui i giornalisti hanno scritto ha fatto causa .\nD\tLa vittima delle menzogne dei poliziotti di cui i giornalisti hanno scritto hanno fatto causa .\nE\tLa vittima delle menzogne dei poliziotti del commissariato di cui i giornalisti hanno scritto ha fatto causa .\nF\tLa vittima della menzogna dei poliziotti di cui i giornalisti hanno scritto ha fatto causa .\nG\tLa vittima delle menzogne del poliziotto di cui i giornalisti hanno scritto hanno fatto causa .\nH\tLa vittima delle menzogne dei poliziotti di cui i giornalisti hanno scritto hanno fatto causa .",
+    "Correct_option": "C",
+    "Correct_answer": "La vittima delle menzogne dei poliziotti di cui i giornalisti hanno scritto ha fatto causa ."
+  },
+  {
+    "ID": 15368,
+    "Context": [
+      "1\tGli studenti apprendono che i medici dei diritti degli immigrati daranno le dimissioni .",
+      "2\tGli studenti apprendono che il responsabile dei diritti degli immigrati darà le dimissioni .",
+      "3\tGli studenti apprendono che i capi del diritto degli immigrati daranno le dimissioni .",
+      "4\tGli studenti apprendono che il responsabile del diritto degli immigrati darà le dimissioni .",
+      "5\tGli studenti apprendono che i ministri dei diritti dell' immigrato daranno le dimissioni .",
+      "6\tGli studenti apprendono che il responsabile dei diritti dell' immigrato darà le dimissioni .",
+      "7\tGli studenti apprendono che i tecnici del diritto dell' immigrato daranno le dimissioni ."
+    ],
+    "Context_concatenated": "1\tGli studenti apprendono che i medici dei diritti degli immigrati daranno le dimissioni .\n2\tGli studenti apprendono che il responsabile dei diritti degli immigrati darà le dimissioni .\n3\tGli studenti apprendono che i capi del diritto degli immigrati daranno le dimissioni .\n4\tGli studenti apprendono che il responsabile del diritto degli immigrati darà le dimissioni .\n5\tGli studenti apprendono che i ministri dei diritti dell' immigrato daranno le dimissioni .\n6\tGli studenti apprendono che il responsabile dei diritti dell' immigrato darà le dimissioni .\n7\tGli studenti apprendono che i tecnici del diritto dell' immigrato daranno le dimissioni .",
+    "Context_annotation": [
+      {
+        "pattern": "Prefix Subj_pl P1_pl P2_pl V_pl",
+        "chunks": "['Gli studenti apprendono che', 'i medici', 'dei diritti', 'degli immigrati', 'daranno le dimissioni', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_sg P1_pl P2_pl V_sg",
+        "chunks": "['Gli studenti apprendono che', 'il responsabile', 'dei diritti', 'degli immigrati', 'darà le dimissioni', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_pl P1_sg P2_pl V_pl",
+        "chunks": "['Gli studenti apprendono che', 'i capi', 'del diritto', 'degli immigrati', 'daranno le dimissioni', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_sg P1_sg P2_pl V_sg",
+        "chunks": "['Gli studenti apprendono che', 'il responsabile', 'del diritto', 'degli immigrati', 'darà le dimissioni', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_pl P1_pl P2_sg V_pl",
+        "chunks": "['Gli studenti apprendono che', 'i ministri', 'dei diritti', \"dell' immigrato\", 'daranno le dimissioni', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_sg P1_pl P2_sg V_sg",
+        "chunks": "['Gli studenti apprendono che', 'il responsabile', 'dei diritti', \"dell' immigrato\", 'darà le dimissioni', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_pl P1_sg P2_sg V_pl",
+        "chunks": "['Gli studenti apprendono che', 'i tecnici', 'del diritto', \"dell' immigrato\", 'daranno le dimissioni', '.']"
+      }
+    ],
+    "Answer_set": [
+      "A\tGli studenti apprendono che il responsabile del diritto dell' immigrato del porto darà le dimissioni .",
+      "B\tGli studenti apprendono che il responsabile del diritto degli immigrati daranno le dimissioni .",
+      "C\tGli studenti apprendono che il responsabile dei diritti dell' immigrato darà le dimissioni .",
+      "D\tGli studenti apprendono che il responsabile del diritto degli immigrati daranno le dimissioni .",
+      "E\tGli studenti apprendono che il responsabile del diritto dell' immigrato daranno le dimissioni .",
+      "F\tGli studenti apprendono che il responsabile del diritto e l' immigrato darà le dimissioni .",
+      "G\tGli studenti apprendono che il responsabile del diritto degli immigrati darà le dimissioni .",
+      "H\tGli studenti apprendono che il responsabile del diritto dell' immigrato darà le dimissioni ."
+    ],
+    "Answer_concatenated": "A\tGli studenti apprendono che il responsabile del diritto dell' immigrato del porto darà le dimissioni .\nB\tGli studenti apprendono che il responsabile del diritto degli immigrati daranno le dimissioni .\nC\tGli studenti apprendono che il responsabile dei diritti dell' immigrato darà le dimissioni .\nD\tGli studenti apprendono che il responsabile del diritto degli immigrati daranno le dimissioni .\nE\tGli studenti apprendono che il responsabile del diritto dell' immigrato daranno le dimissioni .\nF\tGli studenti apprendono che il responsabile del diritto e l' immigrato darà le dimissioni .\nG\tGli studenti apprendono che il responsabile del diritto degli immigrati darà le dimissioni .\nH\tGli studenti apprendono che il responsabile del diritto dell' immigrato darà le dimissioni .",
+    "Correct_option": "H",
+    "Correct_answer": "Gli studenti apprendono che il responsabile del diritto dell' immigrato darà le dimissioni ."
+  },
+  {
+    "ID": 15297,
+    "Context": [
+      "1\tLe amministratrici constatano che gli geometri dei castelli dei milionari hanno perso l' appalto .",
+      "2\tLe amministratrici constatano che l’ architetto dei castelli dei milionari ha perso l' appalto .",
+      "3\tLe amministratrici constatano che gli progettisti del castello dei milionari hanno perso l' appalto .",
+      "4\tLe amministratrici constatano che l’ architetto del castello dei milionari ha perso l' appalto .",
+      "5\tLe amministratrici constatano che gli disegnatori dei castelli del milionario hanno perso l' appalto .",
+      "6\tLe amministratrici constatano che l’ architetto dei castelli del milionario ha perso l' appalto .",
+      "7\tLe amministratrici constatano che gli tecnici del castello del milionario hanno perso l' appalto ."
+    ],
+    "Context_concatenated": "1\tLe amministratrici constatano che gli geometri dei castelli dei milionari hanno perso l' appalto .\n2\tLe amministratrici constatano che l’ architetto dei castelli dei milionari ha perso l' appalto .\n3\tLe amministratrici constatano che gli progettisti del castello dei milionari hanno perso l' appalto .\n4\tLe amministratrici constatano che l’ architetto del castello dei milionari ha perso l' appalto .\n5\tLe amministratrici constatano che gli disegnatori dei castelli del milionario hanno perso l' appalto .\n6\tLe amministratrici constatano che l’ architetto dei castelli del milionario ha perso l' appalto .\n7\tLe amministratrici constatano che gli tecnici del castello del milionario hanno perso l' appalto .",
+    "Context_annotation": [
+      {
+        "pattern": "Prefix Subj_pl P1_pl P2_pl V_pl",
+        "chunks": "['Le amministratrici constatano che', 'gli geometri', 'dei castelli', 'dei milionari', \"hanno perso l' appalto\", '.']"
+      },
+      {
+        "pattern": "Prefix Subj_sg P1_pl P2_pl V_sg",
+        "chunks": "['Le amministratrici constatano che', 'l’ architetto', 'dei castelli', 'dei milionari', \"ha perso l' appalto\", '.']"
+      },
+      {
+        "pattern": "Prefix Subj_pl P1_sg P2_pl V_pl",
+        "chunks": "['Le amministratrici constatano che', 'gli progettisti', 'del castello', 'dei milionari', \"hanno perso l' appalto\", '.']"
+      },
+      {
+        "pattern": "Prefix Subj_sg P1_sg P2_pl V_sg",
+        "chunks": "['Le amministratrici constatano che', 'l’ architetto', 'del castello', 'dei milionari', \"ha perso l' appalto\", '.']"
+      },
+      {
+        "pattern": "Prefix Subj_pl P1_pl P2_sg V_pl",
+        "chunks": "['Le amministratrici constatano che', 'gli disegnatori', 'dei castelli', 'del milionario', \"hanno perso l' appalto\", '.']"
+      },
+      {
+        "pattern": "Prefix Subj_sg P1_pl P2_sg V_sg",
+        "chunks": "['Le amministratrici constatano che', 'l’ architetto', 'dei castelli', 'del milionario', \"ha perso l' appalto\", '.']"
+      },
+      {
+        "pattern": "Prefix Subj_pl P1_sg P2_sg V_pl",
+        "chunks": "['Le amministratrici constatano che', 'gli tecnici', 'del castello', 'del milionario', \"hanno perso l' appalto\", '.']"
+      }
+    ],
+    "Answer_set": [
+      "A\tLe amministratrici constatano che l’ architetto del castello e il milionario ha perso l' appalto .",
+      "B\tLe amministratrici constatano che l’ architetto del castello dei milionari hanno perso l' appalto .",
+      "C\tLe amministratrici constatano che l’ architetto del castello del milionario ha perso l' appalto .",
+      "D\tLe amministratrici constatano che l’ architetto del castello del milionario hanno perso l' appalto .",
+      "E\tLe amministratrici constatano che l’ architetto del castello del milionario dell' isola ha perso l' appalto .",
+      "F\tLe amministratrici constatano che l’ architetto del castello dei milionari hanno perso l' appalto .",
+      "G\tLe amministratrici constatano che l’ architetto del castello dei milionari ha perso l' appalto .",
+      "H\tLe amministratrici constatano che l’ architetto dei castelli del milionario ha perso l' appalto ."
+    ],
+    "Answer_concatenated": "A\tLe amministratrici constatano che l’ architetto del castello e il milionario ha perso l' appalto .\nB\tLe amministratrici constatano che l’ architetto del castello dei milionari hanno perso l' appalto .\nC\tLe amministratrici constatano che l’ architetto del castello del milionario ha perso l' appalto .\nD\tLe amministratrici constatano che l’ architetto del castello del milionario hanno perso l' appalto .\nE\tLe amministratrici constatano che l’ architetto del castello del milionario dell' isola ha perso l' appalto .\nF\tLe amministratrici constatano che l’ architetto del castello dei milionari hanno perso l' appalto .\nG\tLe amministratrici constatano che l’ architetto del castello dei milionari ha perso l' appalto .\nH\tLe amministratrici constatano che l’ architetto dei castelli del milionario ha perso l' appalto .",
+    "Correct_option": "C",
+    "Correct_answer": "Le amministratrici constatano che l’ architetto del castello del milionario ha perso l' appalto ."
+  },
+  {
+    "ID": 6656,
+    "Context": [
+      "1\tIl mio amico ha commentato che le cose negli appartamenti hanno disturbato i vicini .",
+      "2\tIl mio amico ha commentato che la serata negli appartamenti ha disturbato i vicini .",
+      "3\tIl mio amico ha commentato che le luci nell' appartamento hanno disturbato i vicini .",
+      "4\tIl mio amico ha commentato che la serata nell' appartamento ha disturbato i vicini .",
+      "5\tIl mio amico ha commentato che le piante negli appartamenti del seminterrato hanno disturbato i vicini .",
+      "6\tIl mio amico ha commentato che la serata negli appartamenti del seminterrato ha disturbato i vicini .",
+      "7\tIl mio amico ha commentato che le persone nell' appartamento del seminterrato hanno disturbato i vicini ."
+    ],
+    "Context_concatenated": "1\tIl mio amico ha commentato che le cose negli appartamenti hanno disturbato i vicini .\n2\tIl mio amico ha commentato che la serata negli appartamenti ha disturbato i vicini .\n3\tIl mio amico ha commentato che le luci nell' appartamento hanno disturbato i vicini .\n4\tIl mio amico ha commentato che la serata nell' appartamento ha disturbato i vicini .\n5\tIl mio amico ha commentato che le piante negli appartamenti del seminterrato hanno disturbato i vicini .\n6\tIl mio amico ha commentato che la serata negli appartamenti del seminterrato ha disturbato i vicini .\n7\tIl mio amico ha commentato che le persone nell' appartamento del seminterrato hanno disturbato i vicini .",
+    "Context_annotation": [
+      {
+        "pattern": "Prefix Subj_pl P1_pl P2_None V_pl",
+        "chunks": "['Il mio amico ha commentato che', 'le cose', 'negli appartamenti', '', 'hanno disturbato i vicini', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_sg P1_pl P2_None V_sg",
+        "chunks": "['Il mio amico ha commentato che', 'la serata', 'negli appartamenti', '', 'ha disturbato i vicini', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_pl P1_sg P2_None V_pl",
+        "chunks": "['Il mio amico ha commentato che', 'le luci', \"nell' appartamento\", '', 'hanno disturbato i vicini', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_sg P1_sg P2_None V_sg",
+        "chunks": "['Il mio amico ha commentato che', 'la serata', \"nell' appartamento\", '', 'ha disturbato i vicini', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_pl P1_pl P2_sg V_pl",
+        "chunks": "['Il mio amico ha commentato che', 'le piante', 'negli appartamenti', 'del seminterrato', 'hanno disturbato i vicini', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_sg P1_pl P2_sg V_sg",
+        "chunks": "['Il mio amico ha commentato che', 'la serata', 'negli appartamenti', 'del seminterrato', 'ha disturbato i vicini', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_pl P1_sg P2_sg V_pl",
+        "chunks": "['Il mio amico ha commentato che', 'le persone', \"nell' appartamento\", 'del seminterrato', 'hanno disturbato i vicini', '.']"
+      }
+    ],
+    "Answer_set": [
+      "A\tIl mio amico ha commentato che la serata negli appartamenti del seminterrato ha disturbato i vicini .",
+      "B\tIl mio amico ha commentato che la serata nell' appartamento e il seminterrato ha disturbato i vicini .",
+      "C\tIl mio amico ha commentato che la serata nell' appartamento dei seminterrati hanno disturbato i vicini .",
+      "D\tIl mio amico ha commentato che la serata nell' appartamento del seminterrato ha disturbato i vicini .",
+      "E\tIl mio amico ha commentato che la serata nell' appartamento dei seminterrati ha disturbato i vicini .",
+      "F\tIl mio amico ha commentato che la serata nell' appartamento del seminterrato di mia figlia ha disturbato i vicini .",
+      "G\tIl mio amico ha commentato che la serata nell' appartamento dei seminterrati hanno disturbato i vicini .",
+      "H\tIl mio amico ha commentato che la serata nell' appartamento del seminterrato hanno disturbato i vicini ."
+    ],
+    "Answer_concatenated": "A\tIl mio amico ha commentato che la serata negli appartamenti del seminterrato ha disturbato i vicini .\nB\tIl mio amico ha commentato che la serata nell' appartamento e il seminterrato ha disturbato i vicini .\nC\tIl mio amico ha commentato che la serata nell' appartamento dei seminterrati hanno disturbato i vicini .\nD\tIl mio amico ha commentato che la serata nell' appartamento del seminterrato ha disturbato i vicini .\nE\tIl mio amico ha commentato che la serata nell' appartamento dei seminterrati ha disturbato i vicini .\nF\tIl mio amico ha commentato che la serata nell' appartamento del seminterrato di mia figlia ha disturbato i vicini .\nG\tIl mio amico ha commentato che la serata nell' appartamento dei seminterrati hanno disturbato i vicini .\nH\tIl mio amico ha commentato che la serata nell' appartamento del seminterrato hanno disturbato i vicini .",
+    "Correct_option": "D",
+    "Correct_answer": "Il mio amico ha commentato che la serata nell' appartamento del seminterrato ha disturbato i vicini ."
+  },
+  {
+    "ID": 16137,
+    "Context": [
+      "1\tI procuratori pensano che gli patrocinatori degli assassini del villaggio ritorneranno .",
+      "2\tI procuratori pensano che l' avvocato degli assassini del villaggio ritornerà .",
+      "3\tI procuratori pensano che gli patrocinatori dell' assassino del villaggio ritorneranno .",
+      "4\tI procuratori pensano che l' avvocato dell' assassino del villaggio ritornerà .",
+      "5\tI procuratori pensano che gli giuristi degli assassini ritorneranno .",
+      "6\tI procuratori pensano che l' avvocato degli assassini ritornerà .",
+      "7\tI procuratori pensano che gli difensori dell' assassino ritorneranno ."
+    ],
+    "Context_concatenated": "1\tI procuratori pensano che gli patrocinatori degli assassini del villaggio ritorneranno .\n2\tI procuratori pensano che l' avvocato degli assassini del villaggio ritornerà .\n3\tI procuratori pensano che gli patrocinatori dell' assassino del villaggio ritorneranno .\n4\tI procuratori pensano che l' avvocato dell' assassino del villaggio ritornerà .\n5\tI procuratori pensano che gli giuristi degli assassini ritorneranno .\n6\tI procuratori pensano che l' avvocato degli assassini ritornerà .\n7\tI procuratori pensano che gli difensori dell' assassino ritorneranno .",
+    "Context_annotation": [
+      {
+        "pattern": "Prefix Subj_pl P1_pl P2_sg V_pl",
+        "chunks": "['I procuratori pensano che', 'gli patrocinatori', 'degli assassini', 'del villaggio', 'ritorneranno', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_sg P1_pl P2_sg V_sg",
+        "chunks": "['I procuratori pensano che', \"l' avvocato\", 'degli assassini', 'del villaggio', 'ritornerà', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_pl P1_sg P2_sg V_pl",
+        "chunks": "['I procuratori pensano che', 'gli patrocinatori', \"dell' assassino\", 'del villaggio', 'ritorneranno', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_sg P1_sg P2_sg V_sg",
+        "chunks": "['I procuratori pensano che', \"l' avvocato\", \"dell' assassino\", 'del villaggio', 'ritornerà', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_pl P1_pl P2_None V_pl",
+        "chunks": "['I procuratori pensano che', 'gli giuristi', 'degli assassini', '', 'ritorneranno', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_sg P1_pl P2_None V_sg",
+        "chunks": "['I procuratori pensano che', \"l' avvocato\", 'degli assassini', '', 'ritornerà', '.']"
+      },
+      {
+        "pattern": "Prefix Subj_pl P1_sg P2_None V_pl",
+        "chunks": "['I procuratori pensano che', 'gli difensori', \"dell' assassino\", '', 'ritorneranno', '.']"
+      }
+    ],
+    "Answer_set": [
+      "A\tI procuratori pensano che l' avvocato dell' assassino ritornerà .",
+      "B\tI procuratori pensano che l' avvocato dell' assassino dei villaggi ritorneranno .",
+      "C\tI procuratori pensano che l' avvocato dell' assassino sul lago ritornerà .",
+      "D\tI procuratori pensano che l' avvocato dell' assassino del villaggio ritornerà .",
+      "E\tI procuratori pensano che l' avvocato dell' assassino e il villaggio ritornerà .",
+      "F\tI procuratori pensano che l' avvocato dell' assassino del villaggio ritorneranno .",
+      "G\tI procuratori pensano che l' avvocato degli assassini ritornerà .",
+      "H\tI procuratori pensano che l' avvocato dell' assassino dei villaggi ritorneranno ."
+    ],
+    "Answer_concatenated": "A\tI procuratori pensano che l' avvocato dell' assassino ritornerà .\nB\tI procuratori pensano che l' avvocato dell' assassino dei villaggi ritorneranno .\nC\tI procuratori pensano che l' avvocato dell' assassino sul lago ritornerà .\nD\tI procuratori pensano che l' avvocato dell' assassino del villaggio ritornerà .\nE\tI procuratori pensano che l' avvocato dell' assassino e il villaggio ritornerà .\nF\tI procuratori pensano che l' avvocato dell' assassino del villaggio ritorneranno .\nG\tI procuratori pensano che l' avvocato degli assassini ritornerà .\nH\tI procuratori pensano che l' avvocato dell' assassino dei villaggi ritorneranno .",
+    "Correct_option": "A",
+    "Correct_answer": "I procuratori pensano che l' avvocato dell' assassino ritornerà ."
+  },
+  {
+    "ID": 8467,
+    "Context": [
+      "1\tIl generatore del film sugli artisti che gli spettatori ammirano ha vinto la palma d’ oro .",
+      "2\tI produttori del film sugli artisti che gli spettatori ammirano hanno vinto la palma d' oro .",
+      "3\tIl fabbricante dei film sugli artisti che gli spettatori ammirano ha vinto la palma d’ oro .",
+      "4\tI produttori dei film sugli artisti che gli spettatori ammirano hanno vinto la palma d' oro .",
+      "5\tIl regista del film sull’ artista che gli spettatori ammirano ha vinto la palma d’ oro .",
+      "6\tI produttori del film sull’ artista che gli spettatori ammirano hanno vinto la palma d' oro .",
+      "7\tIl attore dei film sull’ artista che gli spettatori ammirano ha vinto la palma d’ oro ."
+    ],
+    "Context_concatenated": "1\tIl generatore del film sugli artisti che gli spettatori ammirano ha vinto la palma d’ oro .\n2\tI produttori del film sugli artisti che gli spettatori ammirano hanno vinto la palma d' oro .\n3\tIl fabbricante dei film sugli artisti che gli spettatori ammirano ha vinto la palma d’ oro .\n4\tI produttori dei film sugli artisti che gli spettatori ammirano hanno vinto la palma d' oro .\n5\tIl regista del film sull’ artista che gli spettatori ammirano ha vinto la palma d’ oro .\n6\tI produttori del film sull’ artista che gli spettatori ammirano hanno vinto la palma d' oro .\n7\tIl attore dei film sull’ artista che gli spettatori ammirano ha vinto la palma d’ oro .",
+    "Context_annotation": [
+      {
+        "pattern": "Subj_sg P1_sg P2_pl ROC_sg V_sg",
+        "chunks": "['Il generatore', 'del film', 'sugli artisti', 'che gli spettatori ammirano', 'ha vinto la palma d’ oro', '.']"
+      },
+      {
+        "pattern": "Subj_pl P1_sg P2_pl ROC_pl V_pl",
+        "chunks": "['I produttori', 'del film', 'sugli artisti', 'che gli spettatori ammirano', \"hanno vinto la palma d' oro\", '.']"
+      },
+      {
+        "pattern": "Subj_sg P1_pl P2_pl ROC_sg V_sg",
+        "chunks": "['Il fabbricante', 'dei film', 'sugli artisti', 'che gli spettatori ammirano', 'ha vinto la palma d’ oro', '.']"
+      },
+      {
+        "pattern": "Subj_pl P1_pl P2_pl ROC_pl V_pl",
+        "chunks": "['I produttori', 'dei film', 'sugli artisti', 'che gli spettatori ammirano', \"hanno vinto la palma d' oro\", '.']"
+      },
+      {
+        "pattern": "Subj_sg P1_sg P2_sg ROC_sg V_sg",
+        "chunks": "['Il regista', 'del film', 'sull’ artista', 'che gli spettatori ammirano', 'ha vinto la palma d’ oro', '.']"
+      },
+      {
+        "pattern": "Subj_pl P1_sg P2_sg ROC_pl V_pl",
+        "chunks": "['I produttori', 'del film', 'sull’ artista', 'che gli spettatori ammirano', \"hanno vinto la palma d' oro\", '.']"
+      },
+      {
+        "pattern": "Subj_sg P1_pl P2_sg ROC_sg V_sg",
+        "chunks": "['Il attore', 'dei film', 'sull’ artista', 'che gli spettatori ammirano', 'ha vinto la palma d’ oro', '.']"
+      }
+    ],
+    "Answer_set": [
+      "A\tI produttori del film sull’ artista che gli spettatori ammirano hanno vinto la palma d' oro .",
+      "B\tI produttori dei film e gli artisti che gli spettatori ammirano hanno vinto la palma d' oro .",
+      "C\tI produttori dei film sull’ artista che gli spettatori ammirano ha vinto la palma d’ oro .",
+      "D\tI produttori dei film sull’ artista dei centro- città che gli spettatori ammirano hanno vinto la palma d' oro .",
+      "E\tI produttori dei film sull’ artista che gli spettatori ammirano hanno vinto la palma d' oro .",
+      "F\tI produttori dei film sugli artisti che gli spettatori ammirano hanno vinto la palma d' oro .",
+      "G\tI produttori dei film sull’ artista che gli spettatori ammirano ha vinto la palma d’ oro .",
+      "H\tI produttori dei film sugli artisti che gli spettatori ammirano ha vinto la palma d’ oro ."
+    ],
+    "Answer_concatenated": "A\tI produttori del film sull’ artista che gli spettatori ammirano hanno vinto la palma d' oro .\nB\tI produttori dei film e gli artisti che gli spettatori ammirano hanno vinto la palma d' oro .\nC\tI produttori dei film sull’ artista che gli spettatori ammirano ha vinto la palma d’ oro .\nD\tI produttori dei film sull’ artista dei centro- città che gli spettatori ammirano hanno vinto la palma d' oro .\nE\tI produttori dei film sull’ artista che gli spettatori ammirano hanno vinto la palma d' oro .\nF\tI produttori dei film sugli artisti che gli spettatori ammirano hanno vinto la palma d' oro .\nG\tI produttori dei film sull’ artista che gli spettatori ammirano ha vinto la palma d’ oro .\nH\tI produttori dei film sugli artisti che gli spettatori ammirano ha vinto la palma d’ oro .",
+    "Correct_option": "E",
+    "Correct_answer": "I produttori dei film sull’ artista che gli spettatori ammirano hanno vinto la palma d' oro ."
+  },
+  {
+    "ID": 532,
+    "Context": [
+      "1\tL' uomo dell' assassino che il procuratore sta aspettando ritornerà .",
+      "2\tGli avvocati dell' assassino che il procuratore sta aspettando ritorneranno .",
+      "3\tL' consulente degli assassini che il procuratore sta aspettando ritornerà .",
+      "4\tGli avvocati degli assassini che il procuratore sta aspettando ritorneranno .",
+      "5\tL' giurista dell' assassino del villaggio che il procuratore sta aspettando ritornerà .",
+      "6\tGli avvocati dell' assassino del villaggio che il procuratore sta aspettando ritorneranno .",
+      "7\tL' difensore degli assassini del villaggio che il procuratore sta aspettando ritornerà ."
+    ],
+    "Context_concatenated": "1\tL' uomo dell' assassino che il procuratore sta aspettando ritornerà .\n2\tGli avvocati dell' assassino che il procuratore sta aspettando ritorneranno .\n3\tL' consulente degli assassini che il procuratore sta aspettando ritornerà .\n4\tGli avvocati degli assassini che il procuratore sta aspettando ritorneranno .\n5\tL' giurista dell' assassino del villaggio che il procuratore sta aspettando ritornerà .\n6\tGli avvocati dell' assassino del villaggio che il procuratore sta aspettando ritorneranno .\n7\tL' difensore degli assassini del villaggio che il procuratore sta aspettando ritornerà .",
+    "Context_annotation": [
+      {
+        "pattern": "Subj_sg P1_sg P2_None ROC_sg V_sg",
+        "chunks": "[\"L' uomo\", \"dell' assassino\", '', 'che il procuratore sta aspettando', 'ritornerà', '.']"
+      },
+      {
+        "pattern": "Subj_pl P1_sg P2_None ROC_pl V_pl",
+        "chunks": "['Gli avvocati', \"dell' assassino\", '', 'che il procuratore sta aspettando', 'ritorneranno', '.']"
+      },
+      {
+        "pattern": "Subj_sg P1_pl P2_None ROC_sg V_sg",
+        "chunks": "[\"L' consulente\", 'degli assassini', '', 'che il procuratore sta aspettando', 'ritornerà', '.']"
+      },
+      {
+        "pattern": "Subj_pl P1_pl P2_None ROC_pl V_pl",
+        "chunks": "['Gli avvocati', 'degli assassini', '', 'che il procuratore sta aspettando', 'ritorneranno', '.']"
+      },
+      {
+        "pattern": "Subj_sg P1_sg P2_sg ROC_sg V_sg",
+        "chunks": "[\"L' giurista\", \"dell' assassino\", 'del villaggio', 'che il procuratore sta aspettando', 'ritornerà', '.']"
+      },
+      {
+        "pattern": "Subj_pl P1_sg P2_sg ROC_pl V_pl",
+        "chunks": "['Gli avvocati', \"dell' assassino\", 'del villaggio', 'che il procuratore sta aspettando', 'ritorneranno', '.']"
+      },
+      {
+        "pattern": "Subj_sg P1_pl P2_sg ROC_sg V_sg",
+        "chunks": "[\"L' difensore\", 'degli assassini', 'del villaggio', 'che il procuratore sta aspettando', 'ritornerà', '.']"
+      }
+    ],
+    "Answer_set": [
+      "A\tGli avvocati degli assassini e i villaggi che il procuratore sta aspettando ritorneranno .",
+      "B\tGli avvocati degli assassini del villaggio sui laghi che il procuratore sta aspettando ritorneranno .",
+      "C\tGli avvocati degli assassini del villaggio che il procuratore sta aspettando ritornerà .",
+      "D\tGli avvocati degli assassini del villaggio che il procuratore sta aspettando ritornerà .",
+      "E\tGli avvocati dell' assassino del villaggio che il procuratore sta aspettando ritorneranno .",
+      "F\tGli avvocati degli assassini del villaggio che il procuratore sta aspettando ritorneranno .",
+      "G\tGli avvocati degli assassini dei villaggi che il procuratore sta aspettando ritorneranno .",
+      "H\tGli avvocati degli assassini dei villaggi che il procuratore sta aspettando ritornerà ."
+    ],
+    "Answer_concatenated": "A\tGli avvocati degli assassini e i villaggi che il procuratore sta aspettando ritorneranno .\nB\tGli avvocati degli assassini del villaggio sui laghi che il procuratore sta aspettando ritorneranno .\nC\tGli avvocati degli assassini del villaggio che il procuratore sta aspettando ritornerà .\nD\tGli avvocati degli assassini del villaggio che il procuratore sta aspettando ritornerà .\nE\tGli avvocati dell' assassino del villaggio che il procuratore sta aspettando ritorneranno .\nF\tGli avvocati degli assassini del villaggio che il procuratore sta aspettando ritorneranno .\nG\tGli avvocati degli assassini dei villaggi che il procuratore sta aspettando ritorneranno .\nH\tGli avvocati degli assassini dei villaggi che il procuratore sta aspettando ritornerà .",
+    "Correct_option": "F",
+    "Correct_answer": "Gli avvocati degli assassini del villaggio che il procuratore sta aspettando ritorneranno ."
+  },
+  {
+    "ID": 9388,
+    "Context": [
+      "1\tIl pesce del bracciante del campo che gli allevatori stanno osservando sguazza nel mare .",
+      "2\tI maiali del bracciante del campo che gli allevatori stanno osservando sguazzano nel mare .",
+      "3\tIl sangue dei braccianti del campo che gli allevatori stanno osservando sguazza nel mare .",
+      "4\tI maiali dei braccianti del campo che gli allevatori stanno osservando sguazzano nel mare .",
+      "5\tIl porcello del bracciante che gli allevatori stanno osservando sguazza nel mare .",
+      "6\tI maiali del bracciante che gli allevatori stanno osservando sguazzano nel mare .",
+      "7\tIl scrofa dei braccianti che gli allevatori stanno osservando sguazza nel mare ."
+    ],
+    "Context_concatenated": "1\tIl pesce del bracciante del campo che gli allevatori stanno osservando sguazza nel mare .\n2\tI maiali del bracciante del campo che gli allevatori stanno osservando sguazzano nel mare .\n3\tIl sangue dei braccianti del campo che gli allevatori stanno osservando sguazza nel mare .\n4\tI maiali dei braccianti del campo che gli allevatori stanno osservando sguazzano nel mare .\n5\tIl porcello del bracciante che gli allevatori stanno osservando sguazza nel mare .\n6\tI maiali del bracciante che gli allevatori stanno osservando sguazzano nel mare .\n7\tIl scrofa dei braccianti che gli allevatori stanno osservando sguazza nel mare .",
+    "Context_annotation": [
+      {
+        "pattern": "Subj_sg P1_sg P2_sg ROC_sg V_sg",
+        "chunks": "['Il pesce', 'del bracciante', 'del campo', 'che gli allevatori stanno osservando', 'sguazza nel mare', '.']"
+      },
+      {
+        "pattern": "Subj_pl P1_sg P2_sg ROC_pl V_pl",
+        "chunks": "['I maiali', 'del bracciante', 'del campo', 'che gli allevatori stanno osservando', 'sguazzano nel mare', '.']"
+      },
+      {
+        "pattern": "Subj_sg P1_pl P2_sg ROC_sg V_sg",
+        "chunks": "['Il sangue', 'dei braccianti', 'del campo', 'che gli allevatori stanno osservando', 'sguazza nel mare', '.']"
+      },
+      {
+        "pattern": "Subj_pl P1_pl P2_sg ROC_pl V_pl",
+        "chunks": "['I maiali', 'dei braccianti', 'del campo', 'che gli allevatori stanno osservando', 'sguazzano nel mare', '.']"
+      },
+      {
+        "pattern": "Subj_sg P1_sg P2_None ROC_sg V_sg",
+        "chunks": "['Il porcello', 'del bracciante', '', 'che gli allevatori stanno osservando', 'sguazza nel mare', '.']"
+      },
+      {
+        "pattern": "Subj_pl P1_sg P2_None ROC_pl V_pl",
+        "chunks": "['I maiali', 'del bracciante', '', 'che gli allevatori stanno osservando', 'sguazzano nel mare', '.']"
+      },
+      {
+        "pattern": "Subj_sg P1_pl P2_None ROC_sg V_sg",
+        "chunks": "['Il scrofa', 'dei braccianti', '', 'che gli allevatori stanno osservando', 'sguazza nel mare', '.']"
+      }
+    ],
+    "Answer_set": [
+      "A\tI maiali dei braccianti dei campi che gli allevatori stanno osservando sguazza nel mare .",
+      "B\tI maiali dei braccianti e i campi che gli allevatori stanno osservando sguazzano nel mare .",
+      "C\tI maiali dei braccianti delle città che gli allevatori stanno osservando sguazzano nel mare .",
+      "D\tI maiali del bracciante che gli allevatori stanno osservando sguazzano nel mare .",
+      "E\tI maiali dei braccianti del campo che gli allevatori stanno osservando sguazzano nel mare .",
+      "F\tI maiali dei braccianti del campo che gli allevatori stanno osservando sguazza nel mare .",
+      "G\tI maiali dei braccianti che gli allevatori stanno osservando sguazzano nel mare .",
+      "H\tI maiali dei braccianti del campo che gli allevatori stanno osservando sguazza nel mare ."
+    ],
+    "Answer_concatenated": "A\tI maiali dei braccianti dei campi che gli allevatori stanno osservando sguazza nel mare .\nB\tI maiali dei braccianti e i campi che gli allevatori stanno osservando sguazzano nel mare .\nC\tI maiali dei braccianti delle città che gli allevatori stanno osservando sguazzano nel mare .\nD\tI maiali del bracciante che gli allevatori stanno osservando sguazzano nel mare .\nE\tI maiali dei braccianti del campo che gli allevatori stanno osservando sguazzano nel mare .\nF\tI maiali dei braccianti del campo che gli allevatori stanno osservando sguazza nel mare .\nG\tI maiali dei braccianti che gli allevatori stanno osservando sguazzano nel mare .\nH\tI maiali dei braccianti del campo che gli allevatori stanno osservando sguazza nel mare .",
+    "Correct_option": "G",
+    "Correct_answer": "I maiali dei braccianti che gli allevatori stanno osservando sguazzano nel mare ."
+  }
+]
