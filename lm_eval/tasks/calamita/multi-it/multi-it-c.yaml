@@ -8,7 +8,7 @@ dataset_path: json
 dataset_name: null
 dataset_kwargs:
   data_files:
-    test: /home/jj/Downloads/Multi-IT/Multi-IT-C/quiz.json
+    test: ../private_data/multi-it/multi-it-c.jsonl
 task: multi-it-c
 doc_to_text: !function utils.doc_to_text
 doc_to_choice: !function utils.doc_to_choice
@@ -21,5 +21,10 @@ metric_list:
   - metric: acc
     aggregation: mean
     higher_is_better: true
+  - metric: f1
+    aggregation: !function utils.macro_f1_score
+    average: macro
+    hf_evaluate: true
+    higher_is_better: True
 metadata:
   version: 1.0
