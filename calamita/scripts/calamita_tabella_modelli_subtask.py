@@ -1,18 +1,11 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[46]:
-
-
 import json
-get_ipython().system('pip install pandas')
 import pandas as pd
 import requests
 import os
 
-
-# In[57]:
-
+PATH_CARTELLA_RESULTS = '.'
+DICT_RENAMED = {'conflict_detect': 'gita_conflict_detect', 'physical_state':'gita_physical_state', 'story_class':'gita_story_class'}
+LISTA_IGNORE = ['agr_tasks', 'od_tasks', 'caus_tasks'] #per la sottotask a due livelli di blm
 
 # Raw URL of the file on GitHub
 # Premere il tasto 'raw' durante visualizzazione del file su github
@@ -26,43 +19,16 @@ if response.status_code == 200:
 else:
     raise Exception(f"Failed to retrieve the file. Status code: {response.status_code}\nCopia il file con l'elenco delle subtask in altro modo")
 
-
-# In[54]:
-
-
-# da modificare se necessario
-PATH_CARTELLA_RESULTS = '.'
-
+# check path della cartella con i risultati
 if 'results_calamita_2024' not in os.listdir(PATH_CARTELLA_RESULTS):
     raise Exception("path da modificare")
 
-
-# In[55]:
-
-
 # le directory contengono il nome del modello
 modelli = [dir.split('__')[1] for dir in os.listdir('./results_calamita_2024') if dir not in ['README.md','.git','.gitattributes']]
-modelli
-
-
-# In[89]:
-
 
 # creazione del dictionary da cui verrà creata la tabella finale
 # istanziamo tutti no e poi passiamo a yes man mano
 tabellaFinale = {el:{model:"no" for model in modelli} for el in lista_subtasks}
-#tabellaFinale
-
-
-# In[104]:
-
-
-DICT_RENAMED = {'conflict_detect': 'gita_conflict_detect', 'physical_state':'gita_physical_state', 'story_class':'gita_story_class'}
-LISTA_IGNORE = ['agr_tasks', 'od_tasks', 'caus_tasks'] #per la sottotask a due livelli di blm
-
-
-# In[105]:
-
 
 # per ogni directory di modello
 modelsDirectories = [dir for dir in os.listdir('./results_calamita_2024') if dir not in ['README.md','.git','.gitattributes']]
@@ -105,16 +71,6 @@ for modelIndex in range(len(modelli)):
                     tabellaFinale[subtask_newname][modello] = "yes"
                 else:
                     raise Exception(e.args)
-
-
-# In[90]:
-
-
-#tabellaFinale
-
-
-# In[106]:
-
 
 # Convertire in DataFrame
 df = pd.DataFrame.from_dict(tabellaFinale, orient="index")
