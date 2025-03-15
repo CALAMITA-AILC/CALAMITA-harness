@@ -3,13 +3,48 @@ import pandas as pd
 import requests
 import os
 import argparse
+import subprocess
 
 DICT_RENAMED = {'conflict_detect': 'gita_conflict_detect', 'physical_state':'gita_physical_state', 'story_class':'gita_story_class'}
 LISTA_IGNORE = ['agr_tasks', 'od_tasks', 'caus_tasks'] #per la sottotask a due livelli di blm
+REPO_URL = "https://huggingface.co/datasets/CALAMITA-AILC/results_calamita_2024"
+
+def clone_repository(repo_url, destination_folder):
+  try:
+    subprocess.run(["git", "clone", repo_url, destination_folder], check=True)
+    print(f"\nRepository clonato con successo in {destination_folder}\n\n")
+  except subprocess.CalledProcessError as e:
+    print(f"Errore durante il cloning del repository: {e}")
+
+def git_fetch_and_pull(repo_path):
+  try:
+    # Esegue git fetch
+    subprocess.run(["git", "fetch"], cwd=repo_path, check=True)
+    print("Fetch completato con successo.")
+    # Esegue git pull
+    subprocess.run(["git", "pull"], cwd=repo_path, check=True)
+    print("Pull completato con successo.")
+  except subprocess.CalledProcessError as e:
+    print(f"Errore durante l'esecuzione di git fetch o git pull: {e}")
+  except FileNotFoundError:
+    print("Git non è installato o il percorso del repository non è valido.")
 
 def main(path_cartella_results):
+  # check path della cartella con i risultati
+  try:
+    if 'results_calamita_2024' not in os.listdir(path_cartella_results):
+      raise FileNotFoundError("cartella 'results_calamita_2024' non presente nel path")
+  except FileNotFoundError:
+    print("\ncartella/file non presenti, procede a fare il git clone\n")
+    clone_repository(REPO_URL, path_cartella_results+'/results_calamita_2024')
+  except Exception as e:
+    raise(e)
+  
+  # git fetch e pull della repo per assicurarsi dati aggiornati:
+  print("\nfetch e pull della repo con i risultati, per avere i dati aggiornati.")
+  git_fetch_and_pull(path_cartella_results+'/results_calamita_2024')
+
   # Raw URL of the file on GitHub
-  # Premere il tasto 'raw' durante visualizzazione del file su github
   raw_url = 'https://raw.githubusercontent.com/CALAMITA-AILC/CALAMITA-harness/refs/heads/main/calamita/calamita_tasks_v1.txt'
 
   response = requests.get(raw_url)
@@ -18,14 +53,7 @@ def main(path_cartella_results):
     lista_elementi = file_content.split('\n')
     lista_subtasks = [elemento.strip() for elemento in lista_elementi if elemento.strip()]
   else:
-    raise Exception(f"Failed to retrieve the calamita_tasks_v1.txt file. Status code: {response.status_code}\nCopia il file con l'elenco delle subtask in altro modo")
-
-  # check path della cartella con i risultati
-  try:
-    if 'results_calamita_2024' not in os.listdir(path_cartella_results):
-      raise Exception("cartella 'results_calamita_2024' non presente nel path")
-  except Exception as e:
-    raise Exception(e)
+    raise Exception(f"Failed to retrieve the calamita_tasks_v1.txt file. Status code: {response.status_code}\n")
 
   # le directory contengono il nome del modello
   modelli = [dir.split('__')[1] for dir in os.listdir('./results_calamita_2024') if dir not in ['README.md','.git','.gitattributes']]
@@ -95,12 +123,12 @@ if __name__ == "__main__":
     """,
         formatter_class=argparse.RawDescriptionHelpFormatter
     )
-  parser.add_argument("--resultspath", type=str, help="Path relativo alla cartella results da cui vengono estratti i dati per la creazione della tabella")
+  parser.add_argument("--resultspath", type=str, help="Path relativo alla cartella results da cui vengono estratti i dati per la creazione della tabella\nSe nel path non è già presente una cartella results, lo script provvederà a fare il git clone.\n")
   args = parser.parse_args()
   if args.resultspath:
     main(args.resultspath)
   else:
-    resultspath = input("Inserisci il path relativo alla cartella results.\nPremi invio se è './'\n")
+    resultspath = input("\nInserisci il path relativo alla cartella results.\nPremi invio se è './'\n\n")
     if resultspath == "":
       resultspath = "."
     main(resultspath)
