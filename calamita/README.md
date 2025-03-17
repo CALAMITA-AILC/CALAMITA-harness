@@ -1,3 +1,61 @@
+# Python Scripts for Processing lm_eval_harness Results
+This folder contains useful Python scripts designed to manage the raw results coming from lm_eval_harness framework for Calamita's purposes.
+- - -
+
+## parse_for_website.py
+### Functionality
+This script by default looks for each file having "result*" in the name starting from the current folder and walking in every subdirectory.
+This is useful because results coming from lm_eval_harness are usually organized in several different subfolders.
+### Output Structure
+The script generates an output file, "parsed.json" consisting as a json file organized in this way:
+
+```json
+{
+  "tasks": [
+    {
+      "task_name": "",
+      "task_pretty_name": "",
+      "task_localURL": "",
+      "hasPublicData": 0,
+      "isTranslated": 0
+    }
+  ],
+  "subtasks": [
+    {
+      "subtask_name": "",
+      "belongTo": "",  // Empty if the subtask is independent
+      "evaluations": [
+        {
+          "model_name": "",
+          "metrics": {
+            "name1": 0,
+            "name2": 0
+          }
+        },
+        {
+          "model_name": "",
+          "metrics": {
+            "name1": 0,
+            "name2": 0
+          }
+        }
+      ]
+    }
+  ],
+  "models": [
+    {
+      "model_name": "",
+      "model_pretty_name": "",
+      "model_URL": ""
+    }
+  ]
+}
+```
+
+### Integration with Calamita's website
+Calamita's website is coded for automatically load a json file into this format to generate the total results table as well as adding the results for each task in the website. Be aware that not always this JSON is immediately usable into the website: some tasks until now have some naming problems, so additional post-processing using different simple scripts could be necessary to align every subtask with its parent task.
+In this repo a sample "parsed.json" file is included. 
+
 ## Download datasets
 
 Some datasets are gated. Be sure to login on Hugging Face or specify the HF_TOKEN environment variable before.

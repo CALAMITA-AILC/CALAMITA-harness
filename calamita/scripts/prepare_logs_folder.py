@@ -72,31 +72,3 @@ for model, tasks in model_2_task_found.items():
     for task in tasks:
         df.loc[task, model] = True
 df.to_csv('model_2_task_found.csv')
-
-# # Create a folder for each task
-# tasks = set(conversion_dict.values())
-# for task in tasks:
-#     path = os.path.join(output_folder, task)
-#     if not os.path.exists(path):
-#         os.mkdir(path)
-
-# # Create folders for each subtask
-# for subtask in conversion_dict.keys():
-#     path = os.path.join(output_folder, conversion_dict[subtask], subtask)
-#     if not os.path.exists(path):
-#         os.mkdir(path)
-
-# # Finally, copy the files
-# for model in model_names:
-#     for root, dirs, files in os.walk(os.path.join(results_folder, model)):
-#         for file in files:
-#             if file.startswith('samples_'):
-#                 date = decade + file.split(decade)[1]
-#                 subtask = extract_subtask(file)
-#                 new_name = f"{model}_{date}.jsonl"
-#                 source_path = os.path.join(results_folder, model, file)
-#                 if subtask in conversion_dict.keys():
-#                     destination_path = os.path.join(output_folder, conversion_dict[subtask], subtask, new_name)
-#                 else:
-#                     destination_path = os.path.join(output_folder, 'orphans', f"{subtask}_{new_name}")
-#                 shutil.copyfile(source_path, destination_path)
