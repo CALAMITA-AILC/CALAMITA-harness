@@ -8,13 +8,15 @@ import subprocess
 DICT_RENAMED = {'conflict_detect': 'gita_conflict_detect', 'physical_state':'gita_physical_state', 'story_class':'gita_story_class'}
 LISTA_IGNORE = ['agr_tasks', 'od_tasks', 'caus_tasks'] #per la sottotask a due livelli di blm
 REPO_URL = "https://huggingface.co/datasets/CALAMITA-AILC/results_calamita_2024"
+SUBTASKS_LIST_URL = 'https://raw.githubusercontent.com/CALAMITA-AILC/CALAMITA-harness/refs/heads/main/calamita/calamita_tasks_v1.txt'
 
 def clone_repository(repo_url, destination_folder):
   try:
     subprocess.run(["git", "clone", repo_url, destination_folder], check=True)
-    print(f"\nRepository clonato con successo in {destination_folder}\n\n")
+    print(f"\nRepository clonato con successo in {destination_folder}")
   except subprocess.CalledProcessError as e:
     print(f"Errore durante il cloning del repository: {e}")
+    raise(e)
 
 def git_fetch_and_pull(repo_path):
   try:
@@ -25,9 +27,15 @@ def git_fetch_and_pull(repo_path):
     subprocess.run(["git", "pull"], cwd=repo_path, check=True)
     print("Pull completato con successo.")
   except subprocess.CalledProcessError as e:
-    print(f"Errore durante l'esecuzione di git fetch o git pull: {e}")
+    print(f"Errore durante l'esecuzione di git fetch o git pull: {e}\n -> Procedo con i dati locali\n")
   except FileNotFoundError:
     print("Git non è installato o il percorso del repository non è valido.")
+
+def dict_renamed_check(lista_subtasks):
+  print(DICT_RENAMED.values())
+  for t in DICT_RENAMED.values():
+    if t not in lista_subtasks:
+      raise Exception(f"\nrenamed subtask {t} not in the current subtasks list\nCheck the rename or update the list")
 
 def main(path_cartella_results):
   # check path della cartella con i risultati
@@ -35,7 +43,7 @@ def main(path_cartella_results):
     if 'results_calamita_2024' not in os.listdir(path_cartella_results):
       raise FileNotFoundError("cartella 'results_calamita_2024' non presente nel path")
   except FileNotFoundError:
-    print("\ncartella/file non presenti, procede a fare il git clone\n")
+    print("cartella/file non presenti, procede a fare il git clone\n")
     clone_repository(REPO_URL, path_cartella_results+'/results_calamita_2024')
   except Exception as e:
     raise(e)
@@ -44,10 +52,8 @@ def main(path_cartella_results):
   print("\nfetch e pull della repo con i risultati, per avere i dati aggiornati.")
   git_fetch_and_pull(path_cartella_results+'/results_calamita_2024')
 
-  # Raw URL of the file on GitHub
-  raw_url = 'https://raw.githubusercontent.com/CALAMITA-AILC/CALAMITA-harness/refs/heads/main/calamita/calamita_tasks_v1.txt'
-
-  response = requests.get(raw_url)
+  # retrieve della subtasks list dal github
+  response = requests.get(SUBTASKS_LIST_URL)
   if response.status_code == 200:
     file_content = response.text
     lista_elementi = file_content.split('\n')
@@ -55,6 +61,8 @@ def main(path_cartella_results):
   else:
     raise Exception(f"Failed to retrieve the calamita_tasks_v1.txt file. Status code: {response.status_code}\n")
 
+  # controllo che il DICT_RENAMED contenga valori di subtask esistenti
+  dict_renamed_check(lista_subtasks)
   # le directory contengono il nome del modello
   modelli = [dir.split('__')[1] for dir in os.listdir('./results_calamita_2024') if dir not in ['README.md','.git','.gitattributes']]
 
@@ -89,7 +97,7 @@ def main(path_cartella_results):
         try:
           # possibile errore, sotto task non nella lista originale
           if subt not in lista_subtasks:
-            raise Exception(f"subtask '{subt}' non presente nell'elenco delle task, trovata nel file: {resultsFilePath}",subt,resultsFilePath)
+            raise Exception(f"\nsubtask '{subt}' non presente nell'elenco delle task, trovata nel file: {resultsFilePath}",subt,resultsFilePath)
           else:
             modello = modelli[modelIndex]
             tabellaFinale[subt][modello] = "yes"
@@ -101,6 +109,7 @@ def main(path_cartella_results):
             subtask_newname = DICT_RENAMED[subtaskError]
             modello = modelli[modelIndex]
             tabellaFinale[subtask_newname][modello] = "yes"
+            print(f"\nRENAMED: subtask '{subt}' rinominata in {subtask_newname} trovata con il nome originale nel file: {resultsFilePath}")
           else:
             raise Exception(e.args)
 
@@ -111,7 +120,7 @@ def main(path_cartella_results):
   # Salvare in CSV
   csv_filename = "tasks_done.csv"
   df.to_csv(csv_filename)
-  print(f"tabella creata in {csv_filename}\n")
+  print(f"\ntabella creata in {csv_filename}\n")
 
 if __name__ == "__main__":
   parser = argparse.ArgumentParser(description="""Script per generazione tabella tasks x modelli
@@ -120,6 +129,11 @@ if __name__ == "__main__":
     |  subtask1 |   yes    |   yes    | ..
     |  subtask2 |    no    |    no    | ..
                     ...
+    
+    MACROS:
+      - DICT_RENAMED : lista di subtask di cui si hanno valutazioni con un nome passato ed uno presente
+      - REPO_URL : url della repo HF su cui sono salvati i risultati
+      - SUBTASKS_LIST_URL : url del file raw su github contenente la lista dei subtask 
     """,
         formatter_class=argparse.RawDescriptionHelpFormatter
     )
@@ -128,7 +142,7 @@ if __name__ == "__main__":
   if args.resultspath:
     main(args.resultspath)
   else:
-    resultspath = input("\nInserisci il path relativo alla cartella results.\nPremi invio se è './'\n\n")
+    resultspath = input("\nInserisci il path relativo alla cartella results.\nPremi invio se è './'")
     if resultspath == "":
       resultspath = "."
     main(resultspath)
