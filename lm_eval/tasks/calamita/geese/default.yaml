@@ -1,8 +1,9 @@
 group: geese
 task:
+  - geese_anon_anita
+  - geese_anon_dummy
+  - geese_anon_gold
+  - geese_anon_llama
   - geese_noexp
-  - geese_llama3
-  - geese_dummy
-  - geese_human
 metadata:
   version: 1.0
