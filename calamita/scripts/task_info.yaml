@@ -85,6 +85,15 @@ itaeval:
 - truthfulqa_gen_ita
 - truthfulqa_mc1_ita
 - truthfulqa_mc2_ita
+MAGNET:
+- MAGNET_IT_en_it_private
+- MAGNET_IT_it_en_private
+- MAGNET_UK_en_it_private
+- MAGNET_UK_it_en_private
+- MAGNET_US_en_it_private
+- MAGNET_US_it_en_private
+- MAGNET_en_it_public
+- MAGNET_it_en_public
 mult-it:
 - multi-it-a
 - multi-it-c
@@ -97,6 +106,8 @@ perse:
 - perse_task_1
 - perse_task_2
 - perse_task_3
+termite:
+- ita-text-to-sql
 traceIT:
 - traceIT
 veryfIT:
